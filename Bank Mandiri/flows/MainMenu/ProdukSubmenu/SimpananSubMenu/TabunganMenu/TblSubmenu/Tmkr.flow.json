@@ -1,0 +1,98 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "78da65f144",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-8TOBDG",
+        "say #!builtin_text-XuRCUg"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"STMKR - Syarat Tabungan Simakmur\" || \"stmkr\" || \"STMKR\" || \"Syarat Tabungan Simakmur\" || \"syarat tabungan simakmur\"",
+          "conditionType": "raw",
+          "node": "Content"
+        },
+        {
+          "condition": "user.teks == \"FTMKR\" || \"ftmkr\" || \"Fitur Tabungan Simakmur\" || \"fitur \"tabungan simakmur\" || \"FTMKR - Fitur Tabungan Simakmur\"",
+          "conditionType": "raw",
+          "node": "Content1"
+        },
+        {
+          "condition": "user.teks ==\"BTMKR\" || \"btmkr\" || \"Biaya Adm Tabungan Simakmur\" || \"biaya adm tabungan simakmur\" || \"BTMKR - Biaya Adm Tabungan Simakmur\"",
+          "conditionType": "raw",
+          "node": "Content2"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "dbc837e565",
+      "name": "Content",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-pG6zPK",
+        "say #!builtin_text-4gCFqL",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "6d27a246d2",
+      "name": "Content1",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-8Q19ff",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "3d1d34f47a",
+      "name": "Content2",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-rFL8gp",
+        "say #!builtin_text-9RU7vI"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

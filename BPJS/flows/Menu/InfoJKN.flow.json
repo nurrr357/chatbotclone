@@ -1,0 +1,182 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text === \"batal\"",
+        "conditionType": "raw",
+        "node": "END/Batal.flow.json"
+      },
+      {
+        "condition": "event.nlu.intent.nama === \"timeout\"",
+        "conditionType": "raw",
+        "node": "END/Timeout.flow.json"
+      }
+    ]
+  },
+  "startNode": "JKN",
+  "description": "",
+  "nodes": [
+    {
+      "id": "f1754cd2ff",
+      "name": "DownloadAtauRegistrasi",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Choice"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-3ZPx07"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "dc57ce3fd9",
+      "name": "PesertaBaru",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Choice"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-XHg5Ts"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "99412121cd",
+      "name": "JKN",
+      "onEnter": [
+        "say #!dropdown-tGIDdD"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"temp\",\"name\":\"choice\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "temp.choice == \"Download atau Registrasi\"",
+          "conditionType": "raw",
+          "node": "DownloadAtauRegistrasi"
+        },
+        {
+          "condition": "temp.choice == \"Fitur Peserta Baru\"",
+          "conditionType": "raw",
+          "node": "PesertaBaru"
+        },
+        {
+          "condition": "temp.choice == \"Perubahan Segmen\"",
+          "conditionType": "raw",
+          "node": "PerubahanSegmen"
+        },
+        {
+          "condition": "temp.choice == \"Perubahan Data\"",
+          "conditionType": "raw",
+          "node": "PerubahanData"
+        },
+        {
+          "condition": "temp.choice == \"Reaktivasi Kartu\"",
+          "conditionType": "raw",
+          "node": "ReaktivasiKartu"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "SalahMemilih"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "14e2a6bf54",
+      "name": "PerubahanSegmen",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Choice"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-itbFH7"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "85840ef713",
+      "name": "PerubahanData",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Choice"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-zVj1dw"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "ff918c9f4b",
+      "name": "ReaktivasiKartu",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Choice"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-TA7nU3"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "9d5a691852",
+      "name": "Choice",
+      "next": [
+        {
+          "condition": "event.payload.payload == \"end\"",
+          "conditionType": "raw",
+          "node": "END/Terimakasih.flow.json"
+        },
+        {
+          "condition": "event.payload.payload == \"list\"",
+          "conditionType": "raw",
+          "node": "main.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "SalahMemilih"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_card-xt0aL0"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "4f61291834",
+      "name": "SalahMemilih",
+      "next": [
+        {
+          "condition": "true",
+          "node": "JKN"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-xHrMiU",
+        "say #!builtin_text-1UXRMf"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

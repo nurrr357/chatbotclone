@@ -1,0 +1,39 @@
+[
+  {
+    "id": "builtin_card-28lxeM",
+    "formData": {
+      "title$en": "Klik tombol di bawah jika ingin memesan GAS atau BERAS",
+      "actions$en": [
+        {
+          "action": "Postback",
+          "title": "GAS",
+          "payload": "gas"
+        },
+        {
+          "action": "Postback",
+          "title": "BERAS",
+          "payload": "beras"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-27T15:03:47.891Z",
+    "modifiedOn": "2022-09-27T15:38:04.672Z"
+  },
+  {
+    "id": "builtin_card-sADvKV",
+    "formData": {
+      "title$en": "Atau klik YA untuk menyelesaikan pesanan",
+      "actions$en": [
+        {
+          "action": "Postback",
+          "title": "YA",
+          "payload": "lanjut"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-27T15:04:36.563Z",
+    "modifiedOn": "2022-09-27T15:38:35.563Z"
+  }
+]

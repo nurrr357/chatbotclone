@@ -1,0 +1,362 @@
+[
+  {
+    "id": "dropdown-1UTDMG",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Kemenkes",
+      "displayInKeyboard$en": false,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Silahkan pilih kategori kendala data vaksinasi",
+      "options$en": [
+        {
+          "label": "Data Vaksinasi. Bantuan kendala data Vaksinasi Dosis 1 & 2, Dosis Booster & Luar Negeri",
+          "value": "Data Vaksinasi. Bantuan kendala data Vaksinasi Dosis 1 & 2, Dosis Booster & Luar Negeri"
+        },
+        {
+          "label": "Sertifikat Vaksin. Layanan sertifikat vaksin",
+          "value": "Sertifikat Vaksin. Layanan sertifikat vaksin"
+        },
+        {
+          "label": "Aplikasi PeduliLindungi. Kendala dalam Aplikasi Pedulilindungi",
+          "value": "Aplikasi PeduliLindungi. Kendala dalam Aplikasi Pedulilindungi"
+        },
+        {
+          "label": "Status Warna Aplikasi. Kendala status warna aplikasi Pedulilindungi",
+          "value": "Status Warna Aplikasi. Kendala status warna aplikasi Pedulilindungi"
+        },
+        {
+          "label": "Hasil Test Lab Covid-19. Hasil Lab Test Antigen/PCR",
+          "value": "Hasil Test Lab Covid-19. Hasil Lab Test Antigen/PCR"
+        },
+        {
+          "label": "QR Code Merchant. Bantuan kendala QR CODE khusus untuk pengelola area publik/merchant",
+          "value": "QR Code Merchant. Bantuan kendala QR CODE khusus untuk pengelola area publik/merchant"
+        },
+        {
+          "label": "Telemedisin Isoman. Bantuan kendala NIK belum terdaftar,pengiriman,Paket Obat dan lainnya",
+          "value": "Telemedisin Isoman. Bantuan kendala NIK belum terdaftar,pengiriman,Paket Obat dan lainnya"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-20T10:15:32.695Z",
+    "modifiedOn": "2022-10-31T13:00:42.733Z"
+  },
+  {
+    "id": "dropdown-vR4KcC",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Kategori",
+      "displayInKeyboard$en": false,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Silahkan pilih kategori kendala data vaksinasi untuk vaksin di indonesia",
+      "options$en": [
+        {
+          "label": "Vaksin di Indonesia. Kendala Tiket Dosis Ketiga belum muncul",
+          "value": "Vaksin di Indonesia. Kendala Tiket Dosis Ketiga belum muncul"
+        },
+        {
+          "label": "Vaksin Non Indonesia. Kendala Vaksinasi di luar Negeri",
+          "value": "Vaksin Non Indonesia. Kendala Vaksinasi di luar Negeri"
+        },
+        {
+          "label": "Sertifikat Luar Negeri. Kendala sertifikat Perjalanan Luar Negeri",
+          "value": "Sertifikat Luar Negeri. Kendala sertifikat Perjalanan Luar Negeri"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-20T10:33:19.053Z",
+    "modifiedOn": "2022-10-27T09:33:07.265Z"
+  },
+  {
+    "id": "dropdown-tIv2Oi",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Kategori",
+      "displayInKeyboard$en": false,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Silahkan pilih kategori kendala data vaksinasi untuk vaksin di indonesia",
+      "options$en": [
+        {
+          "label": "Tiket Booster. Kendala Tiket Dosis Ketiga belum muncul",
+          "value": "Tiket Booster. Kendala Tiket Dosis Ketiga belum muncul"
+        },
+        {
+          "label": "NIK dipakai orang lain. Tidak bisa vaksin karena NIK dipakai orang lain (beda nama)",
+          "value": "NIK dipakai orang lain. Tidak bisa vaksin karena NIK dipakai orang lain (beda nama)"
+        },
+        {
+          "label": "Sertifikat tidak sesuai. Data Sertifikat (Nama, Tgl Lahir, Tgl Vaksin,Jenis Vaksin) Tidak sesuai",
+          "value": "Sertifikat tidak sesuai. Data Sertifikat (Nama, Tgl Lahir, Tgl Vaksin,Jenis Vaksin) Tidak sesuai"
+        },
+        {
+          "label": "Pindah Program Vaksinasi. Pindah NIK dari Vaksin Program Pemerintah ke Vaksin Gotong Royong",
+          "value": "Pindah Program Vaksinasi. Pindah NIK dari Vaksin Program Pemerintah ke Vaksin Gotong Royong"
+        },
+        {
+          "label": "NIK sudah vaksinasi. Belum vaksin, tetap terdata sudah vaksinasi",
+          "value": "NIK sudah vaksinasi. Belum vaksin, tetap terdata sudah vaksinasi"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-20T12:15:17.932Z",
+    "modifiedOn": "2022-10-27T09:36:04.446Z"
+  },
+  {
+    "id": "dropdown-49CxCh",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Kategori",
+      "displayInKeyboard$en": false,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Silahkan pilih kategori kendala data vaksinasi untuk vaksin non indonesia",
+      "options$en": [
+        {
+          "label": "Error Registrasi. Tidak dapat email aktivasi setelah registrasi akun",
+          "value": "Error Registrasi. Tidak dapat email aktivasi setelah registrasi akun"
+        },
+        {
+          "label": "Hasil Verifikasi. Pengajuan Verifikasi belum disetujui",
+          "value": "Hasil Verifikasi. Pengajuan Verifikasi belum disetujui"
+        },
+        {
+          "label": "Dosis Vaksinasi. Cara Input dosis Pertama, kedua dan ketiga Vaksin Luar Negeri",
+          "value": "Dosis Vaksinasi. Cara Input dosis Pertama, kedua dan ketiga Vaksin Luar Negeri"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-20T13:00:26.980Z",
+    "modifiedOn": "2022-10-27T09:47:12.071Z"
+  },
+  {
+    "id": "dropdown-MeggRx",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Kategori",
+      "displayInKeyboard$en": false,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Silahkan pilih kategori kendala data vaksinasi untuk sertifikat luar negeri",
+      "options$en": [
+        {
+          "label": "Nama tidak sesuai Paspor. Nama di sertifikat vaksin internasional tidak sesuai paspor",
+          "value": "Nama tidak sesuai Paspor. Nama di sertifikat vaksin internasional tidak sesuai paspor"
+        },
+        {
+          "label": "Scan sertifikat gagal. Kendala scan sertifikat",
+          "value": "Scan sertifikat gagal. Kendala scan sertifikat"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-20T13:11:06.364Z",
+    "modifiedOn": "2022-10-27T09:44:08.492Z"
+  },
+  {
+    "id": "dropdown-hUI1KO",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Kategori",
+      "displayInKeyboard$en": false,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Silahkan pilih kategori kendala di aplikasi pedulilindungi",
+      "options$en": [
+        {
+          "label": "Cara instal aplikasi. Cara menginstal Aplikasi Pedulilindungi",
+          "value": "Cara instal aplikasi. Cara menginstal Aplikasi Pedulilindungi"
+        },
+        {
+          "label": "Error Registrasi. Error registrasi tidak menerima OTP",
+          "value": "Error Registrasi. Error registrasi tidak menerima OTP"
+        },
+        {
+          "label": "Error Profil/Akun. Nama dan NIK tidak bisa diisi",
+          "value": "Error Profil/Akun. Nama dan NIK tidak bisa diisi"
+        },
+        {
+          "label": "Scan QR. Tidak bisa check in QR code di ruang publik",
+          "value": "Scan QR. Tidak bisa check in QR code di ruang publik"
+        },
+        {
+          "label": "Error Menu Sertifikat. Dalam menu muncul sertifikat orang lain",
+          "value": "Error Menu Sertifikat. Dalam menu muncul sertifikat orang lain"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-21T02:59:00.025Z",
+    "modifiedOn": "2022-10-27T09:14:54.136Z"
+  },
+  {
+    "id": "dropdown-fz-rYr",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Kemenkes",
+      "displayInKeyboard$en": false,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Silahkan pilih kategori kendala status warna di aplikasi pedulilindungi",
+      "options$en": [
+        {
+          "label": "Status Warna Hitam. Sudah tes PCR ulang, namun masih hitam",
+          "value": "Status Warna Hitam. Sudah tes PCR ulang, namun masih hitam"
+        },
+        {
+          "label": "Status Warna Salah. Sudah Vaksin 1 kali atau lengkap tapi warna tidak sesuai",
+          "value": "Status Warna Salah. Sudah Vaksin 1 kali atau lengkap tapi warna tidak sesuai"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-26T03:10:01.597Z",
+    "modifiedOn": "2022-10-27T08:45:26.611Z"
+  },
+  {
+    "id": "dropdown-FWHMFU",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Kemenkes",
+      "displayInKeyboard$en": false,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Silahkan pilih kategori kendala QR code merchant",
+      "options$en": [
+        {
+          "label": "Aktivasi Email Merchant. Belum menerima email aktivasi (selama 3x24 jam)",
+          "value": "Aktivasi Email Merchant. Belum menerima email aktivasi (selama 3x24 jam)"
+        },
+        {
+          "label": "Perubahan Data Merchant. Salah nama pada poster QR code",
+          "value": "Perubahan Data Merchant. Salah nama pada poster QR code"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-26T03:35:02.430Z",
+    "modifiedOn": "2022-10-27T08:13:14.503Z"
+  },
+  {
+    "id": "dropdown-V6b_lV",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Kategori",
+      "displayInKeyboard$en": false,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Silahkan pilih kategori kendala hasil test lab covid19",
+      "options$en": [
+        {
+          "label": "Status Hasil Test. Kendala hasil test dari lab",
+          "value": "Status Hasil Test. Kendala hasil test dari lab"
+        },
+        {
+          "label": "Pengisian Hasil di NAR. Kendala pengisian hasil lab di NAR",
+          "value": "Pengisian Hasil di NAR. Kendala pengisian hasil lab di NAR"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-26T09:22:43.170Z",
+    "modifiedOn": "2022-10-27T04:10:47.405Z"
+  },
+  {
+    "id": "dropdown-8w_SXe",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Kategori",
+      "displayInKeyboard$en": false,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Silahkan pilih kategori kendala hasil test lab covid19 untuk status hasil test",
+      "options$en": [
+        {
+          "label": "Hasil test belum muncul. Hasil Antigen/PCR belum muncul",
+          "value": "Hasil test belum muncul. Hasil Antigen/PCR belum muncul"
+        },
+        {
+          "label": "Hasil test salah. Hasil Antigen/PCR yang muncul salah",
+          "value": "Hasil test salah. Hasil Antigen/PCR yang muncul salah"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-26T13:31:16.752Z",
+    "modifiedOn": "2022-10-27T04:13:17.992Z"
+  },
+  {
+    "id": "dropdown-DYa08B",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Kategori",
+      "displayInKeyboard$en": false,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Silahkan pilih kategori kendala hasil test lab covid19 untuk pengisian hasil NAR",
+      "options$en": [
+        {
+          "label": "NAR Antigen. Pertanyaan seputar NAR Antigen",
+          "value": "NAR Antigen. Pertanyaan seputar NAR Antigen"
+        },
+        {
+          "label": "NAR PCR. Pertanyaan seputar NAR PCR",
+          "value": "NAR PCR. Pertanyaan seputar NAR PCR"
+        },
+        {
+          "label": "Input NAR belum muncul. Hasil Tes belum muncul di NAR",
+          "value": "Input NAR belum muncul. Hasil Tes belum muncul di NAR"
+        },
+        {
+          "label": "Input NAR salah. Kesalahan  Input Hasil Tes di NAR",
+          "value": "Input NAR salah. Kesalahan  Input Hasil Tes di NAR"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-26T13:37:15.455Z",
+    "modifiedOn": "2022-10-27T10:14:52.115Z"
+  },
+  {
+    "id": "dropdown-mbdkVO",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Kemenkes",
+      "displayInKeyboard$en": false,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Silahkan pilih kategori kendala telemedisin Isoman",
+      "options$en": [
+        {
+          "label": "Wa Kemenkes. Tidak mendapatkan Whatsapp Kemenkes",
+          "value": "Wa Kemenkes. Tidak mendapatkan Whatsapp Kemenkes"
+        },
+        {
+          "label": "NIK tidak terdaftar. NIK tidak terdaftar",
+          "value": "NIK tidak terdaftar. NIK tidak terdaftar"
+        },
+        {
+          "label": "Paket Obat belum datang. Paket obat belum datang sudah lebih dari 24 jam",
+          "value": "Paket Obat belum datang. Paket obat belum datang sudah lebih dari 24 jam"
+        },
+        {
+          "label": "Paket Obat tidak sesuai. Paket obat tidak sesuai resep",
+          "value": "Paket Obat tidak sesuai. Paket obat tidak sesuai resep"
+        },
+        {
+          "label": "Paket belum diterima. paket belum datang tapi status diterima",
+          "value": "Paket belum diterima. paket belum datang tapi status diterima"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-27T04:51:36.686Z",
+    "modifiedOn": "2022-10-27T08:49:37.627Z"
+  }
+]

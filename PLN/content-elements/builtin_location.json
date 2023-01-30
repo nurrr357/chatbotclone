@@ -1,0 +1,15 @@
+[
+  {
+    "id": "builtin_location-n4e5F9",
+    "formData": {
+      "typing$en": true,
+      "latitude$en": 112.722996,
+      "longitude$en": -7.947789,
+      "address$en": "asfsaf",
+      "title$en": "safsaf"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-28T03:33:12.290Z",
+    "modifiedOn": "2022-09-28T03:34:00.467Z"
+  }
+]

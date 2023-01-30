@@ -1,0 +1,82 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\" ",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "4819c49285",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-aa9VhH"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"KDACE - Belanja hemat 50%+20% di ACE.\" || \"KDACE\" || \"kdace\" || \"belanja hemat 50%+20% di ace.\"",
+          "conditionType": "raw",
+          "node": "KDACContent"
+        },
+        {
+          "condition": "user.teks == \"KDSAYURBOX - Diskon 25ribu belanja di Sayurbox.\"\" || \"KDSAYURBOX\" || \"kdsayurbox\" || \"Diskon 25ribu belanja di Sayurbox.\"\" || \"diskon 25ribu belanja di sayurbox.\"\"",
+          "conditionType": "raw",
+          "node": "KDSAYURBOXContent"
+        },
+        {
+          "condition": "user.teks == \"promo\" || \"PROMO\"",
+          "conditionType": "raw",
+          "node": "MainMenu/Promo.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "094d20da22",
+      "name": "KDACContent",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-5HQ9rY"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "e45bf4d43b",
+      "name": "KDSAYURBOXContent",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-yi64nr"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "Error",
+  "nodes": [
+    {
+      "id": "3rr0r",
+      "name": "Error",
+      "onEnter": [
+        "say #!builtin_text-Y8Wh7R"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ]
+    }
+  ]
+}

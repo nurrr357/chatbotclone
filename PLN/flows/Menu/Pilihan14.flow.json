@@ -1,0 +1,944 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"main menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"batal\"",
+        "conditionType": "raw",
+        "node": "Batal.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"selesai\"",
+        "conditionType": "raw",
+        "node": "Selesai.flow.json"
+      }
+    ]
+  },
+  "startNode": "NewPlnMobile",
+  "description": "",
+  "nodes": [
+    {
+      "id": "e22e723a75",
+      "name": "1",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-rI_vqo"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "fb2ef1b225",
+      "name": "2",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-kbH9Fi"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "c675f2fc31",
+      "name": "3",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-wtgSzu"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "3d9e03e75a",
+      "name": "4",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-DDAsj7"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "c1bd78ffcd",
+      "name": "5",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-s8hXik"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "d97152d6a8",
+      "name": "6",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-fdaWB_"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "da6e6c922d",
+      "name": "7",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-WOukiU"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "eb6f482b59",
+      "name": "8",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-fVa-ax"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "de66b033c2",
+      "name": "9",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-32msMg"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "cdd4f6d49f",
+      "name": "10",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-8PeWxc"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "671cc9e4cb",
+      "name": "11",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-oDHWfv"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "ce477ce12d",
+      "name": "12",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-5crlfh"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "7537194279",
+      "name": "13",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-O7BSV2"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "8133925c86",
+      "name": "14",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-WilESi"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "faacf02f84",
+      "name": "15",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-CN-e5S"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "9fe54740f5",
+      "name": "16",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-CBYm50"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "8ce6579a4b",
+      "name": "17",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Ky7HtE"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "080f1a5d37",
+      "name": "18",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-AZnetc"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "87fb328160",
+      "name": "19",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-_3JrMQ"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "12fc251f73",
+      "name": "NewPlnMobile",
+      "onEnter": [
+        "say #!builtin_text-etkTJD"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"input\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.input == 1",
+          "conditionType": "raw",
+          "node": "1"
+        },
+        {
+          "condition": "user.input == 2",
+          "conditionType": "raw",
+          "node": "2"
+        },
+        {
+          "condition": "user.input == 3",
+          "conditionType": "raw",
+          "node": "3"
+        },
+        {
+          "condition": "user.input == 4",
+          "conditionType": "raw",
+          "node": "4"
+        },
+        {
+          "condition": "user.input == 5",
+          "conditionType": "raw",
+          "node": "5"
+        },
+        {
+          "condition": "user.input == 6",
+          "conditionType": "raw",
+          "node": "6"
+        },
+        {
+          "condition": "user.input == 7",
+          "conditionType": "raw",
+          "node": "7"
+        },
+        {
+          "condition": "user.input == 8",
+          "conditionType": "raw",
+          "node": "8"
+        },
+        {
+          "condition": "user.input == 9",
+          "conditionType": "raw",
+          "node": "9"
+        },
+        {
+          "condition": "user.input == 10",
+          "conditionType": "raw",
+          "node": "10"
+        },
+        {
+          "condition": "user.input == 11",
+          "conditionType": "raw",
+          "node": "11"
+        },
+        {
+          "condition": "user.input == 12",
+          "conditionType": "raw",
+          "node": "12"
+        },
+        {
+          "condition": "user.input == 13",
+          "conditionType": "raw",
+          "node": "13"
+        },
+        {
+          "condition": "user.input == 14",
+          "conditionType": "raw",
+          "node": "14"
+        },
+        {
+          "condition": "user.input == 15",
+          "conditionType": "raw",
+          "node": "15"
+        },
+        {
+          "condition": "user.input == 16",
+          "conditionType": "raw",
+          "node": "16"
+        },
+        {
+          "condition": "user.input == 17",
+          "conditionType": "raw",
+          "node": "17"
+        },
+        {
+          "condition": "user.input == 18",
+          "conditionType": "raw",
+          "node": "18"
+        },
+        {
+          "condition": "user.input == 19",
+          "conditionType": "raw",
+          "node": "19"
+        },
+        {
+          "condition": "user.input == 20",
+          "conditionType": "raw",
+          "node": "20"
+        },
+        {
+          "condition": "user.input == 21",
+          "conditionType": "raw",
+          "node": "21"
+        },
+        {
+          "condition": "user.input == 22",
+          "conditionType": "raw",
+          "node": "22"
+        },
+        {
+          "condition": "user.input == 23",
+          "conditionType": "raw",
+          "node": "23"
+        },
+        {
+          "condition": "user.input == 24",
+          "conditionType": "raw",
+          "node": "24"
+        },
+        {
+          "condition": "user.input == 25",
+          "conditionType": "raw",
+          "node": "25"
+        },
+        {
+          "condition": "user.input == 26",
+          "conditionType": "raw",
+          "node": "26"
+        },
+        {
+          "condition": "user.input == 27",
+          "conditionType": "raw",
+          "node": "27"
+        },
+        {
+          "condition": "user.input == 28",
+          "conditionType": "raw",
+          "node": "28"
+        },
+        {
+          "condition": "user.input == 29",
+          "conditionType": "raw",
+          "node": "29"
+        },
+        {
+          "condition": "user.input == 30",
+          "conditionType": "raw",
+          "node": "30"
+        },
+        {
+          "condition": "user.input == 31",
+          "conditionType": "raw",
+          "node": "31"
+        },
+        {
+          "condition": "user.input == 32",
+          "conditionType": "raw",
+          "node": "32"
+        },
+        {
+          "condition": "user.input == 33",
+          "conditionType": "raw",
+          "node": "33"
+        },
+        {
+          "condition": "user.input == 34",
+          "conditionType": "raw",
+          "node": "34"
+        },
+        {
+          "condition": "user.input == 35",
+          "conditionType": "raw",
+          "node": "35"
+        },
+        {
+          "condition": "user.input == 36",
+          "conditionType": "raw",
+          "node": "36"
+        },
+        {
+          "condition": "user.input == 37",
+          "conditionType": "raw",
+          "node": "37"
+        },
+        {
+          "condition": "user.input == 38",
+          "conditionType": "raw",
+          "node": "38"
+        },
+        {
+          "condition": "user.input == 39",
+          "conditionType": "raw",
+          "node": "39"
+        },
+        {
+          "condition": "user.input == 40",
+          "conditionType": "raw",
+          "node": "40"
+        },
+        {
+          "condition": "user.input == 41",
+          "conditionType": "raw",
+          "node": "41"
+        },
+        {
+          "condition": "user.input == 42",
+          "conditionType": "raw",
+          "node": "42"
+        },
+        {
+          "condition": "user.input == 43",
+          "conditionType": "raw",
+          "node": "43"
+        },
+        {
+          "condition": "user.input == 44",
+          "conditionType": "raw",
+          "node": "44"
+        },
+        {
+          "condition": "user.input >= 44",
+          "conditionType": "raw",
+          "node": "Ulang"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulang"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "f6ce81268b",
+      "name": "20",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-CjXO97"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "5867dadea4",
+      "name": "21",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-xjsXQz"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "4b51dfe7f3",
+      "name": "22",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-NWWiOb"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "883a2f21de",
+      "name": "23",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-7eKHc0"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "7a86a0eae7",
+      "name": "24",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-0yQ2wV"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "6af8ed1128",
+      "name": "25",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-zM5kwc"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "01ad062257",
+      "name": "26",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-8XhPhU"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "9108a0d7cc",
+      "name": "27",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-LIdizy"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "0b1125d5ee",
+      "name": "28",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-vFmRu0"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "f4c38ec48b",
+      "name": "29",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-NDrjPR"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "1015dc99e0",
+      "name": "30",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Kb-B7k"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "930d2750d5",
+      "name": "31",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-T3UNO2"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "d28fa947d7",
+      "name": "32",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-jvh95t"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "eba4612a3b",
+      "name": "33",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-l7-ADR"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "f03658c275",
+      "name": "34",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-9ArdAB"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "5388c51539",
+      "name": "35",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-2Krnik"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "8d7805ca9f",
+      "name": "36",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-JfHTpg"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "15727903be",
+      "name": "37",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-TyzWa2"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "845d520ff2",
+      "name": "38",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-hgem1s"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "21694f3b3d",
+      "name": "39",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-U4e-wP"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "bc83c98dbb",
+      "name": "40",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-l_b2-q"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "d04ca0b643",
+      "name": "41",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-XFedHT"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "6ba044a155",
+      "name": "42",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-S-LHyx"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "2636fcc49e",
+      "name": "43",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-uLPinB"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "2b0f8c5e8d",
+      "name": "44",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-zrhS6C"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "400a1932ae",
+      "name": "Ulang",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "NewPlnMobile"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

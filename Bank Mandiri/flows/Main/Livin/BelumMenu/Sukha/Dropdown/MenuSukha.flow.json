@@ -1,0 +1,82 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "LivinSukhaMenu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "7a74dd4018",
+      "name": "LivinSukhaMenu",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-UFCk59",
+        "say #!dropdown-FrOfk5"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.pilih == \"garuda\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/Sukha/SubMenuDropdown/Garuda.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"traveloka\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/Sukha/SubMenuDropdown/Traveloka.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"kereta\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/Sukha/SubMenuDropdown/Kereta.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"golf\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/Sukha/SubMenuDropdown/Golf.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"codashop\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/Sukha/SubMenuDropdown/Codashop.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"mandiri\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/Sukha/SubMenuDropdown/Mandiri.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"mandiri1\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/Sukha/SubMenuDropdown/Mandiri1.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"axa\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/Sukha/SubMenuDropdown/Axa.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"games\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/Sukha/SubMenuDropdown/Games.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

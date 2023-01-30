@@ -1,0 +1,33 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Content",
+  "description": "",
+  "nodes": [
+    {
+      "id": "c641400a86",
+      "name": "Content",
+      "onEnter": [
+        "say #!builtin_text-QXj198"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

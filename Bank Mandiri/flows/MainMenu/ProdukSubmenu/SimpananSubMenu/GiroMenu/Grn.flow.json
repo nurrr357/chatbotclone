@@ -1,0 +1,75 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "1ba9ce78ec",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-6V2SbE",
+        "say #!builtin_text-0c11UY"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"SGRN - Syarat Giro Renminbi\" || \"SGRN\" || \"sgrn\" || \"Syarat Giro Renminbi\" || \"syarat giro renminbi\"",
+          "conditionType": "raw",
+          "node": "Content"
+        },
+        {
+          "condition": "user.teks == \"BGRN - Benefit Giro Renminbi\" || \"BGRN\" || \"bgrn\" || \"Benefit Giro Renminbi\" || \"benefit giro renminbi\"",
+          "conditionType": "raw",
+          "node": "Content1"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "72eeef291b",
+      "name": "Content",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-jwHhen",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "0a73fe362e",
+      "name": "Content1",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-rFL8gp",
+        "say #!builtin_text-TKnG1c"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

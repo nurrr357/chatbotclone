@@ -1,0 +1,60 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "MoneyMenu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "1f63eb388a",
+      "name": "MoneyMenu",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-Mvl1-7",
+        "say #!builtin_card-xljdOD"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.pilih == \"money\"",
+          "conditionType": "raw",
+          "node": "Content"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "00606710e4",
+      "name": "Content",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-N09zzj",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

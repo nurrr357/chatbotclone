@@ -1,0 +1,119 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"main menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"batal\"",
+        "conditionType": "raw",
+        "node": "Batal.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"selesai\"",
+        "conditionType": "raw",
+        "node": "Selesai.flow.json"
+      }
+    ]
+  },
+  "startNode": "Invoice",
+  "description": "",
+  "nodes": [
+    {
+      "id": "174d090e94",
+      "name": "1",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-PmB2W0"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "b6d5a949ef",
+      "name": "2",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-J0AcUe"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "c71394df0b",
+      "name": "3",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-p_8FSv"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "fdcce7c9cf",
+      "name": "Invoice",
+      "onEnter": [
+        "say #!builtin_text-EVULJn"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"input\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.input == 1",
+          "conditionType": "raw",
+          "node": "1"
+        },
+        {
+          "condition": "user.input == 2",
+          "conditionType": "raw",
+          "node": "2"
+        },
+        {
+          "condition": "user.input == 3",
+          "conditionType": "raw",
+          "node": "3"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Repeat"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "bafcfd3996",
+      "name": "Repeat",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Invoice"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

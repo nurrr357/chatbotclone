@@ -1,0 +1,2202 @@
+[
+  {
+    "id": "builtin_text-kGqbxn",
+    "formData": {
+      "text$en": "Halo Electrizen! Saat ini kamu terhubung dengan WA PLN 123, virtual customer service PLN 123. Ada yang bisa WA PLN 123 bantu?\n\nSilakan ketik informasi yang ingin kamu ketahui, ketik:\n1 - Stimulus Covid19\n2 - Baca Meter Mandiri (pascabayar)\n3 - Info Pasang Baru Perubahan Daya\n4 - Info seputar prabayar\n5 - Info Gangguan Penyaluran Tenaga Listrik\n6 - Info Instalasi Listrik\n7 - Info seputar Rekening\n8 - info Penerangan Jalan Umum\n9 - Info Contact Center PLN 123\n10 - Info Catat Meter\n11 - Info Pemutusan dan Penyambungan\n12 - Penertiban Pemakaian Tenaga Listrik\n13 - Info seputar Invoice\n14 - Info seputar New PLN Mobile\n15 - Info seputar Diskon Tarif\n16 - Pengaduan Kompor Induksi\n\nSemua layanan ini dapat digunakan di Aplikasi PLN Mobile. Agar Semua Makin Mudah, segera download Aplikasi PLN Mobile melalui link berikut:\n\nAndroid : https://play.google.com/store/apps/details?id=com.icon.pln123\n\nIOS: https://apps.apple.com/nz/app/pln-mobile/id1299581030\n\nHotline PLN 123",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-28T03:39:22.793Z",
+    "modifiedOn": "2022-10-06T17:51:38.991Z"
+  },
+  {
+    "id": "builtin_text-cXrjTu",
+    "formData": {
+      "text$en": "SYARAT & KETENTUAN BACA METER MANDIRI OLEH PELANGGAN\n\nPLN mulai bulan Mei 2020, kembali melaksanakan pembacaan meter secara langsung ke rumah pelanggan pascabayar. Petugas PLN dalam melakukan pembacaan meter ke rumah pelanggan, menggunakan standar APD dengan tetap memperhatikan Pedoman Pencegahan Penyebaran COVID-19 @kemenkes_ri\n\nPLN juga tetap menyiapkan layanan baca meter mandiri melalui aplikasi WhatsApp Messenger PLN 123 dengan nomor 08122 123 123.\n\nBaca meter mandiri bisa dilakukan oleh pelanggan mulai tanggal 24 s.d. 27 setiap bulannya.\n\nPelaporan baca meter mandiri oleh pelanggan yang valid, yaitu pengiriman foto angka stand meter akan dijadikan prioritas utama dasar perhitungan rekening listrik.\n\nJika pelanggan tidak dapat mengirimkan angka stand & foto pada tanggal baca mandiri yang disediakan bagi pelanggan pada tanggal 24 s.d. 27, maka angka stand yg akan digunakan adalah hasil dari baca petugas PLN.\n\nJika pelanggan tidak dapat mengirimkan foto angka stand meter ataupun lokasi kWh meter tidak dapat didatangi oleh petugas PLN, maka pemakaian listrik akan diperhitungkan rata-rata 3 bulan terakhir.\n\nApabila Pengiriman angka stand & foto kWh meter oleh pelanggan diluar dari tanggal yang telah ditetapkan, yaitu tanggal 24 s.d. 27, maka tidak akan dijadikan angka dalam perhitungan tagihan listrik.\n\nSelanjutnya, setiap 3 (tiga) bulan PLN akan melakukan pencocokan angka stand kWh meter khusus hasil kiriman pelanggan dengan angka faktual hasil pembacaan petugas PLN, dan akan dilakukan penyesuaian pada perhitungan tagihan listrik. Untuk itu dimohon pelanggan mengirimkan angka & foto stand sesuai dengan yang tertera di kWh meter sehingga diharapkan tidak terjadi penyesuaian tagihan naik atau turun secara berlebihan.\n\nHubungi layanan Contact Center PLN 123 untuk menyampaikan pertanyaan, informasi atau keluhan atas layanan kami. Terimakasih atas kesediaan pelanggan telah membaca syarat & ketentuan ini.",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-28T03:41:38.968Z",
+    "modifiedOn": "2022-09-28T03:41:38.968Z"
+  },
+  {
+    "id": "builtin_text-vPcY4y",
+    "formData": {
+      "text$en": "Maaf pilihan anda salah\nSilahkan pilih dengan nomer yang benar",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-28T03:44:36.544Z",
+    "modifiedOn": "2022-09-28T06:26:33.816Z"
+  },
+  {
+    "id": "builtin_text-2aew8y",
+    "formData": {
+      "text$en": "Silahkan masukkan ID Pelanggan Anda : 14204817697",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-28T03:46:12.310Z",
+    "modifiedOn": "2022-10-28T01:47:48.100Z"
+  },
+  {
+    "id": "builtin_text-yc4SQ2",
+    "formData": {
+      "text$en": "Koordinat Tidak sesuai",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-28T03:48:14.261Z",
+    "modifiedOn": "2022-09-28T03:59:13.632Z"
+  },
+  {
+    "id": "builtin_text-KPGAFq",
+    "formData": {
+      "text$en": "{{temp.response}}",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-28T03:48:59.949Z",
+    "modifiedOn": "2022-09-28T04:02:52.787Z"
+  },
+  {
+    "id": "builtin_text-Ydw5_w",
+    "formData": {
+      "text$en": "yey",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-28T06:28:12.139Z",
+    "modifiedOn": "2022-09-28T06:28:12.139Z"
+  },
+  {
+    "id": "builtin_text--gTXNw",
+    "formData": {
+      "text$en": "Stimulus Covid 19",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-28T07:19:13.360Z",
+    "modifiedOn": "2022-09-28T07:19:13.360Z"
+  },
+  {
+    "id": "builtin_text-OJ-j3J",
+    "formData": {
+      "text$en": "Tedapat perbedaan yang mencolok antara kompor listrik dengan kompor induksi. Kompor induksi mengantarkan panas menggunakan radiasi elektromagnetik. Sementara kompor listrik menggunakan arus listrik yang mengalir melalui kumparan logam pada permukaan kompor.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-28T07:20:57.671Z",
+    "modifiedOn": "2022-10-17T03:42:43.484Z"
+  },
+  {
+    "id": "builtin_text-K7c3wJ",
+    "formData": {
+      "text$en": "Silakan ketik informasi yang ingin kamu ketahui:\ncontoh ketik 1 untuk informasi bangunan yang pernah terpasang kWh Meter tetapi dibongkar\n\n1. Apakah bangunan yang pernah terpasang kWh Meter tetapi dibongkar karena tunggakan bisa diajukan penyambungan baru?\n2. Apakah bisa jika pelanggan ingin menambah kWh Meter dalam satu bangunan?\n3. Apa yang dimaksud pelanggan Paskabayar?\n4. Apa yang dimaksud pelanggan Prabayar?\n5. Apakah pengajuan penyambungan baru harus memiliki Sertifikat Laik Operasi (SLO)?\n6. Mengapa harus memiliki SLO (Sertifikat Laik Operasi)?\n7. Apa itu Layanan Satu Pintu (LSP)?\n8. Apa itu LIT (Lembaga Inspeksi Teknik)?\n9. Tangga daya tegangan rendah apa saja yang bisa diajukan (tersedia)?\n10. Tangga daya tegangan rendah apa saja yang tidak bisa diajukan (tidak tersedia)?\n11. Jenis Tarif apa saja yang ada di PLN?\n12. Apakah pengajuan penyambungan baru/tambah daya dapat dibatalkan oleh PLN, jika ternyata penggunaan listriknya tidak sesuai dengan jenis tarifnya. Misal : Rumah Tempat Tinggal didaftarkan dengan jenis tarif Bisnis\n13. Batas kewenangan PLN\n14. Kelengkapan data apa saja yang perlu disiapkan untuk mengajukan permohonan pengajuan penyambungan baru, perubahan daya dan migrasi?\n15. Persyaratan pengajuan PDPB\n16. Berapa lama waktu layanan untuk permohonan Penyambungan Baru?\n17. Masa berlaku nomor register/kode booking\n18. Bagaimana cara mengajukan Balik Nama / Rubah Nama Pelanggan / Koreksi Alamat?\n19. Bagaimana mengajukan perubahan tarif?\n20. Bagaimana cara melakukan pembatalan Penyambungan Baru / Perubahan Daya yang sudah dilunasi?\n21. Bagaimana cara jika ingin mengajukan Penyambungan Baru, Perubahan Daya, Penyambungan Sementara dan Migrasi?\n22. Bagaimana cara jika ingin mengajukan Turun Daya?\n23. Kenapa golongan tarif rumah tangga (R) daya > 6.600 VA, golongan tarif bisnis atau industri daya 100 s.d 200 kVA dan golongan tarif TM dan TT (S3, B3, I3, P2, T, C, I4) harus mencantumkan NPWP pada saat pengajuan permohanan penyambungan baru dan perubahan daya?\n24. Apa itu UJL (Uang Jaminan Langganan)?\n25. Apakah UJL (Uang Jaminan Langganan) dikenakan untuk pengajuan Penyambungan Baru dan Perubahan Daya?",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-28T08:15:57.808Z",
+    "modifiedOn": "2022-10-06T02:15:01.583Z"
+  },
+  {
+    "id": "builtin_text-dUD8jw",
+    "formData": {
+      "text$en": "Bisa diajukan kembali jika memang sebelumnya pernah ada kWh meter tetapi dibongkar karena tunggakan. Pengajuan dapat diajukan ke Unit PLN dengan melunasi tunggakan tagihan PLN & membayar Biaya Penyambungan kembali serta Jaminan Langganan jika Pelanggan Paskabayar.",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-28T08:17:31.232Z",
+    "modifiedOn": "2022-09-28T08:27:07.267Z"
+  },
+  {
+    "id": "builtin_text-jzulxd",
+    "formData": {
+      "text$en": "Bisa diajukan, namun pengajuan memenuhi 3 syarat berikut: 1. Instalasi terpisah dan tidak dapat saling pasok 2. Peruntukan listriknya berbeda dan/atau 3. Pemilik berbeda",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-28T08:27:47.892Z",
+    "modifiedOn": "2022-09-28T08:27:47.892Z"
+  },
+  {
+    "id": "builtin_text-czPUwB",
+    "formData": {
+      "text$en": "Pelanggan Paskabayar adalah Pelanggan yang memakai tenaga listrik dari instalasi PLN dan wajib melunasi tagihan listrik setelah tenaga listrik digunakan. Pelanggan ini dikenakan kewajiban membayar rekening listrik setiap bulannya.",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-28T08:28:28.982Z",
+    "modifiedOn": "2022-09-28T08:28:32.388Z"
+  },
+  {
+    "id": "builtin_text-gWf4hk",
+    "formData": {
+      "text$en": "Pelanggan Prabayar adalah Pelanggan yang memakai tenaga listrik dengan transaksi pembayaran dibuka sebelum tenaga listrik digunakan. Pelanggan melakukan pembelian token/pulsa listrik sebelum menggunakan energi listrik.",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-28T08:29:29.752Z",
+    "modifiedOn": "2022-09-28T08:29:29.752Z"
+  },
+  {
+    "id": "builtin_text-RiC5xl",
+    "formData": {
+      "text$en": "Iya, instalasi listrik di bangunan harus bersertifikat SLO sesuai dengan Undang-Undang Nomor 30 Tahun 2009 tentang ketenagalistrikan dan menjadi tanggung jawab pelanggan Pasal 44 ayat 4 dan Pasal 54 ayat 1.",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-28T08:30:47.891Z",
+    "modifiedOn": "2022-09-28T08:30:47.891Z"
+  },
+  {
+    "id": "builtin_text-_DqmPp",
+    "formData": {
+      "text$en": "SLO merupakan bukti pengakuan formal suatu instalasi tenaga listrik telah berfungsi sebagaimana kesesuaian persyaratan yang ditentukan dan dinyatakan laik operasi.",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-28T08:31:43.714Z",
+    "modifiedOn": "2022-09-28T08:31:43.714Z"
+  },
+  {
+    "id": "builtin_text-zn0MOT",
+    "formData": {
+      "text$en": "Layanan Satu Pintu adalah sistem layanan yang disediakan oleh PLN yang bekerjasama dengan Lembaga Inspeksi Teknik Tegangan Rendah dalam melayani Penyambungan Baru calon pelanggan.",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-28T08:33:23.019Z",
+    "modifiedOn": "2022-09-28T08:33:23.019Z"
+  },
+  {
+    "id": "builtin_text-jpu_1P",
+    "formData": {
+      "text$en": "Lembaga resmi yang diberikan penugasan dan kewenangan oleh kementerian ESDM untuk melaksanakan pemeriksaan dan sertifikasi laik operasi untuk instalasi listrik",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-28T08:34:21.988Z",
+    "modifiedOn": "2022-09-28T08:34:21.988Z"
+  },
+  {
+    "id": "builtin_text-kwXyML",
+    "formData": {
+      "text$en": "450 VA, 900 VA, 1.300 VA, 2.200 VA, 3.500 VA, 4.400 VA, 5.500 VA, 6.600 VA, 7.700 VA, 10.600 VA, 11.000 VA, 13.200 VA, 16.500 VA, 23.000 VA, 33.000 VA, 41.500 VA, 53.000 VA,  66.000 VA, 82.500 VA, 105.000 VA, 131.000 VA, 147.000 VA, 164.000 VA dan 197.000 VA",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-28T08:35:06.102Z",
+    "modifiedOn": "2022-09-28T08:35:09.546Z"
+  },
+  {
+    "id": "builtin_text-7Mn4hI",
+    "formData": {
+      "text$en": "2.400 VA, 3.900 VA, 13.300 VA, 13.900 VA, 15.400 VA, 17.600 VA, 22.000 VA, 27.800 VA, 30.000 VA, 35.200 VA dan 44.000 VA.\n\nTerkecuali PLN UID Jawa Tengah & Yogyakarta daya 13.900 VA, 17.600 VA dan 22.000 VA masih tersedia",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-28T08:36:00.883Z",
+    "modifiedOn": "2022-09-28T08:36:00.883Z"
+  },
+  {
+    "id": "builtin_text-nXyLj0",
+    "formData": {
+      "text$en": "Rumah Tangga, Bisnis, Industri, Pemerintah, Sosial, Traksi dan Curah serta Layanan Khusus",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-28T08:38:49.149Z",
+    "modifiedOn": "2022-09-28T08:38:49.149Z"
+  },
+  {
+    "id": "builtin_text-1B9zuf",
+    "formData": {
+      "text$en": "Jika PLN menemukan penggunaan listrik tidak sesuai dengan jenis tarif, maka PLN secara sepihak dapat melakukan perubahan jenis tarif sesuai dengan yang seharusnya",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-28T08:40:57.637Z",
+    "modifiedOn": "2022-09-28T08:40:57.637Z"
+  },
+  {
+    "id": "builtin_text-6raK_Z",
+    "formData": {
+      "text$en": "Surat identitas Pemilik dan Yang Bermohon, surat kuasa apabila diwakilkan, NPWP sesuai dengan ketentuan yanng berlaku dan Meterai",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T02:13:27.402Z",
+    "modifiedOn": "2022-10-06T02:13:42.962Z"
+  },
+  {
+    "id": "builtin_text-PejW0x",
+    "formData": {
+      "text$en": "Batas kewenangan PLN adalah mulai jaringan tenaga listrik s.d kWh Meter yang ada di lokasi pelanggan, sedangkan instalasi setelah kWh Meter PLN merupakan kewenangan Pelanggan.",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T02:15:14.113Z",
+    "modifiedOn": "2022-10-06T02:15:14.113Z"
+  },
+  {
+    "id": "builtin_text-NEzOYB",
+    "formData": {
+      "text$en": "Mempersiapkan:\n1. Nama Pemohon\n2. No Telepon Pemohon\n3. Alamat Email\n4. Alamat Lengkap\n5. Pilihan Jenis Layanan (Paskabayar / Prabayar)\n6. Daya yang dibutuhkan\n7. Jenis Tarif Listrik\n8. Fotocopy Surat Identitas \n9. Meterai Rp. 6.000,- \n10. NPWP sesuai ketentuan yang berlaku\n11. Surat kuasa yang menyatakan pemilik bangunan memberikan kuasa untuk melakukan proses pendaftaran",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T02:19:39.423Z",
+    "modifiedOn": "2022-10-06T02:19:39.423Z"
+  },
+  {
+    "id": "builtin_text-Xip7tZ",
+    "formData": {
+      "text$en": "Untuk proses penyambungan terhitung 5 hari kerja setelah pembayaran apabila tidak membutuhkan perluasan jaringan, apabila memerlukan perluasan jaringan tegangan rendah proses penyambungan terhitung menjadi 15 hari kerja dan 25 hari kerja jika diperlukan penambahan trafo.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T02:20:55.418Z",
+    "modifiedOn": "2022-10-06T02:20:55.418Z"
+  },
+  {
+    "id": "builtin_text-83vhsx",
+    "formData": {
+      "text$en": "30 hari sejak terbit",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T02:21:43.525Z",
+    "modifiedOn": "2022-10-06T02:21:43.525Z"
+  },
+  {
+    "id": "builtin_text-FwtVUS",
+    "formData": {
+      "text$en": "Pengajuan balik nama, rubah nama atau koreksi alamat dapat langsung datang ke kantor pelayanan PLN di hari dan jam kerja dengan membawa nomor ID Pelanggan/No. Meter, surat identitas dan bukti kepemilikan bangunan yang nantinya akan dilakukan verifikasi terlebih dahulu",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T02:25:37.552Z",
+    "modifiedOn": "2022-10-06T02:25:37.552Z"
+  },
+  {
+    "id": "builtin_text-EEvD7o",
+    "formData": {
+      "text$en": "Pengajuan perubahan tarif dapat langsung datang ke kantor pelayanan PLN di hari dan jam kerja, setelah dilakukan pengajuan akan dilakukan verifikasi dahulu oleh PLN, setelah disetujui baru akan dilakukan penyesuaian tarif.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T02:27:16.497Z",
+    "modifiedOn": "2022-10-06T02:27:16.497Z"
+  },
+  {
+    "id": "builtin_text-Eyk36E",
+    "formData": {
+      "text$en": "Pengajuan pembatalan Penyambungan Baru atau Perubahan Daya dapat diajukan ke kantor pelayanan PLN di hari dan jam kerja dengan membawa bukti permohonan dan pembayaran.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T02:28:18.339Z",
+    "modifiedOn": "2022-10-06T02:28:18.339Z"
+  },
+  {
+    "id": "builtin_text-Q_hLtX",
+    "formData": {
+      "text$en": "Pengajuan dapat dilakukan melalui Contact Center PLN 123, Website PLN (www.pln.co.id) dan aplikasi PLN Mobile. Untuk Contact Center PLN 123 terdiri atas :\n1. Call Center 123\n2. Instagram (@pln123_official)\n3. Facebook (pln 123)\n4. Twitter (@pln_123)\n5. Email (pln123@pln.co.id)\n6. Live Chat yang diakses melalui website PLN",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T02:30:16.217Z",
+    "modifiedOn": "2022-10-06T02:30:16.217Z"
+  },
+  {
+    "id": "builtin_text-QIYgPb",
+    "formData": {
+      "text$en": "Pengajuan penurunan daya dapat diajukan langsung ke kantor pelayanan PLN pada jam dan hari kerja.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T02:33:27.850Z",
+    "modifiedOn": "2022-10-06T02:33:27.850Z"
+  },
+  {
+    "id": "builtin_text-mlWoml",
+    "formData": {
+      "text$en": "1. Karena PLN mengikuti peraturan dan regulasi dari Direktorat Jenderal Pajak No.PER-31/PJ/2017 Tanggal 29 Desember 2017 tentang perubahan ke-2 atas peraturan Direktur Jenderal Pajak No.PER-16/PJ/2014 tentang tatacara pembuatan dan pelaporan faktur pajak berbentuk elektronik.\n\n2. Surat Kantor Pelayanan Pajak Wajib Pajak Besar Tiga No.S-1965/WPJ.19/KP.03/2018 tanggal 30 Januari 2018 tentang pemberitahuan pembuatan e-faktur terkait No.PER-31/PJ/2017.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T02:34:19.479Z",
+    "modifiedOn": "2022-10-06T02:34:19.479Z"
+  },
+  {
+    "id": "builtin_text-fupgSj",
+    "formData": {
+      "text$en": "Uang Jaminan Langganan adalah jaminan berupa uang atas pemakaian daya dan energi listrik selama menjadi pelanggan Paskabayar.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T02:35:39.718Z",
+    "modifiedOn": "2022-10-06T02:35:39.718Z"
+  },
+  {
+    "id": "builtin_text-jB-0RU",
+    "formData": {
+      "text$en": "1. Pengenaan UJL dikenakan kepada Pelanggan Paskabayar yang mengajukan penyambungan baru dan penambahan daya.\n\n2. Penyesuaian UJL dikenakan kepada setiap pelanggan pada saat terdapat perubahan tarif jaminan langganan dan dilakukan secara bertahap saat pelanggan mengajukan permintaan :\na. Perubahan Daya\nb. Perubahan golongan tarif tenaga listrik\nc. Penyelesaian tagihan susulan akibat P2TL\nd. Perubahan nama\ne. Pasang kembali aliran listrik akibat pemutusan sementara\nf. Pasang kembali aliran listrik akibat bongkar rampung\ng. Migrasi layanan\nh. Pemindahan dan atau perubahan letak sambungann tenaga listrik",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T02:36:19.951Z",
+    "modifiedOn": "2022-10-06T02:36:19.951Z"
+  },
+  {
+    "id": "builtin_text-0p_J9J",
+    "formData": {
+      "text$en": "Silakan ketik informasi yang ingin kamu ketahui: \ncontoh ketik 1 untuk informasi maksud listrik pintar / listrik Prabayar\n\n1. Apakah yang dimaksud listrik pintar / listrik Prabayar?\n2. Apakah kelebihan Prabayar ?\n3. Apakah yang dimaksud token / pulsa listrik ?\n4. Informasi apa saja yang tersedia pada layar kWh meter prabayar ?\n5. Apakah arti keterangan Accept / Benar pada display kWh meter prabayar ?\n6. Apakah penyebab tampil keterangan Reject / Gagal pada display kWh Meter Prabayar ?\n7. Apakah penyebab tertera Periksa pada display kWh Meter Prabayar ?\n9. Apakah penyebab Pelanggan tidak dapat melakukan pembelian Token ?\n10. Mengapa pelanggan dapat melakukan pembelian token dengan IDPEL namun token tidak dapat diinput pada kWh meter ?\n11. Mengapa nomor token pada struck pembelian pulsa listrik pelanggan tertulis XXXX (20 digit) / data tidak tampil ?\n12. Apakah maksud dari Konversi Token ?\n13. Mengapa Display pada kWh Meter Prabayar tidak ada tampilan sama sekali (blank) ?\n14. Mengapa Keypad atau tombol pada kWh Meter tidak berfungsi ?\n15. Mengapa pada Display tertera Over Power / Daya Lebih ?\n16. Apakah arti keterangan Used / Terpakai pada display kWh meter Prabayar ?\n17. Apakah arti keterangan Old / Usang pada display kWh meter Prabayar ?",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T06:42:10.004Z",
+    "modifiedOn": "2022-10-06T06:42:10.004Z"
+  },
+  {
+    "id": "builtin_text-UMhyXU",
+    "formData": {
+      "text$en": "Listrik prabayar atau listrik pintar adalah sistem pembayaran listrik yang berada di awal, dimana pelanggan dapat mengendalikan pemakaian listrik sesuai pembelian Token / Pulsa Listrik.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T06:48:53.658Z",
+    "modifiedOn": "2022-10-06T06:48:53.658Z"
+  },
+  {
+    "id": "builtin_text-5SSfwj",
+    "formData": {
+      "text$en": "1. Privasi tidak terganggu, karena tidak ada petugas pencatat meter yang datang tiap bulannya, melainkan dilakukan pemeriksaan secara berkala untuk menjaga kualitas kWh Meter tetap beroperasi dengan baik.\n2. Denda keterlambatan dan sanksi pemutusan tidak ada\n3. UJL (Uang Jaminan Langganan) tidak ada\n4. Biaya rekening minimum / abodemen tiap bulannya tidak ada\n5. Pelanggan dapat mengatur sendiri jadwal pengisian dan jumlah pembelian tokennya.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T06:50:32.136Z",
+    "modifiedOn": "2022-10-06T06:50:32.136Z"
+  },
+  {
+    "id": "builtin_text-aVlUgn",
+    "formData": {
+      "text$en": "Token atau pulsa listrik adalah 20 digit angka yang dimasukkan ke meter Prabayar saat melakukan isi ulang pulsa listrik",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T06:51:59.060Z",
+    "modifiedOn": "2022-10-06T06:51:59.060Z"
+  },
+  {
+    "id": "builtin_text-mfS-cW",
+    "formData": {
+      "text$en": "1. Informasi jumlah energi listrik (kWh) yang dimasukkan (diinput).\n2. Jumlah energi listrik (kWh) yang sudah terpakai selama ini (menekan tombol tertentu sesuai dengan versi kWh Meternya).\n3. Jumlah energi listrik (kWh) yang masih tersisa.\n4. Informasi kelainan kWh Meter atau Instalasi.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T06:52:50.390Z",
+    "modifiedOn": "2022-10-06T06:52:50.390Z"
+  },
+  {
+    "id": "builtin_text-IwEoyJ",
+    "formData": {
+      "text$en": "Tampilan keterangan bahwa nomor token berhasil diinput",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T06:53:57.846Z",
+    "modifiedOn": "2022-10-06T06:53:57.846Z"
+  },
+  {
+    "id": "builtin_text-TGbb6a",
+    "formData": {
+      "text$en": "Penyebabnya kWh meter Reject / Gagal antara lain;\n1. Pelanggan salah menginput nomor token, maka Input kembali dan pastikan nomor tokennya sudah benar.\n2. Terdapat proses niaga yang belum realisasi / selesai (ubah daya, migrasi). \n3. untuk informasi lebih lanjut dapat menghubungi Contact Center PLN 123 atau PLN Mobile",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T06:55:00.759Z",
+    "modifiedOn": "2022-10-06T06:55:00.759Z"
+  },
+  {
+    "id": "builtin_text--aKU-D",
+    "formData": {
+      "text$en": "Penyebab kWh meter periksa antara lain :\n1. Terindikasi kelainan / gangguan instalasi milik Pelanggan\n2. Adanya indikasi penyalahgunaan pemakaian tenaga listrik\n3. Adanya indikasi kelainan pada kWh Meter \n4. Untuk informasi lebih lanjut dapat menghubungi Contact Center PLN 123 atau PLN Mobile.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T06:55:50.352Z",
+    "modifiedOn": "2022-10-06T06:55:50.352Z"
+  },
+  {
+    "id": "builtin_text-Yerd32",
+    "formData": {
+      "text$en": "Penyebab pelanggan tidak dapat melakukan pembelian token antara lain :\n1. Terdapat Tagihan susulan (TS) yang belum dilunasi\n2. Transaksi pembelian token telah melebihi 720 JN (jam nyala)\n3. Untuk informasi lebih lanjut dapat menghubungi Contact Center PLN 123 atau PLN Mobile.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T06:57:37.817Z",
+    "modifiedOn": "2022-10-06T06:57:37.817Z"
+  },
+  {
+    "id": "builtin_text-EzfnYP",
+    "formData": {
+      "text$en": "Pelanggan pernah melakukan pembelian token, namun tidak langsung diinputkan ke kWh Meter pada saat itu juga. \nProses input baru dilakukan oleh Pelanggan setelah :\n1. Ada proses penggantian kWh Meter\n2. Ada proses Perubahan Daya\n3. Ada perubahan versi kWh Meter",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:01:29.008Z",
+    "modifiedOn": "2022-10-06T07:01:29.008Z"
+  },
+  {
+    "id": "builtin_text-5syf-V",
+    "formData": {
+      "text$en": "Karena masih dalam proses rekon pembelian dengan pihak bank.\nUntuk informasi lebih lanjut dapat menghubungi Contact Center PLN 123 atau PLN Mobile.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:02:46.613Z",
+    "modifiedOn": "2022-10-06T07:02:46.613Z"
+  },
+  {
+    "id": "builtin_text-zvrj7H",
+    "formData": {
+      "text$en": "Karena masih dalam proses rekon pembelian dengan pihak bank.\nUntuk informasi lebih lanjut dapat menghubungi Contact Center PLN 123 atau PLN Mobile.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:05:10.494Z",
+    "modifiedOn": "2022-10-06T07:05:15.200Z"
+  },
+  {
+    "id": "builtin_text-uXNMqf",
+    "formData": {
+      "text$en": "Mengganti sisa token dari kWh meter yang lama / token yang belum diinput ke nomor meter baru terkait adanya perubahan daya / penggantian kWh meter prabayar.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:06:37.198Z",
+    "modifiedOn": "2022-10-06T07:06:37.198Z"
+  },
+  {
+    "id": "builtin_text-_Zv_hW",
+    "formData": {
+      "text$en": "1. Karena aliran listrik dari PLN padam atau\n2. kWh Meternya rusak",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:07:36.513Z",
+    "modifiedOn": "2022-10-06T07:07:36.513Z"
+  },
+  {
+    "id": "builtin_text-VSrHwI",
+    "formData": {
+      "text$en": "1. Karena aliran listrik dari PLN padam atau\n2. Karena terdapat salah satu tombol belum kembali pada posisi normal (menempel / melekat)\n3. kWh Meternya rusak",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:10:27.492Z",
+    "modifiedOn": "2022-10-06T07:10:27.492Z"
+  },
+  {
+    "id": "builtin_text-zvOMda",
+    "formData": {
+      "text$en": "Tampilan keterangan bahwa beban pemakaian pelanggan saat itu melebihi daya kontrak tenaga listrik, maka pelanggan disarankan ;\n1. Mengurangi pemakaian tenaga listrik\n2. Mengajukan penambahan daya",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:11:39.651Z",
+    "modifiedOn": "2022-10-06T07:11:39.651Z"
+  },
+  {
+    "id": "builtin_text-87xbU7",
+    "formData": {
+      "text$en": "Tampilan keterangan bahwa nomor token tsb sudah pernah digunakan",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:12:30.888Z",
+    "modifiedOn": "2022-10-06T07:12:30.888Z"
+  },
+  {
+    "id": "builtin_text-jnAR94",
+    "formData": {
+      "text$en": "Apabila nomor token belum dilakukan penginputan hingga pembelian ke -51, maka nomor token tersebut kadaluarsa / tidak dapat digunakan.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:13:23.023Z",
+    "modifiedOn": "2022-10-06T07:13:23.023Z"
+  },
+  {
+    "id": "builtin_text-6KkrZj",
+    "formData": {
+      "text$en": "Silakan ketik informasi yang ingin kamu ketahui:\nContoh ketik 1 untuk informasi jika kabel listrik PLN terbakar\n\n1. Apa yang harus dilakukan jika kabel listrik PLN terbakar atau mengeluarkan percikan api?\n2. Apa yang harus dilakukan jika tiang listrik bertegangan arus (Nyetrum)/kabel PLN putus atau kendur?\n3. Kenapa MCB di kWh meter saya sering turun / Off tibatiba ?\n4. Apakah penggantian MCB ada biayanya?\n5. Mengapa ada pemadaman yang hanya sebagian wilayah saja (hanya beberapa bangunan saja) ?\n6. Apakah pelanggan bisa pindah jaringan karena diwilayahnya sering padam?\n7. Bagaimana penanganan gangguan korsleting pada instalasi milik pelanggan ?\n8. Bagaimana cara melakukan pengamanan listrik saat terjadi banjir atau kebakaran?\n9. Banjir sudah surut namun listrik masih padam apa penyebabnya?\n10. Bagaimana prosedur penormalan listrik paska banjir ?\n11. Apakah PLN akan memberikan kompensasi untuk gangguan rumah padam akibat banjir?\n12. Apakah PLN akan memberikan kompensasi untuk gangguan banyak rumah padam?",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:15:01.720Z",
+    "modifiedOn": "2022-10-06T07:15:01.720Z"
+  },
+  {
+    "id": "builtin_text-hlxh5c",
+    "formData": {
+      "text$en": "1. Mematikan segera aliran listrik di kWh meter (MCB di Off kan).\n2. untuk informasi lebih lanjut dapat menghubungi Contact Center PLN 123 atau PLN Mobile.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:25:38.899Z",
+    "modifiedOn": "2022-10-06T07:25:38.899Z"
+  },
+  {
+    "id": "builtin_text-zoO0Gu",
+    "formData": {
+      "text$en": "1. Memberikan tanda bahaya di lokasi kejadian.\n2. untuk informasi lebih lanjut dapat menghubungi Contact Center PLN 123 atau PLN Mobile.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:26:12.663Z",
+    "modifiedOn": "2022-10-06T07:26:12.663Z"
+  },
+  {
+    "id": "builtin_text-lfRKE-",
+    "formData": {
+      "text$en": "MCB kWh meter sering turun disebakan oleh :\n1. Pemakaian berlebih, disarankan untuk tambah daya, hubungi Contact Center PLN 123 atau PLN Mobile\n2. Ada gangguan pada instalasi bangunan, hubungi Intalatir resmi yang terdaftar atau hubungi Call Center ESDM 021-136\n3. MCB lemah perlu dilakukan penggantian, untuk informasi lebih lanjut dapat menghubungi Contact Center PLN 123 atau PLN Mobile.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:26:54.914Z",
+    "modifiedOn": "2022-10-06T07:26:54.914Z"
+  },
+  {
+    "id": "builtin_text-4o6CZk",
+    "formData": {
+      "text$en": "Penggantian MCB pada kWh meter tidak dikenakan biaya selama kerusakan tersebut disebabkan gangguan dari sisi PLN",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:27:51.419Z",
+    "modifiedOn": "2022-10-06T07:27:51.419Z"
+  },
+  {
+    "id": "builtin_text-oERUHw",
+    "formData": {
+      "text$en": "Listrik padam sebagian karena sumber pasokan tenaga listrik yang berbeda.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:28:53.578Z",
+    "modifiedOn": "2022-10-06T07:28:53.578Z"
+  },
+  {
+    "id": "builtin_text-vBPRU-",
+    "formData": {
+      "text$en": "Pelanggan dapat mengajukan pindah jaringan ke Unit PLN terdekat untuk dilakukan survey ke lokasi pelanggan dahulu.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:31:19.455Z",
+    "modifiedOn": "2022-10-06T07:31:19.455Z"
+  },
+  {
+    "id": "builtin_text-WmBcyb",
+    "formData": {
+      "text$en": "1. Memastikan aliran listrik di instalasi rumah padam (MCB di kWh Meter sudah Off).\n2. Mencabut peralatan listrik yang masih tersambung dengan stop kontak dan matikan seluruh saklar lampu.\n3. Apabila masih mengalami gangguan instalasi milik Pelanggan hubungi Call Center ESDM 021-136.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:32:48.926Z",
+    "modifiedOn": "2022-10-06T07:32:48.926Z"
+  },
+  {
+    "id": "builtin_text-3CppAe",
+    "formData": {
+      "text$en": "1. Memastikan aliran listrik di instalasi rumah padam (MCB di kWh Meter sudah Off).\n2. Mencabut peralatan listrik yang masih tersambung dengan stop kontak dan matikan seluruh saklar lampu.\n3. Apabila masih mengalami gangguan instalasi milik Pelanggan hubungi Call Center ESDM 021-136.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:34:27.982Z",
+    "modifiedOn": "2022-10-06T07:34:27.982Z"
+  },
+  {
+    "id": "builtin_text-p-PvRl",
+    "formData": {
+      "text$en": "Karena kemungkinan Pelanggan di lokasi lain atau gardu masih tergenang air, disisi lain petugas masih memastikan gardu dan jaringan milik PLN dan pelanggan dalam keadaan sudah aman.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:35:10.944Z",
+    "modifiedOn": "2022-10-06T07:35:10.944Z"
+  },
+  {
+    "id": "builtin_text-RO8EMu",
+    "formData": {
+      "text$en": "1. Memastikan gardu dan jaringan milik PLN dan pelanggan dalam keadaan sudah aman\n2. Melakukan inspeksi, pembersihan, pengeringan dan pengecekan gardu distribusi yang terkena dampak banjir.\n3. PLN akan menyalakan aliran listrik setelah penandatangan berita acara dari pejabat setempat (RT, RW atau tokoh masyarakat)\n4. Pastikan peralatan listrik dirumah dalam keadaan bersih dan kering sebelum digunakan.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:35:51.723Z",
+    "modifiedOn": "2022-10-06T07:35:51.723Z"
+  },
+  {
+    "id": "builtin_text-mjy5oO",
+    "formData": {
+      "text$en": "PLN tidak memberikan kompensasi padam karena banjir (bencana alam) sesuai ketentuan PERMEN ESDM No. 18 Tahun 2019.\nPemadaman dilakukan karena berpotensi membahayakan keselamatan umum dan bukan disebabkan permasalahan pasokan listrik dari PLN.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:36:27.530Z",
+    "modifiedOn": "2022-10-06T07:36:27.530Z"
+  },
+  {
+    "id": "builtin_text-jePNYh",
+    "formData": {
+      "text$en": "1. PLN akan memberikan kompensasi sesuai deklarasi Tingkat Mutu Pelayanan (TMP). Kompensasi akan diberikan sebesar 35 % dari biaya beban atau rekening minimum untuk konsumen golongan tarif adjusment dan sebesar 20 % dari biaya beban atau rekening minimum untuk konsumen pada golongan tarif yang tidak dikenankan penyesuaian tarif tenaga listrik (Non Adjusment), namun tidak berlaku untuk padam karena bencana alam (contoh : banjir, gempa bumi dll). \n2. Kompensasi dapat dilihat pada Web site PLN : www.pln.co.id\n3. atau untuk informasi lebih lanjut dapat menghubungi Contact Center PLN 123 atau PLN Mobile",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:37:46.670Z",
+    "modifiedOn": "2022-10-06T07:37:46.670Z"
+  },
+  {
+    "id": "builtin_text-GhHmhO",
+    "formData": {
+      "text$en": "Silakan ketik informasi yang ingin kamu ketahui:\nContoh ketik 1 untuk informasi kWh meter jika rusak\n\n1. Bagaimana jika kWh Meter listrik rusak?\n2. Apakah PLN menjual alat penutup kWh Meter , penghemat energi atau sejenisnya?\n3. Bagaimana cara mengajukan pemindahan jaringan listrik yang terkait kualitas pasokan listrik (tegangan drop)?\n4. Bagaimana cara mengajukan untuk pindah jaringan  listrik milik PLN (Tiang, SR, kWh Meter)?\n5. Apakah pengajuan pindah instalasi listrik milik PLN (tiang, SR, kWh Meter) dikenakan biaya?\n6. Bagaimana jika kWh Meter listrik hilang?",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:44:52.884Z",
+    "modifiedOn": "2022-10-06T07:44:52.884Z"
+  },
+  {
+    "id": "builtin_text-QIHNEs",
+    "formData": {
+      "text$en": "Dapat menghubungi Contact Center PLN 123 atau melalui aplikasi PLN Mobile",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:49:53.952Z",
+    "modifiedOn": "2022-10-06T07:49:53.952Z"
+  },
+  {
+    "id": "builtin_text-KyBxnA",
+    "formData": {
+      "text$en": "PLN tidak pernah  mengeluarkan produk penutup kWh meter atau penghemat energi atau sejenisnya.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:50:35.613Z",
+    "modifiedOn": "2022-10-06T07:50:35.613Z"
+  },
+  {
+    "id": "builtin_text-dLpG5X",
+    "formData": {
+      "text$en": "Dapat menghubungi Contact Center PLN 123 atau melalui aplikasi PLN Mobile",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:51:13.193Z",
+    "modifiedOn": "2022-10-06T07:51:13.193Z"
+  },
+  {
+    "id": "builtin_text-J0nAL5",
+    "formData": {
+      "text$en": "Pemindahan jaringan listrik milik PLN  dapat diajukan ke kantor pelayanan PLN di hari dan jam kerja dengan membawa persyaratan :\n1. Id Pelanggan  \n2. Identitas Pelanggan\n3. Surat kuasa jika diwakilkan",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:51:46.339Z",
+    "modifiedOn": "2022-10-06T07:51:46.339Z"
+  },
+  {
+    "id": "builtin_text-DamSWL",
+    "formData": {
+      "text$en": "Biaya dikenakan berdasarkan hasil survey petugas ke lokasi",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:52:23.231Z",
+    "modifiedOn": "2022-10-06T07:52:23.231Z"
+  },
+  {
+    "id": "builtin_text-lLFG_X",
+    "formData": {
+      "text$en": "Dapat menghubungi Contact Center PLN 123 atau melalui aplikasi PLN Mobile atau datang langsung ke kantor pelayanan PLN dengan membawa bukti kehilangan dari kepolisian.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:52:59.572Z",
+    "modifiedOn": "2022-10-06T07:52:59.572Z"
+  },
+  {
+    "id": "builtin_text-nQ5va_",
+    "formData": {
+      "text$en": "Silakan ketik informasi yang ingin kamu ketahui:\nContoh ketik 1 untuk informasi tarif dasar listrik untuk bulan ini terkait adjustment\n\n1. Berapakah tarif dasar listrik untuk bulan ini terkait tarif adjusment?\n2. Mengapa saya tidak bisa melakukan pembayaran tagihan rekening listrik padahal sudah tanggal 1?\n3. Bagaimana cara menghitung tagihan saya?\n4. Apakah yang dimaksud dengan Rekening Minimun & Biaya Beban?\n5. Bagaimanakah cara menghitung rekening  minimum pada tagihan listrik?\n6. Apakah tagihan listrik dikenakan PPN?",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:53:50.058Z",
+    "modifiedOn": "2022-10-06T07:54:10.303Z"
+  },
+  {
+    "id": "builtin_text-HsEne1",
+    "formData": {
+      "text$en": "Dapat dilihat pada Website PLN di www.pln.co.id atau PLN Mobile.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:56:19.979Z",
+    "modifiedOn": "2022-10-06T07:56:19.979Z"
+  },
+  {
+    "id": "builtin_text-fzYo_w",
+    "formData": {
+      "text$en": "Dikarenakan masih dalam proses pengolahan data, disarankan untuk mencoba melakukan pembayaran kembali dengan jeda waktu atau di hari berikutnya",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T07:57:28.107Z",
+    "modifiedOn": "2022-10-06T07:57:28.107Z"
+  },
+  {
+    "id": "builtin_text-g9yolR",
+    "formData": {
+      "text$en": "Pemakaian bulan sebelumnya dikurangi pemakaian bulan berjalan dikali rupiah per kWh. (Stand akhir bulan ini - stand akhir bulan sebelumnya x Rp/kWh).",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T08:10:19.069Z",
+    "modifiedOn": "2022-10-06T08:10:19.069Z"
+  },
+  {
+    "id": "builtin_text-UDRIlY",
+    "formData": {
+      "text$en": "1. Rekening minimum adalah biaya yang dikenakan untuk pelanggan pasca bayar jika tidak ada pemakaian energi listrik\n2. Biaya beban adalah biaya yang dikenakan untuk tarif tertentu dengan daya sampai dengan 900 VA (subsidi)",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T08:16:06.379Z",
+    "modifiedOn": "2022-10-06T08:16:06.379Z"
+  },
+  {
+    "id": "builtin_text-FAyP0s",
+    "formData": {
+      "text$en": "Perhitungan rekening minimum yaitu: 40 (jam nyala) X Daya Tersambung/1.000 X Rp/kWh\n* Rp/kWh (tarif tenaga listrik) dapat dilihat pada Website PLN : www.pln.co.id atau PLN Mobile.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T08:18:15.889Z",
+    "modifiedOn": "2022-10-06T08:18:15.889Z"
+  },
+  {
+    "id": "builtin_text-xzP1aI",
+    "formData": {
+      "text$en": "PPN dikenakan khusus untuk golongan tarif R3 dengan daya mulai dari 6.600 VA ke atas",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T08:19:18.064Z",
+    "modifiedOn": "2022-10-06T08:19:18.064Z"
+  },
+  {
+    "id": "builtin_text-F2vNRY",
+    "formData": {
+      "text$en": "Silakan ketik informasi yang ingin kamu ketahui:\nContoh ketik 1 untuk informasi maksud PPJ\n\n1. Apa yang dimaksud dengan PPJ (Pajak Penerangan Jalan) yang ada pada rekening listrik?\n2. Bagaimana kewenangan PLN terkait Pajak Penerangan Jalan Umum (PPJU) yang pembayarannya ditagihkan pada Rekening Listrik Pelanggan setiap bulannya?\n3. Untuk PJU (Penerangan Jalan Umum) yang padam, dilaporkan kemana?\n4. Kenapa pajak penerangan jalan umum (PJU) dikenakan setiap pembelian pulsa listrik?\n5. Untuk pemasangan lampu PJU menghubungi kemana?",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T08:20:58.001Z",
+    "modifiedOn": "2022-10-06T08:20:58.001Z"
+  },
+  {
+    "id": "builtin_text-WKNMH7",
+    "formData": {
+      "text$en": "1. Pajak Penerangan Jalan (PPJ) adalah pajak yang wajib dibayar oleh pelanggan listrik PLN. Dimana hasil PPJ tersebut merupakan salah satu Pendapatan Asli Daerah (PAD) yang digunakan untuk membiayai daerah, termasuk pemasangan dan pemeliharaan serta pembayaran rekening Penerangan Jalan Umum (PJU) sesuai kemampuan PEMDA. \n\n2. Tarif PPJ berbeda-beda masing-masing daerah, tergantung pada peraturan daerah yang berlaku. Namun, Undang-Undang (UU) Nomor 28 tahun 2009 tentang Pajak Daerah dan Retribusi Daerah menetapkan tarif maksimal pajak penerangan jalan yang dapat dipungut oleh pemerintah daerah. Tarifnya adalah setinggi-tingginya 10 persen.\n\n3. PPJ dipungut oleh PLN yang hasilnya langsung diserahkan kepada Pemda terkait.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T08:23:05.928Z",
+    "modifiedOn": "2022-10-06T08:23:05.928Z"
+  },
+  {
+    "id": "builtin_text-VmPKhT",
+    "formData": {
+      "text$en": "Kewenangan PLN dalam PPJU ini hanya sebatas pada memungut dan mengumpulkan PPJ (Pajak Penerangan Jalan) yang dibayarkan oleh pelanggan PLN bersamaan dengan pembayaran rekening listrik setiap bulannya untuk kemudian disetorkan ke kas Pemda.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T08:26:13.677Z",
+    "modifiedOn": "2022-10-06T08:26:13.677Z"
+  },
+  {
+    "id": "builtin_text-W6MxAF",
+    "formData": {
+      "text$en": "Pengaduan PJU yang padam bisa menghubungi PJU Pemda setempat",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T08:29:11.815Z",
+    "modifiedOn": "2022-10-06T08:29:11.815Z"
+  },
+  {
+    "id": "builtin_text-No9jBy",
+    "formData": {
+      "text$en": "Setiap transaksi pembelian listrik dikenakan PJU, sesui UU Nomor 28 Th. 2009, tentang Pajak Daerah dan Restribusi Daerah.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T08:30:28.718Z",
+    "modifiedOn": "2022-10-06T08:30:28.718Z"
+  },
+  {
+    "id": "builtin_text-7-xy76",
+    "formData": {
+      "text$en": "Permohonan pemasangan baru PJU bisa menghubungi PJU Pemda setempat",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T08:31:07.720Z",
+    "modifiedOn": "2022-10-06T08:31:07.720Z"
+  },
+  {
+    "id": "builtin_text-ulZfnd",
+    "formData": {
+      "text$en": "Silakan ketik informasi yang ingin kamu ketahui:\nContoh ketik 1 untuk informasi biaya menghubungi Contact Center PLN 123\n\n1. Apakah menghubungi Contact Center PLN 123 dikenakan biaya?",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T08:31:48.718Z",
+    "modifiedOn": "2022-10-06T08:31:48.718Z"
+  },
+  {
+    "id": "builtin_text-q_3k-G",
+    "formData": {
+      "text$en": "1. Pelanggan yang menghubungi dengan (kode area) - 123 hanya dikenakan tarif lokal.\n2. Pelanggan menghubungi Contact Center PLN 123 tanpa biaya melalui:\na. Instagram (@pln123_official)\nb. Facebook (pln 123)\nc. Twitter (@pln_123)\nd. Email (pln123@pln.co.id)\ne. Live Chat yang diakses melalui website PLN\n\nLayanan alternatif lainnya tanpa biaya dapat melalui aplikasi PLN Mobile.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T08:38:55.278Z",
+    "modifiedOn": "2022-10-06T08:38:55.278Z"
+  },
+  {
+    "id": "builtin_text-2uUP9D",
+    "formData": {
+      "text$en": "Silakan ketik informasi yang ingin kamu ketahui:\nContoh ketik 1 untuk informasi menggunakan scoring board\n\n1. Apakah Pelanggan boleh menggunakan scoring board?\n2. Kenapa tagihan rekening listrik melonjak, sementara pemakaian normal, tidak ada penambahan pemakaian elektronik?\n3. Kenapa tagihan rekening listrik lebih kecil dari biasanya, sementara pemakaian normal?\n4. Apakah PLN dapat mengkoreksi rekening ketika terdapat ketidaksesuaian pencatatan meter oleh Petugas?\n5. Bolehkan pelanggan tidak membayar dulu tagihan rekening yang melonjak sementara menunggu penjelasan dari unit PLN kenapa terjadi hal tersebut?\n6. Bagaimana jika ada ketidaksesuaian pencatatan meter dan Pelanggan sudah melakukan pembayaran?\n7. Mengapa Petugas Catat Meter jarang datang?\n8. Pada Tanggal berapa Petugas Pencatat Meter datang untuk mencatat angka stand kWh Meter?",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T08:39:32.618Z",
+    "modifiedOn": "2022-10-06T08:39:32.618Z"
+  },
+  {
+    "id": "builtin_text-dTxinB",
+    "formData": {
+      "text$en": "Penggunaan scoring board disarankan jika kondisi rumah tidak dihuni pada siang hari (bekerja) atau rumah kosong dan pagar terkunci,\n namun Tanggal pencatatannya disesuaikan dengan periode tanggal pencatatan meter oleh Petugas setiap bulannya.\n Tuliskan Tanggal pencatatan dan angka stand kWh Meter Pelanggan.\n \n Untuk selanjutnya Pelanggan dapat menginformasikan angka stand meter dengan layanan baca meter mandiri yaitu melalui fitur Swacam PLN Mobile / Whatsapp (WA) di nomor 08122-123-123 pada periode tanggal lapor 24 s.d 27 setiap bulannya",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T08:43:07.757Z",
+    "modifiedOn": "2022-10-06T08:43:07.757Z"
+  },
+  {
+    "id": "builtin_text-Dv5Fcx",
+    "formData": {
+      "text$en": "Tagihan Listrik melonjak dapat disebabkan karena :\n1. Akumulasi dari pemakaian kWh pada periode sebelumnya yang belum ditagihkan.\n2. Terdapat indikasi perbedaan data pemakaian kWh pada rekening dengan angka stand kWh Meter pelanggan.\n \n Pelanggan dapat memonitor pemakaian histori pemakaian energi pada aplikasi PLN Mobile.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T08:44:02.626Z",
+    "modifiedOn": "2022-10-06T08:45:02.245Z"
+  },
+  {
+    "id": "builtin_text-_moHYT",
+    "formData": {
+      "text$en": "Hal tsb dikarenakan :\n1. Pelanggan hanya ditagihkan Rekening Minimum saja atau Biaya Beban.\n2. Terdapat indikasi perbedaan data pemakaian kWh pada rekening dengan angka stand kWh Meter pelanggan.\n3. Terdapat indikasi kelebihan penagihan pada bulan sebelumnya\n \n Pelanggan dapat memonitor pemakaian histori pemakaian energi pada aplikasi PLN Mobile",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T08:46:52.076Z",
+    "modifiedOn": "2022-10-06T08:46:52.076Z"
+  },
+  {
+    "id": "builtin_text-Bqfc7N",
+    "formData": {
+      "text$en": "1. Pelanggan dapat menyampaikan keluhan mengenai tagihan rekening listrik melalui PLN Mobile atau menghubungi Contact Center PLN 123 dengan menginformasikan angka stand kWh Meter pada saat lapor.\n2. Untuk selanjutnya Pelanggan dapat menginformasikan angka stand meter dengan layanan baca meter mandiri yaitu melalui fitur Swacam PLN Mobile / Whatsapp (WA) di nomor 08122-123-123 pada periode tanggal lapor 24 s.d 27 setiap bulannya.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T08:49:06.128Z",
+    "modifiedOn": "2022-10-06T08:49:06.128Z"
+  },
+  {
+    "id": "builtin_text-CNG8FR",
+    "formData": {
+      "text$en": "1. Pelanggan dapat melakukan pengecekan pada PLN Mobile ID. Pelanggan yang didaftarkan menu histori penggunaan (Pelanggan Paskabayar), klik detail transaksi, maka akan muncul stand awal dan stand akhir.\n2. Jika setelah dilakukan pengecekan data (data Stand akhir pada rekening dengan angka meter yang dibaca oleh Pelanggan) telah sesuai, maka Pelanggan diharapkan dapat melunasi tagihan tsb. \n3. Jika setelah dilakukan pengecekan data (data Stand akhir antara sistem dengan angka meter yang dibaca oleh Pelanggan) tidak sesuai, maka Pelanggan dapat menyampaikan keluhan mengenai tagihan rekening listrik melalui PLN Mobile atau menghubungi Contact Center PLN 123 dengan menginformasikan angka stand kWh Meter pada saat lapor.\n4. terkait tagihan yang dianggap kurang sesuai, kepada Pelanggan diminta untuk selalu melakukan pengecekan tagihan di awal bulan, sehingga ketika ada yang perlu dilakukan pengecekan bisa diselesaiakn sebelum waktu jatuh tempo pembayaran tanggal 20 Setiap Bulannya.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T08:50:40.784Z",
+    "modifiedOn": "2022-10-06T08:50:40.784Z"
+  },
+  {
+    "id": "builtin_text-rXqYQM",
+    "formData": {
+      "text$en": "1. Pada bulan berikutnya, PLN akan melakukan penyesuaian angka stand dengan pemakaian listrik Pelanggan. \n2. Pelanggan dapat menyampaikan keluhan mengenai tagihan rekening listrik melalui PLN Mobile atau \n3. Pelanggan dapat menghubungi Contact Center PLN 123 dengan (kode area) - 123 hanya dikenakan tarif lokal, dengan menginformasikan angka stand kWh Meter pada saat lapor.\n4. Pelanggan menghubungi Contact Center PLN 123 tanpa biaya melalui:\na. Instagram (@pln123_official)\nb. Facebook (pln 123)\nc. Twitter (@pln_123)\nd. Email (pln123@pln.co.id)\ne. Live Chat yang diakses melalui website PLN",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T08:51:22.283Z",
+    "modifiedOn": "2022-10-06T08:51:22.283Z"
+  },
+  {
+    "id": "builtin_text-XCwykq",
+    "formData": {
+      "text$en": "Petugas Catat Meter rutin datang setiap bulannya sesuai periode baca meter Pelanggan, namun pastikan pagar tidak terkunci, tidak ada binatang buas dan Petugas mudah dalam melakukan pencatatan (kWh Meter tidak berada di dalam bangunan), kecuali untuk pelanggan automatic Meter Reading (AMR) karena pembacaan dilakukan secara online.\n \nUntuk selanjutnya Pelanggan dapat menginformasikan angka stand meter dengan layanan baca meter mandiri yaitu melalui fitur Swacam PLN Mobile / Whatsapp (WA) di nomor 08122-123-123 pada periode tanggal lapor 24 s.d 27 setiap bulannya.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T08:52:10.199Z",
+    "modifiedOn": "2022-10-06T08:52:10.199Z"
+  },
+  {
+    "id": "builtin_text-Ym1WVj",
+    "formData": {
+      "text$en": "Pada umumnya petugas pencatat meter akan datang 10 (sepuluh) hari terakhir setiap bulannya. Pelanggan dapat menggunakan layanan baca meter mandiri pada periode tanggal lapor 24 s.d 27 setiap bulannya yaitu melalui fitur Swacam PLN Mobile / Whatsapp (WA) di nomor 08122-123-123.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T08:53:16.728Z",
+    "modifiedOn": "2022-10-06T08:53:16.728Z"
+  },
+  {
+    "id": "builtin_text-39SpYu",
+    "formData": {
+      "text$en": "Silakan ketik informasi yang ingin kamu ketahui:\nContoh ketik 1 untuk informasi sanksi tunggakan Rekening\n\n1. Sanksi apa yang diberikan kepada pelanggan jika memiliki tunggakan Rekening?\n2. Kapan pemutusan sambungan listrik dapat dilakukan?\n3. Bagaimana perhitungan Sanksi Denda (Biaya Keterlambatan)?\n4. Apakah dasar hukum penetapan rupiah biaya keterlambatan?\n5. Berapakah biaya Sanksi denda keterlambatan pembayaran rekening listrik?\n6. Apakah pelanggan mendapatkan surat pemutusan?\n7. Bagaimana permintaan penyambungan kembali setelah dilakukan pemutusan sementara?\n8. Bagaimana permintaan penyambungan kembali setelah dilakukan pemutusan rampung?\n9. Apakah proses pemutusan sambungan listrik dapat dilakukan jika kondisi rumah dalam keadaan kosong (tidak dihuni)?\n10. Apakah Proses pemutusan sambungan listrik dapat dilakukan pada hari libur (sabtu/minggu)?\n11. Apakah Proses penyambungan kembali sambungan listrik dapat dilakukan pada hari libur (sabtu/minggu)?\n12. Apakah petugas yang melakukan pemutusan maupun penyambungan kembali sambungan listrik adalah petugas yang sama atau berbeda?\n13. Bagaimana cara pemutusan sambungan listrik bagi pelanggan pengguna AMR (Automatic Meter Reading)?\n14. Apakah pelanggan pengguna AMR menerima surat pemutusan sambungan listrik?\n15. Bagaimana cara penyambungan kembali untuk pemutusan shunttrip (pelanggan pengguna AMR)?",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T08:54:53.729Z",
+    "modifiedOn": "2022-10-06T08:54:53.729Z"
+  },
+  {
+    "id": "builtin_text-hrdxu0",
+    "formData": {
+      "text$en": "Sanksi Denda (Biaya Keterlambatan) Sanksi Pemutusan",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:04:07.307Z",
+    "modifiedOn": "2022-10-06T09:04:07.307Z"
+  },
+  {
+    "id": "builtin_text-clUnZA",
+    "formData": {
+      "text$en": "Ada dua jenis sanksi pemutusan :\n1. Pemutusan Sementara dilakukan apabila pelanggan melakukan pembayaran melewati jatuh tempo (diatas tanggal 20 bulan berjalan).\n2. Pembongkaran Rampung dilakukan apabila pelanggan belum juga melakukan pembayaran terhitung 60 hari kalender sejak tanggal surat pemberitahuan pemutusan sementara",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:04:52.426Z",
+    "modifiedOn": "2022-10-06T09:04:52.426Z"
+  },
+  {
+    "id": "builtin_text-qYGX6z",
+    "formData": {
+      "text$en": "Sanksi denda, yaitu berupa Biaya Keterlambatan (BK) yang harus dibayarkan pelanggan diluar biaya tagihan rekening listrik, dan otomatis langsung bertambah ke rekening listrik apabila melewati tgl jatuh tempo, besarnya sesuai dengan tarif yang berlaku.\n  \nPengenaan BK untuk setiap lembar tagihan dibatasi maksimal 3 (tiga) kali tarif BK yang diatur sebagai berikut :\na. BK pertama dikenakan setelah tanggal jatuh tempo pembayaran sampai dengan akhir bulan berjalan (diatas tanggal 20 bulan berjalan).\nb. BK kedua dikenakan setelah BK pertama, mulai tanggal 1 (satu) sampai dengan akhir bulan berikutnya (bulan ke n+1).\nc. BK ketiga dikenakan setelah BK kedua, mulai tanggal 1 (satu) sampai dengan akhir bulan berikutnya (bulan ke n+2).",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:08:42.464Z",
+    "modifiedOn": "2022-10-06T09:08:42.464Z"
+  },
+  {
+    "id": "builtin_text--HNErm",
+    "formData": {
+      "text$en": "Peraturan Mentri ESDM RI nomor 27 tahun 2017, tentang Tingkat mutu pelayanan dan biaya yang terkait dengan penyaluran tenaga listrik oleh PT. PLN Persero.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:10:04.835Z",
+    "modifiedOn": "2022-10-06T09:10:04.835Z"
+  },
+  {
+    "id": "builtin_text-eVx7mG",
+    "formData": {
+      "text$en": "Batas daya 3.500 sampai 5.500 Volt Ampere akan dikenakan denda Rp50 ribu per bulan. Lalu, batas daya 6.600 sampai 14.000 Volt Ampere akan mendapat denda telat bayar listrik 3 persen dari tagihan yang muncul dengan minimal Rp75 ribu per bulan.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:14:04.173Z",
+    "modifiedOn": "2022-10-06T09:14:04.173Z"
+  },
+  {
+    "id": "builtin_text-2O0jAM",
+    "formData": {
+      "text$en": "Pelanggan akan mendapatkan Surat Pemutusan Sementara (TUL VI - 01) atau surat pelaksanaan bongkar rampung (TUL VI - 03) bersamaan dengan dilakukannya pemutusan sambungan listrik.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:16:10.179Z",
+    "modifiedOn": "2022-10-06T09:16:10.179Z"
+  },
+  {
+    "id": "builtin_text-n6Ym6q",
+    "formData": {
+      "text$en": "1. Penyambungan kembali dilakukan apabila pelanggan sudah melunasi tunggakan rekening listrik berikut Biaya Keterlambatan dan tidak dikenakan biaya penyambungan.\n2. Selanjutnya Pelanggan dapat melaporkan hal tsb melalui PLN Mobile pada menu Pengaduan atau\n3. Pelanggan dapat menghubungi Contact Center PLN 123 dengan (kode area) - 123 hanya dikenakan tarif lokal.\n4. Pelanggan menghubungi Contact Center PLN 123 tanpa biaya melalui:\na. Instagram (@pln123_official)\nb. Facebook (pln 123)\nc. Twitter (@pln_123)\nd. Email (pln123@pln.co.id)\ne. Live Chat yang diakses melalui website PLN",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:16:56.882Z",
+    "modifiedOn": "2022-10-06T09:16:56.882Z"
+  },
+  {
+    "id": "builtin_text-Ek861B",
+    "formData": {
+      "text$en": "1. Penyambungan kembali dilakukan apabila pelanggan sudah melunasi seluruh tunggakan rekening listrik dan dikenakan Biaya Penyambungan kembali (Pasang Baru).\n2. Selanjutnya Pelanggan datang ke unit PLN terkait.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:18:38.569Z",
+    "modifiedOn": "2022-10-06T09:18:38.569Z"
+  },
+  {
+    "id": "builtin_text-S-p36t",
+    "formData": {
+      "text$en": "Proses pemutusan sementara atau pemutusan rampung hanya dapat dilakukan pada rumah kondisi kosong / tidak dihuni jika :\n1. Disaksikan oleh aparat setempat (RT / RW) atau orang yang cakap hukum\n2. Petugas mengenakan tanda pengenal (id card)\n3. Membawa surat resmi dari PLN\n4. Diberikan surat TUL VI - 01 atau VI - 03 yang dititipkan pada aparat setempat tsb.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:20:27.388Z",
+    "modifiedOn": "2022-10-06T09:20:27.388Z"
+  },
+  {
+    "id": "builtin_text-8kLs4w",
+    "formData": {
+      "text$en": "Proses pemutusan sambungan listrik dapat dilakukan pada hari libur.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:21:09.537Z",
+    "modifiedOn": "2022-10-06T09:21:09.537Z"
+  },
+  {
+    "id": "builtin_text-2F_im_",
+    "formData": {
+      "text$en": "Proses penyambungan kembali sambungan listrik dapat dilakukan pada hari libur.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:23:38.339Z",
+    "modifiedOn": "2022-10-06T09:23:38.339Z"
+  },
+  {
+    "id": "builtin_text-EP9c2d",
+    "formData": {
+      "text$en": "Pelaksanaan pemutusan dan penyambungan dilakukan oleh bagian yang sama (TUSBUNG), namun petugas pelaksana yang datang ke lokasi bisa berbeda.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:24:35.122Z",
+    "modifiedOn": "2022-10-06T09:24:35.122Z"
+  },
+  {
+    "id": "builtin_text-aw1Vbu",
+    "formData": {
+      "text$en": "Pemutusan atau pemadaman yang dilakukan secara otomatis atau via remote (shunttrip) dikarenakan pelanggan belum melakukan pelunasan tagihan rekening melewati tanggal jatuh tempo (diatas tanggal 20 setiap bulannya).",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:25:37.361Z",
+    "modifiedOn": "2022-10-06T09:25:37.361Z"
+  },
+  {
+    "id": "builtin_text-IMj6SC",
+    "formData": {
+      "text$en": "Pelanggan dimungkinkan tidak mendapatkan surat pemutusan, karena mekanisme pemutusan sambungan listrik dilakukan via shunttrip (remote).",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:26:16.394Z",
+    "modifiedOn": "2022-10-06T09:26:16.394Z"
+  },
+  {
+    "id": "builtin_text-dt08kx",
+    "formData": {
+      "text$en": "Penyambungan kembali dilakukan via remote di unit terkait (unshunttrip), kemudian petugas akan datang ke lokasi untuk melakukan penormalan dengan waktu 1 x 24 jam hari kerja",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:26:50.251Z",
+    "modifiedOn": "2022-10-06T09:26:50.251Z"
+  },
+  {
+    "id": "builtin_text-oOQAof",
+    "formData": {
+      "text$en": "Silakan ketik informasi yang ingin kamu ketahui:\nContoh ketik 1 untuk informasi cara melaporkan dugaan pencurian Tenaga Listrik\n\n1. Bagaimana cara melaporkan dugaan Pencurian Tenaga Listrik?\n2. Apa yang dimaksud dengan TS (Tagihan susulan)?\n3. Bagaimana cara mengetahui jumlah Cicilan P2TL?\n4. Apakah Pelanggan harus datang memenuhi undangan panggilan P2TL?\n5. Jika ada yang melaporkan dugaan pencurian Tenaga Listrik apakah identitas pelapor dirahasiakan?\n6. Kapan akan dilakukan penyambungan setelah dilakukan pembayaran tagihan P2TL?\n7. Apakah pada saat pelaksanaan P2TL, Pelanggan dikenakan biaya?\n8. Bagaimana ciri-ciri petugas P2TL?\n9. Bagaimana Prosedur P2TL?\n10. Pembayaran TS (Tagihan Susulan) P2TL dapat dilakukan dimana?",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:27:18.414Z",
+    "modifiedOn": "2022-10-06T09:27:18.414Z"
+  },
+  {
+    "id": "builtin_text-rjqivH",
+    "formData": {
+      "text$en": "1. Pelanggan dapat melaporkan hal tsb melalui PLN Mobile pada menu Pengaduan atau\n2. Pelanggan dapat menghubungi Contact Center PLN 123 dengan (kode area) - 123 hanya dikenakan tarif lokal.\n3. Pelanggan menghubungi Contact Center PLN 123 tanpa biaya melalui:\na. Instagram (@pln123_official)\nb. Facebook (pln 123)\nc. Twitter (@pln_123)\nd. Email (pln123@pln.co.id)\ne. Live Chat yang diakses melalui website PLN",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:32:47.172Z",
+    "modifiedOn": "2022-10-06T09:32:47.172Z"
+  },
+  {
+    "id": "builtin_text-8Rztwq",
+    "formData": {
+      "text$en": "Tagihan susulan adalah Tagihan yang dikenakan kepada Pelanggan yang melakukan pelanggaran pemakaian tenaga Listrik, atas daya yang telah terpakai tetapi belum/ tidak terukur karena ada tindakan pelanggaran.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:34:54.654Z",
+    "modifiedOn": "2022-10-06T09:35:51.260Z"
+  },
+  {
+    "id": "builtin_text-JoQbO-",
+    "formData": {
+      "text$en": "1. Pelanggan dapat menghubungi Contact Center PLN 123 dengan (kode area) - 123 hanya dikenakan tarif lokal.\n2. Pelanggan menghubungi Contact Center PLN 123 tanpa biaya melalui:\na. Instagram (@pln123_official)\nb. Facebook (pln 123)\nc. Twitter (@pln_123)\nd. Email (pln123@pln.co.id)\ne. Live Chat yang diakses melalui website PLN\n \n3. atau Mendatangi kantor PLN terdekat.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:36:20.212Z",
+    "modifiedOn": "2022-10-06T09:36:20.212Z"
+  },
+  {
+    "id": "builtin_text-M-EHGw",
+    "formData": {
+      "text$en": "Ya benar pelanggan harus datang, apabila pelanggan atau yang mewakili tidak datang memenuhi panggilan PLN sampai dengan habisnya masa panggilan ke III maka tagihan susulan dan biaya P2TL lainnya dibuat secara sepihak bersama dengan surat peringatan ke I",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:36:55.286Z",
+    "modifiedOn": "2022-10-06T09:36:55.286Z"
+  },
+  {
+    "id": "builtin_text-khqSfY",
+    "formData": {
+      "text$en": "Identitas Pelapor akan dirahasiakan",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:37:24.499Z",
+    "modifiedOn": "2022-10-06T09:37:24.499Z"
+  },
+  {
+    "id": "builtin_text-p4F8ih",
+    "formData": {
+      "text$en": "Bagi Pelanggan :\n1. Penyambungan kembali bagi pelanggan yang telah dikenai sanksi pemutusan sementara dilakukan paling lama 2 (dua) hari kerja setelah pelanggan membayar Tagihan susulan(TS), biaya P2TL lainnya atau telah menandatangani SPH.\n2. Penyambungan kembali bagi pelanggan yang telah dikenakan pebongkaran rampung di berlakukan setelah melunasi TS serta biaya P2TL lainnya dan/atau menandatangani SPH (Surat Pengakuan Hutang).\n \nBagi yang Bukan Pelanggan :\nPenyambungan bagi bukan pelanggan yang telah dikenai sanksi Pebongkaran rampung diberlakukan sebagai pelanggan baru sepanjang Pasokan tenaga Listrik dan material pendukung tersedia sesuai ketentuan yang berlaku setelah melunasi denda P2TL dan membayar biaya penyambungan.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:38:56.827Z",
+    "modifiedOn": "2022-10-06T09:38:56.827Z"
+  },
+  {
+    "id": "builtin_text-ZGFyb-",
+    "formData": {
+      "text$en": "Pada saat pelaksanaan P2TL tidak dikenakan biaya, namun jika ditemukan adanya pelanggaran/kelainan maka petugas akan menindaklanjuti temuan sesuai dengan ketentuan yang berlaku.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:39:36.934Z",
+    "modifiedOn": "2022-10-06T09:39:36.934Z"
+  },
+  {
+    "id": "builtin_text-56ghsH",
+    "formData": {
+      "text$en": "1. Memakai seragam dinas \n2. Mengenakan tanda pengenal\n3. Membawa Surat Perintah Penugasan (SPP) yang ditandatangani oleh Pemberi Tugas atau Penanggung Jawab P2TL",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:40:13.027Z",
+    "modifiedOn": "2022-10-06T09:40:13.027Z"
+  },
+  {
+    "id": "builtin_text-BkMmI9",
+    "formData": {
+      "text$en": "1. Memasuki & meminta ijin kepada pemilik bangunan Pemakai Tenaga Listrik.\n2. Melakukan pemeriksaan lapangan P2TL didampingi oleh pemilik bangunan atau yang mewakili.\n3. Melakukan tindakan P2TL hasil pemeriksaan bagi pemilik bangunan Pemakai Tenaga Listrik.\n4. Petugas membuat berita acara hasil pemeriksaan dan menyerahkan salinan berita acara tsb kepada pemilik bangunan Pemakai Tenaga Listrik.\n5. Dalam hal ditemukannya pelanggaran, petugas melakukan pengumpulan hasil P2TL berupa dokumentasi dan barang bukti pelanggaran, serta menyerahkan salinan berita acara tsb kepada pemilik bangunan Pemakai Tenaga Listrik yang telah ditandatangi oleh petugas dan pemilik bangunan Pemakai Tenaga Listrik.\n \nKeterangan :\nPemilik bangunan Pemakai Tenaga Listrik adalah pemilik atau orang yang mewakili pemilik bangunan (dapat diwakili oleh perangkat desa atau RT/RW setempat) pada saat dilakukan kegiatan pemeriksaan P2TL.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:40:49.656Z",
+    "modifiedOn": "2022-10-06T09:40:49.656Z"
+  },
+  {
+    "id": "builtin_text-LIYY9d",
+    "formData": {
+      "text$en": "1. Pelanggan Prabayar :  Pembayaran dilakukan di Bank/Mitra PLN berdasarkan Nomor Register yang tertuang pada SPH (Surat Pengakuan Hutang)\n \n2. Pelanggan Paskabayar :\na. Jika pembayaran TS tidak menggunakan mekanisme cicilan, maka TS akan ditagihkan satu kali pembayaran dalam satu nomor register yang tertuang pada SPH.\nb. Jika pembayaran TS menggunakan mekanisme cicilan, maka TS akan ditagihkan bersamaan dengan tagihan rekening listrik setiap bulannya yang tertuang pada SPH.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:41:37.275Z",
+    "modifiedOn": "2022-10-06T09:41:37.275Z"
+  },
+  {
+    "id": "builtin_text-EVULJn",
+    "formData": {
+      "text$en": "Silakan ketik informasi yang ingin kamu ketahui:\nContoh ketik 1 untuk informasi pengajuan invoice\n\n1. Bagaimana cara mengajukan permohonan invoice?\n2. Bagaimana cara mengajukan perubahan alamat pengiriman invoice?\n3. Bagaimana jika invoice salah alamat pengiriman/invoice tidak sesuai dengan no idpel?",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:41:58.658Z",
+    "modifiedOn": "2022-10-06T09:41:58.658Z"
+  },
+  {
+    "id": "builtin_text-PmB2W0",
+    "formData": {
+      "text$en": "1. Pelanggan dapat melaporkan hal tsb melalui PLN Mobile pada menu Pengaduan atau\n2. Pelanggan dapat menghubungi Contact Center PLN 123 dengan (kode area) - 123 hanya dikenakan tarif lokal.\n3. Pelanggan menghubungi Contact Center PLN 123 tanpa biaya melalui:\na. Instagram (@pln123_official)\nb. Facebook (pln 123)\nc. Twitter (@pln_123)\nd. Email (pln123@pln.co.id)\ne. Live Chat yang diakses melalui website PLN",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:43:17.062Z",
+    "modifiedOn": "2022-10-06T09:43:17.062Z"
+  },
+  {
+    "id": "builtin_text-J0AcUe",
+    "formData": {
+      "text$en": "1. Pelanggan dapat melaporkan hal tsb melalui PLN Mobile pada menu Pengaduan atau\n2. Pelanggan dapat menghubungi Contact Center PLN 123 dengan (kode area) - 123 hanya dikenakan tarif lokal.\n3. Pelanggan menghubungi Contact Center PLN 123 tanpa biaya melalui:\na. Instagram (@pln123_official)\nb. Facebook (pln 123)\nc. Twitter (@pln_123)\nd. Email (pln123@pln.co.id)\ne. Live Chat yang diakses melalui website PLN",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:44:03.940Z",
+    "modifiedOn": "2022-10-06T09:44:03.940Z"
+  },
+  {
+    "id": "builtin_text-p_8FSv",
+    "formData": {
+      "text$en": "1. Pelanggan dapat melaporkan hal tsb melalui PLN Mobile pada menu Pengaduan atau\n2. Pelanggan dapat menghubungi Contact Center PLN 123 dengan (kode area) - 123 hanya dikenakan tarif lokal.\n3. Pelanggan menghubungi Contact Center PLN 123 tanpa biaya melalui:\na. Instagram (@pln123_official)\nb. Facebook (pln 123)\nc. Twitter (@pln_123)\nd. Email (pln123@pln.co.id)\ne. Live Chat yang diakses melalui website PLN",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:44:35.695Z",
+    "modifiedOn": "2022-10-06T09:44:35.695Z"
+  },
+  {
+    "id": "builtin_text-etkTJD",
+    "formData": {
+      "text$en": "Silakan ketik informasi yang ingin kamu ketahui:\nContoh ketik 1 untuk informasi cara mendownload New PLN Mobile\n\n1. Bagaimana cara download New PLN Mobile ?\n2. Kenapa tidak dapat mendowload atau menginstal aplikasi New PLN Mobile?\n3. Bagaimana cara install aplikasi New PLN Mobile di Android?\n4. Bagaimana cara Install Aplikasi New PLN Mobile di IOS?\n5. Bagaimana jika saya tidak dapat mendownload atau tidak dapat melakukan pendaftaran aplikasi PLN Mobile, dengan keterangan terjadi loading?\n6. Jika pengguna pernah install PLN Mobile yang lama apakah dapat langsung terupdate ke PLN Mobile versi baru?\n7. Bagaimana cara pendaftaran PLN Mobile?\n8. Apa syarat pendaftaran pada aplikasi PLN Mobile?\n9. Bagaimana jika pelanggan/User tidak bisa mengakses karena lupa password saat akan login ke aplikasi PLN Mobile (Reset Password)?\n10. Apakah dapat melakukan penambahan lebih dari satu ID Pel dalam satu akun PLN Mobile?\n11. Apakah Foto KTP itu mempengaruhi jika ID Pel nya bukan atas nama yang di KTP?\n12. Bagaimana cara mengganti data ID Pel yang sudah terdaftar di New PLN Mobile?\n13. Bagaimana cara merubah foto pelanggan di New PLN Mobile?\n14. Bagaimana jika lokasi/koordinat pada menu tambah ID Pel/Nomor Meter tidak update?\n15. Jika User/Pelanggan mendapatkan Error jika ingin Akses (Add Idpel, dll)?\n16. Pada saat proses verifikasi, jika nama pada akun PLN Mobile berbeda dengan KTP apakah dapat diterima?\n17. Ketika saat verifikasi akun, pengguna telah melakukan Foto KTP dan foto Selfie kemudian ingin mengulang kembali prosesnya apakah bisa dilakukan?\n18. Bagaimana Alur untuk merubah dari Basic ke Full Service?\n19. Apa perbedaan Use Basic dan Full Service?\n20. Apakah Pengguna bisa membuat ulasan tentang penggunaan aplikasi PLN Mobile?\n21. Bagaimana cara melihat history atau riwayat penggunaan kWh pelanggan Pascabayar?\n22. Bagaimana cara melihat history atau riwayat pembelian token/pembayaran tagihan?\n23. Metode pembayaran apa saja yang saat ini dapat digunakan pada aplikasi PLN Mobile?\n24. Bagaimana jika error saat melakukan pembayaran dengan LinkAja?\n25. Apakah user dapat melakukan unbinding LinkAja?\n26. Bagaimana jika telah melakukan pembayaran tetapi tidak mengarahkan langsung ke halaman status pembayaran (case untuk pembayaran menggunakan GoPay)?\n27. Berapa biaya Admin untuk masing-masing metode pembayarannya?\n28. Bagaimana menambahkan metode pembayaran Direct Debit (BCA dan BRI)\n29. Berapa lama proses refund apabila proses pembayaran melalui Iconpay tidak berhasil/gagal?\n30. Apakah transaksi taglis/nontaglis yang sudah berhasil masuk Iconpay tetapi gagal proses dapat dikembalikan uangnya?\n31. Bagaimana cara Pembayaran Tagihan listrik (Pascabayar) ?\n32. Bagaimana cara Pembelian Token Listrik (Prabayar) ?\n33. Bagaimana jika pengguna membutuhkan bantuan dalam penggunaan PLN Mobile?\n34. Bagaimana user dapat melakukan pengaduan terkait Ketenagalistrikan?\n35. Bagaimana user dapat mengetahui detail dan status pengaduan?\n36. Bagaimana cara Baca Meter Mandiri/Swacam melalui PLN Mobile?\n37. Bagaimana cara melakukan pendaftaran untuk Perubahan Daya melalui PLN Mobile?\n38. Fitur New PLN Mobile yang bisa digunakan apa saja?\n39. Fitur Beli Token pada New PLN Mobile digunakan untuk apa?\n40. Fitur Bayar Tagihan pada New PLN Mobile digunakan untuk apa?\n41. Fitur Swacam pada New PLN Mobile digunakan untuk apa?\n42. Fitur Pengaduan pada New PLN Mobile digunakan untuk apa?\n43. Apakah untuk pendaftaran Pasang Baru Listrik sudah dapat dilakukan melalui New PLN Mobile?\n44. Bagaimana jika Info Promo gagal dimuat?",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:46:09.938Z",
+    "modifiedOn": "2022-10-06T10:08:27.908Z"
+  },
+  {
+    "id": "builtin_text-bq_Ovn",
+    "formData": {
+      "text$en": "Silakan ketik informasi yang ingin kamu ketahui:\nContoh ketik 1 untuk informasi cara mendownload New PLN Mobile\n\n1. Bagaimana cara download New PLN Mobile ?\n2. Kenapa tidak dapat mendowload atau menginstal aplikasi New PLN Mobile?\n3. Bagaimana cara install aplikasi New PLN Mobile di Android?\n4. Bagaimana cara Install Aplikasi New PLN Mobile di IOS?\n5. Bagaimana jika saya tidak dapat mendownload atau tidak dapat melakukan pendaftaran aplikasi PLN Mobile, dengan keterangan terjadi loading?\n6. Jika pengguna pernah install PLN Mobile yang lama apakah dapat langsung terupdate ke PLN Mobile versi baru?\n7. Bagaimana cara pendaftaran PLN Mobile?\n8. Apa syarat pendaftaran pada aplikasi PLN Mobile?\n9. Bagaimana jika pelanggan/User tidak bisa mengakses karena lupa password saat akan login ke aplikasi PLN Mobile (Reset Password)?\n10. Apakah dapat melakukan penambahan lebih dari satu ID Pel dalam satu akun PLN Mobile?\n11. Apakah Foto KTP itu mempengaruhi jika ID Pel nya bukan atas nama yang di KTP?\n12. Bagaimana cara mengganti data ID Pel yang sudah terdaftar di New PLN Mobile?\n13. Bagaimana cara merubah foto pelanggan di New PLN Mobile?\n14. Bagaimana jika lokasi/koordinat pada menu tambah ID Pel/Nomor Meter tidak update?\n15. Jika User/Pelanggan mendapatkan Error jika ingin Akses (Add Idpel, dll)?\n16. Pada saat proses verifikasi, jika nama pada akun PLN Mobile berbeda dengan KTP apakah dapat diterima?\n17. Ketika saat verifikasi akun, pengguna telah melakukan Foto KTP dan foto Selfie kemudian ingin mengulang kembali prosesnya apakah bisa dilakukan?\n18. Bagaimana Alur untuk merubah dari Basic ke Full Service?\n19. Apa perbedaan Use Basic dan Full Service?\n20. Apakah Pengguna bisa membuat ulasan tentang penggunaan aplikasi PLN Mobile?\n21. Bagaimana cara melihat history atau riwayat penggunaan kWh pelanggan Pascabayar?\n22. Bagaimana cara melihat history atau riwayat pembelian token/pembayaran tagihan?\n23. Metode pembayaran apa saja yang saat ini dapat digunakan pada aplikasi PLN Mobile?\n24. Bagaimana jika error saat melakukan pembayaran dengan LinkAja?\n25. Apakah user dapat melakukan unbinding LinkAja?\n26. Bagaimana jika telah melakukan pembayaran tetapi tidak mengarahkan langsung ke halaman status pembayaran (case untuk pembayaran menggunakan GoPay)?\n27. Berapa biaya Admin untuk masing-masing metode pembayarannya?\n28. Bagaimana menambahkan metode pembayaran Direct Debit (BCA dan BRI)\n29. Berapa lama proses refund apabila proses pembayaran melalui Iconpay tidak berhasil/gagal?\n30. Apakah transaksi taglis/nontaglis yang sudah berhasil masuk Iconpay tetapi gagal proses dapat dikembalikan uangnya?\n31. Bagaimana cara Pembayaran Tagihan listrik (Pascabayar) ?\n32. Bagaimana cara Pembelian Token Listrik (Prabayar) ?\n33. Bagaimana jika pengguna membutuhkan bantuan dalam penggunaan PLN Mobile?\n34. Bagaimana user dapat melakukan pengaduan terkait Ketenagalistrikan?\n35. Bagaimana user dapat mengetahui detail dan status pengaduan?\n36. Bagaimana cara Baca Meter Mandiri/Swacam melalui PLN Mobile?\n37. Bagaimana cara melakukan pendaftaran untuk Perubahan Daya melalui PLN Mobile?\n38. Fitur New PLN Mobile yang bisa digunakan apa saja?\n39. Fitur Beli Token pada New PLN Mobile digunakan untuk apa?\n40. Fitur Bayar Tagihan pada New PLN Mobile digunakan untuk apa?\n41. Fitur Swacam pada New PLN Mobile digunakan untuk apa?\n42. Fitur Pengaduan pada New PLN Mobile digunakan untuk apa?\n43. Apakah untuk pendaftaran Pasang Baru Listrik sudah dapat dilakukan melalui New PLN Mobile?\n44. Bagaimana jika Info Promo gagal dimuat?",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:47:00.208Z",
+    "modifiedOn": "2022-10-06T09:47:00.208Z"
+  },
+  {
+    "id": "builtin_text-HIEPzJ",
+    "formData": {
+      "text$en": "Saat ini layanan informasi stimulus token pada channel PLN 123 sedang banyak antrian.\n\nSilakan coba beberapa saat kemudian atau anda dapat mencoba melalui channel PLN Mobile untuk mendapatkan informasi lebih cepat dan lebih mudah melalui link berikut :\n\nAndroid : https://play.google.com/store/apps/details?id=com.icon.pln123\n\nIOS: https://apps.apple.com/nz/app/pln-mobile/id1299581030",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T09:50:10.112Z",
+    "modifiedOn": "2022-10-06T09:50:10.112Z"
+  },
+  {
+    "id": "builtin_text-_X-qoY",
+    "formData": {
+      "text$en": "Silakan ketik informasi yang ingin kamu ketahui:\nContoh ketik 1 untuk informasi program keringanan tagihan listrik/gratis\n\n1. Apakah benar Pemerintah memperpanjang program keringanan tagihan listrik/gratis untuk Pelanggan daya 450 VA dan diskon 50% tagihan listrik untuk Pelanggan daya 900 VA subsidi untuk tahun 2021?\n2. Apa yang melatarbelakangi Pemerintah memberikan perpanjangan program keringanan tagihan listrik/gratis untuk Pelanggan daya 450 VA dan diskon 50% tagihan listrik untuk Pelanggan daya 900 VA subsidi?\n3. Bagaimana bentuk program keringanan listrik/gratis dari program Pemerintah pada tahun 2021?\n4. Apakah ada perbedaan pemberlakuan pada perpanjangan program ini dibandingankan dengan periode sebelumnya?\n5. Apa yang dimaksud dengan pemberlakuan pembatasan maksimal 720 Jam per bulan?\n6. Apakah Pelanggan golongan Rumah Tanggan prabayar daya 900 VA subsidi tidak mendapatkan token gratis lagi?\n7. Apakah ini berarti untuk golongan rumah tangga subsidi tarif dasar tenaga listrik (TDL) hanya dikenakan 50% saja?\n8. Untuk pembelian token Pelanggan prabayar apakah nilai Tokennya bebas ditentukan Pelanggan atau sudah ada standat nya?\n9. Bagaimana jika Pelanggan belum melewati batas maksimal 720 Jam, namun Ketika memilih nilai token Rp 20.000 tidak bisa karena secara akumulasi akan melewati 720 Jam?\n10. Lalu bagaimana pemberlakuan pembatasan 720 jam pada Pelanggan paskabayar yang mendapatkan program listrik gratis/diskon?\n11. Kapan masa berlaku program ini?\n12. Apakah program ini berlaku di seluruh Indonesia?\n13. Bagaimana caranya Pelanggan untuk mendapatkan listrik gratis/diskon ini?\n14. Apakah penerimaan token gratis tersebut dikenakan biaya?\n15. Bagaimana jika Pelanggan 900 VA yang belum menerima atau menggunakan token gratis tersebut pada masa program ini, apakah token tersebut masih dapat digunakan?\n16. Jika Pelanggan yang berhak mendapatkan token gratis/diskon, sudah membeli token sendiri sebelum kode token gratis diterima, apakah tokennya hangus?\n17. Jika Pelanggan sudah mengambil dan sudah menginput token gratis, kemudian kWh meter rusak. Apakah token gratis tersebut hilang?\n18. Jika ada Pelanggan sudah mengambil kode token gratis tapi belum sempat diinput, kemudian kWh meter rusak. Apakah token gratis bisa digunakan? jika tidak bagaimana solusinya?\n19. Jika pada tahun 2020 Pelanggan prabayar daya 900 VA subsidi yang sebelumnya tidak pernah melakukan pembelian token tidak mendapatkan program stimulus. Apakah pada tahun 2021 ini meskipun Pelanggan tidak pernah beli token sebelumnya tetapi saat melakukan pembelian apa akan mendapatkan program stimulus ini?",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T10:07:31.492Z",
+    "modifiedOn": "2022-10-06T10:07:31.492Z"
+  },
+  {
+    "id": "builtin_text-uXYMSR",
+    "formData": {
+      "text$en": "Silakan ketik MAIN MENU untuk informasi lainnya",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T10:15:40.900Z",
+    "modifiedOn": "2022-10-06T10:15:40.900Z"
+  },
+  {
+    "id": "builtin_text-rI_vqo",
+    "formData": {
+      "text$en": "PLN Mobile dapat didownload melalui Play Store dan App Store dengan melakukan pencarian PLN Mobile dan selanjutnya memilih proses install/update",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T16:12:03.224Z",
+    "modifiedOn": "2022-10-06T16:12:03.224Z"
+  },
+  {
+    "id": "builtin_text-kbH9Fi",
+    "formData": {
+      "text$en": "1. Pastikan bahwa handphone atau gadget yang digunakan untuk mendowload dengan spesifikasi minimum yaitu Android Lollipop, 5.1.x atau lebih baru, iOS versi 8 atau lebih baru.\n2. Jika point di atas sudah memenuhi, maka maka pastikan memori mencukupi (Untuk Android ukuran aplikasi sebesar 26 Megabytes, untuk iOS ukuran aplikasi sebesar 64,9 Megabytes), jika memori tidak cukup maka edukasi pelanggan untuk mengurangi atau uninstall aplikasi yang sudah tidak digunakan.\n3. Langkah pengecekan memori : \n* Untuk HP Android : pengaturan (Settings) | Storage (Perawatan Perangkat) | Internal Storage (Memori). \n* Untuk HP iOS : Pengaturan (Settings) | General | iPhone Storage.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T16:13:21.361Z",
+    "modifiedOn": "2022-10-06T16:13:21.361Z"
+  },
+  {
+    "id": "builtin_text-wtgSzu",
+    "formData": {
+      "text$en": "• Pilih Play Store\n• Search Aplikasi PLN Mobile\n• Klik Install \n• Open\n• Pengisian Rating & Review dapat dilakukan langsung dari PLN Mobile Play Store",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T16:13:57.115Z",
+    "modifiedOn": "2022-10-06T16:13:57.115Z"
+  },
+  {
+    "id": "builtin_text-2Tv_MN",
+    "formData": {
+      "text$en": "• Pilih Play Store\n• Search Aplikasi PLN Mobile\n• Klik Install \n• Open\n• Pengisian Rating & Review dapat dilakukan langsung dari PLN Mobile Play Store",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T16:13:58.418Z",
+    "modifiedOn": "2022-10-06T16:13:58.418Z"
+  },
+  {
+    "id": "builtin_text-DDAsj7",
+    "formData": {
+      "text$en": "• Install aplikasi PLN MOBILE dari AppStore\n• Tombol Get/Install PLN Mobile, pilih Get/Install\n• Setelah selesai instalasi lalu Open\n• Pengisian Rating & Review dapat dilakukan langsung dari PLN Mobile di Appstore",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T16:14:52.964Z",
+    "modifiedOn": "2022-10-06T16:14:52.964Z"
+  },
+  {
+    "id": "builtin_text-s8hXik",
+    "formData": {
+      "text$en": "• Install aplikasi PLN MOBILE dari AppStore\n• Tombol Get/Install PLN Mobile, pilih Get/Install\n• Setelah selesai instalasi lalu Open\n• Pengisian Rating & Review dapat dilakukan langsung dari PLN Mobile di Appstore",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T16:15:40.618Z",
+    "modifiedOn": "2022-10-06T16:15:40.618Z"
+  },
+  {
+    "id": "builtin_text-fdaWB_",
+    "formData": {
+      "text$en": "Ketika PLN Mobile versi baru muncul di App Store dan Play Store pengguna akan diminta melakukan update. Selanjutnya pengguna dapat langsung menggunakan PLN Mobile versi baru. Kepada pengguna disarankan untuk mengganti password ketika pertama login demi keamanan dan kenyamanan.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T16:16:21.837Z",
+    "modifiedOn": "2022-10-06T16:16:21.837Z"
+  },
+  {
+    "id": "builtin_text-WOukiU",
+    "formData": {
+      "text$en": "1. Pilih menu Daftar Sekarang\n2. Isi kolom Nama, Email, Nomor Handphone, dan masukan password yang akan digunakan",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T16:17:00.539Z",
+    "modifiedOn": "2022-10-06T16:17:00.539Z"
+  },
+  {
+    "id": "builtin_text-fVa-ax",
+    "formData": {
+      "text$en": "1 Akun PLN Mobile hanya dapat digunakan dalam 1 Smartphone (HP)",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T16:17:41.846Z",
+    "modifiedOn": "2022-10-06T16:17:41.846Z"
+  },
+  {
+    "id": "builtin_text-32msMg",
+    "formData": {
+      "text$en": "1. Masuk dengan Google :\nMasuk dengan Google tanpa harus memasukkan password.\n \n2. Masuk dengan Email :\n• Pilih Lupa Password\n• Masukkan Email yang terdaftar di PLN Mobile Pilih kirim\n• Notifikasi Instruksi Reset kata sandi telah di kirim ke email\n• Pilih OK\n• Ikuti panduan yang di kirim melalui email\n• Akan tampil Link menu perbaharui kata sandi\n• Masukkan Sandi atau Password baru (Agar User menggunakan Kombinasi Huruf Besar-Kecil, Angka, dan Specialis Karakter, Simbol) dengn minimal 8 digit.\n• Selesai",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T16:18:29.672Z",
+    "modifiedOn": "2022-10-06T16:18:29.672Z"
+  },
+  {
+    "id": "builtin_text-8PeWxc",
+    "formData": {
+      "text$en": "User dapat melakukan penambahan lebih dari 1 ID Pel (maksimal 4) dalam satu akun menggunakan fitur Family Account yang ada pada :\n• Menu Profile\n• Daftar ID Pel/Nomor Meter \n• Tambah ID Pel/Nomor Meter.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T16:21:09.726Z",
+    "modifiedOn": "2022-10-06T16:21:09.726Z"
+  },
+  {
+    "id": "builtin_text-oDHWfv",
+    "formData": {
+      "text$en": "Terkait Akun yang registrasi tetapi tidak terkait dengan ID Pel",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T16:23:14.147Z",
+    "modifiedOn": "2022-10-06T16:23:14.147Z"
+  },
+  {
+    "id": "builtin_text-5crlfh",
+    "formData": {
+      "text$en": "Id Pelanggan yang ingin diganti harus dihapus dahulu. Cara untuk menghapus Idpel/No Meter yang sudah didaftarkan yaitu silahkan Klik Idpel yang ingin di hapus Scroll ke bawah nanti ada menu \"Hapus Nomor Meter\". Setelah itu lakukan proses penambahan Id Pelanggan kembali.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T16:24:07.798Z",
+    "modifiedOn": "2022-10-06T16:24:07.798Z"
+  },
+  {
+    "id": "builtin_text-O7BSV2",
+    "formData": {
+      "text$en": "• Buka di Profile \n• Ubah Profile \n• Ganti Foto Profile \n• Pilih di galeri/Ambil Gambar \n• Simpan",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T16:32:16.828Z",
+    "modifiedOn": "2022-10-06T16:32:16.828Z"
+  },
+  {
+    "id": "builtin_text-WilESi",
+    "formData": {
+      "text$en": "Pastikan bahwa aplikasi PLN Mobile sudah diberikan ijin/diperbolehkan untuk membaca lokasi/koordinat dengan cara memperbolehkan/allow setting pada saat pembacaan lokasi (pada saat pertama kali membuka aplikasi akan menampilkan pop up) dan jika masih belum terupdate, silahkan klik titik lokasi dan cari manual lokasi.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T16:33:51.083Z",
+    "modifiedOn": "2022-10-06T16:33:51.083Z"
+  },
+  {
+    "id": "builtin_text-CN-e5S",
+    "formData": {
+      "text$en": "• Cek Versi New PLN Mobile (Login ke New PLN Mobile --> Profil --> dibawah menu Keluar Versi terbaru.\n• PLN Mobile akan terus berkembang. Untuk pengecekan agar selalu mengupdate pada Play Store/ App Store.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T16:34:39.710Z",
+    "modifiedOn": "2022-10-06T16:34:39.710Z"
+  },
+  {
+    "id": "builtin_text-CBYm50",
+    "formData": {
+      "text$en": "Jika nama di KTP berbeda dengan akun PLN Mobile maka proses verifikasi ditolak. Selanjutnya pengguna dapat mengirimkan kembali foto KTP dan selfie beserta KTP untuk dilakukan verifikasi ulang dengan menggunakan KTP yang sesuai dengan akun PLN Mobile.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T16:35:19.830Z",
+    "modifiedOn": "2022-10-06T16:35:19.830Z"
+  },
+  {
+    "id": "builtin_text-Ky7HtE",
+    "formData": {
+      "text$en": "Untuk Foto KTP dan selfie dengan KTP jika sudah disimpan tidak bisa diulang kembali. Proses dapat diulang kembali jika proses pengajuan verifikasi ditolak.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T16:36:09.404Z",
+    "modifiedOn": "2022-10-06T16:36:09.404Z"
+  },
+  {
+    "id": "builtin_text-AZnetc",
+    "formData": {
+      "text$en": "Pengguna mengakses : \n• Menu Profile\n• Verify\n• Verifikasi\n• Foto KTP\n• Selfie dengan KTP\n• Notif Data Anda berhasil terkirim untuk Verifikasi\n• Klik OK\n• Menunggu Verifikasi dari Admin.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T16:37:18.073Z",
+    "modifiedOn": "2022-10-06T16:37:18.073Z"
+  },
+  {
+    "id": "builtin_text-_3JrMQ",
+    "formData": {
+      "text$en": "• User Basic : \nTidak bisa melihat riwayat penggunaan pascabayar, riwayat pembelian prabayar, dan pengajuan perubahan daya.\n \n• User Full Service : \nBisa melakukan ubah daya, melihat riwayat penggunaan pascabayar, riwayat pembelian prabayar.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T16:38:02.504Z",
+    "modifiedOn": "2022-10-06T16:38:02.504Z"
+  },
+  {
+    "id": "builtin_text-CjXO97",
+    "formData": {
+      "text$en": "• Klik menu Profile\n• Ulas Aplikasi\n• Beri Rating pada aplikasi\n• Tulis Ulasan\n• Posting",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T16:40:59.301Z",
+    "modifiedOn": "2022-10-06T16:40:59.301Z"
+  },
+  {
+    "id": "builtin_text-xjsXQz",
+    "formData": {
+      "text$en": "Buka menu :\n• Profile/ \n• Klik Gambar meter di bawah Nama >> \n• ID Pel/Nomor Meter >> \n• Pilih salah satu ID Pel/Nomor Meter >> \n• Klik Tab Histori Penggunaan/ Histori Pembelian Token.\natau\n• Buka halaman utama aplikasi PLN Mobile\n• Pilih salah satu IDPel/Nomor Meter\n• Klik Tab Histori Penggunaan/Histori Pembelian Token.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T16:41:57.678Z",
+    "modifiedOn": "2022-10-06T16:41:57.678Z"
+  },
+  {
+    "id": "builtin_text-NWWiOb",
+    "formData": {
+      "text$en": "Buka menu :\n• Profil \n• Menu Transaksi (pada Daftar Riwayat)\npada menu tersebut menampilkan seluruh transaksi yang telah dilakukan oleh user. Untuk default data yang ditampilkan adalah data pada 3 bulan terakhir dan dapat diubah pada menu Filter.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T16:42:39.478Z",
+    "modifiedOn": "2022-10-06T16:42:39.478Z"
+  },
+  {
+    "id": "builtin_text-7eKHc0",
+    "formData": {
+      "text$en": "Metode pembayaran yang saat ini sudah dapat digunakan adalah Virtual Account (Mandiri VA, BRI VA, BNI VA, BCA VA), Dompet Digitak (LinkAja, GoPay, OVO), Kartu Kredit (Doku) dan Direct Debit Instan (BRI Direct Debit, Link Aja, BCA One Klik).",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T16:43:19.993Z",
+    "modifiedOn": "2022-10-06T16:43:19.993Z"
+  },
+  {
+    "id": "builtin_text-0yQ2wV",
+    "formData": {
+      "text$en": "Lakukan proses binding ulang",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T16:43:53.622Z",
+    "modifiedOn": "2022-10-06T16:43:53.622Z"
+  },
+  {
+    "id": "builtin_text-zM5kwc",
+    "formData": {
+      "text$en": "Unbinding LinkAja dapat dilakukan dengan melakukan penggantian nomor handphone yang sudah didaftarkan pada aplikasi. Penggantian nomor handhone dapat dilakukan pada menu Ubah Profil.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T16:44:34.061Z",
+    "modifiedOn": "2022-10-06T16:44:34.061Z"
+  },
+  {
+    "id": "builtin_text-8XhPhU",
+    "formData": {
+      "text$en": "Buka aplikasi PLN Mobile lalu pilih menu Riwayat untuk mengetahui status pembayaran dan mengetahui Token listrik jika melakukan transaksi Pembelian Token.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T16:45:17.540Z",
+    "modifiedOn": "2022-10-06T16:45:17.540Z"
+  },
+  {
+    "id": "builtin_text-LIdizy",
+    "formData": {
+      "text$en": "Pengguna akan dikenakan biaya administrasi sebesar Rp 3.500 (tiga ribu lima ratus Rupiah) per tagihan bulanan listrik pascabayar. Jadi, jika Anda melakukan pembayaran 2 (dua) bulan tagihan listrik dalam satu transaksi, Anda akan dikenakan biaya administrasi sebesar Rp 7.000 (tujuh ribu Rupiah).",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:01:49.870Z",
+    "modifiedOn": "2022-10-06T17:01:49.870Z"
+  },
+  {
+    "id": "builtin_text-vFmRu0",
+    "formData": {
+      "text$en": "• Buka menu profil >> \n• Di bawah opsi link Aja pilih tambah metode pembayaran >> \n• Pilih bank yang di kehendaki, ikuti langkah selanjutnya.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:02:47.770Z",
+    "modifiedOn": "2022-10-06T17:02:47.770Z"
+  },
+  {
+    "id": "builtin_text-NDrjPR",
+    "formData": {
+      "text$en": "Lama waktu refund yaitu maksimal H+30 Hari Kerja sejak pembayaran.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:03:46.650Z",
+    "modifiedOn": "2022-10-06T17:03:46.650Z"
+  },
+  {
+    "id": "builtin_text-Kb-B7k",
+    "formData": {
+      "text$en": "Untuk proses pengembalian dana yang sudah masuk iconpay dapat mengajukannya pada website https://iconpay.iconpln.co.id/ (pada menu \"\"Form Pengajuan\"\"), dengan mengisi Form Pengajuan, Form akan otomatis terdownload, kemudian print dan ditandatangani diatas materai Rp 10.000. Harap dipastikan tidak ada kesalahan penginputan Kode Booking dan Data rekening penerima.\n \nSetelah itu, dengan menginput nomor form dan kode booking, upload bukti pengajuan (pada menu \"\"UPLOAD BUKTI PENGAJUAN\"\") berupa:\n• Form yang sudah ditanda tangani diatas materai,\n• KTP, \n• Halaman depan buku rekening,\n• Bukti transfer,\n• Mutasi rekening/Rekening koran (dalam bentuk 1 lembar).\n \nJika dokumen tidak terbaca dengan jelas, status akan direject dan Bapak/Ibu perlu mengisi ulang formnya kembali.\nSilakan membaca Syarat & Ketentuan Pengembalian Dana LSP Sebelum mengisi Form Pengajuan.\nSetelah diupload seluruh kelengkapan dokumen, Bapak/Ibu bisa melakukan cek untuk status proses pengembalian dananya. Proses ini selambat-lambatnya 30 hari setelah kelengkapan dokumen diterima.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:04:38.301Z",
+    "modifiedOn": "2022-10-06T17:04:38.301Z"
+  },
+  {
+    "id": "builtin_text-T3UNO2",
+    "formData": {
+      "text$en": "Berikut langkah-langkah atau cara pembayarannya : \n1. Buka Aplikasi PLN Mobile\n2. Kemudian pilih menu Token & Tagihan\n3. Maka akan tampil IDPel/Nomor Meter jika pascabayar, pilih IDPel/Nomor Meter atau Masukkan IDPel/Nomor meter yang hendak dibayar tagihannya\n4. kemudian Pilih Bayar \n5. akan menampilkan nominal tagihan listrik yang harus dibayar.\n6. Default metode pembayaran yang digunakan untuk membayar adalah menggunakan VA Mandiri \n7. Jika ingin mengganti metode pembayaran, maka pilih Ganti Metode Pembayaran.\n8. Jika telah sesuai, silahkan Pilih Bayar untuk melanjutkan proses pembayaran tagihan listriknya\n9. Setelah itu akan menampilkan konfirmasi pembayaran. \n10. Pilih Ya untuk melakukan pembayaran\n11. sistem akan menampilkan cara pembayaran \n12. Pilihan metode pembayaran, akan menampilkan response halaman yang berbeda-beda.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:05:40.689Z",
+    "modifiedOn": "2022-10-06T17:05:40.689Z"
+  },
+  {
+    "id": "builtin_text-jvh95t",
+    "formData": {
+      "text$en": "Berikut langkah-langkah atau cara pembayarannya : \n1. Buka Aplikasi PLN Mobile\n2. Pilih Menu Token & Tagihan \n3. lanjutkan dengan pemilihan Nominal Token dan pilih Beli.\n4. Kemudian sistem akan menampilkan detail pembelian token\n5. Jika telah sesuai, silahkan pilih Metode Pembayaran\n6. Aplikasi PLN Mobile terdapat beberapa metode pembayaran yang dapat dipilih, mulai dari Virtual Account, Dompet Digital, Kartu Kredit, maupun Kartu Debit Instant\n7. Jika telah memilih metode pembayaran, maka sistem akan menampilkan rincian nominal yang harus dibayar oleh pengguna (sudah termasuk biaya layanan).\n8. Klik Bayar untuk melanjutkan ke pembayaran\n9. Klik Ganti Metode Pembayaran jika masih ingin mengganti metode pembayaran\n10. Dan Jika memilih Bayar, maka akan muncul pop up notifikasi untuk konfirmasi pembayaran\n11. Jika hendak langsung dibayar, maka pilih Ya.\n12. Saat memilih Ya, maka sistem akan menampilkan batas waktu pembayaran, nomor Virtual Account (jika memilih VA untuk membayarnya) atau nomor rekening kemana harus mentransfer, serta jumlah yang harus dibayar.\n13. Perlu diketahui bahwa setiap pilihan metode pembayaran, akan menampilkan response halaman yang berbeda-beda.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:06:26.274Z",
+    "modifiedOn": "2022-10-06T17:06:26.274Z"
+  },
+  {
+    "id": "builtin_text-l7-ADR",
+    "formData": {
+      "text$en": "Pengguna dapat mengakses menu Profil dan memilih Bantuan. \nUntuk menyelesaikan kendala penggunaan PLN Mobile, pengguna dapat menghubungi Call Center 123, email ke helpdesk-mobile123@pln.co.id dan Live Chat.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:07:09.947Z",
+    "modifiedOn": "2022-10-06T17:07:09.947Z"
+  },
+  {
+    "id": "builtin_text-9ArdAB",
+    "formData": {
+      "text$en": "• Pilih menu Pengaduan \n• Pilih Gangguan / Keluhan\n• Buat Pengaduan Baru\n• Isi data yang dibutuhkan \n• Kirim",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:07:48.041Z",
+    "modifiedOn": "2022-10-06T17:07:48.041Z"
+  },
+  {
+    "id": "builtin_text-2Krnik",
+    "formData": {
+      "text$en": "• Pilih Menu Profil \n• Pilih pengaduan pada daftar riwayat pengaduan \n• Pilih salah satu pengaduan dan lihat detail pengaduan (terlihat status mulai lapor sampai dengan selesai).",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:08:32.833Z",
+    "modifiedOn": "2022-10-06T17:08:32.833Z"
+  },
+  {
+    "id": "builtin_text-JfHTpg",
+    "formData": {
+      "text$en": "Berikut cara membaca meter mandiri/swacam :\n1. Buka Aplikasi PLN Mobile\n2. Pilih Menu Catat Meter\n3. Isi form untuk SWACAM dengan cara:\na. Memilih ID Pelanggan, saat mengisi ID Pelanggan secara otomatis Jadwal Baca Stand Meter akan tampil pada aplikasinya.\nb. Untuk nama pelanggan dan nomor Handphone akan otomatis terisi.\nc. Ambil Foto untuk Angka Stand Meter, sebagai informasi foto untuk Menu SWACAM ini tidak dapat mengambil dari Gallery Smartphone pengguna. Sehingga mengharuskan untuk mengambil foto secara langsung.\nd. Masukkan Angka Stand Meter.\ne. Lalu Kirim.\n\nPelanggan dapat juga melakukan Baca Meter Mandiri/Swacam pada nomor WhatsApp (WA) PLN yaitu di nomor 08122-123-123",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:09:05.859Z",
+    "modifiedOn": "2022-10-06T17:09:05.859Z"
+  },
+  {
+    "id": "builtin_text-TyzWa2",
+    "formData": {
+      "text$en": "Berikut langkah-langkahnya :\n1. Buka Aplikasi PLN Mobile\n2. Pilih Menu Ubah Daya \n3. Isi data sesuai form :\na. Pilih ID Pelanggan\nb. Provinsi (akan otomatis terisi)\nc. Kabupaten/Kota (akan otomatis terisi)\nd. Kecamatan\ne. Desa/Kelurahan\nf. Unit UP (akan otomatis terisi)\ng. Alamat (akan otomatis terisi)\nh. Kode Pos\n4. Pilih Lanjutkan untuk mengisi form selanjutnya\n5. Input data selanjutnya\na. Daya\nb. Produk Layanan\nc. Keperluan\nd. Token\n6. Pilih Lanjutkan\n\n7. Input data Pemohon atau untuk orang lain / di kuasakan\na. Data Pemohon \n• Input NIK\n• Input NPWP (jika Pelanggan tidak mempunyai NPWP bisa di isi 0 sebanyak 16 digit)\n• Klik Periksa\n• Pilih Lanjutkan\n\nb. Data Pelanggan / yang di kuasakan (di isi jika bermohon untuk orang lain dengan mengeser tombol kekanan di samping bermohon untuk orang lain, Data pelanggan yang di kuasakan dapat di rubah)\n• Input NIK \n• Input Email\n• Input No Handphone\n• Input NPWP (jika Pelanggan tidak mempunyai NPWP bisa di isi 0 sebanyak 16 digit)\n• Klik Periksa\n• Cek list jika setuju dengan permohonan pengajuan\n• Pilih lanjutkan\n \n8. Sistem akan menampilkan detail data permohonan. Jika sudah yakin akan kesesuaian data yang diinput. Silahkan klik Submit Permohonan.\n9. Akan muncul pop up notifikasi terkait konfirmasi permohonan, silahkan pilih Ya jika ingin melakukan permohonan.\n10. Selanjutnya sistem akan menampilkan detail pembayaran (No Register) yang akan di pergunakan untuk melakukan pembayaran oleh pengguna. Klik Selesai jika ingin menutup permohonan.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:09:57.049Z",
+    "modifiedOn": "2022-10-06T17:09:57.049Z"
+  },
+  {
+    "id": "builtin_text-hgem1s",
+    "formData": {
+      "text$en": "Saat ini Fitur di New PLN Mobile yang bisa diakses :\n• Beli Token\n• Bayar Tagihan\n• Swacam ( Catat Meter)\n• Pengaduan\n• Perubahan daya\n• Melihat riwayat penggunaan pascabaya\n• Melihat riwayat pembelian prabayar\n• Menu Bantuan \n• Info dan Promo",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:11:10.095Z",
+    "modifiedOn": "2022-10-06T17:11:10.095Z"
+  },
+  {
+    "id": "builtin_text-U4e-wP",
+    "formData": {
+      "text$en": "Fitur Beli token digunakan untuk pelanggan Prepaid membeli token listrik",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:12:02.809Z",
+    "modifiedOn": "2022-10-06T17:12:02.809Z"
+  },
+  {
+    "id": "builtin_text-l_b2-q",
+    "formData": {
+      "text$en": "Fitur Bayar Tagihan digunakan untuk pelanggan Pasca Bayar membayar Tagihan bulanannya",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:12:32.808Z",
+    "modifiedOn": "2022-10-06T17:12:32.808Z"
+  },
+  {
+    "id": "builtin_text-XFedHT",
+    "formData": {
+      "text$en": "Fitur Swacam dapat digunakan untuk Scan/ Baca Meter untuk tagihan Pasca Bayar",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:13:28.195Z",
+    "modifiedOn": "2022-10-06T17:13:28.195Z"
+  },
+  {
+    "id": "builtin_text-S-LHyx",
+    "formData": {
+      "text$en": "Dalam Fitur Pengaduan ada 2 menu yaitu :\n1. Pengaduan PLN bisa digunakan untuk melaporkan adanya gangguan yang pelanggan alami (pengaduan kepada PLN).\n2. ListriQu yang merupakan aplikasi pengaduan gangguan listrik di rumah, nanti di fitur ListriQU dapat mencarikan tenaga ahli terdekat dari lokasi rumah pelanggan.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:14:07.580Z",
+    "modifiedOn": "2022-10-06T17:14:07.580Z"
+  },
+  {
+    "id": "builtin_text-uLPinB",
+    "formData": {
+      "text$en": "Untuk Fitur Pasang Pasang Baru saat ini masih dalam Proses Tahap Pengembangan. \nUntuk kebutuhan Pasang Baru saat ini silahkan dapat mengakes :\n1. Contact Center PLN 123 :\na. Telepon Kode Area + 123 (Seluler) \nb. Instagram (@pln123_official)\nc. Facebook (pln 123)\nd. Twitter (@pln_123)\ne. Email (pln123@pln.co.id)\nf. Live Chat yang diakses melalui website PLN & PLN Mobile\n \n2. Melalui Web PLN : www.pln.co.id",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:14:57.304Z",
+    "modifiedOn": "2022-10-06T17:14:57.304Z"
+  },
+  {
+    "id": "builtin_text-zrhS6C",
+    "formData": {
+      "text$en": "“Koneksi ke server gagal”, pastikan jaringan internet terhubung dengan baik dan lakukan refresh berkala menu aplikasi PLN Mobile.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:15:50.129Z",
+    "modifiedOn": "2022-10-06T17:15:50.129Z"
+  },
+  {
+    "id": "builtin_text-whZ71y",
+    "formData": {
+      "text$en": "Benar, sesuai dengan Surat Direktur Jenderal Ketenagalistrikan No. 2564/23/DJL.3/2020 Tanggal 31 Desember 2020 Perihal Perpanjangan Pelaksanaan Diskon Tarif Tenaga Listrik dan Pembebasan Biaya Beban dan Abonemen, serta Pembebasan Penerapan Ketentuan Rekening Minimum bagi Pelanggan PT PLN (Persero) Tahun 2021 salah satunya memberlakuakan perpanjangan diskon tarif tenaga listrik bagi Pelanggan Rumah Tangga, Bisnis dan Industri.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:18:59.506Z",
+    "modifiedOn": "2022-10-06T17:18:59.506Z"
+  },
+  {
+    "id": "builtin_text-XlxSmx",
+    "formData": {
+      "text$en": "Latar belakang pemberian program ini adalah:\n1. Kondisi pandemic Cobid-19 yang masih terjadi dan memberikan dampak terhadap perekonomian masyarakat.\n2. Untuk menjaga perekonomian serta kepercayaan masyarakat khusunya masyrakat miskin dan tidak mampu sehingga kegiatan perekonomian masyarakat tetap terjaga.\n3. Ancaman kehilangan pendapatan, tidak dapat bekerja untuk memenuhi kebutuhan hidup minimalnya terutama rumah tangga miskin dan rentan.\n4. Penurunan daya beli masyarakat dan konsumsi.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:19:47.257Z",
+    "modifiedOn": "2022-10-06T17:19:47.257Z"
+  },
+  {
+    "id": "builtin_text-Sn_vD8",
+    "formData": {
+      "text$en": "Bentuk keringanan berupa :\n1. Pelanggan Rumah Tangga, Bisnis dan Industri daya 450 VA\na. Pascabayar/Reguler:\nRekening Listrik diberikan diskon sebesar 100 % atau gratis (biaya pemakaian dan biaya beban)\nb. Prabayar:\nDiberikan token gratis sebesar stimulus tahun 2020\n \n2. Pelanggan Rumah Tangga daya 900 VA subsidi\na. Pacabayar/Reguler\nRekening listrik diberikan diskon sebesar 50% (biaya pemakaian dan biaya beban)\nb. Prabayar\nDiberikan diskon tarif listrik untuk pembelian token listrik sebesar 50%.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:20:32.367Z",
+    "modifiedOn": "2022-10-06T17:20:32.367Z"
+  },
+  {
+    "id": "builtin_text-SD-IBr",
+    "formData": {
+      "text$en": "Perbedaan pemberlakuaanya sebagai berikut :",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:21:09.381Z",
+    "modifiedOn": "2022-10-06T17:21:09.381Z"
+  },
+  {
+    "id": "builtin_text-uJIq1c",
+    "formData": {
+      "text$en": "Yang dimaksud dengan pembatasan maksimal 720 Jam adalah waktu pemakaian maksimal pelanggan dalam satu bulan dengan perhitungan sebagai berikut:\n• 1 hari sama dengan 24 Jam dikalikan 1 bulan (30 Hari) sehingga maksimal pemakaian Pelanggan sebesar 720 Jam dalam satu bulan.\n• Jika daya pelanggan adalah 900 VA maka pemakaian 720 Jam setara dengan 648 kWh ( (900 VA / 1000) X 720 Jam)\nHal ini menandakan, bagi pelanggan daya 900 VA dalam satu bulan pemakaiannya tidak mungkin melebihi 648 kWh.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:21:59.811Z",
+    "modifiedOn": "2022-10-06T17:21:59.811Z"
+  },
+  {
+    "id": "builtin_text-siDKM-",
+    "formData": {
+      "text$en": "Betul, Diskon 50% tidak lagi diberikan dalam bentuk token gratis namun diberikan ketika Pelanggan melakukan transaksi pembelian token listrik.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:22:28.561Z",
+    "modifiedOn": "2022-10-06T17:22:28.561Z"
+  },
+  {
+    "id": "builtin_text-LzSXlw",
+    "formData": {
+      "text$en": "Tidak, mekanisme penerapannya tidak mengubah TDL yang ditetapkan pemerintah tetapi kepada Pelanggan yang melakukan pembelian token listrik mendapatkan total kWh 2 kali lipat dari yang biasanya. Selama total kWh yang diperoleh oleh Pelanggan belum melebihi 720 jam maka Pelanggan tetap akan mendapatkan program diskon 50% namun apabila Pelanggan melakukan pembelian token diatas 720 jam maka proses pembelian tidak dapat dilakukan. \nBerikut contohnya:",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:23:07.093Z",
+    "modifiedOn": "2022-10-06T17:23:07.093Z"
+  },
+  {
+    "id": "builtin_text-qEslwT",
+    "formData": {
+      "text$en": "Untuk nilai token saat ini sudah ada standarnya mulai dr yang terkecil sebagai berikut:\n• Rp 20.000\n• Rp 50.000\n• Rp 100.000\n• Rp 200.000\n• Rp 500.000\n• Rp 1.000.000\n• Rp 5.000.000\n• Rp 10.000.000",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:23:56.929Z",
+    "modifiedOn": "2022-10-06T17:23:56.929Z"
+  },
+  {
+    "id": "builtin_text-cqC1sm",
+    "formData": {
+      "text$en": "Nilai token saat ini memang paling kecil Rp 20.000 dan Pelanggan tidak bisa memilih nilai token dibawah itu. Jika hal tersebut terjadi maka:\n1. Pelanggan dapat menghubungi CC PLN 123 untuk melaporkan kendala tersebut.\n2. Unit PLN yang mendapatkan pengaduan Pelanggan terkait hal tersebut dapat berkordinasi dengan PLN Pusat untuk diambil kebijakan terkait pembelian tokennya.\n3. Sebelumnya harus dilakukan pengecekan kepada pembatas atau pemakaian pelanggan karena pemakaian pelanggan melebihi batas maksimal yang ada pada daya tersebut.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:24:37.427Z",
+    "modifiedOn": "2022-10-06T17:24:37.427Z"
+  },
+  {
+    "id": "builtin_text-PYTzV1",
+    "formData": {
+      "text$en": "1. Untuk Pelanggan 450 VA, maksimal diskon yang diberikan adalah sebesar 720 Jam atau setara dengan 324 kWh. Jika pemakaian melebihi 324 kWh, maka kelebihannya di perhitungkan dengan tarif normal.\n \n2. Sedangkan untuk 900 VA subsidi, maksimal diskon yang diberikan adalah sebesar 50% dari pemakaian 720 jam atau setara dengan 648 . Jika pemakaian melebihi 648 kWh, maka kelebihannya akan diperhitungkan dengan tarif normal.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:25:24.419Z",
+    "modifiedOn": "2022-10-06T17:25:24.419Z"
+  },
+  {
+    "id": "builtin_text-vxFaT0",
+    "formData": {
+      "text$en": "Masa berlaku program ini:\n1. Bagi Pelanggan pascabayar berlaku untuk rekening tagihan listrik periode Januari, Februari dan Maret 2021.\n2. Bagi Pelanggan prabayar berlaku untuk pembelian token listrik listrik periode Januari, Februari dan Maret 2021.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:26:09.247Z",
+    "modifiedOn": "2022-10-06T17:26:09.247Z"
+  },
+  {
+    "id": "builtin_text-kaiAa5",
+    "formData": {
+      "text$en": "Ya, program ini berlaku diseluruh Indonesia.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:26:46.571Z",
+    "modifiedOn": "2022-10-06T17:26:46.571Z"
+  },
+  {
+    "id": "builtin_text-6IQOk_",
+    "formData": {
+      "text$en": "Untuk mendapatkan listrik gratis/diskon ini: \na. Bagi Pelanggan prabayar, daya 450 VA diberikan token listrik gratis yang diperoleh melalui beberapa kanal layanan, yaitu Whatsapp di nomor 08122123123, website PLN dengan alamat: www.pln.co.id dan Aplikasi PLN Mobile, CC123, Kantor PLN, Payment Point dan kerjasama dengan perangkat Desa atau Daerah.\n \nb. Bagi Pelanggan prabayar daya 900 VA diberikan diskon 50% Token Listrik ketika melakukan transaksi pembelian token listrik",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:27:43.691Z",
+    "modifiedOn": "2022-10-06T17:27:43.691Z"
+  },
+  {
+    "id": "builtin_text-6HHgN8",
+    "formData": {
+      "text$en": "Untuk program token gratis ini Pelanggan tidak dikenakan biaya apapun.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:28:38.713Z",
+    "modifiedOn": "2022-10-06T17:28:38.713Z"
+  },
+  {
+    "id": "builtin_text-0sjYo8",
+    "formData": {
+      "text$en": "Bagi Pelanggan yang belum mendapat token gratis setelah melewati masa program ini dapat tetap mengakses kanal layanan yang tersedia untuk mendapatkan token tersebut dan tetap dapat digunakan.",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:29:24.603Z",
+    "modifiedOn": "2022-10-06T17:29:24.603Z"
+  },
+  {
+    "id": "builtin_text-IpSPAc",
+    "formData": {
+      "text$en": "Token tersebut tetap bisa digunakan setelah program ini selesai, karena token listrik tidak kadaluwarsa.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:30:38.782Z",
+    "modifiedOn": "2022-10-06T17:30:38.782Z"
+  },
+  {
+    "id": "builtin_text-IoyEhF",
+    "formData": {
+      "text$en": "Pelanggan disarankan untuk langsung menginputkan token yang telah diterima. Apabila telah terlanjur diganti meter atau di upgrade versi kWh Meter sehingga token pelanggan tidak berhasil di input, silahkan menghubungi Kantor PLN terdekat atau melalui Contact Center PLN 123, petugas PLN akan melakukan verifikasi dan akan mengganti dengan token yang baru.\n Pelanggan dapat menginfokan kepada petugas ganti meter untuk token yang belum di input untuk penggantian bersama sisa token pada meter sebelumnya.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:31:20.725Z",
+    "modifiedOn": "2022-10-06T17:31:20.725Z"
+  },
+  {
+    "id": "builtin_text-yW54Zb",
+    "formData": {
+      "text$en": "Pelanggan disarankan untuk langsung menginputkan token yang telah diterima. Apabila telah terlanjur diganti meter atau di upgrade versi kWh Meter sehingga token pelanggan tidak berhasil di input, silahkan menghubungi Kantor PLN terdekat atau melalui Contact Center PLN 123, petugas PLN akan melakukan verifikasi dan akan mengganti dengan token yang baru.\nPelanggan dapat menginfokan kepada petugas ganti meter untuk token yang belum di input untuk penggantian bersama sisa token pada meter sebelumnya.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:32:03.039Z",
+    "modifiedOn": "2022-10-06T17:32:03.039Z"
+  },
+  {
+    "id": "builtin_text-Ind7hk",
+    "formData": {
+      "text$en": "Benar, bagi Pelanggan prabayar daya 900 VA subsidi otomatis akan mendapatkan diskon 50% saat melakukan transaksi pembelian token listrik.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:32:33.582Z",
+    "modifiedOn": "2022-10-06T17:32:33.582Z"
+  },
+  {
+    "id": "builtin_text-21OCPo",
+    "formData": {
+      "text$en": "SYARAT & KETENTUAN BACA METER MANDIRI OLEH PELANGGAN\n\nPLN mulai bulan Mei 2020, kembali melaksanakan pembacaan meter secara langsung ke rumah pelanggan pascabayar. Petugas PLN dalam melakukan pembacaan meter ke rumah pelanggan, menggunakan standar APD dengan tetap memperhatikan Pedoman Pencegahan Penyebaran COVID-19 @kemenkes_ri\n\nPLN juga tetap menyiapkan layanan baca meter mandiri melalui aplikasi WhatsApp Messenger PLN 123 dengan nomor 08122 123 123.\n\nBaca meter mandiri bisa dilakukan oleh pelanggan mulai tanggal 24 s.d. 27 setiap bulannya.\n\nPelaporan baca meter mandiri oleh pelanggan yang valid, yaitu pengiriman foto angka stand meter akan dijadikan prioritas utama dasar perhitungan rekening listrik.\n\nJika pelanggan tidak dapat mengirimkan angka stand & foto pada tanggal baca mandiri yang disediakan bagi pelanggan pada tanggal 24 s.d. 27, maka angka stand yg akan digunakan adalah hasil dari baca petugas PLN.\n\nJika pelanggan tidak dapat mengirimkan foto angka stand meter ataupun lokasi kWh meter tidak dapat didatangi oleh petugas PLN, maka pemakaian listrik akan diperhitungkan rata-rata 3 bulan terakhir.\n\nApabila Pengiriman angka stand & foto kWh meter oleh pelanggan diluar dari tanggal yang telah ditetapkan, yaitu tanggal 24 s.d. 27, maka tidak akan dijadikan angka dalam perhitungan tagihan listrik.\n\nSelanjutnya, setiap 3 (tiga) bulan PLN akan melakukan pencocokan angka stand kWh meter khusus hasil kiriman pelanggan dengan angka faktual hasil pembacaan petugas PLN, dan akan dilakukan penyesuaian pada perhitungan tagihan listrik. Untuk itu dimohon pelanggan mengirimkan angka & foto stand sesuai dengan yang tertera di kWh meter sehingga diharapkan tidak terjadi penyesuaian tagihan naik atau turun secara berlebihan.\n\nHubungi layanan Contact Center PLN 123 untuk menyampaikan pertanyaan, informasi atau keluhan atas layanan kami. Terimakasih atas kesediaan pelanggan telah membaca syarat & ketentuan ini.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:42:26.398Z",
+    "modifiedOn": "2022-10-06T17:42:26.398Z"
+  },
+  {
+    "id": "builtin_text-Aj5bcM",
+    "formData": {
+      "text$en": "Baik, percakapan ini kami batalkan 😊",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:44:09.343Z",
+    "modifiedOn": "2022-10-06T17:44:09.343Z"
+  },
+  {
+    "id": "builtin_text-m62Mme",
+    "formData": {
+      "text$en": "Maaf, format yang dimasukkan kurang tepat",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-06T17:50:24.006Z",
+    "modifiedOn": "2022-10-06T17:50:24.006Z"
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "b21eeb4939",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-IgUm1r",
+        "say #!builtin_text-AAAL29",
+        "say #!builtin_text-2NTde9"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"STRG\" || \"strg\" ||  \"Syarat Tabungan Reguler\" ||  \"syarat tabungan reguler\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/TabunganMenu/TrgSubmenu/Strg.flow.json"
+        },
+        {
+          "condition": "user.teks == \"FTRG\" || \"ftrg\" || \"Fitur Tabungan Reguler\" || \"fitur tabungan reguler\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/TabunganMenu/TrgSubmenu/Ftrg.flow.json"
+        },
+        {
+          "condition": "user.teks == \"BTRG\" || \"btrg\" || \"Biaya Adm Tabungan Reguler\" || \"biaya adm tabungan reguler\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/TabunganMenu/TrgSubmenu/Btrg.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

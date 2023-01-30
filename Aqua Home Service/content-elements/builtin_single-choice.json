@@ -1,0 +1,192 @@
+[
+  {
+    "id": "builtin_single-choice-AZZuj_",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "Setuju",
+          "value": "Setuju"
+        }
+      ],
+      "markdown$en": false,
+      "disableFreeText$en": false,
+      "typing$en": true,
+      "text$en": "♦Klik SETUJU untuk menyetujui S&K"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-22T16:35:50.846Z",
+    "modifiedOn": "2022-09-22T16:36:20.680Z"
+  },
+  {
+    "id": "builtin_single-choice-HQnQtg",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "SETUJU",
+          "value": "SETUJU"
+        }
+      ],
+      "markdown$en": false,
+      "disableFreeText$en": false,
+      "typing$en": false,
+      "text$en": "Halo {{user.name}}, Selamat datang di AQUA Delivery! ADEL akan bantu kamu dalam melakukan pesanan ke AQUA Home Service.\n\nPelajari bagaimana kami melindungi data pribadimu dengan memahami Syarat & Ketentuan WhatsApp AHS. Klik link dibawah ini: https://buymax-ws.daninaportal.id/chatbot-tnc\n\n🔸 Klik / ketik SETUJU untuk menyetujui S&K"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-23T07:31:19.823Z",
+    "modifiedOn": "2022-10-11T08:16:04.880Z"
+  },
+  {
+    "id": "builtin_single-choice-TePDiQ",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "GAS",
+          "value": "GAS"
+        },
+        {
+          "title": "BERAS",
+          "value": "BERAS"
+        }
+      ],
+      "markdown$en": true,
+      "disableFreeText$en": false,
+      "typing$en": true,
+      "text$en": "Klik tombol di bawah jika ingin memesan GAS atau BERAS"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-26T03:53:57.880Z",
+    "modifiedOn": "2022-09-26T03:53:57.880Z"
+  },
+  {
+    "id": "builtin_single-choice-3sU8SG",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "YA",
+          "value": "YA"
+        }
+      ],
+      "markdown$en": true,
+      "disableFreeText$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-26T03:54:48.534Z",
+    "modifiedOn": "2022-09-26T03:54:48.534Z"
+  },
+  {
+    "id": "builtin_single-choice-5mougX",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "YA",
+          "value": "YA"
+        },
+        {
+          "title": "TIDAK",
+          "value": "TIDAK"
+        }
+      ],
+      "markdown$en": true,
+      "disableFreeText$en": false,
+      "typing$en": true,
+      "text$en": "Apakah Benar?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-27T03:05:39.722Z",
+    "modifiedOn": "2022-09-27T03:05:39.722Z"
+  },
+  {
+    "id": "builtin_single-choice--hHCe8",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "GAS",
+          "value": "GAS"
+        },
+        {
+          "title": "BERAS",
+          "value": "BERAS"
+        }
+      ],
+      "markdown$en": true,
+      "disableFreeText$en": false,
+      "typing$en": true,
+      "text$en": "Klik tombol di bawah jika ingin memesan GAS atau BERAS"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-27T04:54:45.532Z",
+    "modifiedOn": "2022-09-27T04:54:45.532Z"
+  },
+  {
+    "id": "builtin_single-choice-fWaqfD",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "YA",
+          "value": "YA"
+        }
+      ],
+      "markdown$en": true,
+      "disableFreeText$en": false,
+      "typing$en": true,
+      "text$en": "Atau klik YA untuk menyelesaikan pesanan"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-27T06:44:44.349Z",
+    "modifiedOn": "2022-09-27T06:44:44.349Z"
+  },
+  {
+    "id": "builtin_single-choice-9RVJ2w",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "YA",
+          "value": "YA"
+        },
+        {
+          "title": "Tidak",
+          "value": "Tidak"
+        }
+      ],
+      "markdown$en": true,
+      "disableFreeText$en": false,
+      "typing$en": true,
+      "text$en": "Apakah lokasi sudah tepat?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-27T15:09:39.640Z",
+    "modifiedOn": "2022-09-27T15:47:32.029Z"
+  },
+  {
+    "id": "builtin_single-choice-SZgQ4b",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "YA",
+          "value": "YA"
+        },
+        {
+          "title": "Tidak",
+          "value": "Tidak"
+        }
+      ],
+      "markdown$en": true,
+      "disableFreeText$en": false,
+      "typing$en": true,
+      "text$en": "Apakah anda ingin ganti lokasi?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-28T01:29:04.566Z",
+    "modifiedOn": "2022-09-28T01:29:04.566Z"
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "24be82a5cc",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-w2ZfYC",
+        "say #!builtin_text-qS3sh5"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"SGP - Syarat Giro Premier\" || \"SGP\" || \"sgp\" || \"Syarat Giro Premier\" || \"syarat giro premier\"",
+          "conditionType": "raw",
+          "node": "Content"
+        },
+        {
+          "condition": "user.teks == \"BGP - Benefit Giro Premier\" || \"BGP\" || \"bgp\" || \"Benefit Giro Premier\" || \"benefit giro premier\"",
+          "conditionType": "raw",
+          "node": "Content1"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "c2f5e38f17",
+      "name": "Content",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-J8GbeE",
+        "say #!builtin_text-McXU7D",
+        "say #!builtin_text-aJvzFa",
+        "say #!builtin_text--lKP-a",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "44c316a960",
+      "name": "Content1",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-MhSooq",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

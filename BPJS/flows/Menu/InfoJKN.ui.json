@@ -1,0 +1,265 @@
+{
+  "nodes": [
+    {
+      "id": "f1754cd2ff",
+      "position": {
+        "x": 380,
+        "y": -40
+      }
+    },
+    {
+      "id": "dc57ce3fd9",
+      "position": {
+        "x": 385,
+        "y": 115
+      }
+    },
+    {
+      "id": "99412121cd",
+      "position": {
+        "x": 100,
+        "y": 100
+      }
+    },
+    {
+      "id": "14e2a6bf54",
+      "position": {
+        "x": 390,
+        "y": 275
+      }
+    },
+    {
+      "id": "85840ef713",
+      "position": {
+        "x": 390,
+        "y": 430
+      }
+    },
+    {
+      "id": "ff918c9f4b",
+      "position": {
+        "x": 390,
+        "y": 605
+      }
+    },
+    {
+      "id": "9d5a691852",
+      "position": {
+        "x": 745,
+        "y": 330
+      }
+    },
+    {
+      "id": "4f61291834",
+      "position": {
+        "x": 110,
+        "y": 440
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "14e2a6bf54",
+      "sourcePort": "out0",
+      "target": "9d5a691852",
+      "points": [
+        {
+          "x": 590,
+          "y": 399
+        },
+        {
+          "x": 745,
+          "y": 348
+        }
+      ]
+    },
+    {
+      "source": "4f61291834",
+      "sourcePort": "out0",
+      "target": "99412121cd",
+      "points": [
+        {
+          "x": 310,
+          "y": 545
+        },
+        {
+          "x": 100,
+          "y": 118
+        }
+      ]
+    },
+    {
+      "source": "85840ef713",
+      "sourcePort": "out0",
+      "target": "9d5a691852",
+      "points": [
+        {
+          "x": 590,
+          "y": 542
+        },
+        {
+          "x": 745,
+          "y": 348
+        }
+      ]
+    },
+    {
+      "source": "99412121cd",
+      "sourcePort": "out2",
+      "target": "14e2a6bf54",
+      "points": [
+        {
+          "x": 300,
+          "y": 284
+        },
+        {
+          "x": 390,
+          "y": 293
+        }
+      ]
+    },
+    {
+      "source": "99412121cd",
+      "sourcePort": "out5",
+      "target": "4f61291834",
+      "points": [
+        {
+          "x": 300,
+          "y": 376
+        },
+        {
+          "x": 110,
+          "y": 458
+        }
+      ]
+    },
+    {
+      "source": "99412121cd",
+      "sourcePort": "out3",
+      "target": "85840ef713",
+      "points": [
+        {
+          "x": 300,
+          "y": 315
+        },
+        {
+          "x": 390,
+          "y": 448
+        }
+      ]
+    },
+    {
+      "source": "99412121cd",
+      "sourcePort": "out1",
+      "target": "dc57ce3fd9",
+      "points": [
+        {
+          "x": 300,
+          "y": 254
+        },
+        {
+          "x": 385,
+          "y": 133
+        }
+      ]
+    },
+    {
+      "source": "99412121cd",
+      "sourcePort": "out0",
+      "target": "f1754cd2ff",
+      "points": [
+        {
+          "x": 300,
+          "y": 217
+        },
+        {
+          "x": 380,
+          "y": -22
+        }
+      ]
+    },
+    {
+      "source": "99412121cd",
+      "sourcePort": "out4",
+      "target": "ff918c9f4b",
+      "points": [
+        {
+          "x": 300,
+          "y": 345
+        },
+        {
+          "x": 390,
+          "y": 623
+        }
+      ]
+    },
+    {
+      "source": "9d5a691852",
+      "sourcePort": "out2",
+      "target": "4f61291834",
+      "points": [
+        {
+          "x": 945,
+          "y": 502
+        },
+        {
+          "x": 950,
+          "y": 760
+        },
+        {
+          "x": 110,
+          "y": 755
+        },
+        {
+          "x": 110,
+          "y": 458
+        }
+      ]
+    },
+    {
+      "source": "dc57ce3fd9",
+      "sourcePort": "out0",
+      "target": "9d5a691852",
+      "points": [
+        {
+          "x": 585,
+          "y": 239
+        },
+        {
+          "x": 745,
+          "y": 348
+        }
+      ]
+    },
+    {
+      "source": "f1754cd2ff",
+      "sourcePort": "out0",
+      "target": "9d5a691852",
+      "points": [
+        {
+          "x": 580,
+          "y": 84
+        },
+        {
+          "x": 745,
+          "y": 348
+        }
+      ]
+    },
+    {
+      "source": "ff918c9f4b",
+      "sourcePort": "out0",
+      "target": "9d5a691852",
+      "points": [
+        {
+          "x": 590,
+          "y": 717
+        },
+        {
+          "x": 745,
+          "y": 348
+        }
+      ]
+    }
+  ]
+}

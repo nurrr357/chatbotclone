@@ -1,0 +1,99 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "4d0d9b6b37",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-RXdOt-",
+        "say #!builtin_text-4yZgkv"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"STTKI\" || \"sttki\" || \"Syarat Tabungan TKI \" || \"syarat tabungan tki\" || \"STTKI - Syarat Tabungan TKI\"",
+          "conditionType": "raw",
+          "node": "Content1"
+        },
+        {
+          "condition": "user.teks == \"BTTKI\" || \"bttki\" || \"Benefit Tabungan TKI\" || \"benefit tabungan tki\" || \"BTTKI - Benefit Tabungan TKI\"",
+          "conditionType": "raw",
+          "node": "Content"
+        },
+        {
+          "condition": "user.teks == \"ATTKI\" || \"attki\" || \"Biaya Adm Tabungan TKI\" || \"biaya adm tabungan tki\" || \"ATTKI - Biaya Adm Tabungan TKI\"",
+          "conditionType": "raw",
+          "node": "Content2"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "b10c6b6cd3",
+      "name": "Content1",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-1PpzlI",
+        "say #!builtin_text-xFzBAI",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "6a62892004",
+      "name": "Content",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-5LDnTz",
+        "say #!builtin_text-q7u9zp",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "f4ccc004d7",
+      "name": "Content2",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-Ohbj5-",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

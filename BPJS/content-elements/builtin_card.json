@@ -1,0 +1,65 @@
+[
+  {
+    "id": "builtin_card-xt0aL0",
+    "formData": {
+      "title$en": "Ada lagi yang dapat {{user.namaBot}} bantu?",
+      "actions$en": [
+        {
+          "action": "Postback",
+          "title": "Menu Utama",
+          "payload": "list"
+        },
+        {
+          "action": "Postback",
+          "title": "Selesai",
+          "payload": "end"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T02:44:40.342Z",
+    "modifiedOn": "2022-10-17T05:19:06.672Z"
+  },
+  {
+    "id": "builtin_card-MT3mRS",
+    "formData": {
+      "title$en": "Ada lagi yang dapat {{user.namaBot}} bantu?",
+      "actions$en": [
+        {
+          "action": "Postback",
+          "title": "Menu Utama",
+          "payload": "menu"
+        },
+        {
+          "action": "Postback",
+          "title": "Selesai",
+          "payload": "end"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T03:38:02.755Z",
+    "modifiedOn": "2022-10-17T05:18:03.999Z"
+  },
+  {
+    "id": "builtin_card-hjFoQS",
+    "formData": {
+      "actions$en": [
+        {
+          "action": "Postback",
+          "title": "Lokasi Cabang",
+          "payload": "lobang"
+        },
+        {
+          "action": "Postback",
+          "title": "Lokasi Faskes",
+          "payload": "lofak"
+        }
+      ],
+      "title$en": "lokasi tersedia :"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T07:27:23.137Z",
+    "modifiedOn": "2022-09-29T07:27:39.799Z"
+  }
+]

@@ -1,0 +1,120 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text === \"batal\"",
+        "conditionType": "raw",
+        "node": "END/Batal.flow.json"
+      },
+      {
+        "condition": "event.nlu.intent.nama === \"timeout\"",
+        "conditionType": "raw",
+        "node": "END/Timeout.flow.json"
+      }
+    ]
+  },
+  "startNode": "Lokasi",
+  "description": "",
+  "nodes": [
+    {
+      "id": "b3b0d8e11a",
+      "name": "Lokasi",
+      "onEnter": [
+        "say #!builtin_card-hjFoQS"
+      ],
+      "onReceive": [],
+      "next": [
+        {
+          "condition": "event.payload.payload == \"lobang\"",
+          "conditionType": "raw",
+          "node": "Cabang"
+        },
+        {
+          "condition": "event.payload.payload == \"lofak\"",
+          "conditionType": "raw",
+          "node": "Faskes"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "SalahMemilih"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "fc0a97d6b7",
+      "name": "Cabang",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Choice"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-A0mXSe"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "360ad8bf89",
+      "name": "Faskes",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Choice"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-nbSzSy"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "bb842bccbc",
+      "name": "Choice",
+      "next": [
+        {
+          "condition": "event.payload.payload == \"end\"",
+          "conditionType": "raw",
+          "node": "END/Terimakasih.flow.json"
+        },
+        {
+          "condition": "event.payload.payload == \"list\"",
+          "conditionType": "raw",
+          "node": "main.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "SalahMemilih"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_card-xt0aL0"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "9417a6131a",
+      "name": "SalahMemilih",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Lokasi"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-xHrMiU",
+        "say #!builtin_text-1UXRMf"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

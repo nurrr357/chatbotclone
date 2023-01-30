@@ -1,0 +1,30 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "next": []
+  },
+  "startNode": "entry",
+  "skillData": {
+    "method": "get",
+    "memory": "session",
+    "randomId": "",
+    "url": "http://15.235.156.254:5000/api/kemenkes/users/verify/2/{{user.notlp}}",
+    "variable": "response",
+    "invalidJson": false
+  },
+  "nodes": [
+    {
+      "name": "entry",
+      "onEnter": [
+        "basic-skills/call_api {\"randomId\":\"\",\"url\":\"http://15.235.156.254:5000/api/kemenkes/users/verify/2/{{user.notlp}}\",\"method\":\"get\",\"memory\":\"session\",\"variable\":\"response\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "#"
+        }
+      ],
+      "id": "403438"
+    }
+  ]
+}

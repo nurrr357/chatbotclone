@@ -1,0 +1,99 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "b28f3a11bc",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-nC1I-l",
+        "say #!builtin_text-YO18l1"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"STBKU - Syarat TabunganKu\" || \"STBKU\" || \"stbku\" || \"Syarat TabunganKu\" || \"syarat tabunganku\"",
+          "conditionType": "raw",
+          "node": "Content"
+        },
+        {
+          "condition": "user.teks == \"BTBKU - Benefit TabunganKu\" || \"BTKU\" || \"btku\" || \"Benefit TabunganKu\" || \"benefit tabunganku\"",
+          "conditionType": "raw",
+          "node": "Content1"
+        },
+        {
+          "condition": "user.teks == \"ATBKU - Biaya Adm TabunganKu\" || \"ATBKU\" || \"atbku\" || \"Biaya Adm TabunganKu\" || \"biaya adm tabunganku\"",
+          "conditionType": "raw",
+          "node": "Content2"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "4d85d907d9",
+      "name": "Content",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-wliNAJ",
+        "say #!builtin_text-MImLGU"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "d61d8bc702",
+      "name": "Content1",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-IZEnVP",
+        "say #!builtin_text-mThniA",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "b816332e8c",
+      "name": "Content2",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-HbXXyz",
+        "say #!builtin_text-5ihlsI",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

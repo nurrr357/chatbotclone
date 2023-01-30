@@ -1,0 +1,36 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "entry",
+  "description": "",
+  "nodes": [
+    {
+      "id": "cfd2ae6da1",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-wyCSZU",
+        "say #!builtin_text-6sQmrq",
+        "say #!builtin_text-FsNXLx"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

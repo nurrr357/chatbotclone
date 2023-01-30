@@ -1,0 +1,174 @@
+[
+  {
+    "id": "builtin_card-xiHBk7",
+    "formData": {
+      "title$en": "Livin' by Mandiri. Segera download Livin' by Mandiri (Logo Kuning) untuk pengalaman yang lebih baik. Dengan fitur unggulan yang menghadirkan kesempurnaan aplikasi demi kenyamanan dan keamanan transaksi.",
+      "actions$en": [
+        {
+          "action": "Postback",
+          "title": "Belum Punya Livin'",
+          "text": "Belum Punya Livin'",
+          "payload": "belum"
+        },
+        {
+          "action": "Postback",
+          "title": "Sudah Punya Livin'",
+          "payload": "sudah"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-07T09:41:20.045Z",
+    "modifiedOn": "2022-11-07T10:10:11.456Z"
+  },
+  {
+    "id": "builtin_card-KL-F5B",
+    "formData": {
+      "title$en": "Buka Tabungan di Luar NegeriMau tahu informasi pembukaan rekening tabungan di luar negeri?Tekan tombol Luar Negeri di bawah ini ya.",
+      "actions$en": [
+        {
+          "action": "Postback",
+          "title": "Luar Negeri",
+          "payload": "Luar"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-07T12:15:55.913Z",
+    "modifiedOn": "2022-11-07T12:15:55.913Z"
+  },
+  {
+    "id": "builtin_card-trI_kQ",
+    "formData": {
+      "title$en": "Cara Top Up E-money di Livin'Klik tombol berikut :",
+      "actions$en": [
+        {
+          "action": "Postback",
+          "title": "Top up e money di...",
+          "text": "Mita infoin yaa",
+          "payload": "money"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-07T13:28:28.120Z",
+    "modifiedOn": "2022-11-07T13:28:28.120Z"
+  },
+  {
+    "id": "builtin_card-oE6snH",
+    "formData": {
+      "title$en": "Top Up OtomatisInformasi mengenai Top Up Otomatis di E-wallet klik tombol berikut:",
+      "actions$en": [
+        {
+          "action": "Postback",
+          "title": "Top Up Otomatis",
+          "payload": "otomatis"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-08T05:03:53.404Z",
+    "modifiedOn": "2022-12-12T09:17:01.073Z"
+  },
+  {
+    "id": "builtin_card-xAt4CP",
+    "formData": {
+      "title$en": "Cara Tarik Tunai Tanpa KartuInformasi mengenai Cara Tarik Tunai Tanpa Kartu klik tombol berikut:",
+      "actions$en": [
+        {
+          "action": "Postback",
+          "title": "Cara Tarik Tunai...",
+          "payload": "Tunai"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-08T05:08:00.437Z",
+    "modifiedOn": "2022-11-08T05:08:00.437Z"
+  },
+  {
+    "id": "builtin_card-CpTEW1",
+    "formData": {
+      "title$en": "Goal Saving' dan DepositoInformasi mengenai Goal Saving' dan Deposito di Livin' by Mandiri klik tombol berikut:",
+      "actions$en": [
+        {
+          "action": "Postback",
+          "title": "Goal Saving' di...",
+          "text": "saving",
+          "payload": "saving"
+        },
+        {
+          "action": "Postback",
+          "title": "Deposito di Livin'",
+          "payload": "depo"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-08T05:14:09.268Z",
+    "modifiedOn": "2022-11-08T05:14:33.872Z"
+  },
+  {
+    "id": "builtin_card-xljdOD",
+    "formData": {
+      "title$en": "Cara Top Up E-money di Livin'Klik tombol berikut :",
+      "actions$en": [
+        {
+          "action": "Postback",
+          "title": "Top up e-money d...",
+          "payload": "money"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-08T11:20:27.213Z",
+    "modifiedOn": "2022-11-08T11:20:27.213Z"
+  },
+  {
+    "id": "builtin_card-_mxtor",
+    "formData": {
+      "title$en": "Di Mana Saja Kapan SajaSaat ini kamu sudah dapat melakukan pembukaan rekening langsung melalui Livin' by Mandiri serta melakukan aktivasi Livin' dengan menggunakan nomor luar negeri.",
+      "actions$en": [
+        {
+          "action": "Postback",
+          "title": "Belum Punya Tabungan",
+          "payload": "belum"
+        },
+        {
+          "action": "Postback",
+          "title": "Sudah Punya Tabungan",
+          "payload": "sudah"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-09T09:42:07.339Z",
+    "modifiedOn": "2022-11-09T09:42:48.759Z"
+  },
+  {
+    "id": "builtin_card-xD0nfj",
+    "formData": {
+      "title$en": "Livin' by MandiriSaat ini financial super app Livin' by Mandiri dapat digunakan dari luar negeri loh. Nikmati kemudahan layanan finansial seperti pembayaran, transfer, top up dan  beragam fitur menarik lainnya.",
+      "actions$en": [
+        {
+          "action": "Postback",
+          "title": "Sudah Punya Livin'",
+          "payload": "sudah"
+        },
+        {
+          "action": "Postback",
+          "title": "Belum Punya Livin'",
+          "payload": "belum"
+        },
+        {
+          "action": "Postback",
+          "title": "Info Lebih Lanjut",
+          "payload": "info"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-09T10:24:01.312Z",
+    "modifiedOn": "2022-11-09T10:24:01.312Z"
+  }
+]

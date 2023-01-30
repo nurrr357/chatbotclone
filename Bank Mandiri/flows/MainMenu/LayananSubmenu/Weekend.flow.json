@@ -1,0 +1,83 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "eb59bbf70d",
+      "name": "Content",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-Uq_WyC",
+        "say #!builtin_text-6_h7CF",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "8c62a2deb1",
+      "name": "Content1",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-oY2x2n",
+        "say #!builtin_text-VFBnUT",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "9bb3e02abf",
+      "name": "Menu",
+      "onEnter": [
+        "say #!dropdown-Zf_ZLK"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.pilih == \"weken\"",
+          "conditionType": "raw",
+          "node": "Content"
+        },
+        {
+          "condition": "user.pilih == \"lokasi\"",
+          "conditionType": "raw",
+          "node": "Content1"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

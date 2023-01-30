@@ -1,0 +1,721 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "CallAPI-961a36",
+  "description": "",
+  "nodes": [
+    {
+      "id": "415404c2d0",
+      "name": "Sertifikatt",
+      "onEnter": [
+        "say #!builtin_text-n7Z0o7"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"notlp\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "OTP"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "a6a54d7b41",
+      "name": "OTP",
+      "next": [
+        {
+          "condition": "user.otp == temp.noTiket",
+          "conditionType": "raw",
+          "node": "CallAPI-f51b4a"
+        }
+      ],
+      "onEnter": [
+        "token {\"format\":\"sggfsdfsdf\"}",
+        "say #!builtin_text-_eseDE"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"otp\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "d3e23973c4",
+      "name": "NamaLengkap",
+      "next": [
+        {
+          "condition": "true",
+          "node": "NIK"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-YHjq70"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"namaLengkap\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "d63938c275",
+      "name": "NIK",
+      "next": [
+        {
+          "condition": "true",
+          "node": "VerifNomer"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-0zXAl9"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"NIK\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "skill-f51b4a",
+      "type": "skill-call",
+      "skill": "CallAPI",
+      "name": "CallAPI-f51b4a",
+      "flow": "skills/CallAPI-f51b4a.flow.json",
+      "next": [
+        {
+          "caption": "On success",
+          "condition": "temp.valid",
+          "node": "Helpcenter"
+        },
+        {
+          "caption": "On failure",
+          "condition": "!temp.valid",
+          "node": "node-57bf"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "d9a2fe91b6",
+      "name": "Download",
+      "next": [
+        {
+          "condition": "user.answer == 1 ",
+          "conditionType": "raw",
+          "node": "ImageVaksin1"
+        },
+        {
+          "condition": "user.answer == 2",
+          "conditionType": "raw",
+          "node": "ImageVaksin2"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_card-r1YHAx"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"answer\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "skill-7475c2",
+      "type": "skill-call",
+      "skill": "CallAPI",
+      "name": "VerifNomer",
+      "flow": "skills/CallAPI-7475c2.flow.json",
+      "next": [
+        {
+          "caption": "On success",
+          "condition": "temp.valid",
+          "node": "Transition"
+        },
+        {
+          "caption": "On failure",
+          "condition": "!temp.valid",
+          "node": "Salah"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-8b6c09",
+      "type": "skill-call",
+      "skill": "CallAPI",
+      "name": "ChangeNomor",
+      "flow": "skills/CallAPI-8b6c09.flow.json",
+      "next": [
+        {
+          "caption": "On success",
+          "condition": "temp.valid",
+          "node": "GetData"
+        },
+        {
+          "caption": "On failure",
+          "condition": "!temp.valid",
+          "node": "Failure3"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "5d8fc06abd",
+      "name": "Nama",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Choice"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-ySqnwP"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"namaLengkap\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "791b472291",
+      "name": "TTL",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Choice2"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-wqzfAs"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"TTL\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "b9576cd38e",
+      "name": "Nomer",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Choice3"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-kBEEeT"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"notlp1\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "2f5a62cca2",
+      "name": "Ubah",
+      "next": [
+        {
+          "condition": "user.answer == \"Nama\"",
+          "conditionType": "raw",
+          "node": "Nama"
+        },
+        {
+          "condition": "user.answer == \"tgl\"",
+          "conditionType": "raw",
+          "node": "TTL"
+        },
+        {
+          "condition": "user.answer == \"Nomor Telepon\"",
+          "conditionType": "raw",
+          "node": "Nomer"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_card-SeY2d2"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"answer\",\"value\":\"{{event.payload.payload}}\"}",
+        "payloadVar {\"value\":\"a\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "skill-3d5920",
+      "type": "skill-call",
+      "skill": "CallAPI",
+      "name": "ChangeTanggalLahir",
+      "flow": "skills/CallAPI-3d5920.flow.json",
+      "next": [
+        {
+          "caption": "On success",
+          "condition": "temp.valid_jgXo8vDlCK",
+          "node": "GetData"
+        },
+        {
+          "caption": "On failure",
+          "condition": "!temp.valid_jgXo8vDlCK",
+          "node": "Failure"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-aaee0c",
+      "type": "skill-call",
+      "skill": "CallAPI",
+      "name": "ChangeNama",
+      "flow": "skills/CallAPI-aaee0c.flow.json",
+      "next": [
+        {
+          "caption": "On success",
+          "condition": "temp.valid_IPhIgUlVcB",
+          "node": "GetData"
+        },
+        {
+          "caption": "On failure",
+          "condition": "!temp.valid_IPhIgUlVcB",
+          "node": "Failure2"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "7559564b65",
+      "name": "ImageVaksin1",
+      "next": [
+        {
+          "condition": "user.answer == \"Download Lagi\"",
+          "conditionType": "raw",
+          "node": "Download"
+        },
+        {
+          "condition": "user.answer == \"Menu Utama\"",
+          "conditionType": "raw",
+          "node": "Helpcenter"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-axlPU0",
+        "say #!builtin_card--8LgwN"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"answer\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "830dc5681c",
+      "name": "ImageVaksin2",
+      "next": [
+        {
+          "condition": "user.answer == \"Download Lagi\"",
+          "conditionType": "raw",
+          "node": "Download"
+        },
+        {
+          "condition": "user.answer == \"Menu Utama\"",
+          "conditionType": "raw",
+          "node": "Helpcenter"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-XmBkRD",
+        "say #!builtin_card--8LgwN"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"answer\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "bac3afefb6",
+      "name": "Choice2",
+      "next": [
+        {
+          "condition": "user.answer == \"Y\"",
+          "conditionType": "raw",
+          "node": "ChangeTanggalLahir"
+        },
+        {
+          "condition": "user.answer == \"T\"",
+          "conditionType": "raw",
+          "node": "TTL"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_card-nPxeEb"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"answer\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "780c3eda96",
+      "name": "Choice",
+      "next": [
+        {
+          "condition": "user.answer == \"Y\"",
+          "conditionType": "raw",
+          "node": "ChangeNama"
+        },
+        {
+          "condition": "user.answer == \"T\"",
+          "conditionType": "raw",
+          "node": "Nama"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_card-WkFuEk"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"answer\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "bb7aff8997",
+      "name": "Choice3",
+      "next": [
+        {
+          "condition": "user.answer == \"Y\"",
+          "conditionType": "raw",
+          "node": "ChangeNomor"
+        },
+        {
+          "condition": "user.answer == \"T\"",
+          "conditionType": "raw",
+          "node": "Nomer"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_card-chScez"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"answer\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "49eaf33be5",
+      "name": "Status",
+      "next": [
+        {
+          "condition": "user.answer == \"Menu Utama\"",
+          "conditionType": "raw",
+          "node": "Helpcenter"
+        },
+        {
+          "condition": "user.answer == \"Akhiri Sesi\"",
+          "conditionType": "raw",
+          "node": "AkhiriSesi.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-NJyxqn",
+        "say #!builtin_card-UeAyWB"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"answer\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "7e8d2c9f12",
+      "name": "Transition",
+      "next": [
+        {
+          "condition": "temp.selected == \"Download Sertifikat\"",
+          "conditionType": "raw",
+          "node": "Download"
+        },
+        {
+          "condition": "temp.selected == \"Status Vaksinasi\"",
+          "conditionType": "raw",
+          "node": "Status"
+        },
+        {
+          "condition": "temp.selected == \"Ubah Info Diri\"",
+          "conditionType": "raw",
+          "node": "Ubah"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "b598b7317c",
+      "name": "Salah",
+      "next": [
+        {
+          "condition": "user.answer == \"Menu Utama\"",
+          "conditionType": "raw",
+          "node": "Helpcenter"
+        },
+        {
+          "condition": "user.answer == \"Akhiri Sesi\"",
+          "conditionType": "raw",
+          "node": "AkhiriSesi.flow.json"
+        },
+        {
+          "condition": "user.answer == \"Ulang Authentifikasi\"",
+          "conditionType": "raw",
+          "node": "NamaLengkap"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-TYmhSL",
+        "say #!builtin_card-gqTcBW"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"answer\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "db824b2a2e",
+      "name": "Helpcenter",
+      "next": [
+        {
+          "condition": "temp.selected == \"Download Sertifikat\" ||temp.selected == \"Ubah Info Diri\" || temp.selected == \"Status Vaksinasi\"",
+          "conditionType": "raw",
+          "node": "NamaLengkap"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_card-re1RYy"
+      ],
+      "onReceive": [
+        "payloadVar {\"value\":\"a\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "skill-95cce0",
+      "type": "skill-call",
+      "skill": "CallAPI",
+      "name": "GetData",
+      "flow": "skills/CallAPI-95cce0.flow.json",
+      "next": [
+        {
+          "caption": "On success",
+          "condition": "temp.valid",
+          "node": "ReadData"
+        },
+        {
+          "caption": "On failure",
+          "condition": "!temp.valid",
+          "node": "Failure1"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "9eebb2cc98",
+      "name": "ReadData",
+      "next": [
+        {
+          "condition": "user.answer == \"ubah\"",
+          "conditionType": "raw",
+          "node": "Ubah"
+        },
+        {
+          "condition": "user.answer == \"menu\"",
+          "conditionType": "raw",
+          "node": "Helpcenter"
+        },
+        {
+          "condition": "user.answer == \"akhiri\"",
+          "conditionType": "raw",
+          "node": "AkhiriSesi.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-u8cQEg",
+        "tanggal {\"value\":\"\"}",
+        "say #!builtin_text-nDBUSW",
+        "say #!builtin_card-bfHCD2"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"answer\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "e7ad04d00a",
+      "name": "Failure2",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-N1USE7"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "16bc19696b",
+      "name": "Failure",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-N1USE7"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "18025f49b7",
+      "name": "Failure3",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-N1USE7"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "e8fe967e63",
+      "name": "node-57bf",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Sertifikatt"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-TScQCC"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "ffcb1909e6",
+      "name": "Failure1",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-H035PZ"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "skill-961a36",
+      "type": "skill-call",
+      "skill": "CallAPI",
+      "name": "CallAPI-961a36",
+      "flow": "skills/CallAPI-961a36.flow.json",
+      "next": [
+        {
+          "caption": "On success",
+          "condition": "temp.valid",
+          "node": "Sertifikatt"
+        },
+        {
+          "caption": "On failure",
+          "condition": "!temp.valid",
+          "conditionType": "raw",
+          "node": "error.flow.json"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    }
+  ]
+}

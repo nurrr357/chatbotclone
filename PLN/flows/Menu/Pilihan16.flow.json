@@ -1,0 +1,86 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"main menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"batal\"",
+        "conditionType": "raw",
+        "node": "Batal.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"selesai\"",
+        "conditionType": "raw",
+        "node": "Selesai.flow.json"
+      }
+    ]
+  },
+  "startNode": "KomporInduksi",
+  "description": "",
+  "nodes": [
+    {
+      "id": "83826e5a30",
+      "name": "KomporInduksi",
+      "next": [
+        {
+          "condition": "user.id   == 14204817697",
+          "conditionType": "props",
+          "node": "Benar"
+        },
+        {
+          "condition": "user.id  != 14204817697",
+          "conditionType": "props",
+          "node": "Salah"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Salah"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-2aew8y"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"id\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "a403a65f67",
+      "name": "Salah",
+      "next": [
+        {
+          "condition": "true",
+          "node": "KomporInduksi"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-yc4SQ2",
+        "builtin/wait {\"delay\":\"\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "52d8ef5802",
+      "name": "Benar",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-OJ-j3J"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

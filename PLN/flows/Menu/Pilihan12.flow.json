@@ -1,0 +1,258 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"main menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"batal\"",
+        "conditionType": "raw",
+        "node": "Batal.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"selesai\"",
+        "conditionType": "raw",
+        "node": "Selesai.flow.json"
+      }
+    ]
+  },
+  "startNode": "PenertibanPemakaianTenaga",
+  "description": "",
+  "nodes": [
+    {
+      "id": "eb344d0974",
+      "name": "1",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-rjqivH"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "5bf580a9ca",
+      "name": "2",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-8Rztwq"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "08441de156",
+      "name": "3",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-JoQbO-"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "526acb45cf",
+      "name": "4",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-M-EHGw"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "fa5ca1ddc1",
+      "name": "5",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-khqSfY"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "cb47b19417",
+      "name": "6",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-p4F8ih"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "9bfd128a47",
+      "name": "7",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-ZGFyb-"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "4cfc6ee26a",
+      "name": "8",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-56ghsH"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "eb717326c7",
+      "name": "9",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-BkMmI9"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "acafa2bde2",
+      "name": "10",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-LIYY9d"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "122df94808",
+      "name": "PenertibanPemakaianTenaga",
+      "onEnter": [
+        "say #!builtin_text-oOQAof"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"input\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.input == 1",
+          "conditionType": "raw",
+          "node": "1"
+        },
+        {
+          "condition": "user.input == 2",
+          "conditionType": "raw",
+          "node": "2"
+        },
+        {
+          "condition": "user.input == 3",
+          "conditionType": "raw",
+          "node": "3"
+        },
+        {
+          "condition": "user.input == 4",
+          "conditionType": "raw",
+          "node": "4"
+        },
+        {
+          "condition": "user.input == 5",
+          "conditionType": "raw",
+          "node": "5"
+        },
+        {
+          "condition": "user.input == 6",
+          "conditionType": "raw",
+          "node": "6"
+        },
+        {
+          "condition": "user.input == 7",
+          "conditionType": "raw",
+          "node": "7"
+        },
+        {
+          "condition": "user.input == 8",
+          "conditionType": "raw",
+          "node": "8"
+        },
+        {
+          "condition": "user.input == 9",
+          "conditionType": "raw",
+          "node": "9"
+        },
+        {
+          "condition": "user.input == 10",
+          "conditionType": "raw",
+          "node": "10"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Repeat"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "bb72f0d5fc",
+      "name": "Repeat",
+      "next": [
+        {
+          "condition": "true",
+          "node": "PenertibanPemakaianTenaga"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

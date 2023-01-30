@@ -1,0 +1,64 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "edc19cc216",
+      "name": "Content",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-6Pa5zF",
+        "say #!builtin_text-OGRBa7",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "6c6c64b622",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-MK3PX3"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"promo\" || \"PROMO\"",
+          "conditionType": "raw",
+          "node": "MainMenu/Promo.flow.json"
+        },
+        {
+          "condition": "user.teks == \"EMLINKAJA - Cashback 10% setiap top up e-money di LinkAja.\" || \"EMLINKAJA\" || \"emlinkaja\" || \"Cashback 10% setiap top up e-money di LinkAja.\" || \"cashback 10% setiap top up e-money di linkaja.\"",
+          "conditionType": "raw",
+          "node": "Content"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

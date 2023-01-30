@@ -1,0 +1,186 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text === \"batal\"",
+        "conditionType": "raw",
+        "node": "END/Batal.flow.json"
+      },
+      {
+        "condition": "event.nlu.intent.nama === \"timeout\"",
+        "conditionType": "raw",
+        "node": "END/Timeout.flow.json"
+      }
+    ]
+  },
+  "startNode": "StatusPeserta",
+  "description": "",
+  "nodes": [
+    {
+      "id": "943eaad134",
+      "name": "StatusPeserta",
+      "onEnter": [
+        "say #!builtin_text-Jz5zQr"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"temp\",\"name\":\"nomer\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "temp.nomer == \"0002093452773&amp;20050114\"",
+          "conditionType": "raw",
+          "node": "Aktif"
+        },
+        {
+          "condition": "temp.nomer == \"0002093452773&amp;20050116\"",
+          "conditionType": "raw",
+          "node": "TidakAktif"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "SalahNomor"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "595234094b",
+      "name": "Aktif",
+      "next": [
+        {
+          "condition": "event.payload.payload == \"end\"",
+          "conditionType": "raw",
+          "node": "END/Terimakasih.flow.json"
+        },
+        {
+          "condition": "event.payload.payload == \"list\"",
+          "conditionType": "raw",
+          "node": "main.flow.json"
+        },
+        {
+          "condition": "event.payload.payload == \"utang\"",
+          "conditionType": "raw",
+          "node": "Menu/CekTagihanIuran.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "OpsiLain"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-QVbOY4",
+        "say #!builtin_text-r4InPw",
+        "say #!builtin_card-xt0aL0"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "cc91759830",
+      "name": "TidakAktif",
+      "next": [
+        {
+          "condition": "event.payload.payload == \"end\"",
+          "conditionType": "raw",
+          "node": "END/Terimakasih.flow.json"
+        },
+        {
+          "condition": "event.payload.payload == \"list\"",
+          "conditionType": "raw",
+          "node": "main.flow.json"
+        },
+        {
+          "condition": "event.payload.payload == \"utang\"",
+          "conditionType": "raw",
+          "node": "Menu/CekTagihanIuran.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "OpsiLain"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-zNSuFY",
+        "say #!builtin_text-r4InPw",
+        "say #!builtin_card-xt0aL0"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "f76b6926b1",
+      "name": "OpsiLain",
+      "next": [
+        {
+          "condition": "temp.secend  == \"menu\"",
+          "conditionType": "props",
+          "node": "main.flow.json"
+        },
+        {
+          "condition": "temp.secend   ==\"selesai\"",
+          "conditionType": "props",
+          "node": "END/Terimakasih.flow.json"
+        },
+        {
+          "condition": "temp.secend   == \"Menu\"",
+          "conditionType": "props",
+          "node": "main.flow.json"
+        },
+        {
+          "condition": "temp.secend    == \"Selesai\"",
+          "conditionType": "props",
+          "node": "END/Terimakasih.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "SalahMemilih"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-caeQUc"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"temp\",\"name\":\"secend\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "38dd7287dd",
+      "name": "SalahNomor",
+      "next": [
+        {
+          "condition": "true",
+          "node": "StatusPeserta"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-YU7uLm",
+        "say #!builtin_text-1UXRMf"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "55a1635065",
+      "name": "SalahMemilih",
+      "next": [
+        {
+          "condition": "true",
+          "node": "OpsiLain"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-xHrMiU",
+        "say #!builtin_text-1UXRMf"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

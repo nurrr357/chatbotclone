@@ -1,0 +1,34 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "next": []
+  },
+  "startNode": "entry",
+  "skillData": {
+    "method": "put",
+    "memory": "session",
+    "randomId": "IPhIgUlVcB",
+    "body": "{\n    \"Nm\": \"{{user.namaLengkap}}\"\n}",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "url": "http://15.235.156.254:5000/api/kemenkes/users/{{user.NIK}}",
+    "variable": "response",
+    "invalidJson": false
+  },
+  "nodes": [
+    {
+      "name": "entry",
+      "onEnter": [
+        "basic-skills/call_api {\"randomId\":\"IPhIgUlVcB\",\"url\":\"http://15.235.156.254:5000/api/kemenkes/users/{{user.NIK}}\",\"method\":\"put\",\"body\":\"{\\n    \\\"Nm\\\": \\\"{{user.namaLengkap}}\\\"\\n}\",\"headers\":{\"Content-Type\":\"application/json\"},\"memory\":\"session\",\"variable\":\"response\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "#"
+        }
+      ],
+      "id": "139164"
+    }
+  ]
+}

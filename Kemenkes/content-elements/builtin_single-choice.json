@@ -1,0 +1,40 @@
+[
+  {
+    "id": "builtin_single-choice-LaFdHh",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "Ya",
+          "value": "ya"
+        }
+      ],
+      "markdown$en": false,
+      "disableFreeText$en": false,
+      "typing$en": false,
+      "text$en": "Hasil Test Belum Muncul\nPada kasus hasil Antigen/PCR belum muncul, pastikan untuk mengikuti langkah-langkah berikut:\n\n- Tes dilakukan di lab terafiliasi Kemenkes\n- NIK pada surat hasil tes sesuai dengan yang di profil PeduliLindungi\n- Hubungi Lab untuk konfirmasi apakah data sudah diinput di NAR\n\npilih YA untuk terhubung ke petugas kami,\natau Ketik Menu untuk kembali ke menu pertama"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-26T13:43:21.908Z",
+    "modifiedOn": "2022-10-26T13:43:21.908Z"
+  },
+  {
+    "id": "builtin_single-choice-UcOvtx",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "Ya",
+          "value": "Ya"
+        }
+      ],
+      "markdown$en": false,
+      "disableFreeText$en": false,
+      "typing$en": false,
+      "text$en": "Wa Kemenkes\nJika Anda positif COVID-19 namun belum mendapatkan WhatsApp Kemenkes, silahkan untuk memeriksa status kelayakan melalui isoman.kemkes.go.id/panduan\n\nJika muncul Pasien memenuhi syarat untuk menebus resep, Anda bisa telekonsultasi di salah satu 17 telemedisin. Mohon untuk menangkap layar (screenshot) keterangan tersebut dan informasikan ke dokter sebelum memulai sesi konsultasi.\n\nJika NIK tidak terdaftar, pastikan Anda sudah memenuhi kriteria berikut:\n\n- Berusia minimal 18 tahun\n- Hasil positif tes Antigen/PCR sudah muncul di PeduliLindungi atau status HITAM\n- Domisili dan/atau hasil pemeriksaan lab berada di area DKI Jakarta, Bogor, Depok, Bekasi, Tangerang, Karawang, Bandung, Semarang Raya, Surakarta Raya, Kota Jogjakarta, Surabaya Raya, Malang Raya, Kota Denpasar, Nusa Dua, Medan, Palembang, Balikpapan, Banjarmasin, Manado, Makassar.\n\npilih YA untuk terhubung ke petugas kami,\natau Ketik Menu untuk kembali ke menu pertama"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-27T04:54:48.667Z",
+    "modifiedOn": "2022-10-27T04:54:48.667Z"
+  }
+]

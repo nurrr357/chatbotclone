@@ -1,0 +1,30 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "next": []
+  },
+  "startNode": "entry",
+  "skillData": {
+    "method": "get",
+    "memory": "temp",
+    "randomId": "_67SwNtVqn",
+    "url": "http://15.235.156.254:5000/api/mandiri/details?kota={{temp.tempat}}",
+    "variable": "response",
+    "invalidJson": false
+  },
+  "nodes": [
+    {
+      "name": "entry",
+      "onEnter": [
+        "basic-skills/call_api {\"randomId\":\"_67SwNtVqn\",\"url\":\"http://15.235.156.254:5000/api/mandiri/details?kota={{temp.tempat}}\",\"method\":\"get\",\"memory\":\"temp\",\"variable\":\"response\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "#"
+        }
+      ],
+      "id": "846526"
+    }
+  ]
+}

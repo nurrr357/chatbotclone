@@ -1,0 +1,112 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.nlu.intent.nama === \"timeout\"",
+        "conditionType": "raw",
+        "node": "END/Timeout.flow.json"
+      },
+      {
+        "condition": "event.payload.text === \"batal\"",
+        "conditionType": "raw",
+        "node": "END/Batal.flow.json"
+      }
+    ]
+  },
+  "startNode": "NamaBot",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "Start",
+      "next": [
+        {
+          "condition": "temp.choice == 1",
+          "conditionType": "raw",
+          "node": "Menu/CekStatusPeserta.flow.json"
+        },
+        {
+          "condition": "temp.choice == 2",
+          "conditionType": "raw",
+          "node": "Menu/CekTagihanIuran.flow.json"
+        },
+        {
+          "condition": "temp.choice == 3",
+          "conditionType": "raw",
+          "node": "Menu/SkriningKesehatan.flow.json"
+        },
+        {
+          "condition": "temp.choice == 4",
+          "conditionType": "raw",
+          "node": "Menu/InfoJKN.flow.json"
+        },
+        {
+          "condition": "temp.choice == 5",
+          "conditionType": "raw",
+          "node": "Menu/PanduanLayanan.flow.json"
+        },
+        {
+          "condition": "temp.choice == 6",
+          "conditionType": "raw",
+          "node": "Menu/LayananPandawa.flow.json"
+        },
+        {
+          "condition": "temp.choice == 7",
+          "conditionType": "raw",
+          "node": "Menu/CariLokasi.flow.json"
+        },
+        {
+          "condition": "temp.choice >= 7",
+          "conditionType": "raw",
+          "node": "Salah-Memilih"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Salah-Memilih"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-YzBEXt",
+        "say #!builtin_text-PjFNMw"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"temp\",\"name\":\"choice\",\"value\":\"{{event.payload.text}}\"}"
+      ]
+    },
+    {
+      "id": "2ecec446bf",
+      "name": "Salah-Memilih",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Start"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-xHrMiU",
+        "say #!builtin_text-fxSeJz",
+        "builtin/wait {\"delay\":\"5000\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "63c588cc62",
+      "name": "NamaBot",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Start"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"namaBot\",\"value\":\"Nopal\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "SertifikatLuarNegeri",
+  "description": "",
+  "nodes": [
+    {
+      "id": "726bc10fbb",
+      "name": "SertifikatLuarNegeri",
+      "next": [
+        {
+          "condition": "user.pilih ==\"Nama tidak sesuai Paspor. Nama di sertifikat vaksin internasional tidak sesuai paspor\"",
+          "conditionType": "props",
+          "node": "NamaTdkSesuaiPaspor"
+        },
+        {
+          "condition": "user.pilih ==\"Scan sertifikat gagal. Kendala scan sertifikat\"",
+          "conditionType": "props",
+          "node": "ScanSertifikatGagal"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!dropdown-MeggRx"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "9090f141fb",
+      "name": "NamaTdkSesuaiPaspor",
+      "next": [
+        {
+          "condition": "user.pilih ==\"ya\" || user.pilih ==\"YA\"",
+          "conditionType": "raw",
+          "node": "TimeOutAgent"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-9vr9x_",
+        "say #!builtin_card-t4GhFy"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "33748bb322",
+      "name": "ScanSertifikatGagal",
+      "next": [
+        {
+          "condition": "user.pilih ==\"ya\" || user.pilih ==\"YA\"",
+          "conditionType": "raw",
+          "node": "TimeOutAgent"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-7Rf_q_",
+        "say #!builtin_card-t4GhFy"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "skill-d8c61c",
+      "type": "skill-call",
+      "skill": "HitlNext",
+      "name": "Agent",
+      "flow": "skills/HitlNext-d8c61c.flow.json",
+      "next": [
+        {
+          "caption": "Handoff Resolved",
+          "condition": "temp['hitlnext-handoffResolved'] === true",
+          "node": "Resolved"
+        },
+        {
+          "caption": "No Agent Available",
+          "condition": "temp['hitlnext-noAgent'] === true",
+          "node": "NoAgent"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "732e055470",
+      "name": "TimeOutAgent",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Agent"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-bcBJim"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "4454ccf1f0",
+      "name": "Resolved",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-hmpsLC"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "da54903bfb",
+      "name": "NoAgent",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-h7AKrw"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

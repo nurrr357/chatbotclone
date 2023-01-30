@@ -1,0 +1,83 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "GoalSavingMenu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "c6a6b92ad9",
+      "name": "SavingContent",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-vRI_Gl",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "af93a9ddd2",
+      "name": "DepositoContent",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-cQNtei",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "38a797dd51",
+      "name": "GoalSavingMenu",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-3oThnp",
+        "say #!builtin_card-CpTEW1"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.pilih == \"saving\"",
+          "conditionType": "raw",
+          "node": "SavingContent"
+        },
+        {
+          "condition": "user.pilih == \"depo\"",
+          "conditionType": "raw",
+          "node": "DepositoContent"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

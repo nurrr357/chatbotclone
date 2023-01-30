@@ -1,0 +1,55 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Produkmenu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "e72c783d5d",
+      "name": "Produkmenu",
+      "onEnter": [
+        "say #!dropdown-GQjZN3"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.pilih == \"simpanan\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/Pinjaman.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"investasi\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/Investasi.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"kartu kredit\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/KartuKredit.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"e-money\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/Emoney.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

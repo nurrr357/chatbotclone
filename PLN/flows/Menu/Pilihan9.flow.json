@@ -1,0 +1,79 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"main menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"batal\"",
+        "conditionType": "raw",
+        "node": "Batal.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"selesai\"",
+        "conditionType": "raw",
+        "node": "Selesai.flow.json"
+      }
+    ]
+  },
+  "startNode": "entry",
+  "description": "",
+  "nodes": [
+    {
+      "id": "435af0a108",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-ulZfnd"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"input\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.input == 1",
+          "conditionType": "raw",
+          "node": "1"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "ee10207e90",
+      "name": "1",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-q_3k-G"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "cb70b359a8",
+      "name": "Ulangi",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "entry"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

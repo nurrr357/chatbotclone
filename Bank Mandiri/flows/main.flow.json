@@ -1,0 +1,79 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "Entry",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "Entry",
+      "next": [
+        {
+          "condition": "user.pilih == \"sudah\"",
+          "conditionType": "raw",
+          "node": "Main/MainMenu/Punya.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"belum\"",
+          "conditionType": "raw",
+          "node": "Main/MainMenu/Belum.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"livin\"",
+          "conditionType": "raw",
+          "node": "MainMenu/Livin.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"trx\"",
+          "conditionType": "raw",
+          "node": "MainMenu/Trx.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"produk\"",
+          "conditionType": "raw",
+          "node": "MainMenu/Produk.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"layanan\"",
+          "conditionType": "raw",
+          "node": "MainMenu/Layanan.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"promo\"",
+          "conditionType": "raw",
+          "node": "MainMenu/Promo.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"Atm\"",
+          "conditionType": "raw",
+          "node": "MainMenu/Atm.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"cabang\"",
+          "conditionType": "raw",
+          "node": "MainMenu/Cabang.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"buka\"",
+          "conditionType": "raw",
+          "node": "MainMenu/Buka.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-DDErMg",
+        "say #!builtin_card-xiHBk7",
+        "say #!dropdown-3-9w2a"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ]
+    }
+  ]
+}

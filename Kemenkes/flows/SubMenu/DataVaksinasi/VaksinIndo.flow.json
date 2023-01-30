@@ -1,0 +1,286 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "DataVaksin",
+  "description": "",
+  "nodes": [
+    {
+      "id": "8597ef4af8",
+      "name": "DataVaksin",
+      "onEnter": [
+        "say #!dropdown-vR4KcC"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.pilih ==\"Vaksin di Indonesia. Kendala Tiket Dosis Ketiga belum muncul\"",
+          "conditionType": "props",
+          "node": "VaksinIndo"
+        },
+        {
+          "condition": "user.pilih ==\"Vaksin Non Indonesia. Kendala Vaksinasi di luar Negeri\"",
+          "conditionType": "props",
+          "node": "SubMenu/DataVaksinasi/VaksinNonIndo.flow.json"
+        },
+        {
+          "condition": "user.pilih  ==\"Sertifikat Luar Negeri. Kendala sertifikat Perjalanan Luar Negeri\"",
+          "conditionType": "props",
+          "node": "SubMenu/DataVaksinasi/SetifikatLuarNegri.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "44982e868a",
+      "name": "VaksinIndo",
+      "next": [
+        {
+          "condition": "user.pilih ==\"Tiket Booster. Kendala Tiket Dosis Ketiga belum muncul\"",
+          "conditionType": "props",
+          "node": "TiketBooster"
+        },
+        {
+          "condition": "user.pilih ==\"NIK dipakai orang lain. Tidak bisa vaksin karena NIK dipakai orang lain (beda nama)\"",
+          "conditionType": "props",
+          "node": "NikDipakaiOrngLain"
+        },
+        {
+          "condition": "user.pilih ==\"Sertifikat tidak sesuai. Data Sertifikat (Nama, Tgl Lahir, Tgl Vaksin,Jenis Vaksin) Tidak sesuai\"",
+          "conditionType": "props",
+          "node": "SertifikatTdkSesuai"
+        },
+        {
+          "condition": "user.pilih ==\"Pindah Program Vaksinasi. Pindah NIK dari Vaksin Program Pemerintah ke Vaksin Gotong Royong\"",
+          "conditionType": "props",
+          "node": "PindahProgram"
+        },
+        {
+          "condition": "user.pilih ==\"NIK sudah vaksinasi. Belum vaksin, tetap terdata sudah vaksinasi\"",
+          "conditionType": "props",
+          "node": "NikSudahVaksinasi"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!dropdown-tIv2Oi"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "46b23f0f56",
+      "name": "TiketBooster",
+      "next": [
+        {
+          "condition": "user.pilih ==\"ya\" || user.pilih ==\"YA\"",
+          "conditionType": "raw",
+          "node": "TimeOutAgent"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-zd0aVK",
+        "say #!builtin_card-t4GhFy"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "skill-ee4ff0",
+      "type": "skill-call",
+      "skill": "HitlNext",
+      "name": "Agent",
+      "flow": "skills/HitlNext-ee4ff0.flow.json",
+      "next": [
+        {
+          "caption": "Handoff Resolved",
+          "condition": "temp['hitlnext-handoffResolved'] === true",
+          "node": "Resolved"
+        },
+        {
+          "caption": "Timed Out Waiting Agent",
+          "condition": "temp['hitlnext-timedOutWaitingAgent'] === true",
+          "node": "NoAgent"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "20d7adbb9a",
+      "name": "NikDipakaiOrngLain",
+      "next": [
+        {
+          "condition": "user.pilih ==\"ya\" || user.pilih ==\"YA\"",
+          "conditionType": "raw",
+          "node": "TimeOutAgent"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-TZSpOj",
+        "say #!builtin_card-t4GhFy"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "aa4237da7a",
+      "name": "SertifikatTdkSesuai",
+      "next": [
+        {
+          "condition": "user.pilih ==\"ya\" || user.pilih ==\"YA\"",
+          "conditionType": "raw",
+          "node": "TimeOutAgent"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-ERPcg_",
+        "say #!builtin_card-t4GhFy"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "5979b9293a",
+      "name": "PindahProgram",
+      "next": [
+        {
+          "condition": "user.pilih ==\"ya\" || user.pilih ==\"YA\"",
+          "conditionType": "raw",
+          "node": "TimeOutAgent"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-9gDWyI",
+        "say #!builtin_card-t4GhFy"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "81036873a3",
+      "name": "NikSudahVaksinasi",
+      "next": [
+        {
+          "condition": "user.pilih ==\"ya\" || user.pilih ==\"YA\"",
+          "conditionType": "raw",
+          "node": "TimeOutAgent"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-zQD70w",
+        "say #!builtin_card-t4GhFy"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "e045755762",
+      "name": "TimeOutAgent",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Agent"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-bcBJim"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "d0890342d0",
+      "name": "Resolved",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-hmpsLC"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "4448d3848c",
+      "name": "NoAgent",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-h7AKrw"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

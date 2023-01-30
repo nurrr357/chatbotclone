@@ -1,0 +1,24 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "Entry",
+  "description": "",
+  "nodes": [
+    {
+      "id": "2774d978b2",
+      "name": "Entry",
+      "onEnter": [
+        "say #!builtin_text-Aj5bcM"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "nodes": [
+    {
+      "id": "944c6f3b3b",
+      "position": {
+        "x": 100,
+        "y": 100
+      }
+    },
+    {
+      "id": "0685f95c90",
+      "position": {
+        "x": 490,
+        "y": -20
+      }
+    },
+    {
+      "id": "a78cc1b34d",
+      "position": {
+        "x": 790,
+        "y": 45
+      }
+    },
+    {
+      "id": "a39fd53a63",
+      "position": {
+        "x": 790,
+        "y": 225
+      }
+    },
+    {
+      "id": "700e36cb92",
+      "position": {
+        "x": 490,
+        "y": 360
+      }
+    },
+    {
+      "id": "477bda2537",
+      "position": {
+        "x": 490,
+        "y": 525
+      }
+    },
+    {
+      "id": "b09caa243f",
+      "position": {
+        "x": 795,
+        "y": 410
+      }
+    },
+    {
+      "id": "5416db915e",
+      "position": {
+        "x": 790,
+        "y": 730
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "0685f95c90",
+      "sourcePort": "out1",
+      "target": "a39fd53a63",
+      "points": [
+        {
+          "x": 690,
+          "y": 304
+        },
+        {
+          "x": 791,
+          "y": 243
+        }
+      ]
+    },
+    {
+      "source": "0685f95c90",
+      "sourcePort": "out0",
+      "target": "a78cc1b34d",
+      "points": [
+        {
+          "x": 690,
+          "y": 272
+        },
+        {
+          "x": 791,
+          "y": 63
+        }
+      ]
+    },
+    {
+      "source": "477bda2537",
+      "sourcePort": "out1",
+      "target": "5416db915e",
+      "points": [
+        {
+          "x": 690,
+          "y": 792
+        },
+        {
+          "x": 791,
+          "y": 748
+        }
+      ]
+    },
+    {
+      "source": "477bda2537",
+      "sourcePort": "out0",
+      "target": "b09caa243f",
+      "points": [
+        {
+          "x": 690,
+          "y": 761
+        },
+        {
+          "x": 796,
+          "y": 428
+        }
+      ]
+    },
+    {
+      "source": "944c6f3b3b",
+      "sourcePort": "out0",
+      "target": "0685f95c90",
+      "points": [
+        {
+          "x": 300,
+          "y": 336
+        },
+        {
+          "x": 491,
+          "y": -2
+        }
+      ]
+    },
+    {
+      "source": "944c6f3b3b",
+      "sourcePort": "out2",
+      "target": "477bda2537",
+      "points": [
+        {
+          "x": 300,
+          "y": 399
+        },
+        {
+          "x": 491,
+          "y": 543
+        }
+      ]
+    },
+    {
+      "source": "944c6f3b3b",
+      "sourcePort": "out1",
+      "target": "700e36cb92",
+      "points": [
+        {
+          "x": 300,
+          "y": 367
+        },
+        {
+          "x": 491,
+          "y": 378
+        }
+      ]
+    }
+  ]
+}

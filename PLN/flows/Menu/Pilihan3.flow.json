@@ -1,0 +1,566 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"main menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"batal\"",
+        "conditionType": "raw",
+        "node": "Batal.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"selesai\"",
+        "conditionType": "raw",
+        "node": "Selesai.flow.json"
+      }
+    ]
+  },
+  "startNode": "PerubahanDaya",
+  "description": "",
+  "nodes": [
+    {
+      "id": "534fa7e755",
+      "name": "1",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-dUD8jw"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "472ca0719d",
+      "name": "PerubahanDaya",
+      "onEnter": [
+        "say #!builtin_text-K7c3wJ"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"input\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.input == 1",
+          "conditionType": "raw",
+          "node": "1"
+        },
+        {
+          "condition": "user.input == 2",
+          "conditionType": "raw",
+          "node": "2"
+        },
+        {
+          "condition": "user.input == 3",
+          "conditionType": "raw",
+          "node": "9"
+        },
+        {
+          "condition": "user.input == 4",
+          "conditionType": "raw",
+          "node": "4"
+        },
+        {
+          "condition": "user.input == 5",
+          "conditionType": "raw",
+          "node": "5"
+        },
+        {
+          "condition": "user.input == 6",
+          "conditionType": "raw",
+          "node": "6"
+        },
+        {
+          "condition": "user.input == 7",
+          "conditionType": "raw",
+          "node": "7"
+        },
+        {
+          "condition": "user.input == 8",
+          "conditionType": "raw",
+          "node": "8"
+        },
+        {
+          "condition": "user.input == 9",
+          "conditionType": "raw",
+          "node": "9"
+        },
+        {
+          "condition": "user.input == 10",
+          "conditionType": "raw",
+          "node": "10"
+        },
+        {
+          "condition": "user.input == 11",
+          "conditionType": "raw",
+          "node": "11"
+        },
+        {
+          "condition": "user.input == 12",
+          "conditionType": "raw",
+          "node": "12"
+        },
+        {
+          "condition": "user.input == 13",
+          "conditionType": "raw",
+          "node": "13"
+        },
+        {
+          "condition": "user.input == 14",
+          "conditionType": "raw",
+          "node": "14"
+        },
+        {
+          "condition": "user.input == 15",
+          "conditionType": "raw",
+          "node": "15"
+        },
+        {
+          "condition": "user.input == 16",
+          "conditionType": "raw",
+          "node": "16"
+        },
+        {
+          "condition": "user.input == 17",
+          "conditionType": "raw",
+          "node": "17"
+        },
+        {
+          "condition": "user.input == 18",
+          "conditionType": "raw",
+          "node": "18"
+        },
+        {
+          "condition": "user.input == 19",
+          "conditionType": "raw",
+          "node": "19"
+        },
+        {
+          "condition": "user.input == 20",
+          "conditionType": "raw",
+          "node": "20"
+        },
+        {
+          "condition": "user.input == 21",
+          "conditionType": "raw",
+          "node": "21"
+        },
+        {
+          "condition": "user.input == 22",
+          "conditionType": "raw",
+          "node": "22"
+        },
+        {
+          "condition": "user.input == 23",
+          "conditionType": "raw",
+          "node": "23"
+        },
+        {
+          "condition": "user.input == 24",
+          "conditionType": "raw",
+          "node": "24"
+        },
+        {
+          "condition": "user.input == 25\n",
+          "conditionType": "raw",
+          "node": "25"
+        },
+        {
+          "condition": "user.input >= 25",
+          "conditionType": "raw",
+          "node": "Ulangi"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "4c1bff952a",
+      "name": "2",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-jzulxd"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "fc17985853",
+      "name": "3",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-czPUwB"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "2fecc9f426",
+      "name": "4",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-gWf4hk"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "6b3edb0ab2",
+      "name": "5",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-RiC5xl"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "c2c90b9335",
+      "name": "6",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-_DqmPp"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "ac9d262407",
+      "name": "7",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-zn0MOT"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "067de546b7",
+      "name": "8",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-jpu_1P"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "b3dc11ef51",
+      "name": "9",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-kwXyML"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "3ead9db2be",
+      "name": "10",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-7Mn4hI"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "da4952dd16",
+      "name": "11",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-nXyLj0"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "5365e818de",
+      "name": "12",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-1B9zuf"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "bb3866a9b4",
+      "name": "13",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-PejW0x"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "7976c16dfe",
+      "name": "14",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-6raK_Z"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "408a83e6d8",
+      "name": "15",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-NEzOYB"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "4c710b4b37",
+      "name": "16",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Xip7tZ"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "4bc2db91c8",
+      "name": "17",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-83vhsx"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "75ea811a79",
+      "name": "18",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-FwtVUS"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "a1f773bdf7",
+      "name": "19",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-EEvD7o"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "d952a2447f",
+      "name": "20",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Eyk36E"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "6d31f1c779",
+      "name": "21",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Q_hLtX"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "b48e19f34c",
+      "name": "22",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-QIYgPb"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "082e3426fa",
+      "name": "23",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-mlWoml"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "ed921d18db",
+      "name": "24",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-fupgSj"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "41b6eabfaf",
+      "name": "25",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-jB-0RU"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "c2d9e2b808",
+      "name": "Ulangi",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "PerubahanDaya"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-uXYMSR"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

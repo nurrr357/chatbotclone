@@ -1,0 +1,86 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "e5c66fe15e",
+      "name": "Content1",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-ZUndcj",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "dae482834e",
+      "name": "Content2",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-rIjRtp",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "2d57ada008",
+      "name": "Menu",
+      "onEnter": [
+        "say #!dropdown-VlLpXb"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.pilih == \"experience\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LivinSubmenu/SubMenuInfoLebihLanjut/Experience.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"transaksi\"",
+          "conditionType": "raw",
+          "node": "Content1"
+        },
+        {
+          "condition": "user.pilih == \"pelanggan\"",
+          "conditionType": "raw",
+          "node": "Content2"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

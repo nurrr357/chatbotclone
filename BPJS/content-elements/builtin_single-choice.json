@@ -1,0 +1,21 @@
+[
+  {
+    "id": "builtin_single-choice-tt5Q6g",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "ya",
+          "value": "ya"
+        }
+      ],
+      "markdown$en": true,
+      "disableFreeText$en": false,
+      "typing$en": true,
+      "text$en": "asdasd"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-27T05:02:59.180Z",
+    "modifiedOn": "2022-10-27T05:02:59.180Z"
+  }
+]

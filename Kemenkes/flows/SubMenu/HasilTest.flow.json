@@ -1,0 +1,328 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "HasilTest",
+  "description": "",
+  "nodes": [
+    {
+      "id": "3a87616b6a",
+      "name": "HasilTest",
+      "onEnter": [
+        "say #!dropdown-V6b_lV"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.pilih == \"Status Hasil Test. Kendala hasil test dari lab\"",
+          "conditionType": "raw",
+          "node": "StatusHasilTest"
+        },
+        {
+          "condition": "user.pilih == \"Pengisian Hasil di NAR. Kendala pengisian hasil lab di NAR\"",
+          "conditionType": "raw",
+          "node": "PengisianHasilTest"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "357a3bb671",
+      "name": "StatusHasilTest",
+      "next": [
+        {
+          "condition": "user.pilih == \"Hasil test belum muncul. Hasil Antigen&#x2F;PCR belum muncul\"",
+          "conditionType": "raw",
+          "node": "BelumMuncul"
+        },
+        {
+          "condition": "user.pilih == \"Hasil test salah. Hasil Antigen&#x2F;PCR yang muncul salah\"",
+          "conditionType": "raw",
+          "node": "HasilSalahAntigen"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!dropdown-8w_SXe"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "3a19803f18",
+      "name": "TimeOutAgent",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Agent"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-vJZz1v"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "16bbec0f26",
+      "name": "BelumMuncul",
+      "next": [
+        {
+          "condition": "user.pilih ==\"ya\" || user.pilih ==\"YA\"",
+          "conditionType": "raw",
+          "node": "TimeOutAgent"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-RwQB09",
+        "say #!builtin_card-t4GhFy"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "a9a99396ed",
+      "name": "HasilSalahAntigen",
+      "next": [
+        {
+          "condition": "user.pilih ==\"ya\" || user.pilih ==\"YA\"",
+          "conditionType": "raw",
+          "node": "TimeOutAgent"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-5oo3pV",
+        "say #!builtin_card-t4GhFy"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "skill-da658a",
+      "type": "skill-call",
+      "skill": "HitlNext",
+      "name": "Agent",
+      "flow": "skills/HitlNext-da658a.flow.json",
+      "next": [
+        {
+          "caption": "Handoff Resolved",
+          "condition": "temp['hitlnext-handoffResolved'] === true",
+          "node": "Resolved"
+        },
+        {
+          "caption": "Timed Out Waiting Agent",
+          "condition": "temp['hitlnext-timedOutWaitingAgent'] === true",
+          "node": "NoAgent"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "0a52f4d1dd",
+      "name": "PengisianHasilTest",
+      "next": [
+        {
+          "condition": "user.pilih == \"NAR Antigen. Pertanyaan seputar NAR Antigen\"",
+          "conditionType": "raw",
+          "node": "NarAntigen"
+        },
+        {
+          "condition": "user.pilih == \"NAR PCR. Pertanyaan seputar NAR PCR\"",
+          "conditionType": "raw",
+          "node": "NarPcr"
+        },
+        {
+          "condition": "user.pilih == \"Input NAR salah. Kesalahan  Input Hasil Tes di NAR\"",
+          "conditionType": "raw",
+          "node": "InputNarSalah"
+        },
+        {
+          "condition": "user.pilih == \"Input NAR belum muncul. Hasil Tes belum muncul di NAR\"",
+          "conditionType": "raw",
+          "node": "HasilNarBlmMuncul"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!dropdown-DYa08B"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "5120a24c36",
+      "name": "NarAntigen",
+      "next": [
+        {
+          "condition": "user.pilih ==\"ya\" || user.pilih ==\"YA\"",
+          "conditionType": "raw",
+          "node": "TimeOutAgent"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-a7QJWL",
+        "say #!builtin_card-t4GhFy"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "e0e04504e2",
+      "name": "NarPcr",
+      "next": [
+        {
+          "condition": "user.pilih ==\"ya\" || user.pilih ==\"YA\"",
+          "conditionType": "raw",
+          "node": "TimeOutAgent"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-YLOcpn",
+        "say #!builtin_card-t4GhFy"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "7134eeb233",
+      "name": "InputNarSalah",
+      "next": [
+        {
+          "condition": "user.pilih ==\"ya\" || user.pilih ==\"YA\"",
+          "conditionType": "raw",
+          "node": "TimeOutAgent"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-ULIjLK",
+        "say #!builtin_card-t4GhFy"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "ca5e845675",
+      "name": "HasilNarBlmMuncul",
+      "next": [
+        {
+          "condition": "user.pilih ==\"ya\" || user.pilih ==\"YA\"",
+          "conditionType": "raw",
+          "node": "TimeOutAgent"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-GeByt7",
+        "say #!builtin_card-t4GhFy"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "9be40abb24",
+      "name": "Resolved",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-hmpsLC"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "c1cc151d13",
+      "name": "NoAgent",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-h7AKrw"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

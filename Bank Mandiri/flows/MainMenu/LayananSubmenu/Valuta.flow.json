@@ -1,0 +1,108 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "a8db291999",
+      "name": "Content",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-vSB1kd",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "a88dcb63f2",
+      "name": "Menu1",
+      "next": [
+        {
+          "condition": "user.pilih == \"cash\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/ValutaSubmenu/Cash.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"lindun\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/ValutaSubmenu/Lindun.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"investasi\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/ValutaSubmenu/Investasi.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"lcs\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/ValutaSubmenu/Lcs.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"kopra\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/ValutaSubmenu/Copra.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!dropdown-bzZxo7"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "941764ac46",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-Fh_1pE",
+        "say #!dropdown-s5s3J_"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.pilih == \"valas\"",
+          "conditionType": "raw",
+          "node": "Menu1"
+        },
+        {
+          "condition": "user.pilih == \"cara\"",
+          "conditionType": "raw",
+          "node": "Content"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

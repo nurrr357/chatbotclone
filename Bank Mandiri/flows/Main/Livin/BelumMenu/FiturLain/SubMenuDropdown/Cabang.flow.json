@@ -1,0 +1,86 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Content",
+  "description": "",
+  "nodes": [
+    {
+      "id": "be6ecb16e0",
+      "name": "Content",
+      "onEnter": [
+        "say #!builtin_text-EXZuTv",
+        "say #!dropdown-uWO7gx"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.pilih == \"reservasi\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/FiturLain/SubMenuDropdown/Cabang/Reservasi.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"setor\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/FiturLain/SubMenuDropdown/Cabang/setor.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"tarik\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/FiturLain/SubMenuDropdown/Cabang/Tarik.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"transaksi\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/FiturLain/SubMenuDropdown/Cabang/Transaksi.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"waktu\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/FiturLain/SubMenuDropdown/Cabang/Waktu.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"jam\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/FiturLain/SubMenuDropdown/Cabang/Jam.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"batal\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/FiturLain/SubMenuDropdown/Cabang/Batal.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"edit\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/FiturLain/SubMenuDropdown/Cabang/Edit.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"cek\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/FiturLain/SubMenuDropdown/Cabang/Cek.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"maksimal\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/FiturLain/SubMenuDropdown/Cabang/Maksimal.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

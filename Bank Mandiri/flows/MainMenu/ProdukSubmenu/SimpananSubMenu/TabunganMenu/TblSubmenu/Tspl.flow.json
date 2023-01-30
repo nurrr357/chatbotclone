@@ -1,0 +1,96 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "8bd3d5d120",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-IEx9wR",
+        "say #!builtin_text-5wSV0D"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"STSPL - Syarat Tabungan Simpel\" || \"STSPL\" || \"stspl\" || \"Syarat Tabungan Simpel\" || \"syarat tabungan simpel\"",
+          "conditionType": "raw",
+          "node": "Content"
+        },
+        {
+          "condition": "user.teks == \"BTSPL - Benefit Tabungan Simpel\" || \"BTSPL\" || \"btspl\" || \"Benefit Tabungan Simpel\"",
+          "conditionType": "raw",
+          "node": "Content1"
+        },
+        {
+          "condition": "user.teks == \"ATSPL - Biaya Adm Tabungan Simpel\" || \"ATSPL\" || \"atspl\" || \"Biaya Adm Tabungan Simpel\" || \"biaya adm tabungan simpel\"",
+          "conditionType": "raw",
+          "node": "Content2"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "1ce38afe66",
+      "name": "Content",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-fm2rmN"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "c062d45266",
+      "name": "Content1",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-mss30A",
+        "say #!builtin_text-62Ayo_"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "7a6761f6bd",
+      "name": "Content2",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-kXyLcK",
+        "say #!builtin_text-liLBHZ"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

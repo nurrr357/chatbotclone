@@ -1,0 +1,58 @@
+{
+  "locked": false,
+  "disabled": false,
+  "private": false,
+  "details": {
+    "website": "",
+    "phoneNumber": "",
+    "emailAddress": "",
+    "termsConditions": "",
+    "privacyPolicy": "",
+    "avatarUrl": "/api/v1/bots/BOT_ID_PLACEHOLDER/media/87fja83ukqqpk8m7j6sn-5b484e54f18ff_1531465300.png",
+    "coverPictureUrl": "/api/v1/bots/BOT_ID_PLACEHOLDER/media/zciwncm4pj3dl2jc17rm-5b484e54f18ff_1531465300.png"
+  },
+  "$schema": "../../bot.config.schema.json",
+  "description": "+6281388888873 https://www.sehataqua.co.id/aqua-home-service/",
+  "active": true,
+  "version": "12.30.2",
+  "author": "Botpress, Inc.",
+  "license": "AGPL-3.0",
+  "imports": {
+    "modules": [],
+    "incomingMiddleware": [],
+    "outgoingMiddleware": [],
+    "contentTypes": [
+      "builtin_action-button",
+      "builtin_audio",
+      "builtin_card",
+      "builtin_carousel",
+      "dropdown",
+      "builtin_file",
+      "builtin_image",
+      "builtin_location",
+      "builtin_single-choice",
+      "builtin_text",
+      "builtin_video",
+      "infa_chart"
+    ]
+  },
+  "dialog": {
+    "timeoutInterval": "5m"
+  },
+  "logs": {
+    "expiration": "1 week"
+  },
+  "defaultLanguage": "en",
+  "languages": [
+    "en"
+  ],
+  "id": "22007-aqua-home-service-huda",
+  "name": "22007-Aqua-Home-Service-Huda",
+  "pipeline_status": {
+    "current_stage": {
+      "id": "prod",
+      "promoted_on": "2022-10-13T02:51:07.435Z",
+      "promoted_by": "system"
+    }
+  }
+}

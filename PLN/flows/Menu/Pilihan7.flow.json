@@ -1,0 +1,179 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"main menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"batal\"",
+        "conditionType": "raw",
+        "node": "Batal.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"selesai\"",
+        "conditionType": "raw",
+        "node": "Selesai.flow.json"
+      }
+    ]
+  },
+  "startNode": "entry",
+  "description": "",
+  "nodes": [
+    {
+      "id": "d79efc5f0f",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-nQ5va_"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"input\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.input == 1",
+          "conditionType": "raw",
+          "node": "1"
+        },
+        {
+          "condition": "user.input == 2",
+          "conditionType": "raw",
+          "node": "2"
+        },
+        {
+          "condition": "user.input == 3",
+          "conditionType": "raw",
+          "node": "3"
+        },
+        {
+          "condition": "user.input == 4",
+          "conditionType": "raw",
+          "node": "4"
+        },
+        {
+          "condition": "user.input == 5",
+          "conditionType": "raw",
+          "node": "5"
+        },
+        {
+          "condition": "user.input == 6",
+          "conditionType": "raw",
+          "node": "6"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "9c6ecd7ee7",
+      "name": "1",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-HsEne1"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "a0951d0b3a",
+      "name": "2",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-fzYo_w"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "4598426c5c",
+      "name": "3",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-g9yolR"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "034b4b6928",
+      "name": "4",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-UDRIlY"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "5c9ea958eb",
+      "name": "5",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-FAyP0s"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "72996da1aa",
+      "name": "6",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-xzP1aI"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "8addfa55bb",
+      "name": "Ulangi",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "entry"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "1b62d6b450",
+      "name": "STRMContent",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-uzM5Rg",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "4f7b1ca686",
+      "name": "BTRMContent",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-TDoHuM",
+        "say #!builtin_text-_0eMVb",
+        "say #!builtin_text-kj8Dbx"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "99a743f95d",
+      "name": "STTRContent",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-UDB53q",
+        "say #!builtin_text-WgrgPr",
+        "say #!builtin_text-JKBhq6",
+        "say #!builtin_text-pkxlue",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "559018125c",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-vaEGrn",
+        "say #!builtin_text-_xMEUo",
+        "say #!builtin_text-7YYiXe"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.pilih == \"STRM\"",
+          "conditionType": "raw",
+          "node": "STRMContent"
+        },
+        {
+          "condition": "user.pilih == \"BTRM\"",
+          "conditionType": "raw",
+          "node": "BTRMContent"
+        },
+        {
+          "condition": "user.pilih == \"STTR\"",
+          "conditionType": "raw",
+          "node": "STTRContent"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

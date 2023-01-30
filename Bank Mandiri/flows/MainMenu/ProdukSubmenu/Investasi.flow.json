@@ -1,0 +1,636 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "f0c03828f1",
+      "name": "Content1",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-C3wFvV",
+        "say #!builtin_text-vDPrbo",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "02f815139e",
+      "name": "Content2",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-ovxMZD",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "f0b37b8584",
+      "name": "Content3",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-QV7Rmx",
+        "say #!builtin_text-4-6GGs",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "c5c819e7cb",
+      "name": "Content4",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-SVo3Q2",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "b1e1f99647",
+      "name": "Content5",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-QPTCXE",
+        "say #!builtin_text-q39DUe",
+        "say #!builtin_text-9-tX4L",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "9be1f379d4",
+      "name": "Content6",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-peNqGN",
+        "say #!builtin_text-s4iV9X",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "ccd9d404ab",
+      "name": "Content7",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-iV8MLK",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "84b9ef9893",
+      "name": "Content8",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-ubaoB-",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "835d7c7c00",
+      "name": "Content9",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-0yBJi3",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "2337be79b0",
+      "name": "Content10",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-MhSooq",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "4eeaf9ac24",
+      "name": "Content11",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-3KiTZL",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "7357e46363",
+      "name": "Content12",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-rFL8gp",
+        "say #!builtin_text-haJ0CR"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "f2f034cf42",
+      "name": "Content13",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-eVfg9o",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "004c528599",
+      "name": "Content14",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-Pee0kB",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "e3426dfca1",
+      "name": "Content15",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-RvH2z-",
+        "say #!builtin_text-n7Gt4b",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "b032024abb",
+      "name": "Content17",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-KYHXHH",
+        "say #!builtin_text-gDmkHP",
+        "say #!builtin_text-uN-xXe",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "edb7e5fabd",
+      "name": "entry-copy-copy-1-copy-1-copy-19",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-4IbiOl",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "d254c120a9",
+      "name": "Content18",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-E9LxeC",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "793a480865",
+      "name": "Content16",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-dVtjDy",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "48cb0e9669",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-iT1IHi"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"RDN - Reksadana\" || \"RDN\" || \"rdn\" ||\"Reksadana\" || \"reksadana\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/FiturLain/SubMenuDropdown/Investasi.flow.json"
+        },
+        {
+          "condition": "user.teks == \"SKK - Sukuk\" || \"SKK\" || \"skk\" || \"Sukuk\" || \"sukuk\"",
+          "conditionType": "raw",
+          "node": "SubMenu"
+        },
+        {
+          "condition": "user.teks == \"ORI - ORI/Obligasi\" || \"ORI\" || \"ori\" || \"ORI/Obligasi\" || \"ori/obligasi\"",
+          "conditionType": "raw",
+          "node": "SubMenu3"
+        },
+        {
+          "condition": "user.teks == \"SUN - Surat Utang Negara\" || \"SUN\" || \"sun\" || \"Surat Utang Negara\" || \"surat utang negara\"",
+          "conditionType": "raw",
+          "node": "SubMenu1"
+        },
+        {
+          "condition": "user.teks == \"DPLK - DPLK\" || \"DPLK\" || \"dplk\" ",
+          "conditionType": "raw",
+          "node": "SubMenu2"
+        },
+        {
+          "condition": "user.teks == \"IVL - Investasi Lainnya\" || \"IVL\" || \"ivl\" || \"Investasi Lainnya\" || \"investasi lainnya\"",
+          "conditionType": "raw",
+          "node": "SubMenu5"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "1c0fabaef3",
+      "name": "SubMenu2",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        },
+        {
+          "condition": "user.teks == \"SDPLK - Syarat Mandiri DPLK\" || \"SDPLK\" || \"sdplk\" || \"Syarat Mandiri DPLK\" || \"syarat mandiri dplk\"",
+          "conditionType": "raw",
+          "node": "Content13"
+        },
+        {
+          "condition": "user.teks == \"IDPLK - Iuran Mandiri DPLK\" || \"IDPLK\" || \"idplk\" || \"Iuran Mandiri DPLK\" || iuran mandiri dplk\"",
+          "conditionType": "raw",
+          "node": "Content14"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-jneDg-",
+        "say #!builtin_text-5qtvtl"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "1be2c34450",
+      "name": "SubMenu1",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-08XHqS",
+        "say #!builtin_text-Re7n4y"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"JSUN - Jenis SUN\" || \"JSUN\" || \"jsun\" || \"Jenis SUN\" || \"jenis sun\"",
+          "conditionType": "raw",
+          "node": "Content7"
+        },
+        {
+          "condition": "user.teks == \"BSUN - Benefit SUN\" || \"BSUN\" || \"bsun\" || \"Benefit SUN\" || \"benefit sun\"",
+          "conditionType": "raw",
+          "node": "Content8"
+        },
+        {
+          "condition": "user.teks == \"SUNR - SUN Retail\" || \"SUNR\" || \"sunr\" || \"SUN Retail\" || \"sun retail\"",
+          "conditionType": "raw",
+          "node": "Content9"
+        },
+        {
+          "condition": "user.teks == \"RSUN - Risiko Transaksi SUN\" || \"RSUN\" || \"rsun\" || \"Risiko Transaksi SUN\" || \"risiko transaksi sun\"",
+          "conditionType": "raw",
+          "node": "Content10"
+        },
+        {
+          "condition": "user.teks == \"SSUN - Syarat Transaksi SUN\" || \"SSUN\" || \"ssun\" || \"Syarat Transaksi SUN\" || \"syarat transaksi sun\"",
+          "conditionType": "raw",
+          "node": "Content11"
+        },
+        {
+          "condition": "user.teks == \"CSUN - Cara Transaksi SUN\" || \"CSUN\" || \"csun\" || \"Cara Transaksi SUN\" || \"cara transaksi sun\" ",
+          "conditionType": "raw",
+          "node": "Content12"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "60eebb7bdd",
+      "name": "SubMenu",
+      "next": [
+        {
+          "condition": "user.teks == \"DSKK - Definisi SUKUK\" || \"DSKK\" || \"dskk\" || \"definisi sukuk\"",
+          "conditionType": "raw",
+          "node": "Content1"
+        },
+        {
+          "condition": "user.teks == \"KSKK - Benefit SUKUK\" || \"KSKK\" || \"kskk\" || \"Benefit SUKUK\" || \"benefit sukuk\"",
+          "conditionType": "raw",
+          "node": "Content2"
+        },
+        {
+          "condition": "user.teks == \"BDSO - Perbedaan Sukuk & ORI\" || \"BDSD\" || \"bdsd\" || \"Perbedaan Sukuk & ORI\" || \"perbedaan sukuk & ori\"",
+          "conditionType": "raw",
+          "node": "Content3"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-rbOxHG",
+        "say #!builtin_text-_jBSSz",
+        "say #!builtin_text-obD58t"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "1f47961805",
+      "name": "SubMenu3",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-wzfmHS",
+        "say #!builtin_text-ND3OTc"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"BORI - Benefit ORI\" || \"BORI\" || \"bori\" || \"Benefit ORI\" || \"benefit ori\"",
+          "conditionType": "raw",
+          "node": "Content4"
+        },
+        {
+          "condition": "user.teks == \"PORI - Pembelian ORI\" || \"PORi\" || \"pori\" || \"Pembelian ORI\" || \"pembelian ori\"",
+          "conditionType": "raw",
+          "node": "Content5"
+        },
+        {
+          "condition": "user.teks == \"BDSO - Beda SUKUK & ORI\" || \"BDSO\" || \"bdso\" || \"Beda SUKUK & ORI\" || \"beda sukuk & ori\"",
+          "conditionType": "raw",
+          "node": "Content6"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "eccd333a99",
+      "name": "SubMenu5",
+      "next": [
+        {
+          "condition": "user.teks == \"SBSN - Surat Berharga Syariah Negara\" || \"SBSN\" || \"sbsn\" || \"Surat Berharga Syariah Negara\" || \"surat berharga syariah negara\"",
+          "conditionType": "raw",
+          "node": "Content15"
+        },
+        {
+          "condition": "user.teks == \"SBR - Saving Bond Retail\" || \"SBR\" || \"sbr\" || \"SBR - Saving Bond Retail\" || \"sbr - saving bond retail\"",
+          "conditionType": "raw",
+          "node": "Content"
+        },
+        {
+          "condition": "user.teks == \"SBN - Surat Berharga Negara\" || \"SBN\" || \"sbn \"Surat Berharga Negara\" || \"surat berharga negara\"",
+          "conditionType": "raw",
+          "node": "Content16"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-HNMgpp"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "c572d56d4f",
+      "name": "Content",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-jfR2Bt",
+        "say #!builtin_text-pdQCBL",
+        "say #!builtin_text-NdTAKg"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"BSBR - Benefit SBR\" || \"BSBR\" || \"bsbr\" || \"Benefit SBR\" || \"benefit sbr\"",
+          "conditionType": "raw",
+          "node": "Content17"
+        },
+        {
+          "condition": "user.teks == \"PSBR - Cara Pemesanan SBR\" || \"PSBR\" || \"psbr\" || \"Cara Pemesanan SBR\" || \"cara pemesanan sbr\"",
+          "conditionType": "raw",
+          "node": "entry-copy-copy-1-copy-1-copy-19"
+        },
+        {
+          "condition": "user.teks == \"LSBR - Limit SBR\" || \"LSBR\" || \"lsbr\" || \"Limit SBR\" || \"limit sbr\"",
+          "conditionType": "raw",
+          "node": "Content18"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

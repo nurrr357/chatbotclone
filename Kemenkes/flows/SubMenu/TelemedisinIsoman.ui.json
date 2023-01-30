@@ -1,0 +1,256 @@
+{
+  "nodes": [
+    {
+      "id": "86ece33ef0",
+      "position": {
+        "x": 65,
+        "y": 175
+      }
+    },
+    {
+      "id": "e1e2a9eada",
+      "position": {
+        "x": 405,
+        "y": -390
+      }
+    },
+    {
+      "id": "6f6d547d91",
+      "position": {
+        "x": 405,
+        "y": -90
+      }
+    },
+    {
+      "id": "1f8d3da47e",
+      "position": {
+        "x": 405,
+        "y": 210
+      }
+    },
+    {
+      "id": "351f54ea60",
+      "position": {
+        "x": 405,
+        "y": 500
+      }
+    },
+    {
+      "id": "81001f82e2",
+      "position": {
+        "x": 405,
+        "y": 780
+      }
+    },
+    {
+      "id": "skill-89003a",
+      "position": {
+        "x": 840,
+        "y": 305
+      }
+    },
+    {
+      "id": "630a1396aa",
+      "position": {
+        "x": 1075,
+        "y": 145
+      }
+    },
+    {
+      "id": "bdfb697bab",
+      "position": {
+        "x": 620,
+        "y": 290
+      }
+    },
+    {
+      "id": "70ebff3575",
+      "position": {
+        "x": 1090,
+        "y": 435
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "351f54ea60",
+      "sourcePort": "out0",
+      "target": "bdfb697bab",
+      "points": [
+        {
+          "x": 605,
+          "y": 716
+        },
+        {
+          "x": 621,
+          "y": 308
+        }
+      ]
+    },
+    {
+      "source": "6f6d547d91",
+      "sourcePort": "out0",
+      "target": "bdfb697bab",
+      "points": [
+        {
+          "x": 605,
+          "y": 144
+        },
+        {
+          "x": 621,
+          "y": 308
+        }
+      ]
+    },
+    {
+      "source": "81001f82e2",
+      "sourcePort": "out0",
+      "target": "bdfb697bab",
+      "points": [
+        {
+          "x": 605,
+          "y": 1009
+        },
+        {
+          "x": 621,
+          "y": 308
+        }
+      ]
+    },
+    {
+      "source": "86ece33ef0",
+      "sourcePort": "out2",
+      "target": "1f8d3da47e",
+      "points": [
+        {
+          "x": 265,
+          "y": 409
+        },
+        {
+          "x": 406,
+          "y": 228
+        }
+      ]
+    },
+    {
+      "source": "86ece33ef0",
+      "sourcePort": "out3",
+      "target": "351f54ea60",
+      "points": [
+        {
+          "x": 265,
+          "y": 459
+        },
+        {
+          "x": 406,
+          "y": 518
+        }
+      ]
+    },
+    {
+      "source": "86ece33ef0",
+      "sourcePort": "out1",
+      "target": "6f6d547d91",
+      "points": [
+        {
+          "x": 265,
+          "y": 360
+        },
+        {
+          "x": 406,
+          "y": -72
+        }
+      ]
+    },
+    {
+      "source": "86ece33ef0",
+      "sourcePort": "out4",
+      "target": "81001f82e2",
+      "points": [
+        {
+          "x": 265,
+          "y": 508
+        },
+        {
+          "x": 406,
+          "y": 797
+        }
+      ]
+    },
+    {
+      "source": "86ece33ef0",
+      "sourcePort": "out0",
+      "target": "e1e2a9eada",
+      "points": [
+        {
+          "x": 265,
+          "y": 317
+        },
+        {
+          "x": 406,
+          "y": -372
+        }
+      ]
+    },
+    {
+      "source": "bdfb697bab",
+      "sourcePort": "out0",
+      "target": "skill-89003a",
+      "points": [
+        {
+          "x": 820,
+          "y": 402
+        },
+        {
+          "x": 841,
+          "y": 323
+        }
+      ]
+    },
+    {
+      "source": "e1e2a9eada",
+      "sourcePort": "out0",
+      "target": "bdfb697bab",
+      "points": [
+        {
+          "x": 605,
+          "y": -156
+        },
+        {
+          "x": 621,
+          "y": 308
+        }
+      ]
+    },
+    {
+      "source": "skill-89003a",
+      "sourcePort": "out0",
+      "target": "630a1396aa",
+      "points": [
+        {
+          "x": 1040,
+          "y": 349
+        },
+        {
+          "x": 1076,
+          "y": 163
+        }
+      ]
+    },
+    {
+      "source": "skill-89003a",
+      "sourcePort": "out1",
+      "target": "70ebff3575",
+      "points": [
+        {
+          "x": 1040,
+          "y": 379
+        },
+        {
+          "x": 1091,
+          "y": 453
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text === \"batal\"",
+        "conditionType": "raw",
+        "node": "END/Batal.flow.json"
+      },
+      {
+        "condition": "event.nlu.intent.nama === \"timeout\"",
+        "conditionType": "raw",
+        "node": "END/Timeout.flow.json"
+      }
+    ]
+  },
+  "startNode": "Layanan",
+  "description": "",
+  "nodes": [
+    {
+      "id": "bbd38d1f15",
+      "name": "Layanan",
+      "onEnter": [
+        "say #!builtin_text-cKakYq",
+        "say #!builtin_text-zRoEyv",
+        "say #!builtin_text-I-99zo"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "Choice"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "f98c844a61",
+      "name": "Choice",
+      "next": [
+        {
+          "condition": "event.payload.payload == \"end\"",
+          "conditionType": "raw",
+          "node": "END/Terimakasih.flow.json"
+        },
+        {
+          "condition": "event.payload.payload == \"list\"",
+          "conditionType": "raw",
+          "node": "main.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "SalahMemilih"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_card-xt0aL0"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "81fbe2c00d",
+      "name": "SalahMemilih",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Choice"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-xHrMiU",
+        "say #!builtin_text-1UXRMf"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

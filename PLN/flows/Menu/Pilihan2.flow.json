@@ -1,0 +1,83 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"main menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"batal\"",
+        "conditionType": "raw",
+        "node": "Batal.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"selesai\"",
+        "conditionType": "raw",
+        "node": "Selesai.flow.json"
+      }
+    ]
+  },
+  "startNode": "MeterMandiri",
+  "description": "",
+  "nodes": [
+    {
+      "id": "3d40972af3",
+      "name": "MeterMandiri",
+      "onEnter": [
+        "say #!builtin_text-cXrjTu"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"input\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.input == 1",
+          "conditionType": "raw",
+          "node": "1"
+        },
+        {
+          "condition": "user.input == 2",
+          "conditionType": "raw",
+          "node": "main.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Repeat"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "87384e51e6",
+      "name": "1",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-21OCPo"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "1da858f761",
+      "name": "Repeat",
+      "next": [
+        {
+          "condition": "true",
+          "node": "MeterMandiri"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

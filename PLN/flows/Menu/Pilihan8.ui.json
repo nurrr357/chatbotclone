@@ -1,0 +1,160 @@
+{
+  "nodes": [
+    {
+      "id": "f805383d7c",
+      "position": {
+        "x": 360,
+        "y": 20
+      }
+    },
+    {
+      "id": "47e0e7f4b6",
+      "position": {
+        "x": 369,
+        "y": 237
+      }
+    },
+    {
+      "id": "0a3de09ea9",
+      "position": {
+        "x": 435,
+        "y": 400
+      }
+    },
+    {
+      "id": "bcd23120b1",
+      "position": {
+        "x": 404,
+        "y": 569
+      }
+    },
+    {
+      "id": "6b6e35b85d",
+      "position": {
+        "x": 110,
+        "y": 440
+      }
+    },
+    {
+      "id": "f902345e4a",
+      "position": {
+        "x": 100,
+        "y": 100
+      }
+    },
+    {
+      "id": "dd6f74f41c",
+      "position": {
+        "x": 100,
+        "y": -15
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "dd6f74f41c",
+      "sourcePort": "out0",
+      "target": "f902345e4a",
+      "points": [
+        {
+          "x": 300,
+          "y": 49
+        },
+        {
+          "x": 101,
+          "y": 117
+        }
+      ]
+    },
+    {
+      "source": "f902345e4a",
+      "sourcePort": "out2",
+      "target": "0a3de09ea9",
+      "points": [
+        {
+          "x": 300,
+          "y": 303
+        },
+        {
+          "x": 435,
+          "y": 417
+        }
+      ]
+    },
+    {
+      "source": "f902345e4a",
+      "sourcePort": "out1",
+      "target": "47e0e7f4b6",
+      "points": [
+        {
+          "x": 300,
+          "y": 272
+        },
+        {
+          "x": 370,
+          "y": 255
+        }
+      ]
+    },
+    {
+      "source": "f902345e4a",
+      "sourcePort": "out4",
+      "target": "6b6e35b85d",
+      "points": [
+        {
+          "x": 300,
+          "y": 364
+        },
+        {
+          "x": 110,
+          "y": 458
+        }
+      ]
+    },
+    {
+      "source": "f902345e4a",
+      "sourcePort": "out3",
+      "target": "bcd23120b1",
+      "points": [
+        {
+          "x": 300,
+          "y": 333
+        },
+        {
+          "x": 404,
+          "y": 586
+        }
+      ]
+    },
+    {
+      "source": "f902345e4a",
+      "sourcePort": "out5",
+      "target": "dd6f74f41c",
+      "points": [
+        {
+          "x": 300,
+          "y": 394
+        },
+        {
+          "x": 101,
+          "y": 3
+        }
+      ]
+    },
+    {
+      "source": "f902345e4a",
+      "sourcePort": "out0",
+      "target": "f805383d7c",
+      "points": [
+        {
+          "x": 300,
+          "y": 242
+        },
+        {
+          "x": 360,
+          "y": 38
+        }
+      ]
+    }
+  ]
+}

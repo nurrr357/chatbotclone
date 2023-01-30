@@ -1,0 +1,98 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "31a92288be",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-YEa99y",
+        "say #!builtin_text-Z1yOGL"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"SDV - Syarat Deposito Valas\" || \"SDV\" || \"sdv\" || \"Syarat Deposito Valas\" || \"syarat deposito valas\"",
+          "conditionType": "raw",
+          "node": "Content"
+        },
+        {
+          "condition": "user.teks = \"BDV - Benefit Deposito Valas\" || \"BDV\" || \"bdv\" || \"Benefit Deposito Valas\" || \"benefit deposito valas\"",
+          "conditionType": "raw",
+          "node": "Content1"
+        },
+        {
+          "condition": "user.teks == \"JDV - Jenis Deposito Valas\" || \"JDV\" || \"jdv\" || \"Jenis Deposito Valas\" || \"jenis deposito valas\"",
+          "conditionType": "raw",
+          "node": "Content2"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "edd40b5600",
+      "name": "Content",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-PRgO2P",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "4fdb5be625",
+      "name": "Content1",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-fPBI0D",
+        "say #!builtin_text-ICAxQw",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "6f05ec4e6b",
+      "name": "Content2",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-rFL8gp",
+        "say #!builtin_text-hSbEY5"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

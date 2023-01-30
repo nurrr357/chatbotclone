@@ -1,0 +1,56 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "f210709740",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-P_zBb9",
+        "say #!dropdown-FgSSMq"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.pilih == \"stories\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LivinSubmenu/SubMenuInfoLebihLanjut/experienceSubmenu/Stories.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"bank\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LivinSubmenu/SubMenuInfoLebihLanjut/experienceSubmenu/Bank.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"debit\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LivinSubmenu/SubMenuInfoLebihLanjut/experienceSubmenu/Debit.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"promo\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LivinSubmenu/SubMenuInfoLebihLanjut/experienceSubmenu/Promo.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"aktivasi\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LivinSubmenu/SubMenuInfoLebihLanjut/experienceSubmenu/Aktivasi.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

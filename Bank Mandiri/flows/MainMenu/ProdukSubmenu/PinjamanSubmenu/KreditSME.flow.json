@@ -1,0 +1,188 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "944c6f3b3b",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-LgMsna",
+        "say #!dropdown-Tkic_m"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.pilih == \"kmk\"",
+          "conditionType": "raw",
+          "node": "SubMenu"
+        },
+        {
+          "condition": "user.pilih == \"investasi\"",
+          "conditionType": "raw",
+          "node": "Content"
+        },
+        {
+          "condition": "user.pilih == \"produktif\"",
+          "conditionType": "raw",
+          "node": "SubMenu1"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "main.flow.json"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "0685f95c90",
+      "name": "SubMenu",
+      "next": [
+        {
+          "condition": "user.pilih == \"syarat\"",
+          "conditionType": "raw",
+          "node": "Content1"
+        },
+        {
+          "condition": "user.pilih == \"limit\"",
+          "conditionType": "raw",
+          "node": "Content2"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "main.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Fiz95N",
+        "say #!builtin_text-rJxTm1",
+        "say #!dropdown-E_Wat-"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "a78cc1b34d",
+      "name": "Content1",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-zLTpcl"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "a39fd53a63",
+      "name": "Content2",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-onmEIk"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "700e36cb92",
+      "name": "Content",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-8DIJp7"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "477bda2537",
+      "name": "SubMenu1",
+      "next": [
+        {
+          "condition": "user.pilih == \"satu\"",
+          "conditionType": "raw",
+          "node": "Content3"
+        },
+        {
+          "condition": "user.pilih == \"dua\"",
+          "conditionType": "raw",
+          "node": "Content4"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-RhV12Z",
+        "say #!dropdown-0JPhC5"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "b09caa243f",
+      "name": "Content3",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-QPtgio",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "5416db915e",
+      "name": "Content4",
+      "onEnter": [
+        "say #!builtin_text-8Mutme",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

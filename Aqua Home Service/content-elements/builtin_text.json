@@ -1,0 +1,599 @@
+[
+  {
+    "id": "builtin_text-oECydF",
+    "formData": {
+      "text$en": "Hai!!! Siapa nama anda?",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-22T16:21:28.371Z",
+    "modifiedOn": "2022-09-22T16:21:28.371Z"
+  },
+  {
+    "id": "builtin_text-VUsqTU",
+    "formData": {
+      "text$en": "Halo {{user.name}}, Selamat datang di AQUA Delivery! ADEL akan bantu kamu dalam melakukan pesanan ke AQUA Home Service.",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-22T16:25:37.985Z",
+    "modifiedOn": "2022-09-22T16:25:37.985Z"
+  },
+  {
+    "id": "builtin_text-K63E1F",
+    "formData": {
+      "text$en": "Pelajari bagaimana kami melindungi data pribadimu dengan memahami Syarat & Ketentuan WhatsApp AHS. Klik link dibawah ini: https://buymax-ws.daninaportal.id/chatbot-tnc",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-22T16:27:04.111Z",
+    "modifiedOn": "2022-10-11T08:14:07.994Z"
+  },
+  {
+    "id": "builtin_text-YvrAEr",
+    "formData": {
+      "text$en": "♦Klik SETUJU untuk menyetujui S&K",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-22T16:35:01.632Z",
+    "modifiedOn": "2022-09-22T16:35:01.632Z"
+  },
+  {
+    "id": "builtin_text-wYNtsF",
+    "formData": {
+      "text$en": "Terima kasih telah menyetujui syarat dan ketentuan AHS.\n\n✅ Kamu bisa melakukan pemesanan produk AQUA, VIT, Mizone, dan Levite melalui WhatsApp AHS. Ketik pesananmu sesuai format dibawah: \nNama Produk | Jenis Produk | Jumlah Produk\n\nContoh: Beli AQUA Galon Isi 3",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-22T16:36:59.674Z",
+    "modifiedOn": "2022-09-22T16:36:59.674Z"
+  },
+  {
+    "id": "builtin_text-OXvsfz",
+    "formData": {
+      "text$en": "maap salah pilih lagi",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-23T06:56:40.121Z",
+    "modifiedOn": "2022-09-23T06:56:40.121Z"
+  },
+  {
+    "id": "builtin_text-BiqdOP",
+    "formData": {
+      "text$en": "{{temp.$msgOutput}}",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-23T07:11:23.677Z",
+    "modifiedOn": "2022-09-23T07:11:23.677Z"
+  },
+  {
+    "id": "builtin_text-4H__p0",
+    "formData": {
+      "text$en": "{{temp.$msgOutput}}",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-23T07:13:15.442Z",
+    "modifiedOn": "2022-09-23T07:13:15.442Z"
+  },
+  {
+    "id": "builtin_text-Y8Wh7R",
+    "formData": {
+      "text$en": "😯 Oops! Sistem kami sedang sibuk. Silahkan coba 1 menit lagi. Kami akan segera melakukan pengecekan sistem juga 🔨",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-23T07:32:03.167Z",
+    "modifiedOn": "2022-09-23T07:32:03.167Z"
+  },
+  {
+    "id": "builtin_text-JXtiuO",
+    "formData": {
+      "text$en": "Silahkan jawab pertanyaan. Mari kita mulai lagi.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-23T07:32:51.321Z",
+    "modifiedOn": "2022-10-17T06:20:19.374Z"
+  },
+  {
+    "id": "builtin_text-6yJZD8",
+    "formData": {
+      "text$en": "Terima kasih telah menyetujui syarat dan ketentuan AHS.  <br>✅ Kamu bisa melakukan pemesanan produk AQUA, VIT, Mizone, dan Levite melalui WhatsApp AHS. Ketik pesananmu sesuai format dibawah:  Nama Produk | Jenis Produk | Jumlah Produk  <br>Contoh: AQUA Galon Isi 3",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-23T07:33:55.292Z",
+    "modifiedOn": "2022-10-27T17:27:13.179Z"
+  },
+  {
+    "id": "builtin_text-vGuY4d",
+    "formData": {
+      "text$en": "ini vit",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-26T02:43:23.246Z",
+    "modifiedOn": "2022-09-26T02:43:23.246Z"
+  },
+  {
+    "id": "builtin_text-EpJzCv",
+    "formData": {
+      "text$en": "ini aqua",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-26T02:43:35.930Z",
+    "modifiedOn": "2022-09-26T02:43:35.930Z"
+  },
+  {
+    "id": "builtin_text-WJCbIy",
+    "formData": {
+      "text$en": "ini levite",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-26T02:43:47.143Z",
+    "modifiedOn": "2022-09-26T02:43:47.143Z"
+  },
+  {
+    "id": "builtin_text-31gANM",
+    "formData": {
+      "text$en": "Mau berapa banyak (Masukan hanya Jumlah Quantity yang diinginkan. Contoh : 2)",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-26T02:44:00.269Z",
+    "modifiedOn": "2022-09-26T03:14:02.349Z"
+  },
+  {
+    "id": "builtin_text-NmQlzX",
+    "formData": {
+      "text$en": "Mau berapa banyak (Masukan hanya Jumlah Quantity yang diinginkan. Contoh : 2)",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-26T03:04:51.843Z",
+    "modifiedOn": "2022-09-26T03:38:24.510Z"
+  },
+  {
+    "id": "builtin_text-5BRz0h",
+    "formData": {
+      "text$en": "Pesananmu saat ini:  <br>1.{{user.submerk}} <br>Jumlah: {{user.quantyty}}  <br>\nCatatan :  -   <br>\nAlamat:   {{user.alamat}}   <br>Detail: -<br>  Apakah detail pesananmu sudah benar? <br>🔸 Ketik ya untuk menyelesaikan transaksi ini.<br>\n🔸 Ketik tambah untuk menambah transaksi lain.\n🔸 Ketik ganti alamat untuk mengubah alamat pengiriman. <br>🔸 Ketik batal pesanan untuk membatalkan pesanan. <br>",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-26T03:41:27.690Z",
+    "modifiedOn": "2022-10-13T02:06:01.779Z"
+  },
+  {
+    "id": "builtin_text-b-34SV",
+    "formData": {
+      "text$en": "Klik tombol di bawah jika ingin memesan GAS atau BERAS",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-26T03:50:42.315Z",
+    "modifiedOn": "2022-09-26T03:51:24.064Z"
+  },
+  {
+    "id": "builtin_text-K6APBP",
+    "formData": {
+      "text$en": "Ok pesanan kamu akan segera kami proses ya.\n\n1. {{user.submerk}}\nJumlah:{{user.quantyty}}\n<br>\nCatatan :  - \n<br>\nAlamat: {{user.alamat}}<br>\nPembayaran: Tunai <br>\nNomor order: 1492986\n<br>\nMohon ditunggu untuk informasi selanjutnya. Terima kasih! 😊\n<br>\nℹ️ Pesanan tidak dapat dibatalkan jika sudah mendapatkan total harga.",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-27T02:04:48.568Z",
+    "modifiedOn": "2022-10-13T02:05:05.794Z"
+  },
+  {
+    "id": "builtin_text-aKVyGy",
+    "formData": {
+      "text$en": "Terima kasih, keranjangmu telah dikosongkan ya. {{user.namaBot}} tunggu pesanan selanjutnya 😊",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-27T02:55:49.320Z",
+    "modifiedOn": "2022-10-14T07:14:46.111Z"
+  },
+  {
+    "id": "builtin_text-F7VwtT",
+    "formData": {
+      "text$en": "Total harga : 50000<br>\n",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-27T03:03:50.629Z",
+    "modifiedOn": "2022-09-27T03:15:23.696Z"
+  },
+  {
+    "id": "builtin_text-G5ir3B",
+    "formData": {
+      "text$en": "Terima kasih telah menggunakan WhatsApp AQUA Home Service, kami tunggu pesanan selanjutnya 😊",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-27T03:06:42.393Z",
+    "modifiedOn": "2022-09-27T03:06:42.393Z"
+  },
+  {
+    "id": "builtin_text-oGbLCZ",
+    "formData": {
+      "text$en": "📍Tolong ketik lokasi pemesanan kamu ya",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-27T03:11:15.081Z",
+    "modifiedOn": "2022-09-27T15:08:36.922Z"
+  },
+  {
+    "id": "builtin_text--AlvZD",
+    "formData": {
+      "text$en": "Atau ketik seperti contoh ini: Beli AQUA Galon Isi 3",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-27T03:26:41.452Z",
+    "modifiedOn": "2022-09-27T03:26:41.452Z"
+  },
+  {
+    "id": "builtin_text-KjA0l1",
+    "formData": {
+      "text$en": "Atau ketik seperti contoh ini: Beli AQUA Galon Isi 3",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-27T03:27:00.452Z",
+    "modifiedOn": "2022-09-27T03:27:00.452Z"
+  },
+  {
+    "id": "builtin_text-4wqAWM",
+    "formData": {
+      "text$en": "Atau ketik seperti contoh ini: Beli AQUA Galon Isi 3",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-27T03:27:09.108Z",
+    "modifiedOn": "2022-09-27T03:27:09.108Z"
+  },
+  {
+    "id": "builtin_text-nypkkE",
+    "formData": {
+      "text$en": "Atau ketik seperti contoh ini: Beli AQUA Galon Isi 3",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-27T03:27:17.603Z",
+    "modifiedOn": "2022-09-27T03:27:17.603Z"
+  },
+  {
+    "id": "builtin_text-GkoCHq",
+    "formData": {
+      "text$en": "Atau ketik seperti contoh ini: Beli AQUA Galon Isi 3",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-27T03:29:45.028Z",
+    "modifiedOn": "2022-09-27T03:29:45.028Z"
+  },
+  {
+    "id": "builtin_text-vMyi2v",
+    "formData": {
+      "text$en": "Mau pesan GAS yang mana? Tersedia:",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-27T04:55:59.045Z",
+    "modifiedOn": "2022-09-27T04:55:59.045Z"
+  },
+  {
+    "id": "builtin_text-1nXMMv",
+    "formData": {
+      "text$en": "Mau pesan BERAS yang mana? Tersedia:",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-27T06:08:37.261Z",
+    "modifiedOn": "2022-09-27T06:08:37.261Z"
+  },
+  {
+    "id": "builtin_text-haU-Rk",
+    "formData": {
+      "text$en": "Tulis catatan pembelian Gas atau Beras ke AHS (Merk atau Jumlah)\n<br>\n<br>\nContoh: 2 Liter merk Rojolele, Beras Orisa 1",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-27T06:13:43.078Z",
+    "modifiedOn": "2022-09-27T06:13:43.078Z"
+  },
+  {
+    "id": "builtin_text-Gsl_Xa",
+    "formData": {
+      "text$en": "Total Pesanan Anda : 50000",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-27T06:19:20.344Z",
+    "modifiedOn": "2022-09-27T06:19:20.344Z"
+  },
+  {
+    "id": "builtin_text-DM72Lp",
+    "formData": {
+      "text$en": "Mau pesan AQUA yang mana? Tersedia:",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-27T06:26:34.462Z",
+    "modifiedOn": "2022-09-27T06:26:34.462Z"
+  },
+  {
+    "id": "builtin_text-ui466T",
+    "formData": {
+      "text$en": "Mau pesan VIT yang mana? Tersedia:",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-27T06:27:33.368Z",
+    "modifiedOn": "2022-09-27T06:27:33.368Z"
+  },
+  {
+    "id": "builtin_text-YrqaQY",
+    "formData": {
+      "text$en": "Mau pesan LEVITE yang mana? Tersedia:",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-27T06:27:55.971Z",
+    "modifiedOn": "2022-09-27T06:27:55.971Z"
+  },
+  {
+    "id": "builtin_text-npAumR",
+    "formData": {
+      "text$en": "Mau pesan MIZONE yang mana? Tersedia:",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-27T06:28:15.747Z",
+    "modifiedOn": "2022-09-27T06:28:15.747Z"
+  },
+  {
+    "id": "builtin_text-Tj5TJ4",
+    "formData": {
+      "text$en": "✅ Pilih produk yang ingin kamu beli:",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-27T06:29:39.665Z",
+    "modifiedOn": "2022-09-27T06:29:39.665Z"
+  },
+  {
+    "id": "builtin_text-smhYcQ",
+    "formData": {
+      "text$en": "Total Pesanan kamu saat ini:\n\n1. {{user.submerk}} <br>\nJumlah: {{user.quantyty}}<br>\n\n2. {{user.submemu}}<br>\nJumlah: {{user.quantiti}}<br>\n\nCatatan :  {{user.brand}}\n\nAlamat:  {{user.alamat}}\n\n\nDetail: -<br>\n\n Apakah detail pesananmu sudah benar? <br>🔸 Ketik ya untuk menyelesaikan transaksi ini.<br>\n\n",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-27T06:44:18.434Z",
+    "modifiedOn": "2022-10-11T03:43:15.011Z"
+  },
+  {
+    "id": "builtin_text-Ad_5Bx",
+    "formData": {
+      "text$en": "Silahkan pilih ulang",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-27T06:45:44.886Z",
+    "modifiedOn": "2022-10-17T07:04:28.890Z"
+  },
+  {
+    "id": "builtin_text-RExU8T",
+    "formData": {
+      "text$en": "Silahkan Ketik Ulang Alamat Anda",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-28T01:14:58.050Z",
+    "modifiedOn": "2022-09-28T01:14:58.050Z"
+  },
+  {
+    "id": "builtin_text-lZfQmk",
+    "formData": {
+      "text$en": "Apakah Kamu ingin mengubah lokasi?",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-28T01:27:32.378Z",
+    "modifiedOn": "2022-09-28T01:27:32.378Z"
+  },
+  {
+    "id": "builtin_text-3U49fr",
+    "formData": {
+      "text$en": "Terimakasih telah menggunakan Aqua Home Service",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-10T04:34:29.833Z",
+    "modifiedOn": "2022-10-10T04:34:29.833Z"
+  },
+  {
+    "id": "builtin_text-5c8zx8",
+    "formData": {
+      "text$en": "ertghjkl;'",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-11T08:06:52.794Z",
+    "modifiedOn": "2022-10-11T08:06:52.794Z"
+  },
+  {
+    "id": "builtin_text-vX3TqZ",
+    "formData": {
+      "text$en": "Maaf input anda salah",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-11T08:11:46.472Z",
+    "modifiedOn": "2022-10-11T08:12:33.992Z"
+  },
+  {
+    "id": "builtin_text-t0TkTd",
+    "formData": {
+      "text$en": "{{user.merk}}",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-11T08:53:46.358Z",
+    "modifiedOn": "2022-10-13T01:37:23.846Z"
+  },
+  {
+    "id": "builtin_text-eZvjp3",
+    "formData": {
+      "text$en": "hi",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-13T00:31:32.310Z",
+    "modifiedOn": "2022-10-13T00:31:32.310Z"
+  },
+  {
+    "id": "builtin_text-8u0BkG",
+    "formData": {
+      "text$en": "Tolong inputkan pesanan anda kembali",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-13T01:52:51.009Z",
+    "modifiedOn": "2022-10-13T01:52:51.009Z"
+  },
+  {
+    "id": "builtin_text-P0s3Ds",
+    "formData": {
+      "text$en": "Ok pesanan kamu akan segera kami proses ya.\n\n{{user.merk}}\nJumlah:{{user.quantyty}}\n<br>\nCatatan :  - \n<br>\nAlamat: {{user.alamat}}<br>\nPembayaran: Tunai <br>\nNomor order: 1492986\n<br>\nMohon ditunggu untuk informasi selanjutnya. Terima kasih! 😊\n<br>\nℹ️ Pesanan tidak dapat dibatalkan jika sudah mendapatkan total harga.",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-13T02:05:38.516Z",
+    "modifiedOn": "2022-10-13T02:05:38.516Z"
+  },
+  {
+    "id": "builtin_text-9PwAag",
+    "formData": {
+      "text$en": "Pesananmu saat ini:  <br>{{user.merk}} <br>Jumlah: {{user.quantyty}}  <br>\nCatatan :  -   <br>\nAlamat:   {{user.alamat}}   <br>Detail: -<br>  Apakah detail pesananmu sudah benar? <br>🔸 Ketik ya untuk menyelesaikan transaksi ini.<br>\n🔸 Ketik tambah untuk menambah transaksi lain.\n🔸 Ketik ganti alamat untuk mengubah alamat pengiriman. <br>🔸 Ketik batal pesanan untuk membatalkan pesanan. <br>",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-13T02:07:55.952Z",
+    "modifiedOn": "2022-10-13T02:07:55.952Z"
+  },
+  {
+    "id": "builtin_text-Gc-qXj",
+    "formData": {
+      "text$en": "Halo Bapak/Ibu Mavers terima kasih telah menghubungi AQUA Home Service.\n\nKami membutuhkan lokasi Anda, agar dapat menghubungkan dengan agen terdekat.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-01T08:14:56.005Z",
+    "modifiedOn": "2022-11-01T08:14:56.005Z"
+  },
+  {
+    "id": "builtin_text-na30Kx",
+    "formData": {
+      "text$en": "Terima Kasih",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-01T08:15:50.037Z",
+    "modifiedOn": "2022-11-01T08:15:50.037Z"
+  },
+  {
+    "id": "builtin_text-uv3qBu",
+    "formData": {
+      "text$en": "Untuk memudahkan pemesanan produk AQUA, mohon  📍share lokasi Kota anda Contoh : (Malang) untuk memilih agen terdekat dari rumah Anda",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-01T08:17:17.584Z",
+    "modifiedOn": "2022-11-04T08:06:57.169Z"
+  },
+  {
+    "id": "builtin_text-vUVWSM",
+    "formData": {
+      "text$en": "Nama Seller : {{session.response.body.0.Nama}}\nWhatsapp:  <a href=\"{{session.response.body.0.Whatsapp}}\">nomor</a>\nAlamat:  {{session.response.body.0.Alamat}}\nLokasi :  <a href=\"{{session.response.body.0.Link}}\">Maps</a>\n<br>\nNama Seller : {{session.response.body.1.Nama}}\nWhatsapp:  <a href=\"{{session.response.body.1.Whatsapp}}\">nomor</a>\nAlamat:  {{session.response.body.1.Alamat}}\nLokasi :  <a href=\"{{session.response.body.1.Link}}\"> Maps </a>\n<br>\nNama Seller : {{session.response.body.2.Nama}}\nWhatsapp:  <a href=\"{{session.response.body.2.Whatsapp}}\">nomor</a>\nAlamat:  {{session.response.body.2.Alamat}}\nLokasi :  <a href=\"{{session.response.body.2.Link}}\">Maps</a>\n",
+      "markdown$en": true,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-02T10:11:01.061Z",
+    "modifiedOn": "2022-11-04T05:54:00.494Z"
+  },
+  {
+    "id": "builtin_text-QzySDk",
+    "formData": {
+      "text$en": "Maaf Kota Yang Anda Masukkan Salah",
+      "markdown$en": true,
+      "typing$en": false,
+      "variations$en": [
+        "Maaf Server Sedang Sibuk 😥😥\nCoba lagi nanti😊😊"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-08T07:26:32.205Z",
+    "modifiedOn": "2022-11-08T07:37:24.106Z"
+  }
+]

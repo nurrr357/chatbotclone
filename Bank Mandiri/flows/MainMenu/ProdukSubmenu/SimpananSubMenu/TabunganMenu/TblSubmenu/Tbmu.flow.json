@@ -1,0 +1,161 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "7316d00e71",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-OvJ6mQ",
+        "say #!builtin_text-S7VmYs"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"BTBMU - Benefit TabunganMu\" || \"BTBMU\" || \"btbmu\" || \"Benefit TabunganMu\" || \"benefit tabunganmu\"",
+          "conditionType": "raw",
+          "node": "Content1"
+        },
+        {
+          "condition": "user.teks == \"FTBMU - Fitur TabunganMu\" || \"FTBMU\" || \"ftbmu\" || \"Fitur TabunganMu\" || \"fitur tabunganmu\"",
+          "conditionType": "raw",
+          "node": "Content"
+        },
+        {
+          "condition": "user.teks == \"STBMU - Syarat TabunganMu\" || \"STBMU\" || \"stbmu\" || \"Syarat TabunganMu\" || \"syarat tabunganu\"",
+          "conditionType": "raw",
+          "node": "Content2"
+        },
+        {
+          "condition": "user.teks == \"CTBMU - Cara Buka TabunganMu\" || \"CTBMU\" || \"ctbmu\" || \"Cara Buka TabunganMu\" || \"cara buka tabunganmu\"",
+          "conditionType": "raw",
+          "node": "Content3"
+        },
+        {
+          "condition": "user.teks == \"LTBMU - Limit TabunganMu\" || \"LTBMU\" || \"ltbmu\" || \"Limit TabunganMu\" || \"limit tabunganmu\"",
+          "conditionType": "raw",
+          "node": "Content4"
+        },
+        {
+          "condition": "user.teks == \"PTBMU - Biaya TabunganMu\" || \"PTBMU\" || \"ptbmu\" || \"Biaya TabunganMu\" || \"biaya tabunganmu\"",
+          "conditionType": "raw",
+          "node": "node-e4ab5"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "5c95bdee7d",
+      "name": "Content1",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-v_jdhT",
+        "say #!builtin_text-OLZfCz",
+        "say #!builtin_text-G17RYD"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "b26ba2b54e",
+      "name": "Content",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-XSe1Iz",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "49c79eabd8",
+      "name": "Content2",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-mTDkmT",
+        "say #!builtin_text-phH8fY",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "683e026cea",
+      "name": "Content3",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-VahkuI"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "3a6a350144",
+      "name": "Content4",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-j_1xrm",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "8365bc8a32",
+      "name": "node-e4ab5",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-cFWQPf",
+        "say #!builtin_text-k83kCh"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

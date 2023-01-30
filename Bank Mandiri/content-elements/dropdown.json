@@ -1,0 +1,1158 @@
+[
+  {
+    "id": "dropdown-3-9w2a",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Menu Utama",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Untuk melihat menu informasi MITA silakan tekan tombol Menu Utama di bawah ini.",
+      "options$en": [
+        {
+          "label": "Livin'. Aplikasi super untuk kebutuhan transaksi kamu.",
+          "value": "livin"
+        },
+        {
+          "label": "#trx. Cek saldo, cek mutasi atau blokir kartu debit kamu.",
+          "value": "trx"
+        },
+        {
+          "label": "Produk . Info beragam produk Bank Mandiri.",
+          "value": "produk"
+        },
+        {
+          "label": "Layanan. Info beragam layanan Bank Mandiri.",
+          "value": "layanan"
+        },
+        {
+          "label": "Promo. Info promo sedang berlangsung.",
+          "value": "promo"
+        },
+        {
+          "label": "Lokasi ATM. Info lokasi ATM Bank Mandiri terdekat.",
+          "value": "Atm"
+        },
+        {
+          "label": "Lokasi Cabang. Info lokasi cabang Bank Mandiri yang buka terdekat.",
+          "value": "cabang"
+        },
+        {
+          "label": "Jam Buka Cabang. Jam Buka Cabang Description: Info jam operasional cabang Bank Mandiri.",
+          "value": "buka"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-07T10:26:10.205Z",
+    "modifiedOn": "2022-12-07T04:27:58.281Z"
+  },
+  {
+    "id": "dropdown-GeEfxE",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Info Livin",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Yuk cari info lebih lanjut mengenai Livin' by Mandiri",
+      "options$en": [
+        {
+          "label": "Buka Tabungan Mudah. Tinggal selfie tabungan jadi.",
+          "value": "tabungan"
+        },
+        {
+          "label": "Livin' Sukha. Satu aplikasi segalanya easy",
+          "value": "sukha"
+        },
+        {
+          "label": "Quick Pick. Quick pick transaksi favorit.",
+          "value": "quik"
+        },
+        {
+          "label": "Linkage E-wallet",
+          "value": "wallet"
+        },
+        {
+          "label": "Tarik Tunai Mudah. Tarik tunai tanpa kartu",
+          "value": "tunai"
+        },
+        {
+          "label": "Ajukan Kartu Kredit. Pengajuan kartu kredit hitungan menit.",
+          "value": "kredit"
+        },
+        {
+          "label": "Goal Saving. Goal saving & deposito.",
+          "value": "goal"
+        },
+        {
+          "label": "QRIS. Cashless dengan QRIS.",
+          "value": "qris"
+        },
+        {
+          "label": "Fitur Livin' Lain. Fitur menarik lainnya.",
+          "value": "fitur"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-07T11:55:02.303Z",
+    "modifiedOn": "2022-11-08T13:18:34.314Z"
+  },
+  {
+    "id": "dropdown-ZwCmdk",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Livin' Luar Negeri",
+      "displayInKeyboard$en": false,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Yuk cari info lebih lanjut mengenai Livin' di Luar Negeri",
+      "options$en": [
+        {
+          "label": "Jam Operasional. Informasi jam operasional verifikasi data nasabah",
+          "value": "operasional"
+        },
+        {
+          "label": "Fitur Luar Negeri. Fitur Livin Luar Negeri",
+          "value": "negeri"
+        },
+        {
+          "label": "Akses di Luar Negeri. Akses dari nomor prefiks luar negeri",
+          "value": "akses"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-07T12:18:57.085Z",
+    "modifiedOn": "2022-11-07T12:20:58.538Z"
+  },
+  {
+    "id": "dropdown-Nxm9Mx",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Fitur Luar Negeri",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Informasi mengenai fitur menarik lain:",
+      "options$en": [
+        {
+          "label": "Transfer dari Livin'. Transfer online, BI-FAST, SKN, dan RTGS, terjadwal dan berulang",
+          "value": "transfer"
+        },
+        {
+          "label": "Bayar dari Livin'.  Bayar Penyedia Jasa di indonesia lebih cepat dan mudah. ",
+          "value": "bayar"
+        },
+        {
+          "label": "Top Up. Gampang top up di mana saja",
+          "value": "top"
+        },
+        {
+          "label": "E-money di Livin'. Top Up saldo untuk keluarga atau kerabat di Indonesia",
+          "value": "saldo"
+        },
+        {
+          "label": "E-Statement Livin'. Registrasi, unduh, dan lihat langsung e-statemnet",
+          "value": "registrasi"
+        },
+        {
+          "label": "Tabungan Rencana. Informasi Mandiri Tabungan Rencana",
+          "value": "rencana"
+        },
+        {
+          "label": "Deposito. Informasi Mandiri Deposito di Livin'",
+          "value": "deposito"
+        },
+        {
+          "label": "Power Installment. Informasi Power Installment ",
+          "value": "power"
+        },
+        {
+          "label": "E-billing di Livin'. Kemudahan bagi nasabah pengguna kartu kredit",
+          "value": "billing"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-07T12:34:21.573Z",
+    "modifiedOn": "2022-11-08T04:38:24.871Z"
+  },
+  {
+    "id": "dropdown-FrOfk5",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Partner Livin' Sukha",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Untuk melihat beberapa partner Sukha silahkan ketik tombol Partner Livin' Sukha dibawah ini",
+      "options$en": [
+        {
+          "label": "Garuda Indonesia. Layanan pemesanan tiket Garuda Indonesia",
+          "value": "garuda"
+        },
+        {
+          "label": "Traveloka. Layanan pemesanan tiket pesawat Traveloka",
+          "value": "traveloka"
+        },
+        {
+          "label": "Kereta Api Indon..., Layanan pemesanan tiket kereta api indonesia",
+          "value": "kereta"
+        },
+        {
+          "label": "Golf Master Club. Layanan pemesanan tiket Golf",
+          "value": "golf"
+        },
+        {
+          "label": "Codashop. Layanan pemesanan voucher game",
+          "value": "codashop"
+        },
+        {
+          "label": "Mandiri Tunas Fi..., Layanan pengajuan kredit otomotif",
+          "value": "mandiri"
+        },
+        {
+          "label": "Mandiri Utama Fi..., Layanan pengajuan kredit otomotif",
+          "value": "mandiri1"
+        },
+        {
+          "label": "AXA Mandiri. Layanan asuransi",
+          "value": "axa"
+        },
+        {
+          "label": "Voucher Games. Layanan pembelian voucher games",
+          "value": "games"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-08T04:10:44.146Z",
+    "modifiedOn": "2022-11-08T04:38:15.628Z"
+  },
+  {
+    "id": "dropdown-IMHOw9",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Fitur Livin' Lain",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Informasi mengenai fitur menarik lain :",
+      "options$en": [
+        {
+          "label": "E-billing di Livin'. Kemudahan bagi nasabah pengguna kartu kredit.",
+          "value": "billing"
+        },
+        {
+          "label": "Bayar dari Livin'. Bayar ini itu lebih cepat dan mudah.",
+          "value": "bayar"
+        },
+        {
+          "label": "E-money di Livin'. Cek dan update saldo langsung sebelum login.",
+          "value": "money"
+        },
+        {
+          "label": "Transfer dari Livin'. Transfer online, BI-FAST, SKN, dan RTGS, terjadwal dan berulang",
+          "value": "transfer"
+        },
+        {
+          "label": "Info Pinjaman Livin'. Lihat informasi pinjaman.",
+          "value": "pinjam"
+        },
+        {
+          "label": "Installment Livin'. Ubah transaksi kartu kredit jadi cicilan.",
+          "value": "instal"
+        },
+        {
+          "label": "E-statement Livin'. Registrasi, unduh dan lihat langsung e-statement.",
+          "value": "statement"
+        },
+        {
+          "label": "Investasi Livin'. Mudahnya investasi di satu aplikasi",
+          "value": "investasi"
+        },
+        {
+          "label": "Cabang Livin'. Mudahnya Reservasi Secara online",
+          "value": "cabang"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-08T10:06:45.518Z",
+    "modifiedOn": "2022-11-08T10:06:45.518Z"
+  },
+  {
+    "id": "dropdown-uWO7gx",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Fitur Layanan Cabang",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Informasi mengenai fitur Layanan Cabang:",
+      "options$en": [
+        {
+          "label": "Cara Reservasi",
+          "value": "reservasi"
+        },
+        {
+          "label": "Setor Tunai Cabang",
+          "value": "setor"
+        },
+        {
+          "label": "Tarik Tunai Cabang",
+          "value": "tarik"
+        },
+        {
+          "label": "Multiple Transaksi",
+          "value": "transaksi"
+        },
+        {
+          "label": "Waktu Reservasi",
+          "value": "waktu"
+        },
+        {
+          "label": "Jam Reservasi Cabang",
+          "value": "jam"
+        },
+        {
+          "label": "Batal Reservasi",
+          "value": "batal"
+        },
+        {
+          "label": "Edit Reservasi",
+          "value": "edit"
+        },
+        {
+          "label": "Cara Cek In",
+          "value": "cek"
+        },
+        {
+          "label": "Maksimal Transaksi",
+          "value": "maksimal"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-08T11:38:40.454Z",
+    "modifiedOn": "2022-11-08T11:38:40.454Z"
+  },
+  {
+    "id": "dropdown-l1ppEa",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Investasi Livin'",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Silahkan pilih informasi yang ingin kamu ketahui ya 😃",
+      "options$en": [
+        {
+          "label": "Benefit Investasi. Benefit Investasi Reksadana di Livin' by Mandiri",
+          "value": "benefit"
+        },
+        {
+          "label": "Jenis Investasi. Jenis Investasi yang terdapat pada Livin' by Mandiri",
+          "value": "jenis"
+        },
+        {
+          "label": "Cara Beli Investasi. Pembelian Investasi Reksadana pada Livin' by Mandiri",
+          "value": "investasi"
+        },
+        {
+          "label": "Daftar Investasi. Pendaftaran investasi reksadana di Livin' by Mandiri",
+          "value": "daftar"
+        },
+        {
+          "label": "Atur Investasi Rutin. Pengaturan investasi reksadana rutin di Livin' by Mandiri",
+          "value": "atur"
+        },
+        {
+          "label": "Jual Produk. Penjualan produk investasi reksadana di Livin' by Mandiri",
+          "value": "produk"
+        },
+        {
+          "label": "Alihkan Produk. Pengalihan produk investasi reksadana di Livin' by Mandiri",
+          "value": "reksadana"
+        },
+        {
+          "label": "Pemblokiran Rekening. Pemblokiran Rekening Reksa Dana di Livin' by Mandiri",
+          "value": "rekening"
+        },
+        {
+          "label": "Cabang APERD. Info lokasi Cabang APERD di Livin' by Mandiri",
+          "value": "cabang"
+        },
+        {
+          "label": "Produk Investasi. Jenis Produk Investasi di Livin' by Mandiri",
+          "value": "mandiri"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-08T12:16:01.071Z",
+    "modifiedOn": "2022-11-08T12:16:55.121Z"
+  },
+  {
+    "id": "dropdown-r750WH",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Info Livin'",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Yuk cari info lebih lanjut mengenai Livin' by Mandiri",
+      "options$en": [
+        {
+          "label": "Buka Tabungan Mudah. Tinggal selfie tabungan jadi.",
+          "value": "tabungan"
+        },
+        {
+          "label": "Livin' Luar Negeri. Di mana saja kapan saja",
+          "value": "luar"
+        },
+        {
+          "label": "Satu Akun. Satu akun untuk semua.",
+          "value": "akun"
+        },
+        {
+          "label": "Quick Pick. Quick pick transaksi favorit.",
+          "value": "quik"
+        },
+        {
+          "label": "Linkage E-wallet",
+          "value": "wallet"
+        },
+        {
+          "label": "Tarik Tunai Mudah. Tarik tunai tanpa kartu",
+          "value": "tunai"
+        },
+        {
+          "label": "Ajukan Kartu Kredit. Pengajuan kartu kredit hitungan menit.",
+          "value": "kredit"
+        },
+        {
+          "label": "Goal Saving. Goal saving & deposito.",
+          "value": "goal"
+        },
+        {
+          "label": "QRIS. Cashless dengan QRIS.",
+          "value": "qris"
+        },
+        {
+          "label": "Fitur Livin' Lain. Fitur menarik lainnya.",
+          "value": "fitur"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-09T09:06:47.553Z",
+    "modifiedOn": "2022-11-09T09:06:47.553Z"
+  },
+  {
+    "id": "dropdown-Tpsrte",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Livin' Luar negeri",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Saat ini Livin' by Mandiri (logo kuning) dapat di akses 118 negara loh. Yuk cari info lebih lanjut mengenai Livin' di Luar Negeri",
+      "options$en": [
+        {
+          "label": "Fitur Luar Negeri. Fitur Livin' Luar Negeri",
+          "value": "negeri"
+        },
+        {
+          "label": "Akses di Luar Negeri. Akses dari nomor prefiks luar negeri",
+          "value": "akses"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-09T09:35:40.348Z",
+    "modifiedOn": "2022-11-09T09:37:54.405Z"
+  },
+  {
+    "id": "dropdown-VlLpXb",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Info Lebih Lanjut",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Informasi lainnya mengenai Livin' di Luar Negeri silakan tekan tombol Info Lebih lanjut di bawah ini",
+      "options$en": [
+        {
+          "label": "Experience Indonesia. Informasi event Experience Indonesia",
+          "value": "experience"
+        },
+        {
+          "label": "Transaksi. Transaksi diluar negeri, kapan saja",
+          "value": "transaksi"
+        },
+        {
+          "label": "Layanan Pelanggan. Informasi layanan pelanggan di Luar Negeri",
+          "value": "pelanggan"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-09T09:52:12.514Z",
+    "modifiedOn": "2022-11-09T09:52:12.514Z"
+  },
+  {
+    "id": "dropdown-FgSSMq",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Info Event",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Informasi mengenai acara Experience Indonesia silakan tekan tombol Info Event di bawah ini",
+      "options$en": [
+        {
+          "label": "Experience Indonesia. Discover Invaluable Stories",
+          "value": "stories"
+        },
+        {
+          "label": "Booth Bank Mandiri. Lokasi Booth Bank Mandiri di Experience Indonesia",
+          "value": "bank"
+        },
+        {
+          "label": "Kendala Kartu Debit. Informasi ganti kartu debit di Experience Indonesia",
+          "value": "debit"
+        },
+        {
+          "label": "Aktivasi. Registrasi dan Aktivasi Livin’ tanpa perlu datang",
+          "value": "aktivasi"
+        },
+        {
+          "label": "Promo. Informasi Promo Indonesian Days",
+          "value": "promo"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-09T10:00:34.832Z",
+    "modifiedOn": "2022-11-09T10:00:34.832Z"
+  },
+  {
+    "id": "dropdown-f_O7Va",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Menu Chat Booking",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Hai, {{user.nama}}\n\nSelamat datang di layanan chat banking Bank Mandiri. Kamu bisa tekan tombol Menu Chat Banking di bawah ini untuk memilih menu transaksi.",
+      "options$en": [
+        {
+          "label": "Cek Saldo. Informasi Saldo Tabungan",
+          "value": "saldo"
+        },
+        {
+          "label": "Cek Mutasi. Informasi 5 Transaksi Terakhir",
+          "value": "mutasi"
+        },
+        {
+          "label": "Blokir. Blokir Kartu Debit",
+          "value": "blokir"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-09T10:31:33.940Z",
+    "modifiedOn": "2022-11-09T10:31:33.940Z"
+  },
+  {
+    "id": "dropdown-GQjZN3",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Info Produk",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Yuk pilih informasi yang ingin kamu ketahui",
+      "options$en": [
+        {
+          "label": "Simpanan",
+          "value": "simpanan"
+        },
+        {
+          "label": "Pinjaman",
+          "value": "pinjaman"
+        },
+        {
+          "label": "Investasi",
+          "value": "investasi"
+        },
+        {
+          "label": "Kartu Kredit",
+          "value": "kartu kredit"
+        },
+        {
+          "label": "E-money",
+          "value": "e-money"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-09T11:23:48.814Z",
+    "modifiedOn": "2022-11-09T11:23:48.814Z"
+  },
+  {
+    "id": "dropdown-2iwTQO",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Info Simpanan",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Yuk pilih informasi yang ingin kamu ketahui",
+      "options$en": [
+        {
+          "label": "Tabungan",
+          "value": "menabung"
+        },
+        {
+          "label": "Deposito",
+          "value": "deposito"
+        },
+        {
+          "label": "Giro",
+          "value": "giro"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-09T11:33:33.728Z",
+    "modifiedOn": "2022-11-09T13:54:55.492Z"
+  },
+  {
+    "id": "dropdown-MdJFjz",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Informasi Promo",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Yuk cari tau promo Bank Mandiri saat ini :",
+      "options$en": [
+        {
+          "label": "Promo Livin'",
+          "value": "livin"
+        },
+        {
+          "label": "Promo Kartu Kredit",
+          "value": "kredit"
+        },
+        {
+          "label": "Promo Kartu Debit",
+          "value": "debit"
+        },
+        {
+          "label": "Promo E-money",
+          "value": "money"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-10T03:17:55.507Z",
+    "modifiedOn": "2022-11-10T03:19:14.652Z"
+  },
+  {
+    "id": "dropdown-3peIp0",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Promo Livin'",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Nikmati promo asik di Livin' by Mandiri",
+      "options$en": [
+        {
+          "label": "Indomaret Kupon. Gratis i-kupon untuk user baru Livin by Mandiri",
+          "value": "indomaret"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-10T03:23:25.207Z",
+    "modifiedOn": "2022-11-10T03:23:25.207Z"
+  },
+  {
+    "id": "dropdown-cLKWSX",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Promo Kartu Kredit",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Pilih Informasi Promo Kartu Kredit",
+      "options$en": [
+        {
+          "label": "Diskon Tanggal Muda. Diskon s/d 30% di Tanggal Muda",
+          "value": "muda"
+        },
+        {
+          "label": "Belanja Luar Negeri. Belanja Luar Negeri Jadi Lebih Enteng",
+          "value": "belanja"
+        },
+        {
+          "label": "Promo E-commerce KK. Belanja online, Diskon s.d Rp 500 ribu",
+          "value": "ekomers"
+        },
+        {
+          "label": "Promo Elektronik KK. Beli gadget dan barang elektronik, diskon hingga Rp 2 juta",
+          "value": "elektronik"
+        },
+        {
+          "label": "Promo Health KK. Sehat Selalu dengan Berbagai Kemudahan",
+          "value": "health"
+        },
+        {
+          "label": "Promo Supermarket KK. Belanja kebutuhan sehari-hari, Hemat s/d 25%",
+          "value": "supermarket"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-10T03:31:00.516Z",
+    "modifiedOn": "2022-11-11T07:27:39.272Z"
+  },
+  {
+    "id": "dropdown-5iEHSU",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Info Layanan",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Untuk melihat berbagai layanan di Bank Mandiri silakan tekan tombol Info Layanan di bawah ini",
+      "options$en": [
+        {
+          "label": "Mandiri Agen. Layanan perbankan melalui agen",
+          "value": "agen"
+        },
+        {
+          "label": "CSM. Customer Service Machine",
+          "value": "csm"
+        },
+        {
+          "label": "Valuta Asing. Informasi terkini nilai kurs valuta asing",
+          "value": "valuta"
+        },
+        {
+          "label": "Ganti Mandiri Debit. Informasi ganti kartu debit",
+          "value": "debit"
+        },
+        {
+          "label": "Mandiri Prioritas. Layanan perbankan ekslusif untuk nasabah utama",
+          "value": "prioritas"
+        },
+        {
+          "label": "Livin' Poin. Poin berdasarkan saldo dan transaksi nasabah",
+          "value": "poin"
+        },
+        {
+          "label": "Operasional Cabang. Penyesuaian jam layanan di kantor cabang",
+          "value": "cabang"
+        },
+        {
+          "label": "Weekend Banking. Layanan kantor cabang di hari Sabtu dan Minggu",
+          "value": "weekend"
+        },
+        {
+          "label": "Safe Deposit Box. Layanan kotak penyimpanan harta dan surat berharga",
+          "value": "deposit"
+        },
+        {
+          "label": "Layanan Luar Negeri. Informasi layanan pelanggan di Luar Negeri",
+          "value": "luar"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-10T09:01:00.869Z",
+    "modifiedOn": "2022-11-11T01:57:34.033Z"
+  },
+  {
+    "id": "dropdown-TENneD",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Select a choice",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Berbagai informasi mengenai Mandiri Agen silakan tekan tombol Info Mandiri Agen di bawah ini.",
+      "options$en": [
+        {
+          "label": "Jenis Mandiri Agen. Dua jenis mandiri agen",
+          "value": "mandiri"
+        },
+        {
+          "label": "Syarat Menjadi Agen. Persyaratan jadi mandiri agen",
+          "value": "syarat"
+        },
+        {
+          "label": "Cara Menjadi Agen. Info cara jadi mandiri agen",
+          "value": "cara"
+        },
+        {
+          "label": "Dokumen Agen. Syarat dokumen jadi mandiri agen",
+          "value": "dokumen"
+        },
+        {
+          "label": "Profil Agen. Profil agen yang direkomendasikan",
+          "value": "profil"
+        },
+        {
+          "label": "Akuisisi Agen. Tahap-tahap proses akusisi agen",
+          "value": "akusisi"
+        },
+        {
+          "label": "Fitur Transaksi Agen. Transaksi dapat dilakukan di mandiri agen",
+          "value": "fitur"
+        },
+        {
+          "label": "Komisi Agen. Komisi diberikan ke mandiri agen",
+          "value": "komisi"
+        },
+        {
+          "label": "Info Agen Lainnya. Informasi lainnya mandiri agen",
+          "value": "info"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-10T09:20:17.412Z",
+    "modifiedOn": "2022-11-10T09:20:17.412Z"
+  },
+  {
+    "id": "dropdown-5CITPW",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Info Lain Agent",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Informasi lainnya mengenai Mandiri Agen silakan tekan tombol Info Lain Agen di bawah ini.",
+      "options$en": [
+        {
+          "label": "Fungsi SGP. Fungsi SGP terhadap mandiri agen",
+          "value": "sgp"
+        },
+        {
+          "label": "Monitoring SGP. SGP melakukan monitoring mandiri agen",
+          "value": "monitoring"
+        },
+        {
+          "label": "Kuadran Agen. Pembagian kuadran mandiri agen",
+          "value": "kuadran"
+        },
+        {
+          "label": "Layanan Keluhan Agen. Informasi layanan pengaduan mandiri agen",
+          "value": "keluhan"
+        },
+        {
+          "label": "Materi Agen. Berbagai material pendukung mandiri agen",
+          "value": "materi"
+        },
+        {
+          "label": "Keuntungan Agen. Berbagai keuntungan menjadi mandiri agen",
+          "value": "keuntungan"
+        },
+        {
+          "label": "Program Reward Agen. Berbagai program & reward untuk mandiri agen & SGP",
+          "value": "program"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-10T10:01:05.528Z",
+    "modifiedOn": "2022-11-10T10:01:05.528Z"
+  },
+  {
+    "id": "dropdown-s5s3J_",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Info Valuta Asing",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Yuk pilih informasi yang ingin kamu ketahui",
+      "options$en": [
+        {
+          "label": "Produk Valas",
+          "value": "valas"
+        },
+        {
+          "label": "Cara Transaksi Valas",
+          "value": "cara"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-10T11:57:20.425Z",
+    "modifiedOn": "2022-11-10T11:57:20.425Z"
+  },
+  {
+    "id": "dropdown-bzZxo7",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Info Produk Valas",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Yuk cari lebih lanjut informasi seputar produk valuta asing",
+      "options$en": [
+        {
+          "label": "Fx Cash",
+          "value": "cash"
+        },
+        {
+          "label": "Hedging atau Lindun...",
+          "value": "lindun"
+        },
+        {
+          "label": "Investasi Valas",
+          "value": "investasi"
+        },
+        {
+          "label": "LCS - Local Curr...",
+          "value": "lcs"
+        },
+        {
+          "label": "KOPRA by Mandiri",
+          "value": "kopra"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-10T12:01:18.573Z",
+    "modifiedOn": "2022-11-10T12:06:23.501Z"
+  },
+  {
+    "id": "dropdown-Zf_ZLK",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Info Weekend Banking",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Yuk pilih informasi yang ingin kamu ketahui",
+      "options$en": [
+        {
+          "label": "Transaksi weeken...",
+          "value": "weken"
+        },
+        {
+          "label": "Lokasi weekend b...",
+          "value": "lokasi"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-10T13:16:47.468Z",
+    "modifiedOn": "2022-11-10T13:16:47.468Z"
+  },
+  {
+    "id": "dropdown-pBtVD4",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Info E-Money",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Yuk pilih informasi yang ingin kamu ketahui",
+      "options$en": [
+        {
+          "label": "Fitur E-money",
+          "value": "emoney"
+        },
+        {
+          "label": "Lokasi Beli E-money",
+          "value": "lokasi"
+        },
+        {
+          "label": "Cara Top Up E-money",
+          "value": "cara"
+        },
+        {
+          "label": "Biaya Top Up E-money",
+          "value": "biaya"
+        },
+        {
+          "label": "Update Saldo E-money",
+          "value": "update"
+        },
+        {
+          "label": "Promo E-money",
+          "value": "promo"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-11T07:06:05.591Z",
+    "modifiedOn": "2022-11-11T07:08:28.759Z"
+  },
+  {
+    "id": "dropdown-nIxEl0",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Kartu Kredit",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Yuk cari info lebih lanjut mengenai kartu kredit ",
+      "options$en": [
+        {
+          "label": "Promo Kartu Kredit. Promo Kartu Kredit",
+          "value": "promo"
+        },
+        {
+          "label": "Ajukan Kartu Kredit. Cara pengajuan, status dan penngiriman kartu kredit",
+          "value": "ajukan"
+        },
+        {
+          "label": "Layanan Kartu Kredit. Layanan Kartu Kredit",
+          "value": "layanan"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-11T07:42:08.056Z",
+    "modifiedOn": "2022-11-11T07:42:08.056Z"
+  },
+  {
+    "id": "dropdown-Tkic_m",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Kredit SME",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Silahkan pilih informasi small medium enterprise yang ingin kamu ketahui",
+      "options$en": [
+        {
+          "label": "Kredit Investasi. Kebutuhan khusus terkait investasi",
+          "value": "investivasi"
+        },
+        {
+          "label": "Kredit KMK. Kredit Modal Kerja",
+          "value": "kmk"
+        },
+        {
+          "label": "Kredit Produktif. Kredit Produktif Berbasis Asset",
+          "value": "produktif"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-12-13T12:25:21.460Z",
+    "modifiedOn": "2022-12-13T12:25:21.460Z"
+  },
+  {
+    "id": "dropdown-E_Wat-",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Kredit Modal Kerja",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Silahkan pilih informasi yang ingin kamu ketahui ya",
+      "options$en": [
+        {
+          "label": "Syarat KMK",
+          "value": "syarat"
+        },
+        {
+          "label": "Limit KMK",
+          "value": "limit"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-12-13T12:39:22.842Z",
+    "modifiedOn": "2022-12-13T12:39:22.842Z"
+  },
+  {
+    "id": "dropdown-0JPhC5",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Mandiri KPBA",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Silakan pilih informasi mandiri KPBA yang ingin kamu ketahui yaa",
+      "options$en": [
+        {
+          "label": "Syarat KPBA",
+          "value": "satu"
+        },
+        {
+          "label": "Limit KPBA",
+          "value": "dua"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-12-13T12:48:57.758Z",
+    "modifiedOn": "2022-12-13T12:53:50.290Z"
+  },
+  {
+    "id": "dropdown-iyxpQ_",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Fitur Livin' lain",
+      "displayInKeyboard$en": true,
+      "markdown$en": false,
+      "typing$en": false,
+      "message$en": "Informasi mengenai fitur menarik lain :",
+      "options$en": [
+        {
+          "label": "E-billing di Livin'. Kemudahan bagi nasabah pengguna kartu kredit.",
+          "value": "billing"
+        },
+        {
+          "label": "Bayar dari Livin'. Bayar ini itu lebih cepat dan mudah.",
+          "value": "bayar"
+        },
+        {
+          "label": "E-money di Livin'. Cek dan update saldo langsung sebelum login.",
+          "value": "money"
+        },
+        {
+          "label": "Transfer dari Livin'. Transfer online, BI-FAST, SKN, dan RTGS, terjadwal dan berulang",
+          "value": "transfer"
+        },
+        {
+          "label": "Info Pinjaman Livin'. Lihat informasi pinjaman.",
+          "value": "pinjam"
+        },
+        {
+          "label": "Installment Livin'. Ubah transaksi kartu kredit jadi cicilan.",
+          "value": "install"
+        },
+        {
+          "label": "E-statement Livin'. Registrasi, unduh dan lihat langsung e-statement.",
+          "value": "statement"
+        },
+        {
+          "label": "Investasi Livin'. Mudahnya investasi di satu aplikasi",
+          "value": "investasi"
+        },
+        {
+          "label": "Cabang Livin'. Mudahnya Reservasi Secara online",
+          "value": "cabang"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-12-14T08:26:29.262Z",
+    "modifiedOn": "2022-12-14T08:36:28.497Z"
+  }
+]

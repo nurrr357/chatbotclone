@@ -1,0 +1,66 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "5de2acaa53",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-ioVPZS",
+        "say #!dropdown-cLKWSX"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.pilih == \"muda\"",
+          "conditionType": "raw",
+          "node": "MainMenu/KreditSubmenu/SubMenuDropdown/Muda.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"belanja\"",
+          "conditionType": "raw",
+          "node": "MainMenu/KreditSubmenu/SubMenuDropdown/Belanja.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"ekomers\"",
+          "conditionType": "raw",
+          "node": "MainMenu/KreditSubmenu/SubMenuDropdown/Ecomers.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"health\"",
+          "conditionType": "raw",
+          "node": "MainMenu/KreditSubmenu/SubMenuDropdown/Health.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"elektronik\"",
+          "conditionType": "raw",
+          "node": "MainMenu/KreditSubmenu/SubMenuDropdown/Elektronik.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"supermarket\"",
+          "conditionType": "raw",
+          "node": "MainMenu/KreditSubmenu/SubMenuDropdown/Supermarket.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

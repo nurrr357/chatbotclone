@@ -1,0 +1,141 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "0060385086",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-RMxwU0",
+        "say #!dropdown-GeEfxE"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.pilih == \"tabungan\"",
+          "conditionType": "raw",
+          "node": "SubMenu"
+        },
+        {
+          "condition": "user.pilih == \"sukha\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/Sukha/Dropdown/MenuSukha.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"quik\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/QuickPick/menu.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"wallet\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/EWallet/Menu.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"tunai\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/Tunai/Menu.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"kredit\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/KartuKredit/Menu.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"goal\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/GoalSaving/Menu.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"qris\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/Qris/Menu.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"fitur\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/FiturLain/Dropdown/Menu.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "c8db590e9b",
+      "name": "SubMenu",
+      "next": [
+        {
+          "condition": "user.pilih == \"Luar\"",
+          "conditionType": "raw",
+          "node": "LuarSubMenu"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-6xx7vy",
+        "say #!builtin_text-rFL8gp",
+        "say #!builtin_card-KL-F5B"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "8672eef836",
+      "name": "LuarSubMenu",
+      "next": [
+        {
+          "condition": "user.pilih == \"operasional\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/Tabungan/Dropdown/JamOperasional.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"negeri\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/Tabungan/Dropdown/FiturLuarNegeri.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"akses\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/Tabungan/Dropdown/AksesLuarNegeri.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-L8_aPp",
+        "say #!dropdown-ZwCmdk"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    }
+  ]
+}

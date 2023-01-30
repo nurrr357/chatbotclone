@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "Selesai",
+  "description": "",
+  "nodes": [
+    {
+      "id": "7de6a42c11",
+      "name": "Selesai",
+      "onEnter": [
+        "say #!builtin_text-oy9-3y"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

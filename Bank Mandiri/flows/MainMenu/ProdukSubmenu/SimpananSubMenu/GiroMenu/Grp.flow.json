@@ -1,0 +1,78 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "db5f9548f2",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-thdH4A",
+        "say #!builtin_text-COu6CI"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"SGRP - Syarat Giro Rupiah\" || \"SGRP\" || \"sgrp\" || \"Syarat Giro Rupiah\" || \"syarat giro rupiah\"",
+          "conditionType": "raw",
+          "node": "Content"
+        },
+        {
+          "condition": "user.teks == \"BGRP - Benefit Giro Rupiah\" || \"BGRP\" || \"bgrp\" || \"Benefit Giro Rupiah\" || \" benefit giro rupiah\"",
+          "conditionType": "raw",
+          "node": "Content1"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "71808cea01",
+      "name": "Content",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-Gaao3e",
+        "say #!builtin_text-wZxJnG",
+        "say #!builtin_text-v-v5nS",
+        "say #!builtin_text-EqZdez",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "4f101a029d",
+      "name": "Content1",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-gjUroW",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

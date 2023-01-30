@@ -1,0 +1,67 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "e541ee9f80",
+      "name": "Content",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-scrEeP"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "5de2acaa53",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_card-xiHBk7",
+        "say #!dropdown-3peIp0"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.pilih == \"sudah\"",
+          "conditionType": "raw",
+          "node": "Main/MainMenu/Punya.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"belum\"",
+          "conditionType": "raw",
+          "node": "Main/MainMenu/Belum.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"indomaret\"",
+          "conditionType": "raw",
+          "node": "Content"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

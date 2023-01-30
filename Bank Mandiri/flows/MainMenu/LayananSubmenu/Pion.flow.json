@@ -1,0 +1,292 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "56d6d66bc8",
+      "name": "Content",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-866aTD",
+        "say #!builtin_text-BlDmZo"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "be84c26b3a",
+      "name": "Content1",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-3Zfrjn",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "ee566a64a8",
+      "name": "Content3",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-AmQGbM",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "dfa6da2185",
+      "name": "Content4",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-prfF8T",
+        "say #!builtin_text-_fVHRR",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "730155a4ea",
+      "name": "Content10",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-i7ijpt",
+        "say #!builtin_text-A3nUo5",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "43a17f6e2c",
+      "name": "Content5",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-rFL8gp",
+        "say #!builtin_text-VO10mA"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "cf06d6a82e",
+      "name": "Content9",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-rFL8gp",
+        "say #!builtin_text-JUFbMo"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "1edb71af0c",
+      "name": "Content8",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-Nct0_V",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "c4774f48fa",
+      "name": "Content6",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-rFL8gp",
+        "say #!builtin_text-NloQkb"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "a2effc2326",
+      "name": "Content7",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-9HnG9w",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "60652fa0d3",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-h-NKyT",
+        "say #!builtin_text-MnRgGf"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"MLPN - Benefit Livin'poin\" || \"MLPN\" || \"mlpn\" || \"benefit livin'poin\" || \"Benefit Livin'poin\"",
+          "conditionType": "raw",
+          "node": "Content"
+        },
+        {
+          "condition": "user.teks == \"SLPN - Syarat Livin'poin\" || \"SLPN\" || \"slpn\" || \"syarat livin'poin\" || \"Syarat Livin'poin\"",
+          "conditionType": "raw",
+          "node": "Content1"
+        },
+        {
+          "condition": "user.teks == \"DLPN - Daftar Livin'poin\" || \"DLPN\" || \"dlpn\" || \"Daftar Livin'poin\" || \"daftar livin'poin\"",
+          "conditionType": "raw",
+          "node": "Menu2"
+        },
+        {
+          "condition": "user.teks == \"CLPN - Cara Dapat Livin'poin\" || \"CLPN\" || \"Cara Dapat Livin'poin\" || \"cara dapat livin'poin\"",
+          "conditionType": "raw",
+          "node": "Content10"
+        },
+        {
+          "condition": "user.teks == \"TFPN - Cek Livin'poin\" || \"TFPN\" || \"tfpn\" || \"Cek Livin'poin\" || \"cek livin'poin\"",
+          "conditionType": "raw",
+          "node": "Content5"
+        },
+        {
+          "condition": "user.teks == \"TLPN - Tukar Livin'poin\" || \"TLPN\" || \"tlpn\" || \"Tukar Livin'poin\" || \"tukar livin'poin\"",
+          "conditionType": "raw",
+          "node": "Content9"
+        },
+        {
+          "condition": "user.teks == \"BLPN - Biaya Livin'poin\" || \"BLPN\" || \"blpn\" || \"Biaya Livin'poin\" || \"biaya livin'poin\" ",
+          "conditionType": "raw",
+          "node": "Content8"
+        },
+        {
+          "condition": "user.teks == \"LLPN - Limit Livin'poin\" || \"LLPN\" || \"llpn\" || \"Limit Livin'poin\" || \"limit livin'poin\"",
+          "conditionType": "raw",
+          "node": "Content7"
+        },
+        {
+          "condition": "user.teks == \"PLPN - Promo Livin'poin\" || \"PLPN\" || \"plpn\" || \"Promo Livin'poin\" || \"promo livin'poin\"",
+          "conditionType": "raw",
+          "node": "Content6"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "d372dda480",
+      "name": "Menu2",
+      "next": [
+        {
+          "condition": "user.teks == \"LPNSMS - Register Livin'poin via SMS\" || \"LPNSMS\" || \"lpnsms\" || \"Register Livin'poin via SMS\" || \"register livin'poin via sms\"",
+          "conditionType": "raw",
+          "node": "Content3"
+        },
+        {
+          "condition": "user.teks == \"LPNATM - Register Livin'poin via ATM\" || \"LPNATM\" || \"lpnatm\" || \"Register Livin'poin via ATM\" || \"register livin'poin via atm\"",
+          "conditionType": "raw",
+          "node": "Content4"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-uvEvAV"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    }
+  ]
+}

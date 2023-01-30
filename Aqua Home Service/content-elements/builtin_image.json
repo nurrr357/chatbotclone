@@ -1,0 +1,12 @@
+[
+  {
+    "id": "builtin_image-wwAobI",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/BOT_ID_PLACEHOLDER/media/5k998vss94ou4d9hkp14-2.jpg"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-11T08:52:11.290Z",
+    "modifiedOn": "2022-10-11T08:52:11.290Z"
+  }
+]

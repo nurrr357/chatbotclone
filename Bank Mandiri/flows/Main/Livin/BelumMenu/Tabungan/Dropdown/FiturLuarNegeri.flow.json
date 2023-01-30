@@ -1,0 +1,82 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "MenuFitur",
+  "description": "",
+  "nodes": [
+    {
+      "id": "ed3e93244c",
+      "name": "MenuFitur",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-t59zkX",
+        "say #!dropdown-Nxm9Mx"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.pilih == \"transfer\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/Tabungan/SubMenuDropdown/Transfer.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"bayar\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/Tabungan/SubMenuDropdown/Bayar.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"top\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/Tabungan/SubMenuDropdown/Topup.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"saldo\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/Tabungan/SubMenuDropdown/saldo.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"registrasi\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/Tabungan/SubMenuDropdown/registrasi.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"rencana\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/Tabungan/SubMenuDropdown/rencana.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"deposito\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/Tabungan/SubMenuDropdown/deposito.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"power\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/Tabungan/SubMenuDropdown/power.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"billing\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/Tabungan/SubMenuDropdown/billing.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "e2d47a61b0",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-EIAsI8",
+        "say #!builtin_text-TzV56h"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"SGV - Syarat Giro Valas\" || \"SGV\" || \"sgv\" || \"Syarat Giro Valas\" || \"syarat giro valas\"",
+          "conditionType": "raw",
+          "node": "Content"
+        },
+        {
+          "condition": "user.teks == \"JGV - Jenis Giro Valas\" || \"JGV\" || \"jgv\" || \"Jenis Giro Valas\" || \"jenis giro valas\"",
+          "conditionType": "raw",
+          "node": "Content1"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "54a3cd9916",
+      "name": "Content",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-Gm8kgS",
+        "say #!builtin_text-y5xq6F",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "9c4719d22b",
+      "name": "Content1",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-Idxu_4",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

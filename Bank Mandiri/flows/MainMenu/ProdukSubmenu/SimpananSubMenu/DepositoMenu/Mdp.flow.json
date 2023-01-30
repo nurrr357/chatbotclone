@@ -1,0 +1,45 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "98c801e711",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-2gbrlR"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"SMD - Syarat Buka Mandiri Deposito\" || \"SMD\" || \"smd\" || \"Syarat Buka Mandiri Deposito\" || \"syarat buka mandiri deposito\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/DepositoMenu/MdpSubMenu/Smd.flow.json"
+        },
+        {
+          "condition": "user.teks == \"BMD - Benefit Mandiri Deposito\" || \"BMD\" || \"bmd\" || \"Benefit Mandiri Deposito\" || \"benefit mandiri deposito\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/DepositoMenu/MdpSubMenu/Bmd.flow.json"
+        },
+        {
+          "condition": "user.teks == \"CMD - Cair atau Batal Mandiri Deposito\" || \"CMD\" || \"cmd\" || \"Cair atau Batal Mandiri Deposito\" || \"Cair atau batal mandiri deposito\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/DepositoMenu/MdpSubMenu/Cmd.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

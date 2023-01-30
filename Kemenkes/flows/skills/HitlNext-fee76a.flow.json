@@ -1,0 +1,68 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "next": []
+  },
+  "startNode": "entry",
+  "skillData": {
+    "timeoutDelay": 60,
+    "redirectNoAgent": true,
+    "randomId": "3VdVsWpggA"
+  },
+  "nodes": [
+    {
+      "name": "entry",
+      "onEnter": [
+        "hitlnext/check_agents {\"timeoutDelay\":60,\"redirectNoAgent\":true,\"randomId\":\"3VdVsWpggA\"}"
+      ],
+      "next": [
+        {
+          "condition": "temp['hitlnext-noAgent'] === true",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "hitl"
+        }
+      ],
+      "id": "003230"
+    },
+    {
+      "name": "hitl",
+      "onEnter": [
+        "hitlnext/handoff {\"timeoutDelay\":60,\"redirectNoAgent\":true,\"randomId\":\"3VdVsWpggA\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "wait"
+        }
+      ],
+      "id": "355310"
+    },
+    {
+      "name": "wait",
+      "onEnter": [],
+      "onReceive": [],
+      "next": [
+        {
+          "condition": "temp['hitlnext-noAgent'] === true",
+          "node": "#"
+        },
+        {
+          "condition": "temp['hitlnext-timedOutWaitingAgent'] === true",
+          "node": "#"
+        },
+        {
+          "condition": "temp['hitlnext-handoffResolved'] === true",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "wait"
+        }
+      ],
+      "id": "595623"
+    }
+  ]
+}

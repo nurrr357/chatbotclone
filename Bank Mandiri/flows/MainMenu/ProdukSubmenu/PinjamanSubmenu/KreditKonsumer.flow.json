@@ -1,0 +1,319 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "0fe4ab6023",
+      "name": "Content1",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-Lxg3e-",
+        "say #!builtin_text-g19wr1"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "2e770de946",
+      "name": "Content2",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-OmY2AL",
+        "say #!builtin_text-9WCqW6",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "365c4e0925",
+      "name": "Content3",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-htjXif",
+        "say #!builtin_text-iY0MxP",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "efbecac0e0",
+      "name": "Content4",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text--nSVVL",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "a4eb12aa3c",
+      "name": "Content7",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text--erH5r",
+        "say #!builtin_text-DkdBUM",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "70740088f2",
+      "name": "Content6",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-U5m6zv",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "ea6e05badf",
+      "name": "Content5",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-P_bn4L",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "214928cf36",
+      "name": "SubMenu",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-RVPUgJ",
+        "say #!builtin_text-j7Ngnx",
+        "say #!builtin_text-N-HJsv"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"JBKRM - Jenis BukaRumah\" || \"JBKRM\" || \"jbkrm\" || \"Jenis BukaRumah\" || \"jenis bukarumah\"",
+          "conditionType": "raw",
+          "node": "Content8"
+        },
+        {
+          "condition": "user.teks == \"MBKRM - Benefit BukaRumah\" || \"MBKRM\" || \"mbkrm\" || \"Benefit BukaRumah\" || \"benefit bukarumah\"",
+          "conditionType": "raw",
+          "node": "Content9"
+        },
+        {
+          "condition": "user.teks == \"SBKRM - Syarat Bukarumah\" || \"SBKRM\" || \"sbkrm\" || \"Syarat Bukarumah\" || \"syarat bukarumah\"",
+          "conditionType": "raw",
+          "node": "Content10"
+        },
+        {
+          "condition": "user.teks == \"PBKRM - Pengajuan Bukarumah\" || \"PBKRM\" || \"pbkrm\" || \"Pengajuan Bukarumah\" || \"pengajuan bukarumah\"",
+          "conditionType": "raw",
+          "node": "Content11"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "7b14cf9e19",
+      "name": "Content8",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-v926-n",
+        "say #!builtin_text-qQ4EEX",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "784023a329",
+      "name": "Content9",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-5waZ-c",
+        "say #!builtin_text--VZaiO",
+        "say #!builtin_text-GXPdEj",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "5e1a046686",
+      "name": "Content10",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-rFL8gp",
+        "say #!builtin_text-3DUOIb"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "5f32cd0f72",
+      "name": "Content11",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-8N3MYp",
+        "say #!builtin_text-V5r9se",
+        "say #!builtin_text-gymsDR",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "6790a5e623",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-gwGYts",
+        "say #!builtin_text-og4zk0"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"MKPR - Benefit KPR\" || \"MKPR\" || \"mkpr\" || \"Benefit KPR\" || \"benefit kpr\"",
+          "conditionType": "raw",
+          "node": "Content1"
+        },
+        {
+          "condition": "user.teks == \"FKPR - Fitur KPR\" || \"FKPR\" || \"fkpr\" || \"Fitur KPR\" || \"fitur kpr\"",
+          "conditionType": "raw",
+          "node": "Content2"
+        },
+        {
+          "condition": "user.teks == \"SKPR - Syarat KPR\" || \"SKPR\" || \"skpr\" || \"Syarat KPR\" || \"syarat kpr\"",
+          "conditionType": "raw",
+          "node": "Content3"
+        },
+        {
+          "condition": "user.teks == \"PKPR - Pengajuan KPR\" || \"PKPR\" || \"pkpr\" || \"Pengajuan KPR\" || \"pengajuan kpr\"",
+          "conditionType": "raw",
+          "node": "Content4"
+        },
+        {
+          "condition": "user.teks == \"BKPR - Biaya KPR\" || \"BKPR\" || \"bkpr\" || \"Biaya KPR\" || \"biaya kpr\"",
+          "conditionType": "raw",
+          "node": "Content7"
+        },
+        {
+          "condition": "user.teks == \"LKPR - Limit KPR\" || \"LKPR\" || \"lkpr\" || \"Limit KPR\" || \"limit kpr\"",
+          "conditionType": "raw",
+          "node": "Content6"
+        },
+        {
+          "condition": "user.teks == \"TKPR - Pelunasan KPR\" || \"TKPR\" || \"tkpr\" || \"Pelunasan KPR\" || \"pelunasan kpr\"",
+          "conditionType": "raw",
+          "node": "Content5"
+        },
+        {
+          "condition": "user.teks == \"BKRM - BukaRumah (Kolaborasi Bank Mandiri dengan BukaLapak)\" || \"BKRM\" || \"bkrm\" || \"BukaRumah (Kolaborasi Bank Mandiri dengan BukaLapak)\" || \"bukarumah (kolaborasi bank mandiri dengan bukalapak)",
+          "conditionType": "raw",
+          "node": "SubMenu"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

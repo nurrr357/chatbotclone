@@ -1,0 +1,63 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "Entry",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "Entry",
+      "next": [
+        {
+          "condition": "user.pilih == \"Data Vaksinasi. Bantuan kendala data Vaksinasi Dosis 1 &amp; 2, Dosis Booster &amp; Luar Negeri\"",
+          "conditionType": "raw",
+          "node": "SubMenu/DataVaksinasi/VaksinIndo.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"Sertifikat Vaksin. Layanan sertifikat vaksin\"",
+          "conditionType": "raw",
+          "node": "SubMenu/SertifikatVaksin.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"Aplikasi PeduliLindungi. Kendala dalam Aplikasi Pedulilindungi\"",
+          "conditionType": "raw",
+          "node": "SubMenu/AplikasiPeduliLindungi.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"Status Warna Aplikasi. Kendala status warna aplikasi Pedulilindungi\"",
+          "conditionType": "raw",
+          "node": "SubMenu/StatusWarnaApiklasi.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"Hasil Test Lab Covid-19. Hasil Lab Test Antigen&#x2F;PCR\"",
+          "conditionType": "raw",
+          "node": "SubMenu/HasilTest.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"QR Code Merchant. Bantuan kendala QR CODE khusus untuk pengelola area publik&#x2F;merchant\"",
+          "conditionType": "raw",
+          "node": "SubMenu/QRCodeMerchant.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"Telemedisin Isoman. Bantuan kendala NIK belum terdaftar,pengiriman,Paket Obat dan lainnya\"",
+          "conditionType": "raw",
+          "node": "SubMenu/TelemedisinIsoman.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-KkVRGn",
+        "say #!dropdown-1UTDMG"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ]
+    }
+  ]
+}

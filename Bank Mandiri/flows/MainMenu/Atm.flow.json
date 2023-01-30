@@ -1,0 +1,182 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "InputLocation",
+  "description": "",
+  "nodes": [
+    {
+      "id": "3ec4e94363",
+      "name": "Content",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-kc1O_f"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "aa5f0b2924",
+      "name": "InputLocation",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Location"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-DZYmqO"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"temp\",\"name\":\"tempat\",\"value\":\"{{event.payload..text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "skill-f7102c",
+      "type": "skill-call",
+      "skill": "CallAPI",
+      "name": "Location",
+      "flow": "skills/CallAPI-f7102c.flow.json",
+      "next": [
+        {
+          "caption": "On success",
+          "condition": "temp.valid",
+          "node": "Location1"
+        },
+        {
+          "caption": "On failure",
+          "condition": "!temp.valid",
+          "node": "ResponCondition"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "8609bc3ec5",
+      "name": "Location1",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Location2"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-n9BuA1"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "aadd2892f5",
+      "name": "Location2",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Location3"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-G-ckDW"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "2ecd0fdcbe",
+      "name": "Location3",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Location4"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-1eMeH0"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "b054ad4374",
+      "name": "Location4",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Location5"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-tWUHpw"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "fb30d9e8ab",
+      "name": "Location5",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-9jwnkq"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "ae3097f268",
+      "name": "ResponCondition",
+      "next": [
+        {
+          "condition": "temp.response == 404",
+          "conditionType": "raw",
+          "node": "Content"
+        },
+        {
+          "condition": "temp.response == 500",
+          "conditionType": "raw",
+          "node": "Content2"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "436da1b84e",
+      "name": "Content2",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-oZEPqI"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

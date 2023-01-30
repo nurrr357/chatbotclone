@@ -1,0 +1,849 @@
+[
+  {
+    "id": "builtin_text-KkVRGn",
+    "formData": {
+      "text$en": "Selamat datang di WhatsApp Resmi Kemenkes RI  Untuk memulai silakan klik Menu Utama dan pilih layanan",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-20T10:10:26.727Z",
+    "modifiedOn": "2022-10-21T06:10:19.909Z"
+  },
+  {
+    "id": "builtin_text-31QwA8",
+    "formData": {
+      "text$en": "",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-20T10:29:02.647Z",
+    "modifiedOn": "2022-10-20T12:27:31.593Z"
+  },
+  {
+    "id": "builtin_text-sJnXWW",
+    "formData": {
+      "text$en": "Silahkan pilih kategori kendala data vaksinasi",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-20T10:30:16.287Z",
+    "modifiedOn": "2022-10-20T10:30:16.287Z"
+  },
+  {
+    "id": "builtin_text-ZrSrxl",
+    "formData": {
+      "text$en": "Kendala Vaksinasi di Indonesia",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-20T12:11:32.487Z",
+    "modifiedOn": "2022-10-20T12:11:32.487Z"
+  },
+  {
+    "id": "builtin_text-GeEnj7",
+    "formData": {
+      "text$en": "Kendala Vaksinasi di Indonesia",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-20T12:11:40.852Z",
+    "modifiedOn": "2022-10-20T12:11:40.852Z"
+  },
+  {
+    "id": "builtin_text-zd0aVK",
+    "formData": {
+      "text$en": "Tiket Booster\nJika tiket vaksin ketiga belum muncul, pastikan Anda sudah melakukan langkah-langkah berikut:\n\n1.Anda telah berusia 18 Tahun ke atas\n2.Anda telah vaksinasi dosis kedua minimal 3 bulan\n3.Lengkapi Nama dan NIK di profil PeduliLindungi\n4.Cek tiket di menu Riwayat dan Tiket Vaksin\n",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-20T12:17:40.054Z",
+    "modifiedOn": "2022-10-20T12:19:53.669Z"
+  },
+  {
+    "id": "builtin_text-PPgX3O",
+    "formData": {
+      "text$en": "Kendala Tiket Dosis Ketiga belum muncul",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-20T12:23:54.433Z",
+    "modifiedOn": "2022-10-20T12:23:54.433Z"
+  },
+  {
+    "id": "builtin_text-TZSpOj",
+    "formData": {
+      "text$en": "Nik Dipakai Orang Lain\nAnda memilih menu  Data Vaksinasi untuk bantuan Nik Dipakai Orang Lain,\n",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-20T12:45:17.302Z",
+    "modifiedOn": "2022-10-20T13:02:27.518Z"
+  },
+  {
+    "id": "builtin_text-ERPcg_",
+    "formData": {
+      "text$en": "Sertifikat Tidak Sesuai\nAnda memilih menu  Data Vaksinasi untuk bantuan Sertifikat Tidak Sesuai,\n",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-20T12:47:57.385Z",
+    "modifiedOn": "2022-10-20T13:02:36.073Z"
+  },
+  {
+    "id": "builtin_text-9gDWyI",
+    "formData": {
+      "text$en": "Pindah Program Vaksinasi\nAnda memilih menu  Data Vaksinasi untuk bantuan Pindah Program Vaksinasi,\n",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-20T12:49:09.502Z",
+    "modifiedOn": "2022-10-20T13:02:45.390Z"
+  },
+  {
+    "id": "builtin_text-zQD70w",
+    "formData": {
+      "text$en": "Nik Sudah Vaksinasi\nAnda memilih menu  Data Vaksinasi untuk bantuan Nik Sudah Vaksinasi,\n",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-20T12:50:48.129Z",
+    "modifiedOn": "2022-10-20T13:02:59.502Z"
+  },
+  {
+    "id": "builtin_text-l3X9k4",
+    "formData": {
+      "text$en": "Error Registrasi\nJika tidak mendapatkan email aktivasi setelah registrasi, Anda dapat melakukan reset password melalui vaksinln.dto.kemkes.go.id/sign/forgot\n\nLink reset password akan dikirim ke email dan berlaku hanya 1x24 jam. Apabila masih belum mendapatkan link reset password, Anda bisa melakukan aktivasi melalui email vni@kemkes.go.id",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-20T13:03:15.883Z",
+    "modifiedOn": "2022-10-20T13:03:15.883Z"
+  },
+  {
+    "id": "builtin_text-KZl6Wg",
+    "formData": {
+      "text$en": "Hasil Verifikasi\nBagi WNI dengan data vaksinasi di luar negeri dan telah mengajukan verifikasi vaksin lebih dari 3 - 5 hari kerja, mohon untuk cek status pengajuan secara berkala pada vaksinln.dto.kemkes.go.id atau di notifikasi status pengajuan di email.\n\nBagi WNA dapat menghubungi Kedutaan Besar Negara masing - masing di Indonesia.\n",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-20T13:04:02.891Z",
+    "modifiedOn": "2022-10-20T13:04:02.891Z"
+  },
+  {
+    "id": "builtin_text-18KrHJ",
+    "formData": {
+      "text$en": "Dosis Vaksinasi\nSaat ini web vaksinln.dto.kemkes.go.id sudah dapat mengakomodir sampai dengan 3 dosis vaksinasi.\n\nUntuk melengkapi dosis 2 dan 3 juga sudah dapat dilakukan dengan cara login ke vaksinln.dto.kemkes.go.id mengunakan akun email yang mendapatkan persetujuan, lalu lakukan pengajuan dosis 2 dan atau 3.\n\nData WNI akan diverifikasi ialah 3 - 5 hari kerja.\nData WNA: akan diverifikasi oleh kedutaan besar masing-masing.\n\n",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-20T13:04:39.479Z",
+    "modifiedOn": "2022-10-20T13:04:51.341Z"
+  },
+  {
+    "id": "builtin_text-9vr9x_",
+    "formData": {
+      "text$en": "Nama Tidak Sesuai Paspor\nAnda memilih menu  Data Vaksinasi untuk bantuan Nama Tidak Sesuai Paspor",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-20T13:12:33.173Z",
+    "modifiedOn": "2022-10-20T13:12:33.173Z"
+  },
+  {
+    "id": "builtin_text-7Rf_q_",
+    "formData": {
+      "text$en": "Scan Sertifikat Gagal\nSertifikat vaksin internasional hanya dapat dipindai (scan) melalui verify.kemkes.go.id dan tidak bisa menggunakan alat pindai lain termasuk yang di dalam aplikasi PeduliLindungi untuk check in. \n\nCara scan sertifikat vaksin internasional kunjungi https://www.youtube.com/watch?v=L0uzCT281tg\n",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-20T13:13:11.964Z",
+    "modifiedOn": "2022-10-20T13:13:11.964Z"
+  },
+  {
+    "id": "builtin_text-bcBJim",
+    "formData": {
+      "text$en": "Mohon menunggu, Anda sedang dalam antrean untuk terhubung dengan petugas kami",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-20T13:30:27.502Z",
+    "modifiedOn": "2022-10-20T13:30:27.502Z"
+  },
+  {
+    "id": "builtin_text-lzipWN",
+    "formData": {
+      "text$en": "Mohon maaf, karena tidak ada respon kami akhiri percakapan ini.\nInformasi lebih lanjut terkait PeduliLindungi, vaksin luar negeri (VNI), QR code PeduliLindungi, vaksin lanjutan(booster), telemedisin isoman, covid-19 varian omicron, silakan akses link berikut https://faq.kemkes.go.id/ \nTerima kasih telah menghubungi layanan kami\n\nSalam sehat selalu.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-21T02:18:54.377Z",
+    "modifiedOn": "2022-10-21T02:18:54.377Z"
+  },
+  {
+    "id": "builtin_text-HHnj-C",
+    "formData": {
+      "text$en": "Cara Install Aplikasi\nUntuk mengunduh (download) dan instal aplikasi PeduliLindungi, Anda bisa mengikuti langkah-langkah berikut:\n\n1. Kunjungi PlayStore (Android) atau App Store (iOS)\n2. Cari dengan ketik PeduliLindungi dan pilih aplikasi untuk mendownload\n3. Setelah selesai, klik tombol Instal\n4. Setelah selesai, klik tombol Buka untuk akses aplikasi\n5. Jika tidak dapat mengunduh aplikasi, Anda dapat mengakses website pedulilindungi.id",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-21T03:02:29.790Z",
+    "modifiedOn": "2022-10-21T03:02:29.790Z"
+  },
+  {
+    "id": "builtin_text-o1Rt2D",
+    "formData": {
+      "text$en": "Error Registrasi Anda memilih menu  Pedulilindungi untuk bantuan Error Registrasi,",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-21T03:03:14.915Z",
+    "modifiedOn": "2022-10-21T03:03:14.915Z"
+  },
+  {
+    "id": "builtin_text-pm-d7y",
+    "formData": {
+      "text$en": "Error Profil Terdapat dua kemungkinan mengapa Anda tidak bisa menambahkan NIK di profil PeduliLindungi, yaitu:  - NIK tidak terdaftar di Dukcapil - Nama yang terdaftar di sistem Dukcapil berbeda dengan nama di KTP  Silahkan menghubungi Call Center Dukcapil melalui 1500-537 atau WhatsApp pada nomor 0811 800 5373 untuk mengatasi kendala di atas.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-21T03:03:54.728Z",
+    "modifiedOn": "2022-10-21T03:03:54.728Z"
+  },
+  {
+    "id": "builtin_text-NM2-_6",
+    "formData": {
+      "text$en": "Scan Qr Anda memilih menu  Pedulilindungi untuk bantuan Scan Qr",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-21T03:04:36.041Z",
+    "modifiedOn": "2022-10-27T09:17:39.619Z"
+  },
+  {
+    "id": "builtin_text-9l4hG-",
+    "formData": {
+      "text$en": "Error Menu Sertifikat\nAnda memilih menu  Pedulilindungi untuk bantuan Error Menu Sertifikat",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-21T03:19:41.566Z",
+    "modifiedOn": "2022-10-27T09:18:42.016Z"
+  },
+  {
+    "id": "builtin_text-99a8vo",
+    "formData": {
+      "text$en": "Hahaaha<br />hahaha",
+      "markdown$en": true,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-21T06:26:43.138Z",
+    "modifiedOn": "2022-10-21T06:26:49.403Z"
+  },
+  {
+    "id": "builtin_text-qmHJgy",
+    "formData": {
+      "text$en": "Kendala status warna aplikasi Pedulilindungi",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-26T03:08:00.535Z",
+    "modifiedOn": "2022-10-26T03:08:00.535Z"
+  },
+  {
+    "id": "builtin_text-Nl05uY",
+    "formData": {
+      "text$en": "Status Warna Hitam\nJika sudah tes PCR ulang dan status masih HITAM, pastikan Anda sudah memenuhi kriteria berikut:\n\n1. Hasil tes negatif\n2. Pastikan hasil tes sudah diinput oleh laboratorium\n3. Laboratorium pemeriksa COVID-19 sudah terafiliasi dengan Kemenkes RI",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-26T03:12:26.300Z",
+    "modifiedOn": "2022-10-26T03:12:26.300Z"
+  },
+  {
+    "id": "builtin_text-BxjvWr",
+    "formData": {
+      "text$en": "Status Warna Salah\nJika sudah vaksinasi lengkap dan status masih MERAH/KUNING, pastikan Anda sudah melakukan langkah-langkah berikut:\n\n1. Menambahkan Nama dan NIK pada profil PeduliLindungi\n2. Klaim sertifikat vaksin di PeduliLindungi pada menu Vaksin\n3. Clear cache di HP / uninstall dan install kembali PeduliLindungi\n",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-26T03:13:28.519Z",
+    "modifiedOn": "2022-10-26T03:13:28.519Z"
+  },
+  {
+    "id": "builtin_text-ePdjiu",
+    "formData": {
+      "text$en": "Bantuan kendala QR CODE khusus untuk pengelola area publik/merchant",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-26T03:32:24.805Z",
+    "modifiedOn": "2022-10-26T03:32:24.805Z"
+  },
+  {
+    "id": "builtin_text-myxso9",
+    "formData": {
+      "text$en": "",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-26T03:38:28.273Z",
+    "modifiedOn": "2022-10-26T12:47:03.113Z"
+  },
+  {
+    "id": "builtin_text-k9CLJl",
+    "formData": {
+      "text$en": "Salah nama pada poster QR code",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-26T03:38:54.508Z",
+    "modifiedOn": "2022-10-26T03:38:54.508Z"
+  },
+  {
+    "id": "builtin_text-CXSe8s",
+    "formData": {
+      "text$en": "Aktivasi Email Merchant\nAnda memilih menu  Qr Code Merchant untuk bantuan Aktivasi Email Merchant",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-26T03:39:37.899Z",
+    "modifiedOn": "2022-10-26T03:39:37.899Z"
+  },
+  {
+    "id": "builtin_text-Pf7QAD",
+    "formData": {
+      "text$en": "Perubahan Data Merchant\nSilahkan untuk mengajukan permohonan pembuatan QR Code baru dengan email berbeda dari yang sudah digunakan untuk mendaftar.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-26T03:40:14.273Z",
+    "modifiedOn": "2022-10-26T03:40:14.273Z"
+  },
+  {
+    "id": "builtin_text-dhT2ln",
+    "formData": {
+      "text$en": "Kendala hasil test dari Lab",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-26T09:27:47.069Z",
+    "modifiedOn": "2022-10-26T09:27:47.069Z"
+  },
+  {
+    "id": "builtin_text-d8KH1c",
+    "formData": {
+      "text$en": "Hasil Test Belum Muncul\nPada kasus hasil Antigen/PCR belum muncul, pastikan untuk mengikuti langkah-langkah berikut:\n\n- Tes dilakukan di lab terafiliasi Kemenkes\n- NIK pada surat hasil tes sesuai dengan yang di profil PeduliLindungi\n- Hubungi Lab untuk konfirmasi apakah data sudah diinput di NAR\n\npilih YA untuk terhubung ke petugas kami,\natau Ketik Menu untuk kembali ke menu pertama",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-26T13:41:57.377Z",
+    "modifiedOn": "2022-10-26T13:41:57.377Z"
+  },
+  {
+    "id": "builtin_text-vJZz1v",
+    "formData": {
+      "text$en": "Mohon menunggu, Anda sedang dalam antrean untuk terhubung dengan petugas kami",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-26T13:45:03.190Z",
+    "modifiedOn": "2022-10-26T13:45:03.190Z"
+  },
+  {
+    "id": "builtin_text-5oo3pV",
+    "formData": {
+      "text$en": "Hasil Test Salah\nPada kasus hasil Antigen/PCR yang muncul di PeduliLindungi salah, silahkan menghubungi Faskes/Lab tempat tes dilakukan.",
+      "markdown$en": true,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-26T13:50:28.025Z",
+    "modifiedOn": "2022-10-27T10:01:05.869Z"
+  },
+  {
+    "id": "builtin_text-O3fmhn",
+    "formData": {
+      "text$en": "**Nar Antigen**\nPertanyaan dan informasi tentang NAR Antigen kunjungi https://faq.kemkes.go.id/category/nar-antigen\n\npilih **YA** untuk terhubung ke petugas kami,\natau Ketik **Menu** untuk kembali ke menu pertama",
+      "markdown$en": true,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-26T13:53:09.540Z",
+    "modifiedOn": "2022-10-26T13:53:09.540Z"
+  },
+  {
+    "id": "builtin_text-L5Q7y1",
+    "formData": {
+      "text$en": "Nar Pcr\nPertanyaan dan informasi tentang NAR PCR kunjungi https://faq.kemkes.go.id/category/nar-pcr\n\npilih YA untuk terhubung ke petugas kami,\natau Ketik Menu untuk kembali ke menu pertama",
+      "markdown$en": true,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-26T13:54:08.399Z",
+    "modifiedOn": "2022-10-26T13:54:08.399Z"
+  },
+  {
+    "id": "builtin_text-XtBYAl",
+    "formData": {
+      "text$en": "hi",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-27T04:02:35.844Z",
+    "modifiedOn": "2022-10-27T04:02:35.844Z"
+  },
+  {
+    "id": "builtin_text-eSOqYc",
+    "formData": {
+      "text$en": "Wa Kemenkes\nJika Anda positif COVID-19 namun belum mendapatkan WhatsApp Kemenkes, silahkan untuk memeriksa status kelayakan melalui isoman.kemkes.go.id/panduan\n\nJika muncul Pasien memenuhi syarat untuk menebus resep, Anda bisa telekonsultasi di salah satu 17 telemedisin. Mohon untuk menangkap layar (screenshot) keterangan tersebut dan informasikan ke dokter sebelum memulai sesi konsultasi.\n\nJika NIK tidak terdaftar, pastikan Anda sudah memenuhi kriteria berikut:\n\n- Berusia minimal 18 tahun\n- Hasil positif tes Antigen/PCR sudah muncul di PeduliLindungi atau status HITAM\n- Domisili dan/atau hasil pemeriksaan lab berada di area DKI Jakarta, Bogor, Depok, Bekasi, Tangerang, Karawang, Bandung, Semarang Raya, Surakarta Raya, Kota Jogjakarta, Surabaya Raya, Malang Raya, Kota Denpasar, Nusa Dua, Medan, Palembang, Balikpapan, Banjarmasin, Manado, Makassar.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-27T04:53:46.098Z",
+    "modifiedOn": "2022-10-27T04:53:46.098Z"
+  },
+  {
+    "id": "builtin_text-1stD1g",
+    "formData": {
+      "text$en": "Nik Tidak Terdaftar\nJika NIK tidak terdaftar, pastikan Anda sudah memenuhi kriteria berikut:\n\n- Berusia minimal 18 tahun\n- Hasil positif tes Antigen/PCR sudah muncul di PeduliLindungi atau status HITAM\n- Domisili dan/atau hasil pemeriksaan lab berada di area DKI Jakarta, Bogor, Depok, Bekasi, Tangerang, Karawang, Bandung, Semarang Raya, Surakarta Raya, Kota Jogjakarta, Surabaya Raya, Malang Raya, Kota Denpasar, Nusa Dua, Medan, Palembang, Balikpapan, Banjarmasin, Manado, Makassar.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-27T05:07:24.226Z",
+    "modifiedOn": "2022-10-27T05:07:24.226Z"
+  },
+  {
+    "id": "builtin_text-hqu1xh",
+    "formData": {
+      "text$en": "Paket Obat Belum Datang\nAnda memilih menu  Telemedisin Isoman untuk bantuan Paket Obat Belum Datang,",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-27T05:07:54.679Z",
+    "modifiedOn": "2022-10-27T05:07:54.679Z"
+  },
+  {
+    "id": "builtin_text-kJO9zc",
+    "formData": {
+      "text$en": "Paket Obat Tidak Sesuai\nAnda memilih menu  Telemedisin Isoman untuk bantuan Paket Obat Tidak Sesuai,",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-27T05:08:53.825Z",
+    "modifiedOn": "2022-10-27T05:08:53.825Z"
+  },
+  {
+    "id": "builtin_text-3wbkUR",
+    "formData": {
+      "text$en": "Paket Obat Belum Diterima\nAnda memilih menu  Telemedisin Isoman untuk bantuan Paket Obat Belum Diterima,",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-27T05:12:37.857Z",
+    "modifiedOn": "2022-10-27T05:12:37.857Z"
+  },
+  {
+    "id": "builtin_text-RwQB09",
+    "formData": {
+      "text$en": "Hasil Test Belum Muncul\nPada kasus hasil Antigen/PCR belum muncul, pastikan untuk mengikuti langkah-langkah berikut:\n\n- Tes dilakukan di lab terafiliasi Kemenkes\n- NIK pada surat hasil tes sesuai dengan yang di profil PeduliLindungi\n- Hubungi Lab untuk konfirmasi apakah data sudah diinput di NAR\n",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-27T09:55:06.860Z",
+    "modifiedOn": "2022-10-27T09:55:06.860Z"
+  },
+  {
+    "id": "builtin_text-a7QJWL",
+    "formData": {
+      "text$en": "Nar Antigen\nPertanyaan dan informasi tentang NAR Antigen kunjungi https://faq.kemkes.go.id/category/nar-antigen",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-27T10:10:39.451Z",
+    "modifiedOn": "2022-10-27T10:10:39.451Z"
+  },
+  {
+    "id": "builtin_text-YLOcpn",
+    "formData": {
+      "text$en": "Nar Pcr\nPertanyaan dan informasi tentang NAR PCR kunjungi https://faq.kemkes.go.id/category/nar-pcr\n",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-27T10:12:54.127Z",
+    "modifiedOn": "2022-10-27T10:12:54.127Z"
+  },
+  {
+    "id": "builtin_text-GeByt7",
+    "formData": {
+      "text$en": "Input Nar Belum Muncul\nJika hasil Antigen/PCR belum muncul, pastikan Faskes/Lab sudah melakukan input data pada sistem NAR Antigen. Apabila sudah dan hasil belum muncul, ketik klik YA untuk melanjutkan ke agent.",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-27T10:16:38.437Z",
+    "modifiedOn": "2022-10-27T10:16:38.437Z"
+  },
+  {
+    "id": "builtin_text-ULIjLK",
+    "formData": {
+      "text$en": "Input Nar Salah\nPada kasus belum rilis, Anda dapat melakukan edit data hasil spesimen pada NAR Antigen/PCR. Namun jika kasus sudah rilis dan Anda tidak dapat mengedit data, mohon untuk mengajukan permohonan perubahan data pada menu Permintaan Perubahan Data di NAR Antigen/PCR dan lengkapi form yang diminta.\n\nApabila permohonan perubahan data sudah disetujui dan data hasil spesimen sudah sesuai, namun status warna PeduliLindungi belum sesuai, ketik YA untuk terhubung dengan agent.\n",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-27T10:18:14.422Z",
+    "modifiedOn": "2022-10-27T10:18:14.422Z"
+  },
+  {
+    "id": "builtin_text-YHjq70",
+    "formData": {
+      "text$en": "Inputkan nama yang digunakan pada pendaftaran vaksinasi Contoh : ({{session.response.body.Nm}})",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-27T12:32:01.067Z",
+    "modifiedOn": "2022-12-05T02:46:25.789Z"
+  },
+  {
+    "id": "builtin_text-n7Z0o7",
+    "formData": {
+      "text$en": "Untuk mengakses layanan chatbot silakan masukkan Nomor Telepon yang terdaftar dengan Aplikasi Peduli Lindungi Contoh: ({{session.response.body.0.NoTlp}}||{{session.response.body.1.NoTlp}})",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-27T12:32:17.599Z",
+    "modifiedOn": "2022-12-05T02:58:12.096Z"
+  },
+  {
+    "id": "builtin_text-_eseDE",
+    "formData": {
+      "text$en": "Silakan inputkan 6 digit kode OTP berikut  {{temp.noTiket}}",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-27T12:58:37.455Z",
+    "modifiedOn": "2022-11-09T08:53:24.925Z"
+  },
+  {
+    "id": "builtin_text-W7u2cR",
+    "formData": {
+      "text$en": "Selamat, Anda telah berhasil masuk kedalam layanan helpcenter Peduli Lindungi, silakan pilih menu di bawah untuk mengakses layanan kami?",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-27T13:12:16.221Z",
+    "modifiedOn": "2022-10-27T13:12:16.221Z"
+  },
+  {
+    "id": "builtin_text-0zXAl9",
+    "formData": {
+      "text$en": "Silakan inputkan NIK yang telah terdaftar pada Aplikasi Peduli Lindungi Contoh : ({{session.response.body.NIK}})",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-27T13:27:41.976Z",
+    "modifiedOn": "2022-12-05T02:47:16.945Z"
+  },
+  {
+    "id": "builtin_text-GueMT0",
+    "formData": {
+      "text$en": "Terimakasih banyak sudah menggunakan layanan dari Chatbot Peduli Lindungi. Untuk memulai percakapan lagi silakan ketikkan \"Hai\" semoga harimu menyenangkan 😊",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-28T02:09:12.509Z",
+    "modifiedOn": "2022-10-28T02:09:12.509Z"
+  },
+  {
+    "id": "builtin_text-XUzAs8",
+    "formData": {
+      "text$en": "d",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-01T09:58:55.585Z",
+    "modifiedOn": "2022-11-01T09:58:55.585Z"
+  },
+  {
+    "id": "builtin_text-Q53Oc4",
+    "formData": {
+      "text$en": "h",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-01T10:07:00.835Z",
+    "modifiedOn": "2022-11-01T10:07:00.835Z"
+  },
+  {
+    "id": "builtin_text-U4TOis",
+    "formData": {
+      "text$en": "i\n",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-01T10:07:30.460Z",
+    "modifiedOn": "2022-11-01T10:07:30.460Z"
+  },
+  {
+    "id": "builtin_text-NJyxqn",
+    "formData": {
+      "text$en": "Nama : {{session.response.body.Nm}}  <br>Status : **{{session.response.body.StatusVaksin1}}**",
+      "markdown$en": true,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-01T12:05:48.541Z",
+    "modifiedOn": "2022-12-05T03:54:25.171Z"
+  },
+  {
+    "id": "builtin_text-TYmhSL",
+    "formData": {
+      "text$en": "Data yang Anda masukkan salah/tidak valid pastikan Anda telah menginputkan data yang terdaftar pada Aplikasi Peduli Lindungi dengan benar",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-01T12:11:06.713Z",
+    "modifiedOn": "2022-11-01T12:12:32.775Z"
+  },
+  {
+    "id": "builtin_text-BtLSCr",
+    "formData": {
+      "text$en": "Terimakasih banyak sudah menggunakan layanan dari Chatbot Peduli Lindungi. Untuk memulai percakapan lagi silakan ketikkan \"Hai\" semoga harimu menyenangkan 😊",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-01T12:15:12.759Z",
+    "modifiedOn": "2022-11-01T12:15:12.759Z"
+  },
+  {
+    "id": "builtin_text-ySqnwP",
+    "formData": {
+      "text$en": "Silakan inputkan nama lengkap sesuai dengan KTP Contoh : (Huda||Romadoni)",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-01T12:32:49.009Z",
+    "modifiedOn": "2022-11-09T08:55:22.943Z"
+  },
+  {
+    "id": "builtin_text-wqzfAs",
+    "formData": {
+      "text$en": "Silahkan Inputkan Tanggal Lahir sesuai KTP contoh : (YYYY-MM-DD)",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-01T12:35:15.900Z",
+    "modifiedOn": "2022-11-04T02:11:00.500Z"
+  },
+  {
+    "id": "builtin_text-kBEEeT",
+    "formData": {
+      "text$en": "Silahkan input Nomer Telepon anda Contoh: 081212110987",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-01T12:37:09.213Z",
+    "modifiedOn": "2022-11-01T12:39:52.108Z"
+  },
+  {
+    "id": "builtin_text-u8cQEg",
+    "formData": {
+      "text$en": "Harap menunggu, chatbot sedang memproses permintaan Anda....",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-01T13:05:22.261Z",
+    "modifiedOn": "2022-11-04T03:27:59.855Z"
+  },
+  {
+    "id": "builtin_text-iOkio8",
+    "formData": {
+      "text$en": "tolol",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-01T13:05:38.731Z",
+    "modifiedOn": "2022-11-01T13:05:38.731Z"
+  },
+  {
+    "id": "builtin_text-qbTDqJ",
+    "formData": {
+      "text$en": "<a href=\"{{session.response.body.data.0.Img}}\">Link Gambar Sertifikat Anda</a>",
+      "markdown$en": true,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-03T12:29:20.780Z",
+    "modifiedOn": "2022-11-04T03:11:25.109Z"
+  },
+  {
+    "id": "builtin_text-hmpsLC",
+    "formData": {
+      "text$en": "Terima kasih telah menghubungi layanan kami  Salam sehat selalu. Informasi terkait PeduliLindungi, vaksin luar negeri (VNI), QR code PeduliLindungi, vaksin lanjutan (booster), telemedisin isoman, covid-19 varian omicron, silakan akses link https://faq.kemkes.go.id/",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-03T14:23:22.568Z",
+    "modifiedOn": "2022-11-03T14:23:22.568Z"
+  },
+  {
+    "id": "builtin_text-nDBUSW",
+    "formData": {
+      "text$en": "Baik data {{session.response.body.data.0.Nm}} sudah berhasil diperbarui, berikut data {{session.response.body.data.0.Nm}} yang telah diperbaharui:\n\nNama: {{session.response.body.data.0.Nm}}\nTanggal Lahir:  {{temp.format}}\nNo Telepon: {{session.response.body.data.0.NoTlp}}",
+      "markdown$en": true,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-04T03:29:34.408Z",
+    "modifiedOn": "2022-11-04T06:47:41.612Z"
+  },
+  {
+    "id": "builtin_text-N1USE7",
+    "formData": {
+      "text$en": "Maaf Server Masih Dalam Perbaikan",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-04T07:12:10.790Z",
+    "modifiedOn": "2022-11-04T07:12:10.790Z"
+  },
+  {
+    "id": "builtin_text-Um5C9E",
+    "formData": {
+      "text$en": "<a href=\"{{session.response.body.data.0.Img2}}\">Link Gambar Sertifikat Anda</a>",
+      "markdown$en": true,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-04T07:16:54.087Z",
+    "modifiedOn": "2022-11-04T07:16:54.087Z"
+  },
+  {
+    "id": "builtin_text-TScQCC",
+    "formData": {
+      "text$en": "Untuk mengakses layanan chatbot silakan masukkan Nomor Telepon yang terdaftar dengan Aplikasi Peduli Lindungi",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-04T07:18:31.204Z",
+    "modifiedOn": "2022-11-04T07:18:31.204Z"
+  },
+  {
+    "id": "builtin_text-h7AKrw",
+    "formData": {
+      "text$en": "Maaf Agent sedang offine coba lagi nanti",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-06T03:02:36.289Z",
+    "modifiedOn": "2022-11-06T03:02:36.289Z"
+  },
+  {
+    "id": "builtin_text-H035PZ",
+    "formData": {
+      "text$en": "Maaf Server sedang sibuk silahkan coba lagi nanti 😥😥",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-09T09:16:37.894Z",
+    "modifiedOn": "2022-11-09T09:16:37.894Z"
+  },
+  {
+    "id": "builtin_text-sUZVEa",
+    "formData": {
+      "text$en": "Maaf Server sedang Maintenance",
+      "markdown$en": true,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-12-05T02:56:11.158Z",
+    "modifiedOn": "2022-12-05T02:56:11.158Z"
+  },
+  {
+    "id": "builtin_text-axlPU0",
+    "formData": {
+      "text$en": "Klik Link dibawah ini untuk melihat sertifikat : <br>\n[Vaksin 1]({{session.response.body.Img}}) ",
+      "markdown$en": true,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-12-05T03:11:37.439Z",
+    "modifiedOn": "2022-12-05T03:49:17.733Z"
+  },
+  {
+    "id": "builtin_text-XmBkRD",
+    "formData": {
+      "text$en": "Klik Link dibawah ini untuk melihat sertifikat : <br>\n<a href=\"{{session.response.body.Img2}}\">Vaksin 2</a>",
+      "markdown$en": true,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-12-05T03:12:47.986Z",
+    "modifiedOn": "2022-12-05T03:12:47.986Z"
+  }
+]

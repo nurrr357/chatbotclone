@@ -1,0 +1,124 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "NamaBot",
+  "nodes": [
+    {
+      "id": "skill-e2a8c1",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "Persetujuan",
+      "flow": "skills/choice-e2a8c1.flow.json",
+      "next": [
+        {
+          "caption": "User picked [SETUJU]",
+          "condition": "temp['skill-choice-ret-1jd29y1a1l'] == \"SETUJU\"",
+          "node": "Location"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "dc20ba7a58",
+      "name": "NamaBot",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Verifikasi"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"namaBot\",\"value\":\"Adel\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "6a30f7ff1d",
+      "name": "Verifikasi",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Persetujuan"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Gc-qXj"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "b3d3844799",
+      "name": "Location",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Penduduk"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-uv3qBu"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"lokasi\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "skill-c148dc",
+      "type": "skill-call",
+      "skill": "CallAPI",
+      "name": "Penduduk",
+      "flow": "skills/CallAPI-c148dc.flow.json",
+      "next": [
+        {
+          "caption": "On success",
+          "condition": "temp.valid",
+          "node": "Result"
+        },
+        {
+          "caption": "On failure",
+          "condition": "!temp.valid",
+          "node": "Failure"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "3f601dc3ad",
+      "name": "Result",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Location"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-vUVWSM"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "2e0b579628",
+      "name": "Failure",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Location"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-QzySDk"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

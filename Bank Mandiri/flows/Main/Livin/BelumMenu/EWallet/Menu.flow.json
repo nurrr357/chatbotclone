@@ -1,0 +1,60 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"main\" || \"Main\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "EwalletMenu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "521ccf9300",
+      "name": "EwalletMenu",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-kXFpVz",
+        "say #!builtin_card-oE6snH"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.pilih == \"otomatis\"",
+          "conditionType": "raw",
+          "node": "TopUp"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "557645602d",
+      "name": "TopUp",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-OXYbOA",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

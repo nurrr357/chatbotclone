@@ -1,0 +1,48 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"main menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"batal\"",
+        "conditionType": "raw",
+        "node": "Batal.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"selesai\"",
+        "conditionType": "raw",
+        "node": "Selesai.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"menu\"",
+        "conditionType": "raw",
+        "node": ""
+      }
+    ]
+  },
+  "startNode": "StimulusCovid19",
+  "description": "",
+  "nodes": [
+    {
+      "id": "31e181b4c8",
+      "name": "StimulusCovid19",
+      "onEnter": [
+        "say #!builtin_image-yMY8MC",
+        "say #!builtin_text-HIEPzJ"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

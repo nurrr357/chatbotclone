@@ -1,0 +1,46 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "e2ce528539",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-0cNmKN",
+        "say #!builtin_text-Jdqr1n"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"STBS\" || \"stbs\" || \"Syarat Tabungan Bisnis\" || \"syarat tabungan bisnis\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/TabunganMenu/TbsSubmenu/Stbs.flow.json"
+        },
+        {
+          "condition": "user.teks == \"FTBS\" || \"ftbs\" || \"Fitur Tabungan Bisnis\" || \"fitur tabungan bisnis\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/TabunganMenu/TbsSubmenu/Ftbs.flow.json"
+        },
+        {
+          "condition": "user.teks == \"BTBS\" || \"btbs\" || \"Biaya Tabungan Bisnis\" || \"biaya tabungan bisnis\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/TabunganMenu/TbsSubmenu/Btbs.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

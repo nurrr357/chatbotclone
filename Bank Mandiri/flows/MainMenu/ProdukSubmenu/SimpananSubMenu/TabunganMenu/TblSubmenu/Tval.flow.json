@@ -1,0 +1,99 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "7b3dc36fc8",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-OTnENY",
+        "say #!builtin_text-I3E7RH",
+        "say #!builtin_text-sAf_Qe"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"STVAL - Syarat Tabungan Valas\" || \"STVAL\" || \" stval\" || \"syarat tabungan valas\" || \"syarat tabungan valas\"",
+          "conditionType": "raw",
+          "node": "Content"
+        },
+        {
+          "condition": "user.teks || \"FTVAL - Fitur Tabungan Valas\" || \"FTVAL\" || \"ftval\" || \"Fitur Tabungan Valas\" || \"fitur tabungan valas\"",
+          "conditionType": "raw",
+          "node": "Content1"
+        },
+        {
+          "condition": "user.teks == \"BTVAL - Biaya Tabungan Valas\" || \"BTVAL\" || \"btval\" || \"Biaya Tabungan Valas\" || \"biaya tabungan valas\"",
+          "conditionType": "raw",
+          "node": "Content2"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "832b8ea626",
+      "name": "Content",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-RGlgaj",
+        "say #!builtin_text-Pmcw7M",
+        "say #!builtin_text-UwXkZT"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "0a5c1283e4",
+      "name": "Content1",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-_I3MLy",
+        "say #!builtin_text-zOXclp",
+        "say #!builtin_text-dCuNN1"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "f1d6b7f8e5",
+      "name": "Content2",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-IwsQR1",
+        "say #!builtin_text-VGozP2"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

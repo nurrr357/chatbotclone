@@ -1,0 +1,55 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "5099ab2483",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-eGr2Da"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"KC - Kredit Konsumer\" || \"KC\" || \"kc\" || \"Kredit Konsumer\" || \"kredit konsumer\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/GiroMenu/Gpr.flow.json"
+        },
+        {
+          "condition": "user.teks == \"KM - Kredit Mikro\" || \"KM\" || \"km\" || \"Kredit Mikro\" || \"kredit mikro\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/GiroMenu/Gpr.flow.json"
+        },
+        {
+          "condition": "user.teks == \"KS - Kredit SME\" || \"KS\" || \"ks\" || \"Kredit SME\" || \"kredit sme\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/GiroMenu/Gpr.flow.json"
+        },
+        {
+          "condition": "user.teks == \"MENU - Kembali ke Informasi Produk\" || \"Menu\" || \"menu\" || \"Kembali ke Informasi Produk\" || \"kembali ke informasi produk\"",
+          "conditionType": "raw",
+          "node": "main.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

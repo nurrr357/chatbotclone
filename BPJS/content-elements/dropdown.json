@@ -1,0 +1,38 @@
+[
+  {
+    "id": "dropdown-tGIDdD",
+    "formData": {
+      "buttonText$en": "",
+      "placeholderText$en": "Silahkan Sahabat Pilih Opsi Berikut",
+      "displayInKeyboard$en": true,
+      "markdown$en": true,
+      "typing$en": false,
+      "message$en": "List Info",
+      "options$en": [
+        {
+          "label": "Download atau Registrasi",
+          "value": "Download atau Registrasi"
+        },
+        {
+          "label": "Fitur Peserta Baru",
+          "value": "Fitur Peserta Baru"
+        },
+        {
+          "label": "Perubahan Segmen",
+          "value": "Perubahan Segmen"
+        },
+        {
+          "label": "Perubahan Data",
+          "value": "Perubahan Data"
+        },
+        {
+          "label": "Reaktivasi Kartu",
+          "value": "Reaktivasi Kartu"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T06:57:52.683Z",
+    "modifiedOn": "2022-10-12T07:59:03.956Z"
+  }
+]

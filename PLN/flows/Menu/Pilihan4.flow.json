@@ -1,0 +1,399 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"main menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"batal\"",
+        "conditionType": "raw",
+        "node": "Batal.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"selesai\"",
+        "conditionType": "raw",
+        "node": "Selesai.flow.json"
+      }
+    ]
+  },
+  "startNode": "Info_seputar_prabayar",
+  "description": "",
+  "nodes": [
+    {
+      "id": "3b5ea50470",
+      "name": "Info_seputar_prabayar",
+      "onEnter": [
+        "say #!builtin_text-0p_J9J"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"input\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.input == 1",
+          "conditionType": "raw",
+          "node": "1"
+        },
+        {
+          "condition": "user.input == 2",
+          "conditionType": "raw",
+          "node": "2"
+        },
+        {
+          "condition": "user.input == 3",
+          "conditionType": "raw",
+          "node": "3"
+        },
+        {
+          "condition": "user.input == 4",
+          "conditionType": "raw",
+          "node": "4"
+        },
+        {
+          "condition": "user.input == 5",
+          "conditionType": "raw",
+          "node": "5"
+        },
+        {
+          "condition": "user.input == 6",
+          "conditionType": "raw",
+          "node": "6"
+        },
+        {
+          "condition": "user.input == 7",
+          "conditionType": "raw",
+          "node": "7"
+        },
+        {
+          "condition": "user.input == 8",
+          "conditionType": "raw",
+          "node": "8"
+        },
+        {
+          "condition": "user.input == 9",
+          "conditionType": "raw",
+          "node": "9"
+        },
+        {
+          "condition": "user.input == 10",
+          "conditionType": "raw",
+          "node": "10"
+        },
+        {
+          "condition": "user.input == 11",
+          "conditionType": "raw",
+          "node": "11"
+        },
+        {
+          "condition": "user.input == 12",
+          "conditionType": "raw",
+          "node": "12"
+        },
+        {
+          "condition": "user.input == 13",
+          "conditionType": "raw",
+          "node": "13"
+        },
+        {
+          "condition": "user.input == 14",
+          "conditionType": "raw",
+          "node": "14"
+        },
+        {
+          "condition": "user.input == 15",
+          "conditionType": "raw",
+          "node": "15"
+        },
+        {
+          "condition": "user.input == 16",
+          "conditionType": "raw",
+          "node": "16"
+        },
+        {
+          "condition": "user.input == 17",
+          "conditionType": "raw",
+          "node": "17"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "a550be3d5e",
+      "name": "1",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-UMhyXU"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "e48e27d764",
+      "name": "2",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-5SSfwj"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "0c5c111692",
+      "name": "3",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-aVlUgn"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "bba04b33ed",
+      "name": "4",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-mfS-cW"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "ab40008c5b",
+      "name": "5",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-IwEoyJ"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "3138a13dc9",
+      "name": "6",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-TGbb6a"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "a6e45fe4ef",
+      "name": "7",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text--aKU-D"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "14a26f8fd2",
+      "name": "8",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Yerd32"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "9ce45ed95e",
+      "name": "9",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-EzfnYP"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "7bd9eec4a2",
+      "name": "10",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-5syf-V"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "558bbf9ed8",
+      "name": "11",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-zvrj7H"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "301b1da37e",
+      "name": "12",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-uXNMqf"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "62a4c6e327",
+      "name": "13",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-_Zv_hW"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "3fc0d0ba40",
+      "name": "14",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-VSrHwI"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "e710f17ba1",
+      "name": "15",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-zvOMda"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "847383e74a",
+      "name": "16",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-87xbU7"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "09db7aa74a",
+      "name": "17",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-jnAR94"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "83cc8d0bd3",
+      "name": "Ulangi",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Info_seputar_prabayar"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

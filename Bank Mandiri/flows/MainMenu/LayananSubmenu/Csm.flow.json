@@ -1,0 +1,240 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "ca3c5a37a3",
+      "name": "Content",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-a2uGgB",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "f3bb3b1422",
+      "name": "Content1",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-3Bb3NI",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "418c64f06d",
+      "name": "Content2",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-SBfmuY",
+        "say #!builtin_text-hMgram",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "3a523cb54b",
+      "name": "Content3",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-p_N1Cd",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "f6ce3408ff",
+      "name": "Content4",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-zGFNHt",
+        "say #!builtin_text-at-Oiy",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "fea36e2fbb",
+      "name": "Content5",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-eRNOYx",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "9e8c113c69",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-_piLOi",
+        "say #!builtin_text-c2Hm10"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"Jenis layanan CSM\" || \"jenis layanan csm\"",
+          "conditionType": "raw",
+          "node": "Content"
+        },
+        {
+          "condition": "user.teks == \"Benefit CSM\" || \"benefit csm\"",
+          "conditionType": "raw",
+          "node": "Content1"
+        },
+        {
+          "condition": "user.teks == \"Syarat penggunaan CSM\" || \"syarat penggunaan csm\"",
+          "conditionType": "raw",
+          "node": "Content2"
+        },
+        {
+          "condition": "user.teks == \"Lokasi CSM\" || \"lokasi csm\"",
+          "conditionType": "raw",
+          "node": "Content3"
+        },
+        {
+          "condition": "user.teks == \"Biaya CSM\" || \"biaya csm\"",
+          "conditionType": "raw",
+          "node": "Content4"
+        },
+        {
+          "condition": "user.teks == \"Jenis kartu CSM\" || \"jenis kartu csm\"",
+          "conditionType": "raw",
+          "node": "Content5"
+        },
+        {
+          "condition": "user.teks == \"FAQ CSM\" || \"faq csm\"",
+          "conditionType": "raw",
+          "node": "menu"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "603764b683",
+      "name": "menu",
+      "next": [
+        {
+          "condition": "user.teks == \"Ganti Kartu Mandiri Debit tidak aktif CSM\" || \"ganti kartu mandiri debit tidak aktif csm\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/CsmSubmenu/TidakAktif.flow.json"
+        },
+        {
+          "condition": "user.teks == \"ganti kartu mandiri debit lebih dari 1 rekening csm\" || \"Ganti Kartu Mandiri Debit lebih dari 1 rekening CSM\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/CsmSubmenu/LebihDari1Rekening.flow.json"
+        },
+        {
+          "condition": "user.teks == \"Ganti Kartu rekening terblokir CSM\" || \"ganti kartu rekening terblokir csm\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/CsmSubmenu/RekeningTerblokir.flow.json"
+        },
+        {
+          "condition": "user.teks == \"Ganti Kartu terblokir CSM\" || \"ganti kartu terblokir csm\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/CsmSubmenu/Terblokir.flow.json"
+        },
+        {
+          "condition": "user.teks == \"Gagal Transaksi CSM\" || \"gagal transaksi csm\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/CsmSubmenu/GagalTransaksi.flow.json"
+        },
+        {
+          "condition": "user.teks == \"Buku Tabungan CSM\" || \"buku tabungan csm\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/CsmSubmenu/BukuTabungan.flow.json"
+        },
+        {
+          "condition": "user.teks == \"Jenis Tabungan CSM\" || \"jenis tabungan csm\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/CsmSubmenu/JenisTabungan.flow.json"
+        },
+        {
+          "condition": "user.teks == \"Setoran Awal CSM\" || \"setoran awal csm\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/CsmSubmenu/SetoranAwal.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-xhMnC2",
+        "say #!builtin_text-w0uz4I"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    }
+  ]
+}

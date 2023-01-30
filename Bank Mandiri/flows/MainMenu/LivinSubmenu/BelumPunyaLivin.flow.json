@@ -1,0 +1,109 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "843d63350d",
+      "name": "Content",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "SubMenu"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-L5hCjd"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "311a1833ee",
+      "name": "Content1",
+      "next": [
+        {
+          "condition": "true",
+          "node": "SubMenu"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-jZNBM4"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "f579b89ac5",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_card-_mxtor"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.pilih == \"belum\"",
+          "conditionType": "raw",
+          "node": "Content"
+        },
+        {
+          "condition": "user.pilih == \"sudah\"",
+          "conditionType": "raw",
+          "node": "Content1"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "2fdab94645",
+      "name": "SubMenu",
+      "next": [
+        {
+          "condition": "user.pilih == \"operasional\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/Tabungan/Dropdown/JamOperasional.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"negeri\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/Tabungan/Dropdown/FiturLuarNegeri.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"akses\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/Tabungan/Dropdown/AksesLuarNegeri.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!dropdown-ZwCmdk"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    }
+  ]
+}

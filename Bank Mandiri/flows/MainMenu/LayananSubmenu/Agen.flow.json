@@ -1,0 +1,81 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "e87dfb24b5",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-Xxz6ka",
+        "say #!dropdown-TENneD"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.pilih == \"mandiri\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/AgenSubmenu/Mandiri.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"syarat\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/AgenSubmenu/Syarat.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"cara\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/AgenSubmenu/Cara.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"dokumen\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/AgenSubmenu/Dokumen.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"profil\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/AgenSubmenu/Profil.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"akusisi\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/AgenSubmenu/Akusisi.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"fitur\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/AgenSubmenu/Fitur.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"komisi\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/AgenSubmenu/Komisi.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"info\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/AgenSubmenu/Info.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

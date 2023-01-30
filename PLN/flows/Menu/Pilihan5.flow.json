@@ -1,0 +1,299 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"main menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"batal\"",
+        "conditionType": "raw",
+        "node": "Batal.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"selesai\"",
+        "conditionType": "raw",
+        "node": "Selesai.flow.json"
+      }
+    ]
+  },
+  "startNode": "entry",
+  "description": "",
+  "nodes": [
+    {
+      "id": "246eba1290",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-6KkrZj"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"input\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.input == 1",
+          "conditionType": "raw",
+          "node": "1"
+        },
+        {
+          "condition": "user.input == 2",
+          "conditionType": "raw",
+          "node": "2"
+        },
+        {
+          "condition": "user.input == 3",
+          "conditionType": "raw",
+          "node": "3"
+        },
+        {
+          "condition": "user.input == 4",
+          "conditionType": "raw",
+          "node": "4"
+        },
+        {
+          "condition": "user.input == 5",
+          "conditionType": "raw",
+          "node": "5"
+        },
+        {
+          "condition": "user.input == 6",
+          "conditionType": "raw",
+          "node": "6"
+        },
+        {
+          "condition": "user.input == 7",
+          "conditionType": "raw",
+          "node": "7"
+        },
+        {
+          "condition": "user.input == 8",
+          "conditionType": "raw",
+          "node": "8"
+        },
+        {
+          "condition": "user.input == 9",
+          "conditionType": "raw",
+          "node": "9"
+        },
+        {
+          "condition": "user.input == 10",
+          "conditionType": "raw",
+          "node": "10"
+        },
+        {
+          "condition": "user.input == 11",
+          "conditionType": "raw",
+          "node": "11"
+        },
+        {
+          "condition": "user.input == 12",
+          "conditionType": "raw",
+          "node": "12"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "e369a97fa0",
+      "name": "1",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-hlxh5c"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "5ee2c5beda",
+      "name": "2",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-zoO0Gu"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "e30497b08a",
+      "name": "3",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-lfRKE-"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "52db98f771",
+      "name": "4",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-4o6CZk"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "e050c8a4a2",
+      "name": "5",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-oERUHw"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "80b48c0cf2",
+      "name": "6",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-vBPRU-"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "aed4eefdbd",
+      "name": "7",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-WmBcyb"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "de1b9bf44f",
+      "name": "8",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-3CppAe"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "a078167200",
+      "name": "9",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-p-PvRl"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "912db213bc",
+      "name": "10",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-RO8EMu"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "5edda48dc0",
+      "name": "11",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-mjy5oO"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "078bb5cc44",
+      "name": "12",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-jePNYh"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "fa1bd8db6d",
+      "name": "Ulangi",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "entry"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

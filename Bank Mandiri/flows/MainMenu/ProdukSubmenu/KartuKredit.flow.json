@@ -1,0 +1,69 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "770cba494d",
+      "name": "Content",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-QGWHUj",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "5f33a3232d",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-ctdimb",
+        "say #!dropdown-nIxEl0"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.pilih == \"promo\"",
+          "conditionType": "raw",
+          "node": "MainMenu/PromoSubmenu/Kredit.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"ajukan\"",
+          "conditionType": "raw",
+          "node": "Content"
+        },
+        {
+          "condition": "user.pilih == \"layanan\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/KartuKreditSubMenu/Layanan.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

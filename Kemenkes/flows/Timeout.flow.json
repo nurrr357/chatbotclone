@@ -1,0 +1,24 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "Timeout",
+  "description": "",
+  "nodes": [
+    {
+      "id": "4736a666a4",
+      "name": "Timeout",
+      "onEnter": [
+        "say #!builtin_text-lzipWN"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

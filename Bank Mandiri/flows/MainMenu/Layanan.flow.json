@@ -1,0 +1,86 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "56de15d8f6",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-MSYZ1n",
+        "say #!dropdown-5iEHSU"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.pilih == \"agen\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/Agen.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"csm\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/Csm.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"valuta\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/Valuta.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"debit\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/Debit.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"prioritas\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/Prioritas.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"poin\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/Pion.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"cabang\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/Cabang.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"weekend\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/Weekend.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"deposit\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/Deposit.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"luar\"",
+          "conditionType": "raw",
+          "node": "MainMenu/LayananSubmenu/Luar.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

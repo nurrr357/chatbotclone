@@ -1,0 +1,291 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "cb05520897",
+      "name": "Content8",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-lFKp9c",
+        "say #!builtin_text-aPp-bF",
+        "say #!builtin_text-HgdzUu"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "ac0241a02b",
+      "name": "Content1",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-PVHlN3"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "ac19bc3e60",
+      "name": "Content2",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-gCRwn0",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "576f05b41e",
+      "name": "Content3",
+      "onEnter": [
+        "say #!builtin_text-GQMo5J"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "7e09142180",
+      "name": "Content7",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-B7tTgi"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "e1aa6cdc13",
+      "name": "Content6",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-4gHWTE"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "2d77f52322",
+      "name": "Content4",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-P5r0Z1",
+        "say #!builtin_text-A_HVIO",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "5de9b756b9",
+      "name": "Content5",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-T9PsdS"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "e2bb7861fe",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-hzIcNA",
+        "say #!builtin_text-JlSrxy"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"KSM - Kredit Serbaguna Mikro\" || \"KSM\" || \"ksm\" || \"Kredit Serbaguna Mikro\" || \"kredit serbaguna mikro\"",
+          "conditionType": "raw",
+          "node": "Content8"
+        },
+        {
+          "condition": "user.teks == \"KURM - Kredit Usaha Rakyat Mikro\" || \"KURM\" || \"kurm\" || \"Kredit Usaha Rakyat Mikro\" || \"kredit usaha rakyat mikro\"",
+          "conditionType": "raw",
+          "node": "SubMenu"
+        },
+        {
+          "condition": "user.teks == \"KURR - Kredit Usaha Rakyat Retail\" || \"KURR\" || \"kurr\" || \"Kredit Usaha Rakyat Retail\" || \"kredit usaha rakyat retail\"",
+          "conditionType": "raw",
+          "node": "Content3"
+        },
+        {
+          "condition": "user.teks == \"KURT - Kredit Usaha Rakyat TKI\" || \"KURT\" || \"kurt\" || \"Kredit Usaha Rakyat TKI\" || \"kredit usaha rakyat tki\"",
+          "conditionType": "raw",
+          "node": "SubMenu2"
+        },
+        {
+          "condition": "user.teks == \"KKUM - Kredit Usaha Mikro\" || \"KKUM\" || \"kkum\" || \"Kredit Usaha Mikro\" || \"kredit usaha mikro\"",
+          "conditionType": "raw",
+          "node": "SubMenu1"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "92a6b4b12b",
+      "name": "SubMenu",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-ZTSkVQ",
+        "say #!builtin_text-QuJQI1"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"SKURM - Syarat KUR Mikro\" || \"SKURM\" || \"skurm\" || \"Syarat KUR Mikro\" || \"syarat kur mikro\"",
+          "conditionType": "raw",
+          "node": "Content1"
+        },
+        {
+          "condition": "user.teks == \"LKURM - LKURM - Limit KUR Mikro\" || \"LKURM\" || \"Limit KUR Mikro\" || \"limit kur mikro\"",
+          "conditionType": "raw",
+          "node": "Content2"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "3275a6ef86",
+      "name": "SubMenu1",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-habqO0",
+        "say #!builtin_text-_WrZVx"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"SKUM - Syarat KUM\" || \"SKUM\" || \"skum\" || \"Syarat KUM\" || \"syarat kum\"",
+          "conditionType": "raw",
+          "node": "Content4"
+        },
+        {
+          "condition": "user.teks == \"LKUM - Limit KUM\" || \"LKUM\" || \"lkum\" || \"Limit KUM\" || \"limit kum\"",
+          "conditionType": "raw",
+          "node": "Content5"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "01e8f47d65",
+      "name": "SubMenu2",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-yXgDB-",
+        "say #!builtin_text-AOjJUf"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"SKURT - Syarat KUR TKI\" || \"SKURT\" || \"skurt\" || \"Syarat KUR TKI\" || \"syarat kur tki\"",
+          "conditionType": "raw",
+          "node": "Content7"
+        },
+        {
+          "condition": "user.teks == \"LKURT - Limit KUR TKI\" || \"LKURT\" || \"lkurt\" || \"Limit KUR TKI\" || \"limit kur tki\"",
+          "conditionType": "raw",
+          "node": "Content6"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

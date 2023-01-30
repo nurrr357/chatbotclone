@@ -1,0 +1,130 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "Entry",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "Entry",
+      "next": [
+        {
+          "condition": "user.input    == 1",
+          "conditionType": "props",
+          "node": "Menu/Pilihan1.flow.json"
+        },
+        {
+          "condition": "user.input   == 2",
+          "conditionType": "props",
+          "node": "Menu/Pilihan2.flow.json"
+        },
+        {
+          "condition": "user.input   == 3",
+          "conditionType": "props",
+          "node": "Menu/Pilihan3.flow.json"
+        },
+        {
+          "condition": "user.input == 4",
+          "conditionType": "raw",
+          "node": "Menu/Pilihan4.flow.json"
+        },
+        {
+          "condition": "user.input == 5",
+          "conditionType": "raw",
+          "node": "Menu/Pilihan5.flow.json"
+        },
+        {
+          "condition": "user.input == 6",
+          "conditionType": "raw",
+          "node": "Menu/Pilihan6.flow.json"
+        },
+        {
+          "condition": "user.input == 7",
+          "conditionType": "raw",
+          "node": "Menu/Pilihan7.flow.json"
+        },
+        {
+          "condition": "user.input == 8",
+          "conditionType": "raw",
+          "node": "Menu/Pilihan8.flow.json"
+        },
+        {
+          "condition": "user.input == 9",
+          "conditionType": "raw",
+          "node": "Menu/Pilihan9.flow.json"
+        },
+        {
+          "condition": "user.input == 10",
+          "conditionType": "raw",
+          "node": "Menu/Pilihan10.flow.json"
+        },
+        {
+          "condition": "user.input == 11",
+          "conditionType": "raw",
+          "node": "Menu/Pilihan11.flow.json"
+        },
+        {
+          "condition": "user.input == 12",
+          "conditionType": "raw",
+          "node": "Menu/Pilihan12.flow.json"
+        },
+        {
+          "condition": "user.input == 13",
+          "conditionType": "raw",
+          "node": "Menu/Pilihan13.flow.json"
+        },
+        {
+          "condition": "user.input == 14\n",
+          "conditionType": "raw",
+          "node": "Menu/Pilihan14.flow.json"
+        },
+        {
+          "condition": "user.input == 15",
+          "conditionType": "raw",
+          "node": "Menu/Pilihan15.flow.json"
+        },
+        {
+          "condition": "user.input == 16",
+          "conditionType": "raw",
+          "node": "Menu/Pilihan16.flow.json"
+        },
+        {
+          "condition": "user.input >= 16",
+          "conditionType": "raw",
+          "node": "SalahMemilih"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "SalahMemilih"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_image-yMY8MC",
+        "say #!builtin_text-kGqbxn"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"input\",\"value\":\"{{event.payload.text}}\"}"
+      ]
+    },
+    {
+      "id": "e22da241cc",
+      "name": "SalahMemilih",
+      "onEnter": [
+        "say #!builtin_text-vPcY4y",
+        "builtin/wait {\"delay\":\"5000\"}"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Entry"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "id": "builtin_image-yMY8MC",
+    "formData": {
+      "typing$en": false,
+      "image$en": "/api/v1/bots/BOT_ID_PLACEHOLDER/media/3ezu8qkfkhr9hmsgxjma-q.png",
+      "title$en": "https://play.google.com/store/apps/details?id=com.icon.pln123"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-28T03:37:27.316Z",
+    "modifiedOn": "2022-10-06T17:51:45.382Z"
+  }
+]

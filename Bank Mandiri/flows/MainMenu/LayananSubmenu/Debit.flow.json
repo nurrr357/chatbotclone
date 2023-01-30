@@ -1,0 +1,324 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "605e87e4d0",
+      "name": "Content",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-07XDk1"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "195bf41662",
+      "name": "Content1",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-Wmvag3",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "d6edf8c7eb",
+      "name": "Content3",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-9soQdZ",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "a7495326f6",
+      "name": "Content4",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-sux6uY",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "19fed437df",
+      "name": "Content5",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-fTMqCz",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "c5e0b7a35a",
+      "name": "Content6",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-yi4XRM",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "4cd685f215",
+      "name": "Content7",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-TBC7Px",
+        "say #!builtin_text-ks4eqP",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "6ae838dec9",
+      "name": "Content10",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-onVA0B",
+        "say #!builtin_text-rlqB_5",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "1cc5a38dff",
+      "name": "Content8",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-UlCPbQ",
+        "say #!builtin_text-83CCsm",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "dec3ece8d3",
+      "name": "Content11",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-qn-uF7",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "68cc78796d",
+      "name": "Content12",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-AGxLAk",
+        "say #!builtin_text-Zcz9ll",
+        "say #!builtin_text-ADD5OX",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "4b7bf79bf8",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-XjdkLY",
+        "say #!builtin_text-Uwnf8M",
+        "say #!builtin_text-ekgR7m",
+        "say #!builtin_text-dKBmMU",
+        "say #!builtin_text-4Bf97P"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"Cara Ganti Kartu Debit Melalui Livin\" || \"cara ganti kartu debit melalui livin\"",
+          "conditionType": "raw",
+          "node": "Content"
+        },
+        {
+          "condition": "user.teks == \"Cara Aktivasi Kartu Debit Melalui Livin\" || \"cara aktivasi kartu debit melalui livin\"",
+          "conditionType": "raw",
+          "node": "Content1"
+        },
+        {
+          "condition": "user.teks == \"Biaya Ganti Kartu Debit\" || \"biaya ganti kartu debit\"",
+          "conditionType": "raw",
+          "node": "Content3"
+        },
+        {
+          "condition": "user.teks == \"Ubah Alamat Kirim Kartu Debit\" || \"ubah alamat krim kartu debit\"",
+          "conditionType": "raw",
+          "node": "Content4"
+        },
+        {
+          "condition": "user.teks == \"Lama Kirim Kartu Debit\" || \"lama kirim kartu debit\"",
+          "conditionType": "raw",
+          "node": "Content5"
+        },
+        {
+          "condition": "user.teks == \"Ciri Debit Chip\" || \"ciri debit chip\"",
+          "conditionType": "raw",
+          "node": "Content6"
+        },
+        {
+          "condition": "user.teks == \"surat kuasa ganti debit chip\" || \"Surat Kuasa Ganti Debit Chip\"",
+          "conditionType": "raw",
+          "node": "Content7"
+        },
+        {
+          "condition": "user.teks == \"Jenis Kartu Wajib Ganti Debit Chip\" || \"jenis kartu wajib ganti debit chip\"",
+          "conditionType": "raw",
+          "node": "Content10"
+        },
+        {
+          "condition": "user.teks == \"Ganti Debit Chip Nasabah Luar Negeri\" || \"ganti debit chip nasabah luar negeri\"",
+          "conditionType": "raw",
+          "node": "Content9"
+        },
+        {
+          "condition": "user.teks == \"Ganti Debit Chip TbKu\" || \"ganti debit chip tbku\"",
+          "conditionType": "raw",
+          "node": "Content11"
+        },
+        {
+          "condition": "user.teks == \"ganti debit chip lewat batas waktu\" || Ganti Debit Chip Lewat Batas Waktu\"",
+          "conditionType": "raw",
+          "node": "Content12"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "b4ddcdc98d",
+      "name": "Content9",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-lG83lY",
+        "say #!builtin_text-cIlXek",
+        "say #!builtin_text-Vooyav",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"Surat Kuasa Ganti Debit Chip\" || \"surat kuasa ganti debit chip\"",
+          "conditionType": "raw",
+          "node": "Content8"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

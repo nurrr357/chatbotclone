@@ -1,0 +1,75 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "c207067426",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-mb4lla"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"TMKR - Tabungan Simakmur\" || \"TMKR\" | \"tmkr\"\" || \"Tabungan Simakmur\" || \"tabungan simakmur\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/TabunganMenu/TblSubmenu/Tmkr.flow.json"
+        },
+        {
+          "condition": "user.teks == \"TTKI - Tabungan TKI\" || \"TTKI\" || \"ttki\" || \"Tabungan TKI\" || \"tabungan tki\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/TabunganMenu/TblSubmenu/Ttki.flow.json"
+        },
+        {
+          "condition": "user.teks == \"TVAL - Tabungan Valas\" || \"TVAL\" || \"tval\" || \"Tabungan Valas\" || \"tabungan valas\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/TabunganMenu/TblSubmenu/Tval.flow.json"
+        },
+        {
+          "condition": "user.teks == \"TIVM - Tabungan Investor Mandiri\" || \"TIVM\" || \"ivm\" || \"tabungan investor mandiri\" || \"Tabungan Investor Mandir\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/TabunganMenu/TblSubmenu/Tivm.flow.json"
+        },
+        {
+          "condition": "user.teks == \"TBMU - TabunganMu\" || \"TBMU\" || \"tbmu\" || \"TabunganMu\" || \"tabunganmu\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/TabunganMenu/TblSubmenu/Tbmu.flow.json"
+        },
+        {
+          "condition": "user.teks == \"TSPL - Tabungan Simpel\" || \"TSPL\" || \"tspl\" || \"Tabungan Simpel\" || \"tabungan simpel\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/TabunganMenu/TblSubmenu/Tspl.flow.json"
+        },
+        {
+          "condition": "user.teks == \"TPYR - Tabungan Payroll\" || \"TPYR\" || \"tpyr\" || \"tabungan payroll\" || \"Tabungan Payroll\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/TabunganMenu/TblSubmenu/Tpyr.flow.json"
+        },
+        {
+          "condition": "user.teks == \"TBKU - TabunganKu\" || \"TBKU\" || \"tbku\" || \"TabunganKu\" || \"tabunganku\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/TabunganMenu/TblSubmenu/Tbku.flow.json"
+        },
+        {
+          "condition": "user.teks == \"TSMD - Tabungan Simuda RumahKu\" || \"TSMD\" || \"tsmd\" || \"Tabungan Simuda RumahKu\" || \"tabungan simuda rumahku\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/TabunganMenu/TblSubmenu/Tsmd.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

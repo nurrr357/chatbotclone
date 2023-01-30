@@ -1,0 +1,42 @@
+[
+  {
+    "id": "builtin_image-SoDyBY",
+    "formData": {
+      "typing$en": false,
+      "image$en": "{{{temp.image}}}"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-01T10:18:43.928Z",
+    "modifiedOn": "2022-11-01T11:55:57.244Z"
+  },
+  {
+    "id": "builtin_image-HS2LrL",
+    "formData": {
+      "typing$en": false,
+      "image$en": "{{{session.response.body.data}}}"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-01T10:21:00.163Z",
+    "modifiedOn": "2022-11-01T10:21:00.163Z"
+  },
+  {
+    "id": "builtin_image-PlVdha",
+    "formData": {
+      "typing$en": false,
+      "image$en": "{{{session.response.body.data.0.Img}}}"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-22T02:03:14.031Z",
+    "modifiedOn": "2022-11-22T02:03:14.031Z"
+  },
+  {
+    "id": "builtin_image-pOlnMd",
+    "formData": {
+      "typing$en": false,
+      "image$en": "{{{session.response.body.data.0.Img2}}}"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-22T02:04:10.187Z",
+    "modifiedOn": "2022-11-22T02:04:10.187Z"
+  }
+]

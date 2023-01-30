@@ -1,0 +1,43 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "3rr0r",
+      "name": "entry",
+      "onEnter": [],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "temp.respon.status == 404",
+          "conditionType": "raw",
+          "node": ""
+        },
+        {
+          "condition": "temp.respon.status == 500",
+          "conditionType": "raw",
+          "node": "Maintenance"
+        }
+      ]
+    },
+    {
+      "id": "c9f421bbe5",
+      "name": "Maintenance",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-oZEPqI"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

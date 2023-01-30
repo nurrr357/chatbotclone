@@ -1,0 +1,181 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "VaksinNonIndo",
+  "description": "",
+  "nodes": [
+    {
+      "id": "28ce6bce88",
+      "name": "VaksinNonIndo",
+      "next": [
+        {
+          "condition": "user.pilih ==\"Error Registrasi. Tidak dapat email aktivasi setelah registrasi akun\"",
+          "conditionType": "props",
+          "node": "ErrorRegristrasi"
+        },
+        {
+          "condition": "user.pilih ==\"Hasil Verifikasi. Pengajuan Verifikasi belum disetujui\"",
+          "conditionType": "props",
+          "node": "HasilVerifikasi"
+        },
+        {
+          "condition": "user.pilih ==\"Dosis Vaksinasi. Cara Input dosis Pertama, kedua dan ketiga Vaksin Luar Negeri\"",
+          "conditionType": "props",
+          "node": "DosisVaksinasi"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!dropdown-49CxCh"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "84a6d8ad0f",
+      "name": "ErrorRegristrasi",
+      "next": [
+        {
+          "condition": "user.pilih ==\"ya\" || user.pilih ==\"YA\"",
+          "conditionType": "raw",
+          "node": "TimeOutAgent"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-l3X9k4",
+        "say #!builtin_card-t4GhFy"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "9d7eb4df37",
+      "name": "HasilVerifikasi",
+      "next": [
+        {
+          "condition": "user.pilih ==\"ya\" || user.pilih ==\"YA\"",
+          "conditionType": "raw",
+          "node": "TimeOutAgent"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-KZl6Wg",
+        "say #!builtin_card-t4GhFy"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "f824673582",
+      "name": "DosisVaksinasi",
+      "next": [
+        {
+          "condition": "user.pilih ==\"ya\" || user.pilih ==\"YA\"",
+          "conditionType": "raw",
+          "node": "TimeOutAgent"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-18KrHJ",
+        "say #!builtin_card-t4GhFy"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "skill-4e2fa6",
+      "type": "skill-call",
+      "skill": "HitlNext",
+      "name": "Agent",
+      "flow": "skills/HitlNext-4e2fa6.flow.json",
+      "next": [
+        {
+          "caption": "Handoff Resolved",
+          "condition": "temp['hitlnext-handoffResolved'] === true",
+          "node": "Resolved"
+        },
+        {
+          "caption": "Timed Out Waiting Agent",
+          "condition": "temp['hitlnext-timedOutWaitingAgent'] === true",
+          "node": "NoAgent-copy"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "de7f95c6b6",
+      "name": "TimeOutAgent",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Agent"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-bcBJim"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "f1810d14a2",
+      "name": "Resolved",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-hmpsLC"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "a3a701b30f",
+      "name": "NoAgent-copy",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-h7AKrw"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

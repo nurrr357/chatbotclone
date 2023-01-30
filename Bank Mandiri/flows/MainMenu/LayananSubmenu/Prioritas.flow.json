@@ -1,0 +1,205 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "1edac84a57",
+      "name": "Content",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-1gg7VS",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "a8cb129501",
+      "name": "Content1",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text--9LP5i",
+        "say #!builtin_text-56_Nut",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "d9395b18cb",
+      "name": "Content2",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-AiAGOt",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "d74e0d4f03",
+      "name": "Content3",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-qXDcsp",
+        "say #!builtin_text-DDY_f6",
+        "say #!builtin_text-H6iBTB",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "a0339ab323",
+      "name": "Content6",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-HusRa8",
+        "say #!builtin_text--U9LT7",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "4186fe855e",
+      "name": "Content5",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-Ah7mgB",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "8877c22869",
+      "name": "Content4",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-omqiQ2",
+        "say #!builtin_text-3rc01P",
+        "say #!builtin_text-R6YmD5",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "72cf98b763",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-_uHejj",
+        "say #!builtin_text-Uq34zS",
+        "say #!builtin_text-ltG8xC"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"MPRIO - Benefit Mandiri Prioritas\" || \"MPRIO\" || \"mprio\" || \"Benefit Mandiri Prioritas\" || \"benefit mandiri prioritas\"",
+          "conditionType": "raw",
+          "node": "Content"
+        },
+        {
+          "condition": "user.teks == \"FPRIO - Fitur Mandiri Prioritas\" || \"FPRIO\" || \"fprio\" || \"Fitur Mandiri Prioritas\" || \"fitur mandiri prioritas\"",
+          "conditionType": "raw",
+          "node": "Content1"
+        },
+        {
+          "condition": "user.teks == \"SPRIO - Syarat Mandiri Prioritas\" || \"SPRIO\" || \"sprio\" || \"Syarat Mandiri Prioritas\" || \"syarat mandiri prioritas\"",
+          "conditionType": "raw",
+          "node": "Content2"
+        },
+        {
+          "condition": "user.teks == \"DPRIO - Daftar Mandiri Prioritas\" || \"DPRIO\" || \"dprio\" || \"Daftar Mandiri Prioritas\" || \"daftar mandiri prioritas\"",
+          "conditionType": "raw",
+          "node": "Content3"
+        },
+        {
+          "condition": "user.teks == \"BPRIO - Biaya Mandiri Prioritas\" || \"BPRIO\" || \"bprio\" || \"Biaya Mandiri Prioritas\" || \"biaya mandiri prioritas\"",
+          "conditionType": "raw",
+          "node": "Content6"
+        },
+        {
+          "condition": "user.teks == \"LPRIO - Limit Mandiri Prioritas\" || \"LPRIO\" || \"lprio\" || \"Limit Mandiri Prioritas\" || \"limit mandiri prioritas\"",
+          "conditionType": "raw",
+          "node": "Content5"
+        },
+        {
+          "condition": "user.teks == \"TPRIO - Tutup Mandiri Prioritas\" || \"TPRIO\" || \"tprio\" || \"tutup mandiri prioritas\" || \"Tutup Mandiri Prioritas\"",
+          "conditionType": "raw",
+          "node": "Content4"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

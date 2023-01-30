@@ -1,0 +1,253 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Aplikasi",
+  "description": "",
+  "nodes": [
+    {
+      "id": "834b5c8f3c",
+      "name": "Aplikasi",
+      "onEnter": [
+        "say #!dropdown-hUI1KO"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.pilih ==\"Cara instal aplikasi. Cara menginstal Aplikasi Pedulilindungi\"",
+          "conditionType": "raw",
+          "node": "CaraInstall"
+        },
+        {
+          "condition": "user.pilih == \"Error Registrasi. Error registrasi tidak menerima OTP\"",
+          "conditionType": "raw",
+          "node": "ErrorRegistrasi"
+        },
+        {
+          "condition": "user.pilih   ==\"Error Profil&#x2F;Akun. Nama dan NIK tidak bisa diisi\"",
+          "conditionType": "props",
+          "node": "ErrorProfile"
+        },
+        {
+          "condition": "user.pilih ==\"Scan QR. Tidak bisa check in QR code di ruang publik\"",
+          "conditionType": "props",
+          "node": "ScanQR"
+        },
+        {
+          "condition": "user.pilih ==\"Error Menu Sertifikat. Dalam menu muncul sertifikat orang lain\"",
+          "conditionType": "props",
+          "node": "ErrorMenu"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "9f28b66ff8",
+      "name": "ErrorRegistrasi",
+      "next": [
+        {
+          "condition": "user.pilih ==\"ya\" || user.pilih ==\"YA\"",
+          "conditionType": "raw",
+          "node": "TimeOutAgent"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-o1Rt2D",
+        "say #!builtin_card-t4GhFy"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "e971c89051",
+      "name": "ErrorProfile",
+      "next": [
+        {
+          "condition": "user.pilih ==\"ya\" || user.pilih ==\"YA\"",
+          "conditionType": "raw",
+          "node": "TimeOutAgent"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-pm-d7y",
+        "say #!builtin_card-t4GhFy"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "506c9590d8",
+      "name": "ScanQR",
+      "next": [
+        {
+          "condition": "user.pilih ==\"ya\" || user.pilih ==\"YA\"",
+          "conditionType": "raw",
+          "node": "TimeOutAgent"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-NM2-_6",
+        "say #!builtin_card-t4GhFy"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "fa7a0b9809",
+      "name": "ErrorMenu",
+      "next": [
+        {
+          "condition": "user.pilih ==\"ya\" || user.pilih ==\"YA\"",
+          "conditionType": "raw",
+          "node": "TimeOutAgent"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-9l4hG-",
+        "say #!builtin_card-t4GhFy"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "686832bf9d",
+      "name": "CaraInstall",
+      "next": [
+        {
+          "condition": "user.pilih ==\"ya\" || user.pilih ==\"YA\"",
+          "conditionType": "raw",
+          "node": "TimeOutAgent"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-HHnj-C",
+        "say #!builtin_card-t4GhFy"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "skill-c45fa8",
+      "type": "skill-call",
+      "skill": "HitlNext",
+      "name": "Agent",
+      "flow": "skills/HitlNext-c45fa8.flow.json",
+      "next": [
+        {
+          "caption": "Handoff Resolved",
+          "condition": "temp['hitlnext-handoffResolved'] === true",
+          "node": "HandOff"
+        },
+        {
+          "caption": "No Agent Available",
+          "condition": "temp['hitlnext-noAgent'] === true",
+          "node": "NoAgent"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "39f66bd617",
+      "name": "HandOff",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-GueMT0"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "782a2fa5e1",
+      "name": "NoAgent",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-h7AKrw"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "5596da911e",
+      "name": "TimeOutAgent",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Agent"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-bcBJim"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

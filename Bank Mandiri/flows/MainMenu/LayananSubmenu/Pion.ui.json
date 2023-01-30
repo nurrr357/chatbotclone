@@ -1,0 +1,255 @@
+{
+  "nodes": [
+    {
+      "id": "56d6d66bc8",
+      "position": {
+        "x": 520,
+        "y": -110
+      }
+    },
+    {
+      "id": "be84c26b3a",
+      "position": {
+        "x": 440,
+        "y": 175
+      }
+    },
+    {
+      "id": "ee566a64a8",
+      "position": {
+        "x": 915,
+        "y": 435
+      }
+    },
+    {
+      "id": "dfa6da2185",
+      "position": {
+        "x": 925,
+        "y": 775
+      }
+    },
+    {
+      "id": "730155a4ea",
+      "position": {
+        "x": -190,
+        "y": -175
+      }
+    },
+    {
+      "id": "43a17f6e2c",
+      "position": {
+        "x": 535,
+        "y": 800
+      }
+    },
+    {
+      "id": "cf06d6a82e",
+      "position": {
+        "x": -95,
+        "y": 200
+      }
+    },
+    {
+      "id": "1edb71af0c",
+      "position": {
+        "x": -235,
+        "y": 480
+      }
+    },
+    {
+      "id": "c4774f48fa",
+      "position": {
+        "x": 180,
+        "y": 910
+      }
+    },
+    {
+      "id": "a2effc2326",
+      "position": {
+        "x": -100,
+        "y": 750
+      }
+    },
+    {
+      "id": "60652fa0d3",
+      "position": {
+        "x": 170,
+        "y": 25
+      }
+    },
+    {
+      "id": "d372dda480",
+      "position": {
+        "x": 520,
+        "y": 450
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "60652fa0d3",
+      "sourcePort": "out6",
+      "target": "1edb71af0c",
+      "points": [
+        {
+          "x": 370,
+          "y": 659
+        },
+        {
+          "x": -234,
+          "y": 498
+        }
+      ]
+    },
+    {
+      "source": "60652fa0d3",
+      "sourcePort": "out4",
+      "target": "43a17f6e2c",
+      "points": [
+        {
+          "x": 370,
+          "y": 547
+        },
+        {
+          "x": 536,
+          "y": 818
+        }
+      ]
+    },
+    {
+      "source": "60652fa0d3",
+      "sourcePort": "out0",
+      "target": "56d6d66bc8",
+      "points": [
+        {
+          "x": 370,
+          "y": 322
+        },
+        {
+          "x": 521,
+          "y": -92
+        }
+      ]
+    },
+    {
+      "source": "60652fa0d3",
+      "sourcePort": "out3",
+      "target": "730155a4ea",
+      "points": [
+        {
+          "x": 370,
+          "y": 491
+        },
+        {
+          "x": -189,
+          "y": -157
+        }
+      ]
+    },
+    {
+      "source": "60652fa0d3",
+      "sourcePort": "out7",
+      "target": "a2effc2326",
+      "points": [
+        {
+          "x": 370,
+          "y": 715
+        },
+        {
+          "x": -99,
+          "y": 768
+        }
+      ]
+    },
+    {
+      "source": "60652fa0d3",
+      "sourcePort": "out1",
+      "target": "be84c26b3a",
+      "points": [
+        {
+          "x": 370,
+          "y": 378
+        },
+        {
+          "x": 441,
+          "y": 193
+        }
+      ]
+    },
+    {
+      "source": "60652fa0d3",
+      "sourcePort": "out8",
+      "target": "c4774f48fa",
+      "points": [
+        {
+          "x": 370,
+          "y": 772
+        },
+        {
+          "x": 181,
+          "y": 928
+        }
+      ]
+    },
+    {
+      "source": "60652fa0d3",
+      "sourcePort": "out5",
+      "target": "cf06d6a82e",
+      "points": [
+        {
+          "x": 370,
+          "y": 603
+        },
+        {
+          "x": -94,
+          "y": 218
+        }
+      ]
+    },
+    {
+      "source": "60652fa0d3",
+      "sourcePort": "out2",
+      "target": "d372dda480",
+      "points": [
+        {
+          "x": 370,
+          "y": 435
+        },
+        {
+          "x": 521,
+          "y": 468
+        }
+      ]
+    },
+    {
+      "source": "d372dda480",
+      "sourcePort": "out1",
+      "target": "dfa6da2185",
+      "points": [
+        {
+          "x": 720,
+          "y": 705
+        },
+        {
+          "x": 926,
+          "y": 793
+        }
+      ]
+    },
+    {
+      "source": "d372dda480",
+      "sourcePort": "out0",
+      "target": "ee566a64a8",
+      "points": [
+        {
+          "x": 720,
+          "y": 636
+        },
+        {
+          "x": 916,
+          "y": 453
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "ORCodeMerchant",
+  "description": "",
+  "nodes": [
+    {
+      "id": "1980d24541",
+      "name": "ORCodeMerchant",
+      "onEnter": [
+        "say #!dropdown-FWHMFU"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.pilih == \"Aktivasi Email Merchant. Belum menerima email aktivasi (selama 3x24 jam)\"",
+          "conditionType": "raw",
+          "node": "AktivasiEmail"
+        },
+        {
+          "condition": "user.pilih == \"Perubahan Data Merchant. Salah nama pada poster QR code\"",
+          "conditionType": "raw",
+          "node": "PerubahanData"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "cb6606ac94",
+      "name": "PerubahanData",
+      "next": [
+        {
+          "condition": "user.pilih ==\"ya\" || user.pilih ==\"YA\"",
+          "conditionType": "raw",
+          "node": "TimeOutAgent-copy"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-k9CLJl",
+        "say #!builtin_text-Pf7QAD",
+        "say #!builtin_card-t4GhFy"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "86af1b76d9",
+      "name": "AktivasiEmail",
+      "next": [
+        {
+          "condition": "user.pilih ==\"ya\" || user.pilih ==\"YA\"",
+          "conditionType": "raw",
+          "node": "TimeOutAgent-copy"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-CXSe8s",
+        "say #!builtin_card-t4GhFy"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "skill-cd2af3",
+      "type": "skill-call",
+      "skill": "HitlNext",
+      "name": "Agent",
+      "flow": "skills/HitlNext-cd2af3.flow.json",
+      "next": [
+        {
+          "caption": "Handoff Resolved",
+          "condition": "temp['hitlnext-handoffResolved'] === true",
+          "node": "Handoff"
+        },
+        {
+          "caption": "No Agent Available",
+          "condition": "temp['hitlnext-noAgent'] === true",
+          "node": "NoAgent"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "751346e51b",
+      "name": "Handoff",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-GueMT0"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "ff858ef59d",
+      "name": "TimeOutAgent-copy",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Agent"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-vJZz1v"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "df1d42c36f",
+      "name": "NoAgent",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-h7AKrw"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

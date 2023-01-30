@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "Timeout",
+  "description": "",
+  "nodes": [
+    {
+      "id": "e8d45c48c2",
+      "name": "Timeout",
+      "onEnter": [
+        "say #!builtin_text-NZqkQO"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

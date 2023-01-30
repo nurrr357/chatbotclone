@@ -1,0 +1,359 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"main menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"batal\"",
+        "conditionType": "raw",
+        "node": "Batal.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"selesai\"",
+        "conditionType": "raw",
+        "node": "Selesai.flow.json"
+      }
+    ]
+  },
+  "startNode": "InfoPemutusanDanPenyambungan",
+  "description": "",
+  "nodes": [
+    {
+      "id": "803fad9ed8",
+      "name": "1",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-hrdxu0"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "b71dffb1ac",
+      "name": "2",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-clUnZA"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "b227ac81ee",
+      "name": "3",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-qYGX6z"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "b41f6b52e0",
+      "name": "4",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text--HNErm"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "36d6f8a63c",
+      "name": "5",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-eVx7mG"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "980aca30fc",
+      "name": "6",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-2O0jAM"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "495f8bfd8d",
+      "name": "7",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-n6Ym6q"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "ff9abf1a82",
+      "name": "8",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Ek861B"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "ce4bcd0605",
+      "name": "9",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-S-p36t"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "7a36119021",
+      "name": "10",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-8kLs4w"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "ea045c703c",
+      "name": "11",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-2F_im_"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "8e86be51da",
+      "name": "12",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-EP9c2d"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "25eb1cf418",
+      "name": "13",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-aw1Vbu"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "ee836d4d74",
+      "name": "14",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-IMj6SC"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "6e857522a6",
+      "name": "15",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-dt08kx"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "df5486abf7",
+      "name": "InfoPemutusanDanPenyambungan",
+      "onEnter": [
+        "say #!builtin_text-39SpYu"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"input\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.input == 1",
+          "conditionType": "raw",
+          "node": "1"
+        },
+        {
+          "condition": "user.input == 2",
+          "conditionType": "raw",
+          "node": "2"
+        },
+        {
+          "condition": "user.input == 3",
+          "conditionType": "raw",
+          "node": "3"
+        },
+        {
+          "condition": "user.input == 4",
+          "conditionType": "raw",
+          "node": "4"
+        },
+        {
+          "condition": "user.input == 5",
+          "conditionType": "raw",
+          "node": "5"
+        },
+        {
+          "condition": "user.input == 6",
+          "conditionType": "raw",
+          "node": "6"
+        },
+        {
+          "condition": "user.input == 7",
+          "conditionType": "raw",
+          "node": "7"
+        },
+        {
+          "condition": "user.input == 8",
+          "conditionType": "raw",
+          "node": "8"
+        },
+        {
+          "condition": "user.input == 9",
+          "conditionType": "raw",
+          "node": "9"
+        },
+        {
+          "condition": "user.input == 10",
+          "conditionType": "raw",
+          "node": "10"
+        },
+        {
+          "condition": "user.input == 11",
+          "conditionType": "raw",
+          "node": "11"
+        },
+        {
+          "condition": "user.input == 12",
+          "conditionType": "raw",
+          "node": "12"
+        },
+        {
+          "condition": "user.input == 13",
+          "conditionType": "raw",
+          "node": "13"
+        },
+        {
+          "condition": "user.input == 14",
+          "conditionType": "raw",
+          "node": "14"
+        },
+        {
+          "condition": "user.input == 15",
+          "conditionType": "raw",
+          "node": "15"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Repeat"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "a479e6fcde",
+      "name": "Repeat",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "InfoPemutusanDanPenyambungan"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "next": []
+  },
+  "startNode": "hitl",
+  "skillData": {
+    "timeoutDelay": 60,
+    "redirectNoAgent": false
+  },
+  "nodes": [
+    {
+      "name": "hitl",
+      "onEnter": [
+        "hitlnext/handoff {\"timeoutDelay\":60,\"redirectNoAgent\":false}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "wait"
+        }
+      ],
+      "id": "406989"
+    },
+    {
+      "name": "wait",
+      "onEnter": [],
+      "onReceive": [],
+      "next": [
+        {
+          "condition": "temp['hitlnext-noAgent'] === true",
+          "node": "#"
+        },
+        {
+          "condition": "temp['hitlnext-timedOutWaitingAgent'] === true",
+          "node": "#"
+        },
+        {
+          "condition": "temp['hitlnext-handoffResolved'] === true",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "wait"
+        }
+      ],
+      "id": "750519"
+    }
+  ]
+}

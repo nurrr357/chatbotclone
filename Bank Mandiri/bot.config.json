@@ -1,0 +1,57 @@
+{
+  "locked": false,
+  "disabled": false,
+  "private": false,
+  "details": {
+    "website": "",
+    "phoneNumber": "",
+    "emailAddress": "",
+    "termsConditions": "",
+    "privacyPolicy": "",
+    "avatarUrl": "/api/v1/bots/BOT_ID_PLACEHOLDER/media/2f4nojzvbzri8pz6cz27-kisspng-bank-mandiri-bank-negara-indonesia-bank-indonesia-bank-mandiri-5b36bb532585b8.7625383915303135551537.png",
+    "coverPictureUrl": "/api/v1/bots/BOT_ID_PLACEHOLDER/media/dxd2k1vcl9e60e9ecrnl-kisspng-bank-mandiri-bank-negara-indonesia-bank-indonesia-bank-mandiri-5b36bb532585b8.7625383915303135551537.png"
+  },
+  "$schema": "../../bot.config.schema.json",
+  "description": "+628118414000 https://www.bankmandiri.co.id/",
+  "active": true,
+  "version": "12.29.1",
+  "author": "Botpress, Inc.",
+  "license": "AGPL-3.0",
+  "imports": {
+    "modules": [],
+    "incomingMiddleware": [],
+    "outgoingMiddleware": [],
+    "contentTypes": [
+      "builtin_action-button",
+      "builtin_audio",
+      "builtin_card",
+      "builtin_carousel",
+      "dropdown",
+      "builtin_file",
+      "builtin_image",
+      "builtin_location",
+      "builtin_single-choice",
+      "builtin_text",
+      "builtin_video"
+    ]
+  },
+  "dialog": {
+    "timeoutInterval": "5m"
+  },
+  "logs": {
+    "expiration": "1 week"
+  },
+  "defaultLanguage": "en",
+  "languages": [
+    "en"
+  ],
+  "id": "22016-bankmandiri-huda",
+  "name": "22016-BankMandiri-Huda",
+  "pipeline_status": {
+    "current_stage": {
+      "id": "prod",
+      "promoted_on": "2022-11-11T08:30:03.279Z",
+      "promoted_by": "system"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Content",
+  "description": "",
+  "nodes": [
+    {
+      "id": "07aa8155b4",
+      "name": "Content",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-rFL8gp",
+        "say #!builtin_text-RLjj3-",
+        "say #!dropdown-l1ppEa"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.pilih == \"benefit\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/FiturLain/SubMenuDropdown/Investasi/Benefit.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"jenis\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/FiturLain/SubMenuDropdown/Investasi/Jenis.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"investasi\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/FiturLain/SubMenuDropdown/Investasi/Investasi.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"daftar\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/FiturLain/SubMenuDropdown/Investasi/Daftar.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"atur\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/FiturLain/SubMenuDropdown/Investasi/Atur.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"produk\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/FiturLain/SubMenuDropdown/Investasi/Produk.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"reksadana\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/FiturLain/SubMenuDropdown/Investasi/Reksadana.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"rekening\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/FiturLain/SubMenuDropdown/Investasi/Rekening.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"cabang\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/FiturLain/SubMenuDropdown/Investasi/Cabang.flow.json"
+        },
+        {
+          "condition": "user.pilih == \"mandiri\"",
+          "conditionType": "raw",
+          "node": "Main/Livin/BelumMenu/FiturLain/SubMenuDropdown/Investasi/Mandiri.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "62ecea3b19",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-UDUzlR",
+        "say #!builtin_text-6hXXlK",
+        "say #!builtin_text-zHlo09",
+        "say #!builtin_text-YxpGkG",
+        "say #!builtin_text-rFL8gp"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"lokasi cabang\" || \"LOKASI CABANG\" || \"Lokasi Cabang\"",
+          "conditionType": "raw",
+          "node": "MainMenu/Cabang.flow.json"
+        },
+        {
+          "condition": "user.teks == \"lokasi atm\" || \"LOKASI ATM\" || \"Lokasi Atm\"",
+          "conditionType": "raw",
+          "node": "MainMenu/Atm.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

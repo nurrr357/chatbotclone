@@ -1,0 +1,442 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"main menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"batal\"",
+        "conditionType": "raw",
+        "node": "Batal.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"selesai\"",
+        "conditionType": "raw",
+        "node": "Selesai.flow.json"
+      }
+    ]
+  },
+  "startNode": "DiskonTarif",
+  "description": "",
+  "nodes": [
+    {
+      "id": "5c43fba4b8",
+      "name": "DiskonTarif",
+      "onEnter": [
+        "say #!builtin_text-_X-qoY"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "user.input == 1",
+          "conditionType": "raw",
+          "node": "1"
+        },
+        {
+          "condition": "user.input == 2",
+          "conditionType": "raw",
+          "node": "2"
+        },
+        {
+          "condition": "user.input == 3",
+          "conditionType": "raw",
+          "node": "3"
+        },
+        {
+          "condition": "user.input == 4",
+          "conditionType": "raw",
+          "node": "4"
+        },
+        {
+          "condition": "user.input == 5",
+          "conditionType": "raw",
+          "node": "5"
+        },
+        {
+          "condition": "user.input == 6",
+          "conditionType": "raw",
+          "node": "6"
+        },
+        {
+          "condition": "user.input == 7",
+          "conditionType": "raw",
+          "node": "7"
+        },
+        {
+          "condition": "user.input == 8",
+          "conditionType": "raw",
+          "node": "8"
+        },
+        {
+          "condition": "user.input == 9",
+          "conditionType": "raw",
+          "node": "9"
+        },
+        {
+          "condition": "user.input == 10",
+          "conditionType": "raw",
+          "node": "10"
+        },
+        {
+          "condition": "user.input == 11",
+          "conditionType": "raw",
+          "node": "11"
+        },
+        {
+          "condition": "user.input == 12",
+          "conditionType": "raw",
+          "node": "12"
+        },
+        {
+          "condition": "user.input == 13",
+          "conditionType": "raw",
+          "node": "13"
+        },
+        {
+          "condition": "user.input == 14",
+          "conditionType": "raw",
+          "node": "14"
+        },
+        {
+          "condition": "user.input == 15",
+          "conditionType": "raw",
+          "node": "15"
+        },
+        {
+          "condition": "user.input == 16",
+          "conditionType": "raw",
+          "node": "16"
+        },
+        {
+          "condition": "user.input == 17",
+          "conditionType": "raw",
+          "node": "17"
+        },
+        {
+          "condition": "user.input == 18",
+          "conditionType": "raw",
+          "node": "18"
+        },
+        {
+          "condition": "user.input == 19",
+          "conditionType": "raw",
+          "node": "19"
+        },
+        {
+          "condition": "user.input >= 19",
+          "conditionType": "raw",
+          "node": "Ulangi"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "057f5b2878",
+      "name": "1",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-whZ71y"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "ae7eebf6e1",
+      "name": "2",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-XlxSmx"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "05285faaee",
+      "name": "3",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Sn_vD8"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "d04d1bf841",
+      "name": "4",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-SD-IBr"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "ac0b603111",
+      "name": "6",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-siDKM-"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "c47c90a686",
+      "name": "5",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-uJIq1c"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "4cd6fd4801",
+      "name": "7",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-LzSXlw"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "619a225241",
+      "name": "8",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-qEslwT"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "9abf2b3207",
+      "name": "9",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-cqC1sm"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "36af3e2057",
+      "name": "10",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-PYTzV1"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "47772a03a7",
+      "name": "11",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-vxFaT0"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "85e58e3f8b",
+      "name": "12",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-kaiAa5"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "6703a830a8",
+      "name": "13",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-6IQOk_"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "45b8fd6661",
+      "name": "14",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-6HHgN8"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "b95a704712",
+      "name": "15",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-0sjYo8"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "12b5f1e7ce",
+      "name": "16",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-IpSPAc"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "9e61188f46",
+      "name": "17",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-IoyEhF"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "d46aa5ead8",
+      "name": "18",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-yW54Zb"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "99163d0d61",
+      "name": "19",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Ind7hk"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "e0e7aa7b4d",
+      "name": "Ulangi",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "DiskonTarif"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

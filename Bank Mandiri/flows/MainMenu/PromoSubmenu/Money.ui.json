@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "id": "edc19cc216",
+      "position": {
+        "x": 440,
+        "y": 154
+      }
+    },
+    {
+      "id": "6c6c64b622",
+      "position": {
+        "x": 110,
+        "y": 100
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "6c6c64b622",
+      "sourcePort": "out1",
+      "target": "edc19cc216",
+      "points": [
+        {
+          "x": 310,
+          "y": 330
+        },
+        {
+          "x": 441,
+          "y": 172
+        }
+      ]
+    }
+  ]
+}

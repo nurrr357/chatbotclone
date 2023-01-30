@@ -1,0 +1,22 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "Ulang",
+  "description": "",
+  "nodes": [
+    {
+      "id": "476caa0382",
+      "name": "Ulang",
+      "onEnter": [],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "##"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

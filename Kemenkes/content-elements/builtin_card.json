@@ -1,0 +1,251 @@
+[
+  {
+    "id": "builtin_card-t4GhFy",
+    "formData": {
+      "actions$en": [
+        {
+          "action": "Postback",
+          "title": "ya",
+          "payload": "ya",
+          "text": "ya"
+        }
+      ],
+      "title$en": "pilih YA untuk terhubung ke petugas kami,atau Ketik Menu untuk kembali ke menu pertama"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-20T12:19:25.289Z",
+    "modifiedOn": "2022-10-26T03:25:00.887Z"
+  },
+  {
+    "id": "builtin_card-re1RYy",
+    "formData": {
+      "title$en": "Selamat, Anda telah berhasil masuk kedalam layanan helpcenter Peduli Lindungi, silakan pilih menu di bawah untuk mengakses layanan kami?",
+      "actions$en": [
+        {
+          "action": "Postback",
+          "title": "Download Sertifikat",
+          "payload": "Download Sertifikat"
+        },
+        {
+          "action": "Postback",
+          "title": "Status Vaksinasi",
+          "text": "status",
+          "payload": "Status Vaksinasi"
+        },
+        {
+          "action": "Postback",
+          "title": "Ubah Info Diri",
+          "payload": "Ubah Info Diri"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-10-27T13:08:13.736Z",
+    "modifiedOn": "2022-11-01T13:34:49.261Z"
+  },
+  {
+    "id": "builtin_card-r1YHAx",
+    "formData": {
+      "title$en": "Pilih sertifikat dibawah ini",
+      "actions$en": [
+        {
+          "action": "Postback",
+          "title": "1",
+          "payload": "1"
+        },
+        {
+          "action": "Postback",
+          "title": "2",
+          "payload": "2"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-01T10:15:10.772Z",
+    "modifiedOn": "2022-11-01T10:15:10.772Z"
+  },
+  {
+    "id": "builtin_card--8LgwN",
+    "formData": {
+      "title$en": "Ada lagi yang bisa dibantu?",
+      "actions$en": [
+        {
+          "action": "Postback",
+          "title": "Download Lagi",
+          "payload": "Download Lagi"
+        },
+        {
+          "action": "Postback",
+          "title": "Menu Utama",
+          "payload": "Menu Utama"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-01T10:22:36.694Z",
+    "modifiedOn": "2022-11-01T10:22:36.694Z"
+  },
+  {
+    "id": "builtin_card-UeAyWB",
+    "formData": {
+      "title$en": "Ada lagi yang dapat kami bantu? Anda bisa memilih salah satu dari Menu yang ada di bawah ini",
+      "actions$en": [
+        {
+          "action": "Postback",
+          "title": "Menu Utama",
+          "payload": "Menu Utama"
+        },
+        {
+          "action": "Postback",
+          "title": "Akhiri Sesi",
+          "payload": "Akhiri Sesi"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-01T10:30:32.038Z",
+    "modifiedOn": "2022-11-01T10:30:32.038Z"
+  },
+  {
+    "id": "builtin_card-gqTcBW",
+    "formData": {
+      "title$en": "Untuk melanjutkan layanan chatbot silahkan pilih salah satu Menu yang ada dibawah ini",
+      "actions$en": [
+        {
+          "action": "Postback",
+          "title": "Ulang Authentifikasi",
+          "payload": "Ulang Authentifikasi"
+        },
+        {
+          "action": "Postback",
+          "title": "Menu Utama",
+          "payload": "Menu Utama"
+        },
+        {
+          "action": "Postback",
+          "title": "Akhiri Sesi",
+          "payload": "Akhiri Sesi"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-01T12:13:20.463Z",
+    "modifiedOn": "2022-11-01T12:14:02.056Z"
+  },
+  {
+    "id": "builtin_card-SeY2d2",
+    "formData": {
+      "title$en": "Informasi manakah yang ingin disesuaikan/diubah?",
+      "actions$en": [
+        {
+          "action": "Postback",
+          "title": "Nama",
+          "payload": "Nama"
+        },
+        {
+          "action": "Postback",
+          "title": "Tanggl Lahir",
+          "payload": "tgl"
+        },
+        {
+          "action": "Postback",
+          "title": "Nomor Telepon",
+          "payload": "Nomor Telepon"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-01T12:30:25.744Z",
+    "modifiedOn": "2022-11-04T02:52:26.586Z"
+  },
+  {
+    "id": "builtin_card-chScez",
+    "formData": {
+      "title$en": "Apakah Anda yakin untuk mengubah nomor Telepon anda {{session.response.body.data.0.NoTlp}} menjadi {{user.notlp}} ?",
+      "actions$en": [
+        {
+          "action": "Postback",
+          "title": "YA",
+          "payload": "Y"
+        },
+        {
+          "action": "Postback",
+          "title": "Tidak",
+          "payload": "T"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-01T12:41:31.593Z",
+    "modifiedOn": "2022-11-04T02:40:03.518Z"
+  },
+  {
+    "id": "builtin_card-nPxeEb",
+    "formData": {
+      "title$en": "Apakah Anda yakin untuk mengubah Tanggal Lahir {{session.response.body.data.0.TTL}} menjadi {{user.ttl}} ?",
+      "actions$en": [
+        {
+          "action": "Postback",
+          "title": "Ya",
+          "text": "Ya",
+          "payload": "Y"
+        },
+        {
+          "action": "Postback",
+          "title": "Tidak",
+          "payload": "T"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-01T12:44:22.716Z",
+    "modifiedOn": "2022-11-04T02:39:02.930Z"
+  },
+  {
+    "id": "builtin_card-WkFuEk",
+    "formData": {
+      "title$en": "Apakah Anda yakin untuk mengubah {{session.response.body.data.0.Nm}} menjadi {{user.namaLengkap}} ?",
+      "actions$en": [
+        {
+          "action": "Postback",
+          "title": "ya",
+          "payload": "Y"
+        },
+        {
+          "action": "Postback",
+          "title": "tidak",
+          "payload": "T"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-01T12:48:00.591Z",
+    "modifiedOn": "2022-11-04T02:27:39.100Z"
+  },
+  {
+    "id": "builtin_card-bfHCD2",
+    "formData": {
+      "title$en": "Ada lagi yang dapat kami bantu? Anda bisa memilih salah satu dari Menu yang ada di bawah ini",
+      "actions$en": [
+        {
+          "action": "Postback",
+          "title": "Ubah Data Lain",
+          "payload": "ubah"
+        },
+        {
+          "action": "Postback",
+          "title": "Menu utama",
+          "payload": "menu"
+        },
+        {
+          "action": "Postback",
+          "title": "Akhiri Sesi",
+          "payload": "akhiri"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-04T07:07:04.008Z",
+    "modifiedOn": "2022-11-04T07:07:04.008Z"
+  }
+]

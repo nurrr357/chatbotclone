@@ -1,0 +1,354 @@
+[
+  {
+    "id": "builtin_text-YzBEXt",
+    "formData": {
+      "text$en": "Halo Sahabat BPJS Kesehatan, Saya {{user.namaBot}}, asisten pribadi BPJS Kesehatan Sahabat 😊",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T01:08:17.923Z",
+    "modifiedOn": "2022-10-17T05:17:29.093Z"
+  },
+  {
+    "id": "builtin_text-PjFNMw",
+    "formData": {
+      "text$en": "Silakan pilih satu Nomor atau opsi menu yang Sahabat inginkan:   \n1. Cek Status Peserta  \n2. Cek Tagihan Iuran  \n3. Skrining Kesehatan  \n4. Info JKN  \n5. Panduan Layanan  \n6. Layanan Pandawa \n7. Cari Lokasi",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T01:08:41.145Z",
+    "modifiedOn": "2022-10-12T07:51:58.315Z"
+  },
+  {
+    "id": "builtin_text-xHrMiU",
+    "formData": {
+      "text$en": "Maaf pilihan kamu salah 😥\n",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T01:17:08.113Z",
+    "modifiedOn": "2022-09-29T01:18:29.294Z"
+  },
+  {
+    "id": "builtin_text-fxSeJz",
+    "formData": {
+      "text$en": "Silahkan pilih ulang😁",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T01:18:37.996Z",
+    "modifiedOn": "2022-09-29T01:18:37.996Z"
+  },
+  {
+    "id": "builtin_text-Jz5zQr",
+    "formData": {
+      "text$en": "Untuk melanjutkan permintaan Sahabat, masukkan Nomor BPJS Kesehatan atau Nomor KTP (NIK) dan Tanggal Lahir (YYYYMMDD) dengan tanda DAN (&) sebagai pemisah\n(Contoh: 3204111004XXXXXX&1995XXXX atau 0001641XXXXXX&1995XXXX)\n\nnomer demo :\n0002093452773&20050114\nnomor aktif\n\n0002093452773&20050116\nnomer ndak aktif",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T01:55:49.465Z",
+    "modifiedOn": "2022-09-30T01:45:39.758Z"
+  },
+  {
+    "id": "builtin_text-QVbOY4",
+    "formData": {
+      "text$en": "Berikut detail informasi kepesertaan Sahabat:\nSahabat terdaftar atas nama NUXXXXXX HUXX sebagai PEKERJA MANDIRI dengan status kartu AKTIF",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T02:40:57.055Z",
+    "modifiedOn": "2022-09-29T02:46:46.213Z"
+  },
+  {
+    "id": "builtin_text-r4InPw",
+    "formData": {
+      "text$en": "Atau melalui aplikasi Mobile JKN yang dapat di unduh di Appstore/Playstore: \nMobile JKN (Android): https://play.google.com/store/apps/details?id=app.bpjs.mobile \nMobile JKN (iOS): https://apps.apple.com/id/app/mobile-jkn/id1237601115",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T02:41:16.462Z",
+    "modifiedOn": "2022-09-29T02:41:16.462Z"
+  },
+  {
+    "id": "builtin_text-oy9-3y",
+    "formData": {
+      "text$en": "Terima kasih sudah menghubungi {{user.namaBot}}, senang dapat membantu 😊  Apabila Sahabat berkenan mohon bantu {{user.namaBot}} untuk mengisi Survey di link berikut: https://grabify.link/TF760F",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T02:45:23.553Z",
+    "modifiedOn": "2022-10-17T05:18:27.421Z"
+  },
+  {
+    "id": "builtin_text-zNSuFY",
+    "formData": {
+      "text$en": "Berikut detail informasi kepesertaan Sahabat: Sahabat terdaftar atas nama HUXXXXXX MUXX sebagai PEKERJA MANDIRI dengan status kartu TIDAK AKTIF",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T02:47:19.332Z",
+    "modifiedOn": "2022-09-29T02:47:19.332Z"
+  },
+  {
+    "id": "builtin_text-caeQUc",
+    "formData": {
+      "text$en": "Ketik Menu untuk ke menu utama atau Selesai mengakhiri percakapan 😊",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T03:23:28.757Z",
+    "modifiedOn": "2022-09-29T03:23:28.757Z"
+  },
+  {
+    "id": "builtin_text-NZqkQO",
+    "formData": {
+      "text$en": "Terima kasih sudah menghubungi {{user.namaBot}}. Senang dapat membantu 😊   Gunakan antrean online di Mobile JKN untuk mendapatkan layanan di Fasilitas Kesehatan, silahkan unduh Aplikasi Mobile JKN berikut:  Mobile JKN (Android): https://play.google.com/store/apps/details?id=app.bpjs.mobile  Mobile JKN (iOS): https://apps.apple.com/id/app/mobile-jkn/id1237601115",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T03:32:07.148Z",
+    "modifiedOn": "2022-10-17T05:18:46.093Z"
+  },
+  {
+    "id": "builtin_text-vnyG5G",
+    "formData": {
+      "text$en": "Baik, {{user.namaBot}} batalkan permintaan Sahabat ya 😊",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T03:37:00.903Z",
+    "modifiedOn": "2022-10-17T05:17:48.718Z"
+  },
+  {
+    "id": "builtin_text-nZaCgA",
+    "formData": {
+      "text$en": "Tagihan iuran BPJS Kesehatan Sahabat (a.n. NUXXXXXX HUXX) untuk bulan ini sudah Lunas",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T06:41:09.520Z",
+    "modifiedOn": "2022-09-29T06:44:31.333Z"
+  },
+  {
+    "id": "builtin_text-27N-5T",
+    "formData": {
+      "text$en": "Tagihan iuran BPJS Kesehatan Sahabat (a.n. HUXXXXXX MUXX) untuk bulan ini sudah Belum Lunas",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T06:44:49.860Z",
+    "modifiedOn": "2022-09-29T07:33:38.914Z"
+  },
+  {
+    "id": "builtin_text-699wn2",
+    "formData": {
+      "text$en": "Yuk cek kesehatanmu dengan Skrining Riwayat Kesehatan, {{user.namaBot}} infokan beberapa contoh manfaatnya nih",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T06:49:11.331Z",
+    "modifiedOn": "2022-10-17T05:20:32.062Z"
+  },
+  {
+    "id": "builtin_text-Tv-FBB",
+    "formData": {
+      "text$en": "Manfaat Skrining Kesehatan untuk mengetahui 4 potensi risiko penyakit:  \n1. Diabetes Melitus \n2. Jantung Koroner \n3. Ginjal Kronik \n4. Hipertensi",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T06:49:23.060Z",
+    "modifiedOn": "2022-09-29T06:52:46.679Z"
+  },
+  {
+    "id": "builtin_text-C37gaV",
+    "formData": {
+      "text$en": "Kunjungi Url berikut untuk Skrining Kesehatan Sahabat:  https://webskrining.bpjs-kesehatan.go.id/skrining/index.html",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T06:49:44.842Z",
+    "modifiedOn": "2022-09-29T06:53:11.564Z"
+  },
+  {
+    "id": "builtin_text-RKjGSG",
+    "formData": {
+      "text$en": "Jangan lupa konsultasikan hasil Skrining Riwayat Kesehatanmu di Fasilitas Kesehatan terdaftar ya, semoga sehat selalu 😊",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T06:50:10.672Z",
+    "modifiedOn": "2022-09-29T06:50:10.672Z"
+  },
+  {
+    "id": "builtin_text-3ZPx07",
+    "formData": {
+      "text$en": "Petunjuk Download dan Registrasi Aplikasi Mobile JKN:\nhttps://i.ibb.co/fC4TsVR/Bpjs-Registrasi.png",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T07:01:20.178Z",
+    "modifiedOn": "2022-09-29T07:11:40.734Z"
+  },
+  {
+    "id": "builtin_text-XHg5Ts",
+    "formData": {
+      "text$en": "Petunjuk Penggunaan Fitur Pendaftaran Peserta Baru Aplikasi Mobile JKN:\nhttps://i.ibb.co/K63QX7B/Bpjs-Pendaftaran.png",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T07:02:31.173Z",
+    "modifiedOn": "2022-09-29T07:12:05.013Z"
+  },
+  {
+    "id": "builtin_text-itbFH7",
+    "formData": {
+      "text$en": "Petunjuk Perubahan Segmen Peserta Aplikasi Mobile JKN:\nhttps://i.ibb.co/MRwY508/Bpjs-Segmen.png",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T07:08:58.689Z",
+    "modifiedOn": "2022-09-29T07:13:27.637Z"
+  },
+  {
+    "id": "builtin_text-zVj1dw",
+    "formData": {
+      "text$en": "Petunjuk Perubahan Data Peserta Aplikasi Mobile JKN:\nhttps://i.ibb.co/VBjWHjK/Bpjs-Peserta.png",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T07:09:15.518Z",
+    "modifiedOn": "2022-09-29T07:19:19.582Z"
+  },
+  {
+    "id": "builtin_text-TA7nU3",
+    "formData": {
+      "text$en": "Cara Mengaktifkan Kembali Kartu KIS PBI:\nhttps://i.ibb.co/jyjtHTs/Bpjs-Reaktivasi.png",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T07:09:29.341Z",
+    "modifiedOn": "2022-09-29T07:20:15.228Z"
+  },
+  {
+    "id": "builtin_text-cKakYq",
+    "formData": {
+      "text$en": "E-book yang merupakan buku panduan resmi yang diterbitkan dalam rangka sosialisasi kepada peserta agar dapat lebih memahami alur dan prosedur berobat dengan BPJS Kesehatan",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T07:21:33.482Z",
+    "modifiedOn": "2022-09-29T07:21:33.482Z"
+  },
+  {
+    "id": "builtin_text-zRoEyv",
+    "formData": {
+      "text$en": "Kunjungi Url berikut untuk lihat Panduan Kesehatan Sahabat:  https://www.bpjs-kesehatan.go.id/bpjs/arsip/view/1477",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T07:21:45.466Z",
+    "modifiedOn": "2022-09-29T07:21:45.466Z"
+  },
+  {
+    "id": "builtin_text-I-99zo",
+    "formData": {
+      "text$en": "Informasi Seputar Mobile JKN:\nhttps://i.ibb.co/crFQtXW/Bpjs-Inpres.png",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T07:22:01.314Z",
+    "modifiedOn": "2022-09-29T07:22:01.314Z"
+  },
+  {
+    "id": "builtin_text-r5IfA7",
+    "formData": {
+      "text$en": "Silahkan sahabat kunjungi Layanan Administrasi 😊 \nhttps://wa.me/628118165165",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T07:23:53.871Z",
+    "modifiedOn": "2022-09-29T07:23:53.871Z"
+  },
+  {
+    "id": "builtin_text-tWHIhB",
+    "formData": {
+      "text$en": "Informasi Seputar Pandawa JKN: https://i.ibb.co/rdS9Y1m/Pandawa.png",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T07:24:08.059Z",
+    "modifiedOn": "2022-09-29T07:24:08.059Z"
+  },
+  {
+    "id": "builtin_text-A0mXSe",
+    "formData": {
+      "text$en": "Baik, untuk daftar lokasi Kantor Cabang BPJS Kesehatan, Sahabat dapat lihat di laman berikut https://www.bpjs-kesehatan.go.id/bpjs/pages/detail/2014/16",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T07:28:45.822Z",
+    "modifiedOn": "2022-10-12T07:56:25.424Z"
+  },
+  {
+    "id": "builtin_text-nbSzSy",
+    "formData": {
+      "text$en": "Baik, untuk daftar lokasi Fasilitas Kesehatan, Sahabat dapat cek di laman berikut https://faskes.bpjs-kesehatan.go.id/aplicares/#/app/dashboard",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T07:29:37.980Z",
+    "modifiedOn": "2022-10-12T07:56:42.050Z"
+  },
+  {
+    "id": "builtin_text-1UXRMf",
+    "formData": {
+      "text$en": "Silahkan pilih lagi",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T07:45:58.948Z",
+    "modifiedOn": "2022-09-29T07:45:58.948Z"
+  },
+  {
+    "id": "builtin_text-YU7uLm",
+    "formData": {
+      "text$en": "Maaf nomer kamu salah",
+      "markdown$en": false,
+      "typing$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-09-29T07:48:22.419Z",
+    "modifiedOn": "2022-09-29T07:48:27.079Z"
+  }
+]

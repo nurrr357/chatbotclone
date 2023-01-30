@@ -1,0 +1,45 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "entry",
+  "description": "",
+  "nodes": [
+    {
+      "id": "f9aeb52f59",
+      "name": "entry",
+      "onEnter": [
+        "say #!dropdown-f_O7Va"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.pilih == \"saldo\"",
+          "conditionType": "raw",
+          "node": "node-797e-copy-copy"
+        },
+        {
+          "condition": "user.pilih == \"mutasi\"",
+          "conditionType": "raw",
+          "node": "node-797e-copy-copy"
+        },
+        {
+          "condition": "user.pilih == \"blokir\"",
+          "conditionType": "raw",
+          "node": "node-797e-copy-copy"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

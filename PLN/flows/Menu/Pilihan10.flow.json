@@ -1,0 +1,223 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"main menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"batal\"",
+        "conditionType": "raw",
+        "node": "Batal.flow.json"
+      },
+      {
+        "condition": "event.payload.text == \"selesai\"",
+        "conditionType": "raw",
+        "node": "Selesai.flow.json"
+      }
+    ]
+  },
+  "startNode": "CatatMeter",
+  "description": "",
+  "nodes": [
+    {
+      "id": "3f8bed4bf7",
+      "name": "CatatMeter",
+      "onEnter": [
+        "say #!builtin_text-2uUP9D"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"input\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.input == 1",
+          "conditionType": "raw",
+          "node": "1"
+        },
+        {
+          "condition": "user.input == 2",
+          "conditionType": "raw",
+          "node": "2"
+        },
+        {
+          "condition": "user.input == 3",
+          "conditionType": "raw",
+          "node": "3"
+        },
+        {
+          "condition": "user.input == 4",
+          "conditionType": "raw",
+          "node": ""
+        },
+        {
+          "condition": "user.input == 5",
+          "conditionType": "raw",
+          "node": "5"
+        },
+        {
+          "condition": "user.input == 6",
+          "conditionType": "raw",
+          "node": "6"
+        },
+        {
+          "condition": "user.input == 7",
+          "conditionType": "raw",
+          "node": "7"
+        },
+        {
+          "condition": "user.input == 8",
+          "conditionType": "raw",
+          "node": "8"
+        },
+        {
+          "condition": "user.input >= 8",
+          "conditionType": "raw",
+          "node": "Repeat"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Repeat"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "de8530e3f8",
+      "name": "1",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-dTxinB"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "dfbb1469bc",
+      "name": "2",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Dv5Fcx"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "c0513d44d5",
+      "name": "3",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-_moHYT"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "a52533efbf",
+      "name": "4",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Bqfc7N"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "840471607d",
+      "name": "5",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-CNG8FR"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "d3ddf89208",
+      "name": "6",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-rXqYQM"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "8738cb6464",
+      "name": "7",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-XCwykq"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "310925afce",
+      "name": "8",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Ym1WVj"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "898552bc2b",
+      "name": "Repeat",
+      "next": [
+        {
+          "condition": "true",
+          "node": "CatatMeter"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

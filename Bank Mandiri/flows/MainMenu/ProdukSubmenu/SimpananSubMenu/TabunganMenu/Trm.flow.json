@@ -1,0 +1,47 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "7ba9599014",
+      "name": "Menu",
+      "onEnter": [
+        "say #!builtin_text-e43cZ0",
+        "say #!builtin_text-J4bToe",
+        "say #!builtin_text-4czty0"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.teks == \"STRM\" || \"strm\" || \"Syarat Tabungan Rencana \" || \"syarat tabungan rencana\" ",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/TabunganMenu/TrmSubmenu/Strm.flow.json"
+        },
+        {
+          "condition": "user.teks == \"BTRM\" || \"btrm\" || \"Benefit Tabungan Rencana\" || \"benefit tabungan rencana\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/TabunganMenu/TrmSubmenu/Btrm.flow.json"
+        },
+        {
+          "condition": "user.teks == \"STTR\" || \"sttr\" || \"Setor Tarik Tabungan Rencana\" || \" setor tarik tabungan rencana\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/TabunganMenu/TrmSubmenu/Sttr.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

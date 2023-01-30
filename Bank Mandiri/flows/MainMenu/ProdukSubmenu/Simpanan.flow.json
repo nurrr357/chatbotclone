@@ -1,0 +1,183 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text == \"menu\" || \"Menu\"",
+        "conditionType": "raw",
+        "node": "main.flow.json"
+      }
+    ]
+  },
+  "startNode": "Menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "5099ab2483",
+      "name": "Menu",
+      "onEnter": [
+        "say #!dropdown-2iwTQO"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"pilih\",\"value\":\"{{event.payload.payload}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "user.pilih == \"menabung\"",
+          "conditionType": "raw",
+          "node": "SubMenu"
+        },
+        {
+          "condition": "user.pilih == \"deposito\"",
+          "conditionType": "raw",
+          "node": "SubMenu1"
+        },
+        {
+          "condition": "user.pilih == \"giro\"",
+          "conditionType": "raw",
+          "node": "ContentSubMenu2"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "f880550870",
+      "name": "ContentSubMenu2",
+      "next": [
+        {
+          "condition": "user.teks == \"GPR - Giro Premier\" || \"GPR\" || \"gpr\" || \"Giro Premier\" || \"giro premier\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/GiroMenu/Gpr.flow.json"
+        },
+        {
+          "condition": "user.teks == \"GRN - Giro Renminbi\" || \"GRN\" || \"grn\"  || \"Giro Renminbi\" || \"giro renminbi\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/GiroMenu/Grn.flow.json"
+        },
+        {
+          "condition": "user.teks == \"GVL - Giro Valas\" || \"GVL\" || \"gvl\" || \"Giro Valas\" || \"giro valas\" ",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/GiroMenu/Gvl.flow.json"
+        },
+        {
+          "condition": "user.teks == \"GRP - Giro Rupiah\" || \"GRP\" || \"grp\" || \"Giro Rupiah\" || \"giro rupiah\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/GiroMenu/Grp.flow.json"
+        },
+        {
+          "condition": "user.teks == \"MENU - Kembali ke Informasi Produk\" || \"Menu\" || \"menu\" || \"Kembali ke Informasi Produk\" || \"kembali ke informasi produk\"",
+          "conditionType": "raw",
+          "node": "main.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-mj3u2O",
+        "say #!builtin_text-LroTJ6"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "aae7c488a6",
+      "name": "SubMenu1",
+      "next": [
+        {
+          "condition": "user.teks == \"MDP - Mandiri Deposito\" || \"MDP\" || \"mdp\" || \"Mandiri Deposito\" || \"mandiri deposito\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/DepositoMenu/Mdp.flow.json"
+        },
+        {
+          "condition": "user.teks == \"DVL - Deposito Valas\" || \"DVL\" || \"dvl\" || \"Deposito Valas\" || \"deposito valas\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/DepositoMenu/Dvl.flow.json"
+        },
+        {
+          "condition": "user.teks == \"DOC - Deposito on Call\" || \"DOC\" || \"doc\" || \"Deposito on Call\" || \"deposito on call\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/DepositoMenu/Doc.flow.json"
+        },
+        {
+          "condition": "user.teks == \"DON - Mandiri Deposito di New Livin'\" || \"DON\" || \"don\" || \"Mandiri Deposito di New Livin'\" || \"mandiri deposito di new livin'\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/DepositoMenu/Don.flow.json"
+        },
+        {
+          "condition": "user.teks == \"MENU - Kembali ke Informasi Produk\" || \"Menu\" || \"menu\" || \"Kembali ke Informasi Produk\" || \"kembali ke informasi produk\"",
+          "conditionType": "raw",
+          "node": "main.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-mcNKpj",
+        "say #!builtin_text-pHHuZu",
+        "say #!builtin_text-sxW8Lz"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "1c70c4650f",
+      "name": "SubMenu",
+      "next": [
+        {
+          "condition": "user.teks == \"TBS - Tabungan Bisnis\" || \"TBS\" || \"tbs\" || \"Tabungan Bisnis\" || \"tabungan bisnis\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/TabunganMenu/Tbs.flow.json"
+        },
+        {
+          "condition": "user.teks == \"TRG - Tabungan Reguler\" || \"TRG\" || \"trg\" || \"Tabungan Reguler\" || \"tabungan reguler\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/TabunganMenu/Trg.flow.json"
+        },
+        {
+          "condition": "user.teks == \"TRM - Tabungan Rencana Mandiri\" || \"TRM\" || \"trm\" || \"Tabungan Rencana Mandiri\" || \"tabungan rencana mandiri\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/TabunganMenu/Trm.flow.json"
+        },
+        {
+          "condition": "user.teks == \"TBL - Tabungan Lainnya\" || \"TBL\" || \"tbl\" || \"Tabungan Lainnya\" || \"tabungan lainnya\"",
+          "conditionType": "raw",
+          "node": "MainMenu/ProdukSubmenu/SimpananSubMenu/TabunganMenu/Tbl.flow.json"
+        },
+        {
+          "condition": "user.teks == \"MENU - Kembali ke Informasi Produk\" || \"Menu\" || \"menu\" || \"Kembali ke Informasi Produk\" || \"kembali ke informasi produk\"",
+          "conditionType": "raw",
+          "node": "main.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Ulangi.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-mHL3VK",
+        "say #!builtin_text-mjtyMH"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"teks\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    }
+  ]
+}
