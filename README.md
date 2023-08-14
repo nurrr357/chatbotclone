@@ -1,5 +1,5 @@
-# Chatbotclone
-duplicate chatbot industri form indonesia
+# Chatbotclone Indonesian Industry
+internship project at  <a href="https://botpress.com">UBIG</a>
 <hr>
 <b><h2> How to use it<h2></b>
 <p>You can download the framework form this link <a href="https://botpress.com/">Botpress</a> </p> 
